@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/diogomotapinto/Desktop/test/android/assets"><file name="badlogic.jpg" path="/Users/diogomotapinto/Desktop/test/android/assets/badlogic.jpg"/></source><source path="/Users/diogomotapinto/Desktop/test/android/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/diogomotapinto/Desktop/test/android/src/debug/assets"/></dataSet></merger>

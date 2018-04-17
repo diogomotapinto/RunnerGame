@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/diogomotapinto/Desktop/test/core/build/libs/core-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="084414e53fb9ece2d44e9403a866fc3596998970">
+        <dex dex="/Users/diogomotapinto/Desktop/test/android/build/intermediates/pre-dexed/debug/core-1.0_e59cd84b376f3556892c0b731bd685a96456a606.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogomotapinto/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.9.8/84024cd60ad6f26370891fbcd17de9f0167e662/gdx-backend-android-1.9.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="084024cd60ad6f26370891fbcd17de9f0167e662">
+        <dex dex="/Users/diogomotapinto/Desktop/test/android/build/intermediates/pre-dexed/debug/gdx-backend-android-1.9.8_a75ce96e0707425174a9c227514854c00466c53b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogomotapinto/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/a35a0076fbce873f9c2d5a1a1c8066244231bb3c/gdx-1.9.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a35a0076fbce873f9c2d5a1a1c8066244231bb3c">
+        <dex dex="/Users/diogomotapinto/Desktop/test/android/build/intermediates/pre-dexed/debug/gdx-1.9.8_d0a45d24238f5d225063d3b4ef134dc7fc450e10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogomotapinto/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-box2d/1.9.8/6f0497b7958216464101adfb7bdc3a0f7b88d6d3/gdx-box2d-1.9.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="6f0497b7958216464101adfb7bdc3a0f7b88d6d3">
+        <dex dex="/Users/diogomotapinto/Desktop/test/android/build/intermediates/pre-dexed/debug/gdx-box2d-1.9.8_b04e9336bc5a7a586539a59a9a670855a84f21e3.jar" />
+    </item>
+
+</items>

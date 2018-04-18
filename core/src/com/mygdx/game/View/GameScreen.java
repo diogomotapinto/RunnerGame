@@ -10,25 +10,20 @@ import com.mygdx.game.RunnerGame;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.badlogic.gdx.maps.tiled.TmxMapLoader;
-import com.badlogic.gdx.graphics.Texture;
-
-
-
 
 
 public class GameScreen implements Screen {
     private RunnerGame game;
     private OrthographicCamera gameCamera;
-    Texture texture;
     private Viewport gamePort;
     private TmxMapLoader mapLoader;
     private TiledMap map;
     private OrthogonalTiledMapRenderer renderer;
     private float initialPosition;
+    private GameHUD gameHud;
 
     public GameScreen(RunnerGame game){
         this.game = game;
-        texture = new Texture("badlogic.jpg");
         gameCamera = new OrthographicCamera();
         gamePort = new FitViewport(RunnerGame.V_WIDTH,RunnerGame.V_HEIGHT,gameCamera);
 
@@ -37,15 +32,14 @@ public class GameScreen implements Screen {
         renderer = new OrthogonalTiledMapRenderer(map);
         gameCamera.position.set(gamePort.getWorldWidth()/2,gamePort.getWorldHeight()/2,0);
         initialPosition = gameCamera.position.x;
+        gameHud = new GameHUD(game.getBatch());
 
     }
 
     public void handleInput(float delta){
-        if(Gdx.input.isTouched()){
+        if(Gdx.input.isTouched()) {
             gameCamera.position.x += 100 * delta;
         }
-
-
     }
 
     public void update(float delta){
@@ -64,7 +58,11 @@ public class GameScreen implements Screen {
         update(delta);
         Gdx.gl.glClearColor(0,0,0,1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+
         renderer.render();
+        game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
+        gameHud.stage.draw();
+
     }
 
     @Override

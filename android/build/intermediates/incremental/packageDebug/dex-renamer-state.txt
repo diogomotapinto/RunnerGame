@@ -1,4 +1,4 @@
-#Wed Apr 18 00:30:18 WEST 2018
+#Wed Apr 18 21:52:03 WEST 2018
 base.0=/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_469767151f3b4b350707533fab578f4a52456f0b
 renamed.1=classes2.dex
 renamed.0=classes.dex

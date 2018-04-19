@@ -47,7 +47,6 @@ public class GameScreen implements Screen {
     public void handleInput(float delta){
 
 
-
         if( (Gdx.input.getAccelerometerY() > 1) ) {
             gameCamera.position.x += 100 * Gdx.input.getAccelerometerY()/100;
         }
@@ -56,20 +55,11 @@ public class GameScreen implements Screen {
             gameCamera.position.x += 100 * delta;
         }
 
-        gameHud.update(delta,  gameCamera.position.x);
-
         if(Gdx.input.getAccelerometerY() < -1){
             gameCamera.position.x -= 100 * delta;
         }
 
-        if(Gdx.input.isTouched()){
-
-        }
-
-
-        if(gameCamera.position.x > 3642){
-            gameCamera.position.x = 200;
-        }
+        gameHud.update(delta,  gameCamera.position.x);
 
     }
 

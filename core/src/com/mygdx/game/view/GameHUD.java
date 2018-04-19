@@ -10,6 +10,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.RunnerGame;
+import com.mygdx.game.controller.GameController;
 
 
 public class GameHUD {
@@ -31,7 +32,7 @@ public class GameHUD {
         this.gameScore = 0;
         this.acel = 0;
 
-        viewport = new FitViewport(RunnerGame.V_WIDTH, RunnerGame.V_WIDTH, new OrthographicCamera());
+        viewport = new FitViewport(GameController.V_WIDTH, GameController.V_WIDTH, new OrthographicCamera());
         stage = new Stage(viewport, sb);
         Table table = new Table();
         table.top();
@@ -51,7 +52,7 @@ public class GameHUD {
         table.add(scoreStrLabel).expandX().padTop(10);
         table.row();
         table.add(timerLabel).expandX();
-        table.add(acelerometerLabel).expandX();
+        table.add();
         table.add(scoreLabel).expandX();
         stage.addActor(table);
     }

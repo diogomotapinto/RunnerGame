@@ -17,7 +17,7 @@ import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
 
 
-public class GameScreen implements Screen {
+public class GameView implements Screen {
     private RunnerGame game;
     private OrthographicCamera gameCamera;
     private Viewport gamePort;
@@ -25,13 +25,12 @@ public class GameScreen implements Screen {
     private TiledMap map;
     private OrthogonalTiledMapRenderer renderer;
     private GameHUD gameHud;
-    private World world;
-    private Box2DDebugRenderer debugRenderer;
 
-    public GameScreen(RunnerGame game) {
+
+    public GameView(RunnerGame game) {
         this.game = game;
         gameCamera = new OrthographicCamera();
-        gamePort = new FitViewport(RunnerGame.V_WIDTH, RunnerGame.V_HEIGHT, gameCamera);
+        gamePort = new FitViewport(GameController.V_WIDTH, GameController.V_HEIGHT, gameCamera);
         mapLoader = new TmxMapLoader();
         map = mapLoader.load("mapa.tmx");
         renderer = new OrthogonalTiledMapRenderer(map);
@@ -39,8 +38,6 @@ public class GameScreen implements Screen {
         gameCamera.position.set(gamePort.getWorldWidth() / 2, gamePort.getWorldHeight() / 2, 0);
         gameHud = new GameHUD(game.getBatch());
 
-        world = new World(new Vector2(0, 0), true);
-        debugRenderer = new Box2DDebugRenderer();
     }
 
     public void handleInput(float delta) {
@@ -60,6 +57,8 @@ public class GameScreen implements Screen {
         }
 
         gameHud.update(delta, GameController.getInstance().getCameraPosition());
+
+
 
     }
 
@@ -82,6 +81,7 @@ public class GameScreen implements Screen {
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         renderer.render();
         game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
+
         gameHud.stage.draw();
     }
 

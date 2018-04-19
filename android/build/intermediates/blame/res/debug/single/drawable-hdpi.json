@@ -1,10 +1,14 @@
 [
     {
-        "merged": "/Users/diogomotapinto/Desktop/test/android/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
-        "source": "/Users/diogomotapinto/Desktop/test/android/res/drawable-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\diogomotapinto\\Desktop\\test\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\diogomotapinto\\Desktop\\test\\android\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
-        "source": "/Users/diogomotapinto/git/RunnerGame/android/res/drawable-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\android\\res\\drawable-hdpi\\ic_launcher.png"
     }
 ]

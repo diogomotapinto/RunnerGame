@@ -5,11 +5,11 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.RunnerGame;
-import com.badlogic.gdx.scenes.scene2d.ui.Label;
 
 
 public class GameHUD {
@@ -26,12 +26,12 @@ public class GameHUD {
     Label acelerometerLabel;
 
 
-    public GameHUD(SpriteBatch sb){
+    public GameHUD(SpriteBatch sb) {
         runnerTimer = 0;
         this.gameScore = 0;
         this.acel = 0;
 
-        viewport = new FitViewport(RunnerGame.V_WIDTH,RunnerGame.V_WIDTH, new OrthographicCamera());
+        viewport = new FitViewport(RunnerGame.V_WIDTH, RunnerGame.V_WIDTH, new OrthographicCamera());
         stage = new Stage(viewport, sb);
         Table table = new Table();
         table.top();
@@ -41,10 +41,9 @@ public class GameHUD {
         scoreStrLabel = new Label("Score", new Label.LabelStyle(new BitmapFont(), Color.WHITE));
         timerStrLabel = new Label("Time", new Label.LabelStyle(new BitmapFont(), Color.WHITE));
 
-        timerLabel = new Label(String.format("%04d",(int) runnerTimer), new Label.LabelStyle(new BitmapFont(), Color.WHITE));
-        acelerometerLabel = new Label(String.format("%04d",(int) acel), new Label.LabelStyle(new BitmapFont(), Color.WHITE));
+        timerLabel = new Label(String.format("%04d", (int) runnerTimer), new Label.LabelStyle(new BitmapFont(), Color.WHITE));
+        acelerometerLabel = new Label(String.format("%04d", (int) acel), new Label.LabelStyle(new BitmapFont(), Color.WHITE));
         scoreLabel = new Label(String.format("%04d", gameScore), new Label.LabelStyle(new BitmapFont(), Color.WHITE));
-
 
 
         table.add(timerStrLabel).expandX().padTop(10);
@@ -55,15 +54,11 @@ public class GameHUD {
         table.add(acelerometerLabel).expandX();
         table.add(scoreLabel).expandX();
         stage.addActor(table);
-
-
     }
 
-
-    public void update(float delta, float acel){
+    public void update(float delta, float acel) {
         acelerometerLabel.setText(String.format("%f", acel));
     }
-
 
 
 }

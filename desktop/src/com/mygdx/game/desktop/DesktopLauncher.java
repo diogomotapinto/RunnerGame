@@ -9,8 +9,8 @@ public class DesktopLauncher {
 		LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
 		cfg.title = "My Game";
 		cfg.useGL30 = false;
-		cfg.width = 1280;
-		cfg.height = 720;
+		cfg.width = 640;
+		cfg.height = 360;
 		new LwjglApplication(new RunnerGame(), cfg);
 	}
 }

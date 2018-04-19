@@ -1,10 +1,14 @@
-package com.mygdx.game.View;
+package com.mygdx.game.view;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
+import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.physics.box2d.BodyDef;
+import com.badlogic.gdx.physics.box2d.Box2DDebugRenderer;
+import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.RunnerGame;
@@ -21,17 +25,22 @@ public class GameScreen implements Screen {
     private TiledMap map;
     private OrthogonalTiledMapRenderer renderer;
     private GameHUD gameHud;
+    private World world;
+    private Box2DDebugRenderer debugRenderer;
 
     public GameScreen(RunnerGame game){
         this.game = game;
         gameCamera = new OrthographicCamera();
         gamePort = new FitViewport(RunnerGame.V_WIDTH,RunnerGame.V_HEIGHT,gameCamera);
-
         mapLoader = new TmxMapLoader();
         map = mapLoader.load("mapa.tmx");
         renderer = new OrthogonalTiledMapRenderer(map);
         gameCamera.position.set(gamePort.getWorldWidth()/2,gamePort.getWorldHeight()/2,0);
         gameHud = new GameHUD(game.getBatch());
+
+        world = new World( new Vector2(0,0), true);
+        debugRenderer = new Box2DDebugRenderer();
+
 
     }
 

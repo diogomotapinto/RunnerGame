@@ -1,4 +1,4 @@
-package com.mygdx.game.View;
+package com.mygdx.game.view;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.OrthographicCamera;

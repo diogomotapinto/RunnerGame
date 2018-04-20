@@ -69,6 +69,17 @@ public abstract class EntityModel {
        this.position.set(x,y);
     }
 
+
+
+    /**
+     * Sets the position of the character in the map
+     * @param position
+     *
+     */
+    public void setPosition(Vector2 position) {
+        this.position.set(position);
+    }
+
     public Vector2 getPosition() {
         return position;
     }

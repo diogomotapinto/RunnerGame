@@ -9,7 +9,6 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
-import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
 
 
@@ -59,6 +58,8 @@ public class GameHUD {
 
     public void update(float delta, float acel) {
         acelerometerLabel.setText(String.format("%f", acel));
+        this.gameScore++;
+        this.scoreLabel.setText(String.format("%04d", gameScore));
     }
 
 

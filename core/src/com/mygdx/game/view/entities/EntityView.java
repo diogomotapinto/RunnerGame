@@ -13,17 +13,19 @@ public abstract class EntityView {
 
     /**
      * Class constructor
+     *
      * @param game
      */
-    EntityView(RunnerGame game){
+    EntityView(RunnerGame game) {
         sprite = createSprite(game);
     }
 
     /**
      * Draws the sprite from the view
+     *
      * @param batch the sprite batch to be draw
      */
-    public void draw(SpriteBatch batch){
+    public void draw(SpriteBatch batch) {
         sprite.draw(batch);
     }
 
@@ -32,10 +34,11 @@ public abstract class EntityView {
 
     /**
      * Update na view based on a model
+     *
      * @param model
      */
     public void update(EntityModel model) {
-        sprite.setCenter(model.getX(),model.getY());
+        sprite.setCenter(model.getX(), model.getY());
     }
 
 

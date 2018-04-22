@@ -46,16 +46,14 @@ public class GameView implements Screen {
         if (Gdx.input.isKeyPressed(Input.Keys.SPACE)) {
             float f = GameController.getInstance().getCameraPosition();
             GameController.getInstance().setCameraPosition(f += 100 * delta);
+            gameHud.update(delta, GameController.getInstance().getCameraPosition());
+
         }
 
         if (Gdx.input.getAccelerometerY() < -1) {
             float f = GameController.getInstance().getCameraPosition();
             GameController.getInstance().setCameraPosition(f -= 100 * delta);
         }
-
-        gameHud.update(delta, GameController.getInstance().getCameraPosition());
-
-
 
     }
 
@@ -78,7 +76,6 @@ public class GameView implements Screen {
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         renderer.render();
         game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
-
         gameHud.stage.draw();
     }
 
@@ -89,21 +86,17 @@ public class GameView implements Screen {
 
     @Override
     public void pause() {
-
     }
 
     @Override
     public void resume() {
-
     }
 
     @Override
     public void hide() {
-
     }
 
     @Override
     public void dispose() {
-
     }
 }

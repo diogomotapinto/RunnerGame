@@ -23,22 +23,25 @@ public abstract class EntityModel {
     /**
      * as the model been flagged for removal
      */
-    private boolean flaggedForRemoval = false;
+    private boolean flaggedForRemoval;
 
-    EntityModel(float x, float y){
-        position.set(x,y);
+    EntityModel(float x, float y) {
+        flaggedForRemoval = false;
+        this.position = new Vector2(x, y);
     }
 
     /**
      * Gets position in the x-axis
+     *
      * @return position in the x-axis
      */
     public float getX() {
-       return position.x;
+        return position.x;
     }
 
     /**
      * Gets position in the y-axis
+     *
      * @return position in the y-axis
      */
     public float getY() {
@@ -47,7 +50,6 @@ public abstract class EntityModel {
 
     /**
      * Sets position in the x-axis
-     *
      */
     public void setX(float x) {
         this.position.x = x;
@@ -62,19 +64,19 @@ public abstract class EntityModel {
 
     /**
      * Sets the position of the character in the map
+     *
      * @param x position in the x-axis
      * @param y position in the -axis
      */
     public void setPosition(float x, float y) {
-       this.position.set(x,y);
+        this.position.set(x, y);
     }
-
 
 
     /**
      * Sets the position of the character in the map
-     * @param position
      *
+     * @param position
      */
     public void setPosition(Vector2 position) {
         this.position.set(position);
@@ -86,6 +88,7 @@ public abstract class EntityModel {
 
     /**
      * Checks is the the model is flagged for removal
+     *
      * @return true if it is and false otherwise
      */
     public boolean isFlaggedForRemoval() {
@@ -94,13 +97,10 @@ public abstract class EntityModel {
 
     /**
      * Sets if the model is flagged for removal
-     *
      */
     public void setFlaggedForRemoval(boolean flaggedForRemoval) {
         this.flaggedForRemoval = flaggedForRemoval;
     }
-
-
 
 
 }

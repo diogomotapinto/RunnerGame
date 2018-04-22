@@ -12,7 +12,7 @@ public class GameModel {
     /**
      * The main character of the game
      */
-    private final HeroModel hero;
+    private HeroModel hero;
 
     /**
      * Returns a singleton instance of the game model;
@@ -29,12 +29,13 @@ public class GameModel {
     /**
      * Class constructor
      */
-    private GameModel(){
-        hero = new HeroModel(GameController.V_WIDTH,GameController.V_HEIGHT);
+    private GameModel() {
+        hero = new HeroModel(GameController.V_WIDTH, GameController.V_HEIGHT);
     }
 
     /**
      * Returns main character of the game
+     *
      * @return main character of the game
      */
     public HeroModel getHero() {

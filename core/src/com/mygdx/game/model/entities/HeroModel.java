@@ -5,11 +5,12 @@ public class HeroModel extends EntityModel {
 
     /**
      * Class constructor
+     *
      * @param x
      * @param y
      */
-    public HeroModel(float x, float y){
-        super(x,y);
+    public HeroModel(float x, float y) {
+        super(x, y);
     }
 
 

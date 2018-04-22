@@ -6,13 +6,15 @@ import com.badlogic.gdx.physics.box2d.CircleShape;
 import com.badlogic.gdx.physics.box2d.Fixture;
 import com.badlogic.gdx.physics.box2d.FixtureDef;
 import com.badlogic.gdx.physics.box2d.World;
+import com.mygdx.game.model.entities.HeroModel;
 
-public class HeroBody {
+public class HeroBody extends EntityBody {
     BodyDef bodyDef;
     CircleShape circle;
     Body body;
 
-    public HeroBody(World world){
+    public HeroBody(World world, HeroModel model, boolean isDynamic) {
+        super(world, model, isDynamic);
 
         bodyDef = new BodyDef();
         bodyDef.type = BodyDef.BodyType.DynamicBody;
@@ -39,7 +41,7 @@ public class HeroBody {
         return body;
     }
 
-    public void disposeBody(){
+    public void disposeBody() {
         circle.dispose();
     }
 

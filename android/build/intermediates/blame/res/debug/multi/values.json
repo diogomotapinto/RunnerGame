@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,52 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 48,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endLine": 10,
+                    "endColumn": 12,
+                    "endOffset": 562
+                },
+                "from": {
+                    "file": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\android\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 475
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -31,7 +76,7 @@
                     "endOffset": 562
                 },
                 "from": {
-                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -45,7 +90,7 @@
         ]
     },
     {
-        "outputFile": "/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "outputFile": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\C:\\Users\\diogomotapinto\\git\\RunnerGame\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -56,7 +101,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "/Users/diogomotapinto/git/RunnerGame/android/res/values/strings.xml",
+                    "file": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\C:\\Users\\diogomotapinto\\git\\RunnerGame\\android\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -76,7 +121,7 @@
                     "endOffset": 562
                 },
                 "from": {
-                    "file": "/Users/diogomotapinto/git/RunnerGame/android/res/values/styles.xml",
+                    "file": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\C:\\Users\\diogomotapinto\\git\\RunnerGame\\android\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -90,7 +135,7 @@
         ]
     },
     {
-        "outputFile": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\C:\\Users\\diogomotapinto\\Desktop\\test\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -101,7 +146,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\android\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\C:\\Users\\diogomotapinto\\Desktop\\test\\android\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -121,7 +166,7 @@
                     "endOffset": 562
                 },
                 "from": {
-                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\android\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\C:\\Users\\diogomotapinto\\Desktop\\test\\android\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -135,7 +180,7 @@
         ]
     },
     {
-        "outputFile": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\Desktop\\test\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -146,13 +191,13 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\Desktop\\test\\android\\res\\values\\strings.xml",
+                    "file": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 56,
+                        "startOffset": 59,
                         "endColumn": 48,
-                        "endOffset": 100
+                        "endOffset": 103
                     }
                 }
             },
@@ -166,14 +211,14 @@
                     "endOffset": 562
                 },
                 "from": {
-                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\Desktop\\test\\android\\res\\values\\styles.xml",
+                    "file": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 17,
+                        "startOffset": 19,
                         "endLine": 9,
                         "endColumn": 12,
-                        "endOffset": 475
+                        "endOffset": 484
                     }
                 }
             }

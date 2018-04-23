@@ -14,6 +14,7 @@ import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
 
 
+
 public class GameView implements Screen {
     private RunnerGame game;
     private OrthographicCamera gameCamera;
@@ -23,6 +24,10 @@ public class GameView implements Screen {
     private OrthogonalTiledMapRenderer renderer;
     private GameHUD gameHud;
 
+    /**
+     * How much meters does a pixel represent.
+     */
+    public final static float PIXEL_TO_METER = 0.04f;
 
     public GameView(RunnerGame game) {
         this.game = game;

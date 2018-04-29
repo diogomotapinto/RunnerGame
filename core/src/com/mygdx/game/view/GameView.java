@@ -24,6 +24,7 @@ import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
 
 
+
 public class GameView implements Screen {
     private Box2DDebugRenderer boxDebug;
     private RunnerGame game;
@@ -35,6 +36,10 @@ public class GameView implements Screen {
     private GameHUD gameHud;
     private World world;
 
+    /**
+     * How much meters does a pixel represent.
+     */
+    public final static float PIXEL_TO_METER = 0.04f;
 
     public GameView(RunnerGame game) {
         this.game = game;
@@ -63,16 +68,14 @@ public class GameView implements Screen {
         if (Gdx.input.isKeyPressed(Input.Keys.SPACE)) {
             float f = GameController.getInstance().getCameraPosition();
             GameController.getInstance().setCameraPosition(f += 100 * delta);
+            gameHud.update(delta, GameController.getInstance().getCameraPosition());
+
         }
 
         if (Gdx.input.getAccelerometerY() < -1) {
             float f = GameController.getInstance().getCameraPosition();
             GameController.getInstance().setCameraPosition(f -= 100 * delta);
         }
-
-        gameHud.update(delta, GameController.getInstance().getCameraPosition());
-
-
 
     }
 
@@ -96,7 +99,6 @@ public class GameView implements Screen {
         renderer.render();
         boxDebug.render(GameController.getInstance().getWorld(), gameCamera.combined);
         game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
-
         gameHud.stage.draw();
     }
 
@@ -107,7 +109,6 @@ public class GameView implements Screen {
 
     @Override
     public void pause() {
-
     }
 
     public TiledMap getMap() {
@@ -117,16 +118,13 @@ public class GameView implements Screen {
     @Override
 
     public void resume() {
-
     }
 
     @Override
     public void hide() {
-
     }
 
     @Override
     public void dispose() {
-
     }
 }

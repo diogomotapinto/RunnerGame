@@ -29,6 +29,11 @@ public abstract class EntityModel {
         position.set(x,y);
     }
 
+    EntityModel(){
+
+    }
+
+
     /**
      * Gets position in the x-axis
      * @return position in the x-axis

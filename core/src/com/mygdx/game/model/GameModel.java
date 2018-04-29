@@ -2,6 +2,7 @@ package com.mygdx.game.model;
 
 import com.mygdx.game.controller.GameController;
 import com.mygdx.game.model.entities.HeroModel;
+import com.mygdx.game.model.entities.MapModel;
 
 public class GameModel {
     /**
@@ -13,6 +14,9 @@ public class GameModel {
      * The main character of the game
      */
     private final HeroModel hero;
+
+
+    private final MapModel map;
 
     /**
      * Returns a singleton instance of the game model;
@@ -31,6 +35,7 @@ public class GameModel {
      */
     private GameModel(){
         hero = new HeroModel(GameController.V_WIDTH,GameController.V_HEIGHT);
+        map = new MapModel();
     }
 
     /**

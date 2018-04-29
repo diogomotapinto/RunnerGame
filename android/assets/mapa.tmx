@@ -41,6 +41,4 @@
   <object id="46" x="3712" y="192" width="128" height="16"/>
   <object id="47" x="2992" y="192" width="176" height="16"/>
  </objectgroup>
- <objectgroup name="coins"/>
- <objectgroup name="bricks"/>
 </map>

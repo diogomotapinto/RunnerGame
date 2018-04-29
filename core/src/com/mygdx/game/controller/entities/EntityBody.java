@@ -3,10 +3,14 @@ package com.mygdx.game.controller.entities;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.Body;
 import com.badlogic.gdx.physics.box2d.BodyDef;
+import com.badlogic.gdx.physics.box2d.FixtureDef;
+import com.badlogic.gdx.physics.box2d.PolygonShape;
 import com.badlogic.gdx.physics.box2d.World;
 import com.mygdx.game.model.entities.EntityModel;
 
+
 public abstract class EntityBody {
+    protected World world;
 
     /**
      * Box2d body
@@ -21,11 +25,24 @@ public abstract class EntityBody {
         }else{
             bodyDef.type = BodyDef.BodyType.StaticBody;
         }
+        this.world = new World(new Vector2(0, -10), true);
 
-        bodyDef.position.set(model.getPosition());
+        if(isDynamic) {
+            bodyDef.position.set(model.getPosition());
+        }
 
         body = world.createBody(bodyDef);
         body.setUserData(model);
+
+    }
+
+    void createFixtures(Body body){
+        PolygonShape shape = new PolygonShape();
+        FixtureDef fixtureDef = new FixtureDef();
+        fixtureDef.shape = shape;
+
+
+        shape.dispose();
 
     }
 

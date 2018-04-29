@@ -97,9 +97,10 @@ public class GameView implements Screen {
         Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         renderer.render();
-        boxDebug.render(GameController.getInstance().getWorld(), gameCamera.combined);
+
         game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
         gameHud.stage.draw();
+        boxDebug.render(GameController.getInstance().getWorld(), gameCamera.combined);
     }
 
     @Override

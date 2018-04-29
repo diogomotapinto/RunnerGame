@@ -42,6 +42,7 @@ public class MapBody extends EntityBody{
 
 
             body = world.createBody(bodyDef);
+            shape.setAsBox(rect.getWidth()/2, rect.getHeight()/2);
             fixtureDef.shape = shape;
             body.createFixture(fixtureDef);
         }

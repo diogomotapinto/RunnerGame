@@ -32,14 +32,17 @@ public class GameController {
 
         xPosition = 0;
         MapModel mapModel = new MapModel();
-        HeroModel heroModel = new HeroModel(0,0);
+        HeroModel heroModel = new HeroModel(200,25);
         world = new World(new Vector2(0, -10), true);
 
         heroBody = new HeroBody(world,heroModel, true );
-
         mapBody = new MapBody(world,mapModel,false);
         mapBody.createBody(map);
 
+    }
+
+    public HeroBody getHeroBody() {
+        return heroBody;
     }
 
     public void update(float delta){
@@ -47,9 +50,10 @@ public class GameController {
         world.getBodies(bodies);
 
 
-
+        world.step(1/60f,6,2);
         for (Body b : bodies){
             //verificar colisões
+
 
         }
     }

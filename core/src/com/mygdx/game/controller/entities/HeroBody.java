@@ -9,40 +9,19 @@ import com.badlogic.gdx.physics.box2d.World;
 import com.mygdx.game.model.entities.HeroModel;
 
 public class HeroBody extends EntityBody {
-    BodyDef bodyDef;
-    CircleShape circle;
-    Body body;
+
+
 
     public HeroBody(World world, HeroModel model, boolean isDynamic) {
         super(world, model, isDynamic);
 
-        bodyDef = new BodyDef();
-        bodyDef.type = BodyDef.BodyType.DynamicBody;
+        createFixtures(body,0.5f,0.4f,0.6f);
 
-        bodyDef.position.set(200, 20);
 
-        body = world.createBody(bodyDef);
-
-        circle = new CircleShape();
-        circle.setRadius(6f);
-
-        // Create a fixture definition to apply our shape to
-        FixtureDef fixtureDef = new FixtureDef();
-        fixtureDef.shape = circle;
-        fixtureDef.density = 0.5f;
-        fixtureDef.friction = 0.4f;
-        fixtureDef.restitution = 0.6f; // Make it bounce a little bit
-
-        // Create our fixture and attach it to the body
-        Fixture fixture = body.createFixture(fixtureDef);
     }
 
     public Body getBody() {
         return body;
-    }
-
-    public void disposeBody() {
-        circle.dispose();
     }
 
 }

@@ -3,6 +3,8 @@ package com.mygdx.game.controller.entities;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.Body;
 import com.badlogic.gdx.physics.box2d.BodyDef;
+import com.badlogic.gdx.physics.box2d.CircleShape;
+import com.badlogic.gdx.physics.box2d.Fixture;
 import com.badlogic.gdx.physics.box2d.FixtureDef;
 import com.badlogic.gdx.physics.box2d.PolygonShape;
 import com.badlogic.gdx.physics.box2d.World;
@@ -15,7 +17,7 @@ public abstract class EntityBody {
     /**
      * Box2d body
      */
-    private final Body body;
+    final Body body;
 
     public EntityBody(World world, EntityModel model, boolean isDynamic){
         BodyDef bodyDef = new BodyDef();
@@ -36,16 +38,22 @@ public abstract class EntityBody {
 
     }
 
-    void createFixtures(Body body){
-        PolygonShape shape = new PolygonShape();
+    void createFixtures(Body body, float density, float friction, float restitution ){
+        CircleShape circle = new CircleShape();
+        circle.setRadius(6f);
+
+        // Create a fixture definition to apply our shape to
         FixtureDef fixtureDef = new FixtureDef();
-        fixtureDef.shape = shape;
+        fixtureDef.shape = circle;
+        fixtureDef.density = density;
+        fixtureDef.friction = friction;
+        fixtureDef.restitution = restitution;
 
-
-        shape.dispose();
+        // Create our fixture and attach it to the body
+        body.createFixture(fixtureDef);
+        circle.dispose();
 
     }
-
 
 
     public float getX(){

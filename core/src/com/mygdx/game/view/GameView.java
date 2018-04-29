@@ -68,6 +68,7 @@ public class GameView implements Screen {
         if (Gdx.input.isKeyPressed(Input.Keys.SPACE)) {
             float f = GameController.getInstance().getCameraPosition();
             GameController.getInstance().setCameraPosition(f += 100 * delta);
+            GameController.getInstance().getHeroBody().setTransform(f += 100 * delta, 25, 0);
             gameHud.update(delta, GameController.getInstance().getCameraPosition());
 
         }
@@ -75,12 +76,14 @@ public class GameView implements Screen {
         if (Gdx.input.getAccelerometerY() < -1) {
             float f = GameController.getInstance().getCameraPosition();
             GameController.getInstance().setCameraPosition(f -= 100 * delta);
+
         }
 
     }
 
     public void update(float delta) {
         handleInput(delta);
+        GameController.getInstance().update(delta);
         gameCamera.position.x = GameController.getInstance().getCameraPosition();
         gameCamera.update();
         renderer.setView(gameCamera);
@@ -110,10 +113,6 @@ public class GameView implements Screen {
 
     @Override
     public void pause() {
-    }
-
-    public TiledMap getMap() {
-        return map;
     }
 
     @Override

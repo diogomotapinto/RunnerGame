@@ -13,6 +13,9 @@ import com.badlogic.gdx.physics.box2d.World;
 import com.mygdx.game.model.entities.EntityModel;
 import com.mygdx.game.model.entities.MapModel;
 
+import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
+
+
 public class MapBody extends EntityBody{
     private World world;
     private MapModel mapModel;
@@ -38,11 +41,11 @@ public class MapBody extends EntityBody{
             Rectangle rect = ((RectangleMapObject) object).getRectangle();
 
             bodyDef.type = BodyDef.BodyType.StaticBody;
-            bodyDef.position.set(rect.getX() + rect.getWidth() /2, rect.getY() + rect.getHeight() /2);
+            bodyDef.position.set((rect.getX() + rect.getWidth() /2) / PIXEL_TO_METER, (rect.getY() + rect.getHeight() /2)/PIXEL_TO_METER);
 
 
             body = world.createBody(bodyDef);
-            shape.setAsBox(rect.getWidth()/2, rect.getHeight()/2);
+            shape.setAsBox((rect.getWidth()/2) / PIXEL_TO_METER, (rect.getHeight()/2) /PIXEL_TO_METER);
             fixtureDef.shape = shape;
             body.createFixture(fixtureDef);
         }

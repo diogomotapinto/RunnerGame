@@ -12,6 +12,8 @@ import com.mygdx.game.model.entities.HeroModel;
 import com.mygdx.game.model.entities.MapModel;
 import com.mygdx.game.view.GameView;
 
+import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
+
 
 public class GameController {
     private static GameController instance;
@@ -70,6 +72,17 @@ public class GameController {
         return instance;
 
 
+    }
+
+
+    public void jump(float delta){
+        heroBody.getBody().applyLinearImpulse(new Vector2(0,1f / PIXEL_TO_METER), heroBody.getBody().getWorldCenter(), true);
+    }
+
+    public void run(float delta){
+        if(heroBody.getBody().getLinearVelocity().x <= 2){
+            heroBody.getBody().applyLinearImpulse(new Vector2(0.6f / PIXEL_TO_METER,0), heroBody.getBody().getWorldCenter(), true);
+        }
     }
 
     public float getCameraPosition() {

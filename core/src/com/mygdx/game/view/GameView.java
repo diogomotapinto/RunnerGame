@@ -36,18 +36,19 @@ public class GameView implements Screen {
     private GameHUD gameHud;
     private World world;
 
+
     /**
      * How much meters does a pixel represent.
      */
-    public final static float PIXEL_TO_METER = 0.04f;
+    public final static float PIXEL_TO_METER = 100;
 
     public GameView(RunnerGame game) {
         this.game = game;
         gameCamera = new OrthographicCamera();
-        gamePort = new FitViewport(GameController.V_WIDTH, GameController.V_HEIGHT, gameCamera);
+        gamePort = new FitViewport(GameController.V_WIDTH / PIXEL_TO_METER, GameController.V_HEIGHT / PIXEL_TO_METER, gameCamera);
         mapLoader = new TmxMapLoader();
         map = mapLoader.load("mapa.tmx");
-        renderer = new OrthogonalTiledMapRenderer(map);
+        renderer = new OrthogonalTiledMapRenderer(map, 1 / PIXEL_TO_METER);
         GameController.getInstance().setCameraPosition(gamePort.getWorldWidth() / 2);
         gameCamera.position.set(gamePort.getWorldWidth() / 2, gamePort.getWorldHeight() / 2, 0);
         gameHud = new GameHUD(game.getBatch());
@@ -66,11 +67,13 @@ public class GameView implements Screen {
         }
 
         if (Gdx.input.isKeyPressed(Input.Keys.SPACE)) {
-            float f = GameController.getInstance().getCameraPosition();
-            GameController.getInstance().setCameraPosition(f += 100 * delta);
-            GameController.getInstance().getHeroBody().setTransform(f += 100 * delta, 25, 0);
+            GameController.getInstance().run(delta);
             gameHud.update(delta, GameController.getInstance().getCameraPosition());
 
+        }
+
+        if(Gdx.input.isKeyJustPressed(Input.Keys.UP)){
+            GameController.getInstance().jump(delta);
         }
 
         if (Gdx.input.getAccelerometerY() < -1) {
@@ -84,7 +87,8 @@ public class GameView implements Screen {
     public void update(float delta) {
         handleInput(delta);
         GameController.getInstance().update(delta);
-        gameCamera.position.x = GameController.getInstance().getCameraPosition();
+        gameCamera.position.x = GameController.getInstance().getHeroBody().getX();
+
         gameCamera.update();
         renderer.setView(gameCamera);
     }

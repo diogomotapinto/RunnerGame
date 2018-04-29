@@ -10,6 +10,8 @@ import com.badlogic.gdx.physics.box2d.PolygonShape;
 import com.badlogic.gdx.physics.box2d.World;
 import com.mygdx.game.model.entities.EntityModel;
 
+import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
+
 
 public abstract class EntityBody {
     protected World world;
@@ -30,7 +32,7 @@ public abstract class EntityBody {
         this.world = new World(new Vector2(0, -10), true);
 
         if(isDynamic) {
-            bodyDef.position.set(model.getPosition());
+            bodyDef.position.set(model.getX()/ PIXEL_TO_METER,model.getY()/ PIXEL_TO_METER);
         }
 
         body = world.createBody(bodyDef);
@@ -40,7 +42,7 @@ public abstract class EntityBody {
 
     void createFixtures(Body body, float density, float friction, float restitution ){
         CircleShape circle = new CircleShape();
-        circle.setRadius(6f);
+        circle.setRadius(6f/ PIXEL_TO_METER);
 
         // Create a fixture definition to apply our shape to
         FixtureDef fixtureDef = new FixtureDef();

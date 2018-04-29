@@ -8,6 +8,7 @@ import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.utils.Array;
 import com.mygdx.game.controller.entities.HeroBody;
 import com.mygdx.game.controller.entities.MapBody;
+import com.mygdx.game.model.entities.HeroModel;
 import com.mygdx.game.model.entities.MapModel;
 import com.mygdx.game.view.GameView;
 
@@ -31,9 +32,10 @@ public class GameController {
 
         xPosition = 0;
         MapModel mapModel = new MapModel();
+        HeroModel heroModel = new HeroModel(0,0);
         world = new World(new Vector2(0, -10), true);
 
-        heroBody = new HeroBody(world);
+        heroBody = new HeroBody(world,heroModel, true );
 
         mapBody = new MapBody(world,mapModel,false);
         mapBody.createBody(map);

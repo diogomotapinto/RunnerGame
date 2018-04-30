@@ -35,3 +35,11 @@
 ![alt text](https://github.com/diogomotapinto/RunnerGame/blob/master/android/assets/GameLeaderboard.jpg)
 
 The leaderboard it is still subject to many changes because we are going to integrate the android leaderboard api.
+
+
+## Test 
+
+* Test if the hero dies in case he goes bellow the ground.
+* Test if the hero can kill the enemies properly by throwing items at them.
+* Test if an enemy can kill the hero by going to an adjacent position or throwing something at him.
+

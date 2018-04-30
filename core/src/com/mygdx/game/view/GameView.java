@@ -47,7 +47,6 @@ public class GameView implements Screen {
 
         gameCamera.position.set(gamePort.getWorldWidth() / 2, gamePort.getWorldHeight() / 2, 0);
         gameHud = new GameHUD(game.getBatch());
-
         boxDebug = new Box2DDebugRenderer();
 
 
@@ -62,7 +61,6 @@ public class GameView implements Screen {
 
         if (Gdx.input.isKeyPressed(Input.Keys.SPACE)) {
             GameController.getInstance().run(delta);
-            gameHud.update(delta,  GameController.getInstance().getCameraPosition());
 
         }
 
@@ -76,7 +74,7 @@ public class GameView implements Screen {
         handleInput(delta);
         GameController.getInstance().update(delta);
         gameCamera.position.x =  GameController.getInstance().getHeroBody().getX();
-
+        gameHud.update(delta,  GameController.getInstance().getHeroBody().getX()-200);
         gameCamera.update();
         renderer.setView(gameCamera);
     }

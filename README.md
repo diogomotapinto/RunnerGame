@@ -23,14 +23,14 @@
 
 ## GUI
 
-###Game
+### Game
 
-![Alt text] (/Android/assets/GameGui.jpg?raw=true)
+![Alt text] (/android/assets/GameGui.jpg?raw=true)
 
-###Game Menu
+### Game Menu
 
-![Alt text] (/Android/assets/GameMenu.jpg?raw=true)
+![Alt text] (/android/assets/GameMenu.jpg?raw=true)
 
-###Leaderboard
+### Leaderboard
 
-![Alt text] (/Android/assets/GameLeaderboard.jpg?raw=true)
+![Alt text] (/android/assets/GameLeaderboard.jpg?raw=true)

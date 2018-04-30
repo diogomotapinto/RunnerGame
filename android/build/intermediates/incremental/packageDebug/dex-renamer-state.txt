@@ -1,7 +1,7 @@
-#Thu Apr 19 10:02:08 BST 2018
-base.0=C\:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_11084bf7a539082c33c5f112769b54f88b50cbfd
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ba28591fa5b10d8e4bca5318e26e6edfbf16cbff\\classes.dex
-base.1=C\:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ba28591fa5b10d8e4bca5318e26e6edfbf16cbff
-file.0=C\:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_11084bf7a539082c33c5f112769b54f88b50cbfd\\classes.dex
+#Sun Apr 29 22:55:11 WEST 2018
+base.0=/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_469767151f3b4b350707533fab578f4a52456f0b
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_baae2928c4b3c0c09342c5dd8dcc143351a3bd2b/classes.dex
+base.1=/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_baae2928c4b3c0c09342c5dd8dcc143351a3bd2b
+file.0=/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_469767151f3b4b350707533fab578f4a52456f0b/classes.dex

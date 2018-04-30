@@ -4,6 +4,8 @@ import com.mygdx.game.controller.GameController;
 import com.mygdx.game.model.entities.HeroModel;
 import com.mygdx.game.model.entities.MapModel;
 
+import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
+
 public class GameModel {
     /**
      * Singleton instance of game model
@@ -15,7 +17,6 @@ public class GameModel {
      */
     private final HeroModel hero;
 
-
     private final MapModel map;
 
     /**
@@ -23,18 +24,18 @@ public class GameModel {
      *
      * @return the singleton instance
      */
-    public static GameModel getInstance() {
-        if (instance == null)
-            instance = new GameModel();
+   // public static GameModel getInstance() {
+    //    if (instance == null)
+   //         instance = new GameModel();
 
-        return instance;
-    }
+    //    return instance;
+    //}
 
     /**
      * Class constructor
      */
-    private GameModel(){
-        hero = new HeroModel(GameController.V_WIDTH,GameController.V_HEIGHT);
+    public GameModel(){
+        hero = new HeroModel(GameController.V_WIDTH / PIXEL_TO_METER,GameController.V_HEIGHT/ PIXEL_TO_METER);
         map = new MapModel();
     }
 

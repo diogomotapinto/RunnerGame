@@ -5,18 +5,10 @@ import com.badlogic.gdx.Input;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
-import com.badlogic.gdx.maps.MapObject;
-import com.badlogic.gdx.maps.objects.RectangleMapObject;
 import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
-import com.badlogic.gdx.math.Rectangle;
-import com.badlogic.gdx.math.Vector2;
-import com.badlogic.gdx.physics.box2d.Body;
-import com.badlogic.gdx.physics.box2d.BodyDef;
 import com.badlogic.gdx.physics.box2d.Box2DDebugRenderer;
-import com.badlogic.gdx.physics.box2d.FixtureDef;
-import com.badlogic.gdx.physics.box2d.PolygonShape;
 import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
@@ -34,7 +26,6 @@ public class GameView implements Screen {
     private TiledMap map;
     private OrthogonalTiledMapRenderer renderer;
     private GameHUD gameHud;
-    private World world;
 
 
     /**
@@ -49,13 +40,15 @@ public class GameView implements Screen {
         mapLoader = new TmxMapLoader();
         map = mapLoader.load("mapa.tmx");
         renderer = new OrthogonalTiledMapRenderer(map, 1 / PIXEL_TO_METER);
+
         GameController.getInstance().setCameraPosition(gamePort.getWorldWidth() / 2);
+
+
+
         gameCamera.position.set(gamePort.getWorldWidth() / 2, gamePort.getWorldHeight() / 2, 0);
         gameHud = new GameHUD(game.getBatch());
 
         boxDebug = new Box2DDebugRenderer();
-
-        world = new World(new Vector2(0, -10), true);
 
 
     }
@@ -63,31 +56,26 @@ public class GameView implements Screen {
     public void handleInput(float delta) {
 
         if ((Gdx.input.getAccelerometerY() > 1)) {
-            GameController.getInstance().setCameraPosition(100 * Gdx.input.getAccelerometerY() / 100);
+            GameController.getInstance().run(delta);
+            gameHud.update(delta,  GameController.getInstance().getCameraPosition());
         }
 
         if (Gdx.input.isKeyPressed(Input.Keys.SPACE)) {
             GameController.getInstance().run(delta);
-            gameHud.update(delta, GameController.getInstance().getCameraPosition());
+            gameHud.update(delta,  GameController.getInstance().getCameraPosition());
 
         }
 
-        if(Gdx.input.isKeyJustPressed(Input.Keys.UP)){
+
+        if(Gdx.input.isKeyJustPressed(Input.Keys.UP) || Gdx.input.justTouched()){
             GameController.getInstance().jump(delta);
         }
-
-        if (Gdx.input.getAccelerometerY() < -1) {
-            float f = GameController.getInstance().getCameraPosition();
-            GameController.getInstance().setCameraPosition(f -= 100 * delta);
-
-        }
-
     }
 
     public void update(float delta) {
         handleInput(delta);
         GameController.getInstance().update(delta);
-        gameCamera.position.x = GameController.getInstance().getHeroBody().getX();
+        gameCamera.position.x =  GameController.getInstance().getHeroBody().getX();
 
         gameCamera.update();
         renderer.setView(gameCamera);
@@ -107,7 +95,7 @@ public class GameView implements Screen {
 
         game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
         gameHud.stage.draw();
-        boxDebug.render(GameController.getInstance().getWorld(), gameCamera.combined);
+        boxDebug.render( GameController.getInstance().getWorld(), gameCamera.combined);
     }
 
     @Override

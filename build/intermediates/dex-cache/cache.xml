@@ -3,30 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/diogomotapinto/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.9.8/84024cd60ad6f26370891fbcd17de9f0167e662/gdx-backend-android-1.9.8.jar"
+        jar="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="27.0.3"
-        sha1="084024cd60ad6f26370891fbcd17de9f0167e662">
-        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/dex/debug/folders/1000/10/gdx-backend-android-1.9.8_a75ce96e0707425174a9c227514854c00466c53b/classes.dex" />
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_baae2928c4b3c0c09342c5dd8dcc143351a3bd2b/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/diogomotapinto/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-box2d/1.9.8/6f0497b7958216464101adfb7bdc3a0f7b88d6d3/gdx-box2d-1.9.8.jar"
+        jar="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="27.0.3"
-        sha1="6f0497b7958216464101adfb7bdc3a0f7b88d6d3">
-        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/dex/debug/folders/1000/10/gdx-box2d-1.9.8_b04e9336bc5a7a586539a59a9a670855a84f21e3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/diogomotapinto/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/a35a0076fbce873f9c2d5a1a1c8066244231bb3c/gdx-1.9.8.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.3"
-        sha1="a35a0076fbce873f9c2d5a1a1c8066244231bb3c">
-        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/dex/debug/folders/1000/10/gdx-1.9.8_d0a45d24238f5d225063d3b4ef134dc7fc450e10/classes.dex" />
+        sha1="df9099b93eb6d2717c2805288429f00873093c65">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_469767151f3b4b350707533fab578f4a52456f0b/classes.dex" />
     </item>
 
 </items>

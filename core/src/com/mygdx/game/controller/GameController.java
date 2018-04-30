@@ -65,22 +65,18 @@ public class GameController {
     }
 
     public static GameController getInstance() {
-
-
         if (instance == null)
             instance = new GameController();
         return instance;
-
-
     }
 
 
     public void jump(float delta){
-        heroBody.getBody().applyLinearImpulse(new Vector2(0,1f / PIXEL_TO_METER), heroBody.getBody().getWorldCenter(), true);
+        heroBody.getBody().applyLinearImpulse(new Vector2(0,3f / PIXEL_TO_METER), heroBody.getBody().getWorldCenter(), true);
     }
 
     public void run(float delta){
-        if(heroBody.getBody().getLinearVelocity().x <= 2){
+        if(heroBody.getBody().getLinearVelocity().x <= 2 || (heroBody.getBody().getPosition().y > 0)){
             heroBody.getBody().applyLinearImpulse(new Vector2(0.6f / PIXEL_TO_METER,0), heroBody.getBody().getWorldCenter(), true);
         }
     }

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this project we ae going to make a game like a endless runner where the more time you spent alive the more rewards you win.
+In this project we ae going to make a game like a endless runner where the more time you spent alive the more rewards you get.
 The project will be using LibGdx to help us make a better closs platform game and we will add some features later like a database with Firebase and Google Play Games API in order to manage games services and configure metadata for authorizing and authenticating in our game.
 
 ## Architecture Desing

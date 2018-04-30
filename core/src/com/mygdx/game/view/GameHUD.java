@@ -58,8 +58,7 @@ public class GameHUD {
 
     public void update(float delta, float acel) {
         acelerometerLabel.setText(String.format("%f", acel));
-        this.gameScore++;
-        this.scoreLabel.setText(String.format("%04d", gameScore));
+        this.scoreLabel.setText(String.format("%04d",(int) acel));
     }
 
 

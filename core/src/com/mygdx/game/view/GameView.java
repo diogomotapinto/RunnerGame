@@ -74,7 +74,7 @@ public class GameView implements Screen {
         handleInput(delta);
         GameController.getInstance().update(delta);
         gameCamera.position.x =  GameController.getInstance().getHeroBody().getX();
-        gameHud.update(delta,  GameController.getInstance().getHeroBody().getX()-200);
+        gameHud.update(delta,  GameController.getInstance().getHeroBody().getX());
         gameCamera.update();
         renderer.setView(gameCamera);
     }

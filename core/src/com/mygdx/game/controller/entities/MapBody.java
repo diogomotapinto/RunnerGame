@@ -47,7 +47,7 @@ public class MapBody extends EntityBody{
             body = world.createBody(bodyDef);
             shape.setAsBox((rect.getWidth()/2) / PIXEL_TO_METER, (rect.getHeight()/2) /PIXEL_TO_METER);
             fixtureDef.shape = shape;
-            fixtureDef.density = .5f;      // how heavy is the ground
+            //fixtureDef.density = .5f;      // how heavy is the ground
             fixtureDef.friction =  0f;    // how slippery is the ground
             fixtureDef.restitution =  .5f; // how bouncy is the ground
             body.createFixture(fixtureDef);

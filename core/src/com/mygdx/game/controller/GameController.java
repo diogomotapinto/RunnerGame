@@ -76,8 +76,9 @@ public class GameController {
     }
 
     public void run(float delta){
-        if(heroBody.getBody().getLinearVelocity().x <= 2 || (heroBody.getBody().getPosition().y > 0)){
-            heroBody.getBody().applyLinearImpulse(new Vector2(0.6f / PIXEL_TO_METER,0), heroBody.getBody().getWorldCenter(), true);
+        if(heroBody.getBody().getLinearVelocity().x <= 2){
+            heroBody.getBody().applyLinearImpulse(new Vector2(0.4f / PIXEL_TO_METER,0), heroBody.getBody().getWorldCenter(), true);
+            System.out.println(heroBody.getBody().getLinearVelocity().x);
         }
     }
 

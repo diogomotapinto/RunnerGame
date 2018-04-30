@@ -25,12 +25,11 @@
 
 ### Game
 
-![Alt text] (/android/assets/GameGui.jpg?raw=true)
+![alt text](https://github.com/diogomotapinto/RunnerGame/blob/master/android/assets/GameGui.jpg)
 
 ### Game Menu
-
-![Alt text] (/android/assets/GameMenu.jpg?raw=true)
+![alt text](https://github.com/diogomotapinto/RunnerGame/blob/master/android/assets/GameMenu.jpg)
 
 ### Leaderboard
 
-![Alt text] (/android/assets/GameLeaderboard.jpg?raw=true)
+![alt text](https://github.com/diogomotapinto/RunnerGame/blob/master/android/assets/GameLeaderboard.jpg)

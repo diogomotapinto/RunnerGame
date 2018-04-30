@@ -33,3 +33,5 @@
 ### Leaderboard
 
 ![alt text](https://github.com/diogomotapinto/RunnerGame/blob/master/android/assets/GameLeaderboard.jpg)
+
+The leaderboard it is still subject to many changes because we are going to integrate the android leaderboard api.

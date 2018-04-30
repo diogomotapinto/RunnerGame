@@ -42,4 +42,4 @@ The leaderboard it is still subject to many changes because we are going to inte
 * Test if the hero dies in case he goes bellow the ground.
 * Test if the hero can kill the enemies properly by throwing items at them.
 * Test if an enemy can kill the hero by going to an adjacent position or throwing something at him.
-
+* Test if the hero gets his abilities change when he hits milestones or gains rewards by cathcing some items.

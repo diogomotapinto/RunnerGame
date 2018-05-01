@@ -7,6 +7,10 @@ The project will be using LibGdx to help us make a better closs platform game an
 
 ## Architecture Desing
 
+## Package and Class Diagram
+
+![alt text](https://github.com/diogomotapinto/RunnerGame/blob/master/android/assets/UML.png)
+
 
 ### Desing Decisions
 

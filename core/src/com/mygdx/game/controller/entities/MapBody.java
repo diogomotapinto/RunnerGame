@@ -23,7 +23,7 @@ public class MapBody extends EntityBody{
 
 
     public MapBody(World world, MapModel map, Boolean isDynamic){
-        super(world, map, isDynamic);
+        super(world, map, isDynamic, true);
         this.world = world;
         this.mapModel = map;
         this.isDynamic = isDynamic;

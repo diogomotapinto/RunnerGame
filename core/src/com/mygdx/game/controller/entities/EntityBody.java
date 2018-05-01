@@ -21,7 +21,7 @@ public abstract class EntityBody {
      */
     final Body body;
 
-    public EntityBody(World world, EntityModel model, boolean isDynamic){
+    public EntityBody(World world, EntityModel model, boolean isDynamic, boolean isFloor){
         BodyDef bodyDef = new BodyDef();
 
         if(isDynamic){
@@ -31,7 +31,7 @@ public abstract class EntityBody {
         }
         this.world = new World(new Vector2(0, -10), true);
 
-        if(isDynamic) {
+        if(!isFloor) {
             bodyDef.position.set(model.getX()/ PIXEL_TO_METER,model.getY()/ PIXEL_TO_METER);
         }
 

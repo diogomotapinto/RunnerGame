@@ -56,9 +56,10 @@ public class GameHUD {
         stage.addActor(table);
     }
 
-    public void update(float delta, float acel) {
+    public void update(float delta, float acel, float time) {
         acelerometerLabel.setText(String.format("%f", acel));
         this.scoreLabel.setText(String.format("%04d",(int) acel));
+        timerLabel.setText(String.format("%04d",(int) time));
     }
 
 

@@ -15,7 +15,7 @@ public class HeroBody extends EntityBody {
     public HeroBody(World world, HeroModel model, boolean isDynamic) {
         super(world, model, isDynamic,false);
 
-        createFixtures(body,1.27f,0f,0.6f);
+        createFixtures(body,1.27f,0f,0f);
 
     }
 

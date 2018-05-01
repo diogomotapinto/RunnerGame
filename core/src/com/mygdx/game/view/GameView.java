@@ -26,6 +26,7 @@ public class GameView implements Screen {
     private TiledMap map;
     private OrthogonalTiledMapRenderer renderer;
     private GameHUD gameHud;
+    private float seconds = 0f;
 
 
     /**
@@ -43,8 +44,6 @@ public class GameView implements Screen {
 
         GameController.getInstance().setCameraPosition(gamePort.getWorldWidth() / 2);
 
-
-
         gameCamera.position.set(gamePort.getWorldWidth() / 2, gamePort.getWorldHeight() / 2, 0);
         gameHud = new GameHUD(game.getBatch());
         boxDebug = new Box2DDebugRenderer();
@@ -56,7 +55,7 @@ public class GameView implements Screen {
 
         if ((Gdx.input.getAccelerometerY() > 1)) {
             GameController.getInstance().run(delta);
-            gameHud.update(delta,  GameController.getInstance().getCameraPosition());
+            gameHud.update(delta,  GameController.getInstance().getCameraPosition(), seconds);
         }
 
         if (Gdx.input.isKeyPressed(Input.Keys.SPACE)) {
@@ -74,7 +73,8 @@ public class GameView implements Screen {
         handleInput(delta);
         GameController.getInstance().update(delta);
         gameCamera.position.x =  GameController.getInstance().getHeroBody().getX();
-        gameHud.update(delta,  GameController.getInstance().getHeroBody().getX());
+        seconds +=Gdx.graphics.getRawDeltaTime();
+        gameHud.update(delta,  GameController.getInstance().getHeroBody().getX(), seconds);
         gameCamera.update();
         renderer.setView(gameCamera);
     }

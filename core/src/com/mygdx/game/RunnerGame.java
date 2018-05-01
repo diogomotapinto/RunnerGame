@@ -1,16 +1,25 @@
 package com.mygdx.game;
 
 import com.badlogic.gdx.Game;
+import com.badlogic.gdx.assets.AssetManager;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.mygdx.game.view.GameView;
+import com.mygdx.game.view.MainMenuView;
+
+import java.awt.Font;
 
 public class RunnerGame extends Game {
     private SpriteBatch batch;
+    private AssetManager assetManager;
+
 
     @Override
     public void create() {
         batch = new SpriteBatch();
-        setScreen(new GameView(this));
+        assetManager = new AssetManager();
+        setScreen(new MainMenuView(this));
+        //setScreen(new GameView(this));
     }
 
     @Override
@@ -20,6 +29,10 @@ public class RunnerGame extends Game {
 
     public SpriteBatch getBatch() {
         return batch;
+    }
+
+    public AssetManager getAssetManager() {
+        return assetManager;
     }
 
     @Override

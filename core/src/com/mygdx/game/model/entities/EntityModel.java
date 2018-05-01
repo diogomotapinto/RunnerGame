@@ -23,10 +23,9 @@ public abstract class EntityModel {
     /**
      * as the model been flagged for removal
      */
-    private boolean flaggedForRemoval;
+    private boolean flaggedForRemoval = false;
 
     EntityModel(float x, float y) {
-        flaggedForRemoval = false;
         this.position = new Vector2(x, y);
     }
 

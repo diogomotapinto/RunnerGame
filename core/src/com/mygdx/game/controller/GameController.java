@@ -4,6 +4,11 @@ import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.Body;
+import com.badlogic.gdx.physics.box2d.Contact;
+import com.badlogic.gdx.physics.box2d.ContactFilter;
+import com.badlogic.gdx.physics.box2d.ContactImpulse;
+import com.badlogic.gdx.physics.box2d.ContactListener;
+import com.badlogic.gdx.physics.box2d.Manifold;
 import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.utils.Array;
 import com.mygdx.game.controller.entities.GoldBody;
@@ -25,7 +30,7 @@ import java.util.Random;
 import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 
 
-public class GameController {
+public class GameController implements ContactListener {
     private static GameController instance;
     private float xPosition;
     private final World world;
@@ -37,6 +42,8 @@ public class GameController {
 
 
 
+
+
     private GameController() {
 
         TmxMapLoader mapLoader = new TmxMapLoader();
@@ -45,8 +52,6 @@ public class GameController {
         world = new World(new Vector2(0, -10), true);
 
         xPosition = 0;
-        MapModel mapModel = new MapModel();
-        HeroModel heroModel = new HeroModel(200,25);
 
         for (int i = 0; i < GameModel.getInstance().getGolds().size(); i++){
             goldBodyArray.add(new GoldBody(world, GameModel.getInstance().getGolds().get(i), false)) ;
@@ -57,6 +62,8 @@ public class GameController {
 
 
         mapBody.createBody(map);
+
+        world.setContactListener(this);
 
     }
 
@@ -73,6 +80,7 @@ public class GameController {
         for (Body b : bodies){
 
         }
+
     }
 
     public World getWorld() {
@@ -115,11 +123,46 @@ public class GameController {
         world.getBodies(bodies);
 
         for (Body body : bodies) {
-            if (((EntityModel)body.getUserData()).isFlaggedForRemoval()) {
-                GameModel.getInstance().remove((EntityModel) body.getUserData());
-                world.destroyBody(body);
+            if( body.getUserData() instanceof  GoldModel) {
+                if (((EntityModel) body.getUserData()).isFlaggedForRemoval()) {
+                    GameModel.getInstance().remove((EntityModel) body.getUserData());
+                    world.destroyBody(body);
+                }
             }
         }
+
+
+
+    }
+
+    @Override
+    public void beginContact(Contact contact) {
+        System.out.println("Contact");
+        Body bodyA = contact.getFixtureA().getBody();
+
+        if (bodyA.getUserData() instanceof GoldModel) {
+            heroCollidesGold(bodyA);
+        }
+    }
+
+    @Override
+    public void endContact(Contact contact) {
+
+    }
+
+    @Override
+    public void preSolve(Contact contact, Manifold oldManifold) {
+
+    }
+
+    @Override
+    public void postSolve(Contact contact, ContactImpulse impulse) {
+
+    }
+
+
+    private void heroCollidesGold(Body goldBody){
+        ((GoldModel)goldBody.getUserData()).setFlaggedForRemoval(true);
     }
 }
 

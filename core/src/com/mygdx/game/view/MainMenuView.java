@@ -1,23 +1,18 @@
 package com.mygdx.game.view;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
-import com.badlogic.gdx.utils.viewport.FitViewport;
-import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
-
-import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 
 
 public class MainMenuView implements Screen {
     private RunnerGame game;
     private OrthographicCamera menuCamera;
-    private Viewport menuPort;
 
     public MainMenuView(RunnerGame game) {
         this.game = game;
@@ -41,7 +36,7 @@ public class MainMenuView implements Screen {
         menuCamera.update();
         game.getBatch().setProjectionMatrix(menuCamera.combined);
 
-        Gdx.gl.glClearColor(0, 0, 0, 1);
+        Gdx.gl.glClearColor(0, 0.5f, 1f, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
         game.getBatch().begin();
@@ -50,7 +45,7 @@ public class MainMenuView implements Screen {
 
         game.getBatch().end();
 
-        if (Gdx.input.isTouched()) {
+        if (Gdx.input.isTouched() || Gdx.input.isKeyPressed(Input.Keys.ANY_KEY)) {
             game.setScreen(new GameView(this.game));
             dispose();
         }

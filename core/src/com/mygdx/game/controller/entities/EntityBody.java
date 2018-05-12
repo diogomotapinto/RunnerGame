@@ -10,6 +10,8 @@ import com.badlogic.gdx.physics.box2d.PolygonShape;
 import com.badlogic.gdx.physics.box2d.World;
 import com.mygdx.game.model.entities.EntityModel;
 
+import java.awt.geom.RectangularShape;
+
 import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 
 
@@ -27,7 +29,7 @@ public abstract class EntityBody {
         if(isDynamic){
             bodyDef.type = BodyDef.BodyType.DynamicBody;
         }else{
-            bodyDef.type = BodyDef.BodyType.StaticBody;
+            bodyDef.type = BodyDef.BodyType.KinematicBody;
         }
         this.world = new World(new Vector2(0, -10), true);
 
@@ -40,13 +42,27 @@ public abstract class EntityBody {
 
     }
 
-    void createFixtures(Body body, float density, float friction, float restitution ){
+    void createFixtures(Body body, float density, float friction, float restitution, boolean isCircle){
         CircleShape circle = new CircleShape();
-        circle.setRadius(6f/ PIXEL_TO_METER);
+        PolygonShape rect = new PolygonShape();
+
+        if(isCircle) {
+
+            circle.setRadius(6f / PIXEL_TO_METER);
+        }else
+        {
+            rect.setAsBox(16/PIXEL_TO_METER,4/PIXEL_TO_METER);
+        }
+
 
         // Create a fixture definition to apply our shape to
         FixtureDef fixtureDef = new FixtureDef();
-        fixtureDef.shape = circle;
+        if(isCircle){
+            fixtureDef.shape = circle;
+        }else {
+            fixtureDef.shape = rect;
+        }
+
         fixtureDef.density = density;
         fixtureDef.friction = friction;
         fixtureDef.restitution = restitution;
@@ -75,4 +91,7 @@ public abstract class EntityBody {
         return body.getUserData();
     }
 
+    public Body getBody() {
+        return body;
+    }
 }

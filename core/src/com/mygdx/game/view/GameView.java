@@ -9,7 +9,6 @@ import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
 import com.badlogic.gdx.physics.box2d.Box2DDebugRenderer;
-import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.RunnerGame;
@@ -67,6 +66,7 @@ public class GameView implements Screen {
         if(Gdx.input.isKeyJustPressed(Input.Keys.UP) || Gdx.input.justTouched()){
             GameController.getInstance().jump(delta);
         }
+
     }
 
     public void update(float delta) {
@@ -90,11 +90,16 @@ public class GameView implements Screen {
         update(delta);
         Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-        renderer.render();
+        //renderer.render();
 
         game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
         gameHud.stage.draw();
         boxDebug.render( GameController.getInstance().getWorld(), gameCamera.combined);
+
+
+        //if(GameController.getInstance().getHeroBody().getBody().getPosition().y < 0){
+         //   game.setScreen(new MainMenuView(this.game));
+        //}
     }
 
     @Override

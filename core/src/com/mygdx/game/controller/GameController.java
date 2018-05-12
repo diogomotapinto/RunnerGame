@@ -14,6 +14,7 @@ import com.badlogic.gdx.utils.Array;
 import com.mygdx.game.controller.entities.GoldBody;
 import com.mygdx.game.controller.entities.HeroBody;
 import com.mygdx.game.controller.entities.MapBody;
+import com.mygdx.game.controller.entities.TileBody;
 import com.mygdx.game.model.GameModel;
 import com.mygdx.game.model.entities.EntityModel;
 import com.mygdx.game.model.entities.GoldModel;
@@ -37,8 +38,10 @@ public class GameController implements ContactListener {
     private HeroBody heroBody;
     private MapBody mapBody;
     private ArrayList<GoldBody> goldBodyArray;
+    private ArrayList<TileBody> tileBodyArray;
     public static final int V_WIDTH = 400;
     public static final int V_HEIGHT = 208;
+    private boolean isContacted ;
 
 
 
@@ -49,20 +52,28 @@ public class GameController implements ContactListener {
         TmxMapLoader mapLoader = new TmxMapLoader();
         TiledMap map = mapLoader.load("mapa.tmx");
         goldBodyArray = new ArrayList<GoldBody>();
+        tileBodyArray = new ArrayList<TileBody>();
         world = new World(new Vector2(0, -10), true);
 
         xPosition = 0;
 
         for (int i = 0; i < GameModel.getInstance().getGolds().size(); i++){
-            goldBodyArray.add(new GoldBody(world, GameModel.getInstance().getGolds().get(i), false)) ;
+          goldBodyArray.add(new GoldBody(world, GameModel.getInstance().getGolds().get(i), false)) ;
         }
+
+
+
+        for (int i = 0; i < GameModel.getInstance().getTiles().size(); i++){
+            tileBodyArray.add(new TileBody(world, GameModel.getInstance().getTiles().get(i), false));
+        }
+
 
         heroBody = new HeroBody(world,GameModel.getInstance().getHero(), true );
         mapBody = new MapBody(world,GameModel.getInstance().getMap(),false);
 
 
-        mapBody.createBody(map);
-
+        //mapBody.createBody(map);
+        isContacted = true;
         world.setContactListener(this);
 
     }
@@ -74,6 +85,7 @@ public class GameController implements ContactListener {
     public void update(float delta){
         Array<Body> bodies = new Array<Body>();
         world.getBodies(bodies);
+
 
 
         world.step(1/60f,6,2);
@@ -95,17 +107,26 @@ public class GameController implements ContactListener {
 
 
     public void jump(float delta){
-        heroBody.getBody().applyLinearImpulse(new Vector2(0,3f / PIXEL_TO_METER), heroBody.getBody().getWorldCenter(), true);
+        if(this.isContacted) {
+            heroBody.getBody().applyLinearImpulse(new Vector2(0, 3f / PIXEL_TO_METER), heroBody.getBody().getWorldCenter(), true);
+        }
     }
 
     public void run(float delta){
-        if(heroBody.getBody().getLinearVelocity().x <= 2){
-            heroBody.getBody().applyLinearImpulse(new Vector2(0.4f / PIXEL_TO_METER,0), heroBody.getBody().getWorldCenter(), true);
+
+        for (int i = 0; i < tileBodyArray.size(); i++){
+                tileBodyArray.get(i).getBody().setLinearVelocity(-1.0f, 0.0f);
         }
+
+    }
+
+    public ArrayList<TileBody> getTileBodyArray() {
+        return tileBodyArray;
     }
 
     public float getCameraPosition() {
         return xPosition;
+
     }
 
 
@@ -137,8 +158,13 @@ public class GameController implements ContactListener {
 
     @Override
     public void beginContact(Contact contact) {
+
         System.out.println("Contact");
         Body bodyA = contact.getFixtureA().getBody();
+
+        if(bodyA.getUserData() instanceof MapModel){
+            this.isContacted = true;
+        }
 
         if (bodyA.getUserData() instanceof GoldModel) {
             heroCollidesGold(bodyA);
@@ -147,6 +173,11 @@ public class GameController implements ContactListener {
 
     @Override
     public void endContact(Contact contact) {
+        Body bodyA = contact.getFixtureA().getBody();
+
+        if(bodyA.getUserData() instanceof MapModel){
+            this.isContacted = false;
+        }
 
     }
 

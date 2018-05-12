@@ -156,7 +156,7 @@ public class GameController implements ContactListener {
         world.getBodies(bodies);
 
         for (Body body : bodies) {
-            if( body.getUserData() instanceof  GoldModel) {
+            if( body.getUserData() instanceof  GoldModel || body.getUserData() instanceof  BulletModel) {
                 if (((EntityModel) body.getUserData()).isFlaggedForRemoval()) {
                     GameModel.getInstance().remove((EntityModel) body.getUserData());
                     world.destroyBody(body);
@@ -172,7 +172,6 @@ public class GameController implements ContactListener {
 
     @Override
     public void beginContact(Contact contact) {
-
         System.out.println("Contact");
         Body bodyA = contact.getFixtureA().getBody();
 
@@ -182,6 +181,10 @@ public class GameController implements ContactListener {
 
         if (bodyA.getUserData() instanceof GoldModel) {
             heroCollidesGold(bodyA);
+        }
+
+        if (bodyA.getUserData() instanceof BulletModel) {
+            bulletCollides(bodyA);
         }
     }
 
@@ -208,6 +211,10 @@ public class GameController implements ContactListener {
 
     private void heroCollidesGold(Body goldBody){
         ((GoldModel)goldBody.getUserData()).setFlaggedForRemoval(true);
+    }
+
+    private void bulletCollides(Body bulletBody){
+        ((BulletModel)bulletBody.getUserData()).setFlaggedForRemoval(true);
     }
 }
 

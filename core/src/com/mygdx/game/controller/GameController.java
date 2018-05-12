@@ -129,7 +129,7 @@ public class GameController implements ContactListener {
         System.out.println(heroBody.getX());
         BulletModel bullet = GameModel.getInstance().createBullet(GameModel.getInstance().getHero());
         BulletBody body = new BulletBody(world, bullet,true);
-        body.getBody().setLinearVelocity(10f,0);
+        body.getBody().applyLinearImpulse(new Vector2(10f / PIXEL_TO_METER, 0), heroBody.getBody().getWorldCenter(), true);
     }
 
     public ArrayList<TileBody> getTileBodyArray() {

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb60d76f-fce1-441b-8f01-e3ddb3008f99" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/BulletBody.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/model/entities/BulletModel.java" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -11,13 +9,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
       <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/EnemyBody.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/EnemyBody.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/EntityBody.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/EntityBody.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/GoldBody.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/GoldBody.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/HeroBody.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/HeroBody.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/TileBody.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/TileBody.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/model/GameModel.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/model/GameModel.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameView.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameView.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,11 +47,11 @@
       <file leaf-file-name="GameController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="127" column="93" lean-forward="false" selection-start-line="127" selection-start-column="93" selection-end-line="127" selection-end-column="93" />
+            <state relative-caret-position="429">
+              <caret line="131" column="56" lean-forward="false" selection-start-line="131" selection-start-column="56" selection-end-line="131" selection-end-column="56" />
               <folding>
-                <element signature="e#4292#4293#0" expanded="true" />
-                <element signature="e#4328#4329#0" expanded="true" />
+                <element signature="e#4367#4368#0" expanded="true" />
+                <element signature="e#4403#4404#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -4554,7 +4545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526136622141</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Bullets added">
+      <created>1526167803117</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1526167803117</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -4658,7 +4656,8 @@
     <MESSAGE value="Gold disappears after being touched" />
     <MESSAGE value="Main Menu implemented" />
     <MESSAGE value="Trying to make the map endless" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to make the map endless" />
+    <MESSAGE value="Bullets added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bullets added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -5038,11 +5037,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="127" column="93" lean-forward="false" selection-start-line="127" selection-start-column="93" selection-end-line="127" selection-end-column="93" />
+        <state relative-caret-position="429">
+          <caret line="131" column="56" lean-forward="false" selection-start-line="131" selection-start-column="56" selection-end-line="131" selection-end-column="56" />
           <folding>
-            <element signature="e#4292#4293#0" expanded="true" />
-            <element signature="e#4328#4329#0" expanded="true" />
+            <element signature="e#4367#4368#0" expanded="true" />
+            <element signature="e#4403#4404#0" expanded="true" />
           </folding>
         </state>
       </provider>

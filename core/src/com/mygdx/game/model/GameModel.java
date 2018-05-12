@@ -1,7 +1,11 @@
 package com.mygdx.game.model;
 
 import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.utils.Pool;
 import com.mygdx.game.controller.GameController;
+import com.mygdx.game.controller.entities.EntityBody;
+import com.mygdx.game.model.entities.BulletModel;
+import com.mygdx.game.model.entities.EnemyModel;
 import com.mygdx.game.model.entities.EntityModel;
 import com.mygdx.game.model.entities.GoldModel;
 import com.mygdx.game.model.entities.HeroModel;
@@ -27,7 +31,7 @@ public class GameModel {
 
     private MapModel map;
 
-    private static int DISTANCE = 50;
+    private EntityModel enemy;
 
     public MapModel getMap() {
         return map;
@@ -36,6 +40,15 @@ public class GameModel {
     public ArrayList<GoldModel> golds;
 
     public ArrayList<TileModel> tiles;
+
+    public ArrayList<BulletModel> bullets;
+
+    Pool<BulletModel> bulletPool = new Pool<BulletModel>() {
+        @Override
+        protected BulletModel newObject() {
+            return new BulletModel(0,0);
+        }
+    };
 
     public ArrayList<GoldModel> getGolds() {
         return golds;
@@ -62,21 +75,14 @@ public class GameModel {
      */
     public GameModel(){
         hero = new HeroModel(200,25);
+        enemy = new EnemyModel(300, 25);
         map = new MapModel();
         golds = new ArrayList<GoldModel>();
         tiles = new ArrayList<TileModel>();
-
+        bullets = new ArrayList<BulletModel>();
         for(int i = 0; i < 100 ; i++){
-           // golds.add(new GoldModel(Utilities.generateRandomNumber(200, 34000), Utilities.generateRandomNumber(40,100)));
+           golds.add(new GoldModel(Utilities.generateRandomNumber(200, 3000), Utilities.generateRandomNumber(40,100)));
         }
-
-            tiles.add(new TileModel(200, 20));
-
-            for (int i = 0; i < 100; i++){
-                tiles.add(new TileModel(i*DISTANCE, 20));
-            }
-
-
 
 
     }
@@ -90,7 +96,29 @@ public class GameModel {
         return hero;
     }
 
+    public EntityModel getEnemy() {
+        return enemy;
+    }
+
+    public ArrayList<BulletModel> getBullets() {
+        return bullets;
+    }
+
+    public BulletModel createBullet(HeroModel model){
+        BulletModel bullet = bulletPool.obtain();
+
+        bullet.setFlaggedForRemoval(false);
+        bullet.setPosition(model.getX(),model.getY());
+        bullets.add(bullet);
+        return bullet;
+    }
+
     public void remove(EntityModel model){
+        if (model instanceof BulletModel) {
+            bullets.remove(model);
+            bulletPool.free((BulletModel) model);
+        }
+
         if(model instanceof GoldModel){
             golds.remove(model);
         }

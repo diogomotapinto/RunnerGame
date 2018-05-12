@@ -13,7 +13,7 @@ import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
-
+import com.mygdx.game.model.GameModel;
 
 
 public class GameView implements Screen {
@@ -67,6 +67,10 @@ public class GameView implements Screen {
             GameController.getInstance().jump(delta);
         }
 
+        if(Gdx.input.isKeyJustPressed(Input.Keys.S)){
+            GameController.getInstance().shoot();
+        }
+
     }
 
     public void update(float delta) {
@@ -90,7 +94,7 @@ public class GameView implements Screen {
         update(delta);
         Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-        //renderer.render();
+        renderer.render();
 
         game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
         gameHud.stage.draw();

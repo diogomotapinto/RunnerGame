@@ -8,7 +8,7 @@ public class TileBody extends EntityBody {
         super(world, model, isDynamic, false);
 
 
-        createFixtures(body, 0f,0f,0 , false);
+        createFixtures(body, 0f,0f,0 , false, 16);
 
     }
 }

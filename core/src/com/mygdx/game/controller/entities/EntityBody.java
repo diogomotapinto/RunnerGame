@@ -42,16 +42,15 @@ public abstract class EntityBody {
 
     }
 
-    void createFixtures(Body body, float density, float friction, float restitution, boolean isCircle){
+    void createFixtures(Body body, float density, float friction, float restitution, boolean isCircle, float size){
         CircleShape circle = new CircleShape();
         PolygonShape rect = new PolygonShape();
 
         if(isCircle) {
-
-            circle.setRadius(6f / PIXEL_TO_METER);
+            circle.setRadius(size / PIXEL_TO_METER);
         }else
         {
-            rect.setAsBox(16/PIXEL_TO_METER,4/PIXEL_TO_METER);
+            rect.setAsBox(size/PIXEL_TO_METER,4/PIXEL_TO_METER);
         }
 
 

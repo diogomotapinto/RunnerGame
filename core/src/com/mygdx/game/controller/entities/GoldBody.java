@@ -11,7 +11,7 @@ public class GoldBody extends EntityBody{
         super(world, model, isDynamic, false);
 
 
-        createFixtures(body, 0f,0f,0f , true);
+        createFixtures(body, 0f,0f,0f , true,6);
 
     }
 

@@ -5,6 +5,7 @@ import com.badlogic.gdx.Input;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
@@ -14,6 +15,12 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
 import com.mygdx.game.model.GameModel;
+import com.mygdx.game.model.entities.GoldModel;
+import com.mygdx.game.view.entities.EntityView;
+
+import java.util.ArrayList;
+
+import javax.swing.text.ViewFactory;
 
 
 public class GameView implements Screen {
@@ -46,7 +53,7 @@ public class GameView implements Screen {
         gameCamera.position.set(gamePort.getWorldWidth() / 2, gamePort.getWorldHeight() / 2, 0);
         gameHud = new GameHUD(game.getBatch());
         boxDebug = new Box2DDebugRenderer();
-
+        loadAssets();
 
     }
 
@@ -104,6 +111,21 @@ public class GameView implements Screen {
         //if(GameController.getInstance().getHeroBody().getBody().getPosition().y < 0){
          //   game.setScreen(new MainMenuView(this.game));
         //}
+    }
+
+    private void loadAssets(){
+        this.game.getAssetManager().load("gold.png", Texture.class);
+        this.game.getAssetManager().finishLoading();
+    }
+
+    private void drawEntities(){
+        ArrayList<GoldModel> goldList = GameModel.getInstance().getGolds();
+        for (GoldModel gold : goldList){
+            EntityView view = ViewFactory.makeView(game,gold);
+            view.update(gold);
+            view.draw(game.getBatch());
+        }
+
     }
 
     @Override

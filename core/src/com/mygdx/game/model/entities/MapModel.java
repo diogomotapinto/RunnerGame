@@ -6,6 +6,11 @@ import java.util.Map;
 
 public class MapModel extends EntityModel {
 
+    @Override
+    public ModelType getType() {
+        return null;
+    }
+
     public MapModel(){
 
     }

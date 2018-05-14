@@ -5,7 +5,6 @@ import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.Body;
 import com.badlogic.gdx.physics.box2d.Contact;
-import com.badlogic.gdx.physics.box2d.ContactFilter;
 import com.badlogic.gdx.physics.box2d.ContactImpulse;
 import com.badlogic.gdx.physics.box2d.ContactListener;
 import com.badlogic.gdx.physics.box2d.Manifold;
@@ -21,15 +20,9 @@ import com.mygdx.game.model.GameModel;
 import com.mygdx.game.model.entities.BulletModel;
 import com.mygdx.game.model.entities.EntityModel;
 import com.mygdx.game.model.entities.GoldModel;
-import com.mygdx.game.model.entities.HeroModel;
 import com.mygdx.game.model.entities.MapModel;
-import com.mygdx.game.utils.Utilities;
-import com.mygdx.game.view.GameView;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Random;
 
 import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 
@@ -125,11 +118,12 @@ public class GameController implements ContactListener {
     }
 
     public void shoot(){
-        GameModel.getInstance().getHero().setPosition(heroBody.getX()*100,heroBody.getY()*100);
+        GameModel.getInstance().getHero().setPosition(heroBody.getX()*PIXEL_TO_METER,heroBody.getY()*PIXEL_TO_METER);
         System.out.println(heroBody.getX());
-        BulletModel bullet = GameModel.getInstance().createBullet(GameModel.getInstance().getHero());
+        BulletModel bullet = GameModel.getInstance().createBullet(GameModel.getInstance().getHero().getPosition(),10,0);
         BulletBody body = new BulletBody(world, bullet,true);
-        body.getBody().applyLinearImpulse(new Vector2(10f / PIXEL_TO_METER, 0), heroBody.getBody().getWorldCenter(), true);
+        //body.getBody().applyLinearImpulse(new Vector2(10f / PIXEL_TO_METER, 0), heroBody.getBody().getWorldCenter(), true);
+        body.getBody().setLinearVelocity(1000f/PIXEL_TO_METER, 0f);
     }
 
     public ArrayList<TileBody> getTileBodyArray() {
@@ -140,11 +134,6 @@ public class GameController implements ContactListener {
         return xPosition;
 
     }
-
-
-
-
-
 
     public void setCameraPosition(float xPosition) {
         this.xPosition = xPosition;
@@ -174,17 +163,19 @@ public class GameController implements ContactListener {
     public void beginContact(Contact contact) {
         System.out.println("Contact");
         Body bodyA = contact.getFixtureA().getBody();
+        Body bodyB = contact.getFixtureB().getBody();
 
         if(bodyA.getUserData() instanceof MapModel){
             this.isContacted = true;
         }
 
         if (bodyA.getUserData() instanceof GoldModel) {
-            heroCollidesGold(bodyA);
+            goldCollides(bodyA);
         }
 
-        if (bodyA.getUserData() instanceof BulletModel) {
+        if (bodyA.getUserData() instanceof BulletModel && bodyB.getUserData() instanceof GoldModel) {
             bulletCollides(bodyA);
+            goldCollides(bodyB);
         }
     }
 
@@ -209,7 +200,7 @@ public class GameController implements ContactListener {
     }
 
 
-    private void heroCollidesGold(Body goldBody){
+    private void goldCollides(Body goldBody){
         ((GoldModel)goldBody.getUserData()).setFlaggedForRemoval(true);
     }
 

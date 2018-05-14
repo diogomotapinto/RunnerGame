@@ -104,11 +104,11 @@ public class GameModel {
         return bullets;
     }
 
-    public BulletModel createBullet(HeroModel model){
+    public BulletModel createBullet(Vector2 vec, int x, int y){
         BulletModel bullet = bulletPool.obtain();
 
         bullet.setFlaggedForRemoval(false);
-        bullet.setPosition(model.getX()+10,model.getY());
+        bullet.setPosition(vec.x+x,vec.y);
         bullets.add(bullet);
         return bullet;
     }

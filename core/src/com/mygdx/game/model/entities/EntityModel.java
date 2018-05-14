@@ -3,7 +3,7 @@ package com.mygdx.game.model.entities;
 import com.badlogic.gdx.math.Vector2;
 
 public abstract class EntityModel {
-
+    public enum ModelType {ENEMY,GOLD,HERO, BULLET};
 
     /**
      * The x-coordinate of the model in meters
@@ -105,6 +105,8 @@ public abstract class EntityModel {
     public void setFlaggedForRemoval(boolean flaggedForRemoval) {
         this.flaggedForRemoval = flaggedForRemoval;
     }
+
+    public abstract ModelType getType();
 
 
 }

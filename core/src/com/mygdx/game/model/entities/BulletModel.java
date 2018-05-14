@@ -6,4 +6,8 @@ public class BulletModel extends EntityModel{
         super(x, y);
     }
 
+    @Override
+    public ModelType getType() {
+        return ModelType.BULLET;
+    }
 }

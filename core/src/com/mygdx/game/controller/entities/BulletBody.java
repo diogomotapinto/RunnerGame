@@ -10,6 +10,6 @@ public class BulletBody extends EntityBody {
 
 
 
-        createFixtures(body,7.874f,0f,0f, true,2);
+        createFixtures(body,7.874f,0f,0f, true,2.5f);
     }
 }

@@ -82,7 +82,7 @@ public abstract class EntityBody {
     }
 
     public void setTransform(float x, float y, float angle){
-        body.setTransform(x,y,angle);
+        body.setTransform(x/PIXEL_TO_METER,y/PIXEL_TO_METER,angle);
 
     }
 

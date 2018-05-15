@@ -18,6 +18,7 @@ import com.mygdx.game.controller.GameController;
 import com.mygdx.game.model.GameModel;
 import com.mygdx.game.model.entities.BulletModel;
 import com.mygdx.game.model.entities.GoldModel;
+import com.mygdx.game.model.entities.HeroModel;
 import com.mygdx.game.view.entities.EntityView;
 import com.mygdx.game.view.entities.ViewFactory;
 import java.util.ArrayList;
@@ -104,7 +105,7 @@ public class GameView implements Screen {
         update(delta);
         Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-        renderer.render();
+        //renderer.render();
 
         game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
         gameHud.stage.draw();
@@ -120,6 +121,7 @@ public class GameView implements Screen {
     }
 
     private void loadAssets(){
+        this.game.getAssetManager().load("sonic.png", Texture.class);
         this.game.getAssetManager().load("newcoin.png", Texture.class);
         this.game.getAssetManager().load("gold.png", Texture.class);
         this.game.getAssetManager().finishLoading();
@@ -142,6 +144,11 @@ public class GameView implements Screen {
             view.draw(game.getBatch());
         }
 
+        HeroModel heroModel = GameModel.getInstance().getHero();
+
+        EntityView view = ViewFactory.makeView(game, heroModel);
+        view.update(heroModel);
+        view.draw(game.getBatch());
 
     }
 

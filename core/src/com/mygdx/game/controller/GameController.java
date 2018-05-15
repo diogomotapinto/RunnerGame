@@ -20,6 +20,7 @@ import com.mygdx.game.model.GameModel;
 import com.mygdx.game.model.entities.BulletModel;
 import com.mygdx.game.model.entities.EntityModel;
 import com.mygdx.game.model.entities.GoldModel;
+import com.mygdx.game.model.entities.HeroModel;
 import com.mygdx.game.model.entities.MapModel;
 
 import java.util.ArrayList;
@@ -88,12 +89,14 @@ public class GameController implements ContactListener {
 
         world.step(1/60f,6,2);
 
-        GameModel.getInstance().getHero().setPosition(heroBody.getX()* PIXEL_TO_METER,heroBody.getY()* PIXEL_TO_METER);
+
 
 
 
         for (Body body : bodies){
-            if((EntityModel) body.getUserData() instanceof  GoldModel || (EntityModel) body.getUserData() instanceof  BulletModel) {
+            if((EntityModel) body.getUserData() instanceof  GoldModel ||
+                    (EntityModel) body.getUserData() instanceof  BulletModel
+                    ||(EntityModel) body.getUserData() instanceof HeroModel) {
                 ((EntityModel) body.getUserData()).setPosition(body.getPosition().x* PIXEL_TO_METER, body.getPosition().y * PIXEL_TO_METER);
                 System.out.println( ((EntityModel) body.getUserData()).getY());
             }

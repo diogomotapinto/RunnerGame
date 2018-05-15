@@ -11,16 +11,18 @@ import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
 import com.badlogic.gdx.physics.box2d.Box2DDebugRenderer;
 import com.badlogic.gdx.utils.viewport.FitViewport;
+import com.badlogic.gdx.utils.viewport.StretchViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
 import com.mygdx.game.model.GameModel;
+import com.mygdx.game.model.entities.BulletModel;
 import com.mygdx.game.model.entities.GoldModel;
 import com.mygdx.game.view.entities.EntityView;
-
+import com.mygdx.game.view.entities.ViewFactory;
 import java.util.ArrayList;
 
-import javax.swing.text.ViewFactory;
+
 
 
 public class GameView implements Screen {
@@ -43,14 +45,14 @@ public class GameView implements Screen {
     public GameView(RunnerGame game) {
         this.game = game;
         gameCamera = new OrthographicCamera();
-        gamePort = new FitViewport(GameController.V_WIDTH / PIXEL_TO_METER, GameController.V_HEIGHT / PIXEL_TO_METER, gameCamera);
+        gamePort = new StretchViewport(GameController.V_WIDTH / PIXEL_TO_METER, GameController.V_HEIGHT / PIXEL_TO_METER, gameCamera);
         mapLoader = new TmxMapLoader();
         map = mapLoader.load("mapa.tmx");
         renderer = new OrthogonalTiledMapRenderer(map, 1 / PIXEL_TO_METER);
 
         GameController.getInstance().setCameraPosition(gamePort.getWorldWidth() / 2);
 
-        gameCamera.position.set(gamePort.getWorldWidth() / 2, gamePort.getWorldHeight() / 2, 0);
+        gameCamera.position.set(GameModel.getInstance().getHero().getX() / PIXEL_TO_METER, gamePort.getWorldHeight() / 2, 0);
         gameHud = new GameHUD(game.getBatch());
         boxDebug = new Box2DDebugRenderer();
         loadAssets();
@@ -83,7 +85,8 @@ public class GameView implements Screen {
     public void update(float delta) {
         handleInput(delta);
         GameController.getInstance().update(delta);
-        gameCamera.position.x =  GameController.getInstance().getHeroBody().getX();
+        //gameCamera.position.x =  GameController.getInstance().getHeroBody().getX();
+        gameCamera.position.set(GameModel.getInstance().getHero().getX() / PIXEL_TO_METER, gamePort.getWorldHeight() / 2, 0);
         seconds +=Gdx.graphics.getRawDeltaTime();
         gameHud.update(delta,  GameController.getInstance().getHeroBody().getX(), seconds);
         gameCamera.update();
@@ -105,6 +108,9 @@ public class GameView implements Screen {
 
         game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
         gameHud.stage.draw();
+        game.getBatch().begin();
+        drawEntities();
+        game.getBatch().end();
         boxDebug.render( GameController.getInstance().getWorld(), gameCamera.combined);
 
 
@@ -114,6 +120,7 @@ public class GameView implements Screen {
     }
 
     private void loadAssets(){
+        this.game.getAssetManager().load("newcoin.png", Texture.class);
         this.game.getAssetManager().load("gold.png", Texture.class);
         this.game.getAssetManager().finishLoading();
     }
@@ -121,10 +128,20 @@ public class GameView implements Screen {
     private void drawEntities(){
         ArrayList<GoldModel> goldList = GameModel.getInstance().getGolds();
         for (GoldModel gold : goldList){
+
             EntityView view = ViewFactory.makeView(game,gold);
             view.update(gold);
             view.draw(game.getBatch());
         }
+
+        ArrayList<BulletModel> bulletList = GameModel.getInstance().getBullets();
+        for (BulletModel bullet : bulletList){
+
+            EntityView view = ViewFactory.makeView(game,bullet);
+            view.update(bullet);
+            view.draw(game.getBatch());
+        }
+
 
     }
 

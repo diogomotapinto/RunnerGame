@@ -2,6 +2,8 @@ package com.mygdx.game.model.entities;
 
 import com.badlogic.gdx.math.Vector2;
 
+import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
+
 public abstract class EntityModel {
     public enum ModelType {ENEMY,GOLD,HERO, BULLET};
 

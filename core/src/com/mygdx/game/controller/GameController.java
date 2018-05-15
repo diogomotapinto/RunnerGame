@@ -80,14 +80,23 @@ public class GameController implements ContactListener {
     }
 
     public void update(float delta){
+
         Array<Body> bodies = new Array<Body>();
         world.getBodies(bodies);
 
 
 
         world.step(1/60f,6,2);
-        for (Body b : bodies){
 
+        GameModel.getInstance().getHero().setPosition(heroBody.getX()* PIXEL_TO_METER,heroBody.getY()* PIXEL_TO_METER);
+
+
+
+        for (Body body : bodies){
+            if((EntityModel) body.getUserData() instanceof  GoldModel || (EntityModel) body.getUserData() instanceof  BulletModel) {
+                ((EntityModel) body.getUserData()).setPosition(body.getPosition().x* PIXEL_TO_METER, body.getPosition().y * PIXEL_TO_METER);
+                System.out.println( ((EntityModel) body.getUserData()).getY());
+            }
         }
 
     }
@@ -119,7 +128,6 @@ public class GameController implements ContactListener {
 
     public void shoot(){
         GameModel.getInstance().getHero().setPosition(heroBody.getX()*PIXEL_TO_METER,heroBody.getY()*PIXEL_TO_METER);
-        System.out.println(heroBody.getX());
         BulletModel bullet = GameModel.getInstance().createBullet(GameModel.getInstance().getHero().getPosition(),10,0);
         BulletBody body = new BulletBody(world, bullet,true);
         //body.getBody().applyLinearImpulse(new Vector2(10f / PIXEL_TO_METER, 0), heroBody.getBody().getWorldCenter(), true);
@@ -161,7 +169,7 @@ public class GameController implements ContactListener {
 
     @Override
     public void beginContact(Contact contact) {
-        System.out.println("Contact");
+        //System.out.println("Contact");
         Body bodyA = contact.getFixtureA().getBody();
         Body bodyB = contact.getFixtureB().getBody();
 

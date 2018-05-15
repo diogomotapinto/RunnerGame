@@ -29,7 +29,7 @@ public abstract class EntityBody {
         if(isDynamic){
             bodyDef.type = BodyDef.BodyType.DynamicBody;
         }else{
-            bodyDef.type = BodyDef.BodyType.KinematicBody;
+            bodyDef.type = BodyDef.BodyType.StaticBody;
         }
         this.world = new World(new Vector2(0, -10), true);
 

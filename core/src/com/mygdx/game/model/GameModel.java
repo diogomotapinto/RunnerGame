@@ -108,7 +108,7 @@ public class GameModel {
         BulletModel bullet = bulletPool.obtain();
 
         bullet.setFlaggedForRemoval(false);
-        bullet.setPosition(vec.x+x,vec.y);
+        bullet.setPosition(PIXEL_TO_METER*vec.x+x,PIXEL_TO_METER*vec.y);
         bullets.add(bullet);
         return bullet;
     }

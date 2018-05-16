@@ -53,7 +53,7 @@ public class GameView implements Screen {
 
         GameController.getInstance().setCameraPosition(gamePort.getWorldWidth() / 2);
 
-        gameCamera.position.set(GameModel.getInstance().getHero().getX() / PIXEL_TO_METER, gamePort.getWorldHeight() / 2, 0);
+        gameCamera.position.set(GameController.getInstance().getHeroBody().getX(), gamePort.getWorldHeight() / 2, 0);
         gameHud = new GameHUD(game.getBatch());
         boxDebug = new Box2DDebugRenderer();
         loadAssets();
@@ -87,7 +87,7 @@ public class GameView implements Screen {
         handleInput(delta);
         GameController.getInstance().update(delta);
         //gameCamera.position.x =  GameController.getInstance().getHeroBody().getX();
-        gameCamera.position.set(GameModel.getInstance().getHero().getX() / PIXEL_TO_METER, gamePort.getWorldHeight() / 2, 0);
+        gameCamera.position.set( GameController.getInstance().getHeroBody().getX() , gamePort.getWorldHeight() / 2, 0);
         seconds +=Gdx.graphics.getRawDeltaTime();
         gameHud.update(delta,  GameController.getInstance().getHeroBody().getX(), seconds);
         gameCamera.update();
@@ -140,6 +140,7 @@ public class GameView implements Screen {
         for (BulletModel bullet : bulletList){
 
             EntityView view = ViewFactory.makeView(game,bullet);
+            bullet.setPosition(bullet.getX()*1,bullet.getY()*1);
             view.update(bullet);
             view.draw(game.getBatch());
         }
@@ -147,6 +148,7 @@ public class GameView implements Screen {
         HeroModel heroModel = GameModel.getInstance().getHero();
 
         EntityView view = ViewFactory.makeView(game, heroModel);
+
         view.update(heroModel);
         view.draw(game.getBatch());
 

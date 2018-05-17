@@ -35,6 +35,7 @@
     <orderEntry type="library" exported="" name="gdx-box2d-platform-1.9.8-natives-ios" level="project" />
     <orderEntry type="library" exported="" name="gdx-1.9.8" level="project" />
     <orderEntry type="library" exported="" name="gdx-box2d-1.9.8" level="project" />
+    <orderEntry type="library" exported="" name="gdx-gamesvcs-core-0.2.3" level="project" />
     <orderEntry type="library" exported="" name="robovm-objc-2.3.3" level="project" />
   </component>
 </module>

@@ -41,7 +41,7 @@ public class GameView implements Screen {
     /**
      * How much meters does a pixel represent.
      */
-    public final static float PIXEL_TO_METER = 100;
+    public final static float PIXEL_TO_METER = 100f;
 
     public GameView(RunnerGame game) {
         this.game = game;
@@ -105,7 +105,7 @@ public class GameView implements Screen {
         update(delta);
         Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-        //renderer.render();
+        renderer.render();
 
         game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
         gameHud.stage.draw();

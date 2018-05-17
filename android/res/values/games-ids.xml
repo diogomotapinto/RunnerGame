@@ -10,4 +10,6 @@ Save this file as res/values/games-ids.xml in your project.
     <string name="package_name" translatable="false">com.mygdx.game</string>
     <!-- achievement You're a Winner -->
     <string name="achievement_youre_a_winner" translatable="false">CgkI5YmPpsIdEAIQAQ</string>
+    <!-- leaderboard Leaderboard -->
+    <string name="leaderboard_leaderboard" translatable="false">CgkI5YmPpsIdEAIQAg</string>
 </resources>

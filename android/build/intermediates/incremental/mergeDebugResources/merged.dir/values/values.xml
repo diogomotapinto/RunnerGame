@@ -224,6 +224,7 @@
     <string name="gamehelper_license_failed">License check failed.</string>
     <string name="gamehelper_sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
     <string name="gamehelper_unknown_error">Unknown error.</string>
+    <string name="leaderboard_leaderboard" translatable="false">CgkI5YmPpsIdEAIQAg</string>
     <string name="license_failed">License check failed.</string>
     <string name="package_name" translatable="false">com.mygdx.game</string>
     <string name="sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>

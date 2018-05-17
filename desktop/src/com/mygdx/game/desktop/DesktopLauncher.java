@@ -11,6 +11,6 @@ public class DesktopLauncher {
 		cfg.useGL30 = false;
 		cfg.width = 640;
 		cfg.height = 360;
-		new LwjglApplication(new RunnerGame(), cfg);
+		new LwjglApplication(new RunnerGame(new NullPlayServices()), cfg);
 	}
 }

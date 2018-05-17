@@ -2800,8 +2800,27 @@
                     "startLine": 226,
                     "startColumn": 4,
                     "startOffset": 18091,
+                    "endColumn": 91,
+                    "endOffset": 18178
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/git/RunnerGame/android/res/values/games-ids.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 521,
+                        "endColumn": 91,
+                        "endOffset": 608
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 227,
+                    "startColumn": 4,
+                    "startOffset": 18183,
                     "endColumn": 64,
-                    "endOffset": 18151
+                    "endOffset": 18243
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/bundles/default/res/values/values.xml",
@@ -2816,11 +2835,11 @@
             },
             {
                 "to": {
-                    "startLine": 227,
+                    "startLine": 228,
                     "startColumn": 4,
-                    "startOffset": 18156,
+                    "startOffset": 18248,
                     "endColumn": 76,
-                    "endOffset": 18228
+                    "endOffset": 18320
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/git/RunnerGame/android/res/values/games-ids.xml",
@@ -2835,11 +2854,11 @@
             },
             {
                 "to": {
-                    "startLine": 228,
+                    "startLine": 229,
                     "startColumn": 4,
-                    "startOffset": 18233,
+                    "startOffset": 18325,
                     "endColumn": 113,
-                    "endOffset": 18342
+                    "endOffset": 18434
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/bundles/default/res/values/values.xml",
@@ -2854,11 +2873,11 @@
             },
             {
                 "to": {
-                    "startLine": 229,
+                    "startLine": 230,
                     "startColumn": 4,
-                    "startOffset": 18347,
+                    "startOffset": 18439,
                     "endColumn": 104,
-                    "endOffset": 18447
+                    "endOffset": 18539
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/bundles/default/res/values/values.xml",
@@ -2873,11 +2892,11 @@
             },
             {
                 "to": {
-                    "startLine": 230,
+                    "startLine": 231,
                     "startColumn": 4,
-                    "startOffset": 18452,
+                    "startOffset": 18544,
                     "endColumn": 56,
-                    "endOffset": 18504
+                    "endOffset": 18596
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/bundles/default/res/values/values.xml",
@@ -2892,12 +2911,12 @@
             },
             {
                 "to": {
-                    "startLine": 231,
+                    "startLine": 232,
                     "startColumn": 4,
-                    "startOffset": 18509,
-                    "endLine": 238,
+                    "startOffset": 18601,
+                    "endLine": 239,
                     "endColumn": 12,
-                    "endOffset": 18967
+                    "endOffset": 19059
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/git/RunnerGame/android/res/values/styles.xml",
@@ -2913,12 +2932,12 @@
             },
             {
                 "to": {
-                    "startLine": 239,
+                    "startLine": 240,
                     "startColumn": 4,
-                    "startOffset": 18972,
-                    "endLine": 241,
+                    "startOffset": 19064,
+                    "endLine": 242,
                     "endColumn": 12,
-                    "endOffset": 19167
+                    "endOffset": 19259
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -2934,12 +2953,12 @@
             },
             {
                 "to": {
-                    "startLine": 242,
+                    "startLine": 243,
                     "startColumn": 4,
-                    "startOffset": 19172,
-                    "endLine": 246,
+                    "startOffset": 19264,
+                    "endLine": 247,
                     "endColumn": 12,
-                    "endOffset": 19450
+                    "endOffset": 19542
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -2955,12 +2974,12 @@
             },
             {
                 "to": {
-                    "startLine": 247,
+                    "startLine": 248,
                     "startColumn": 4,
-                    "startOffset": 19455,
-                    "endLine": 250,
+                    "startOffset": 19547,
+                    "endLine": 251,
                     "endColumn": 12,
-                    "endOffset": 19658
+                    "endOffset": 19750
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -2976,12 +2995,12 @@
             },
             {
                 "to": {
-                    "startLine": 251,
+                    "startLine": 252,
                     "startColumn": 4,
-                    "startOffset": 19663,
-                    "endLine": 253,
+                    "startOffset": 19755,
+                    "endLine": 254,
                     "endColumn": 12,
-                    "endOffset": 19789
+                    "endOffset": 19881
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -2997,12 +3016,12 @@
             },
             {
                 "to": {
-                    "startLine": 254,
+                    "startLine": 255,
                     "startColumn": 4,
-                    "startOffset": 19794,
-                    "endLine": 257,
+                    "startOffset": 19886,
+                    "endLine": 258,
                     "endColumn": 12,
-                    "endOffset": 20051
+                    "endOffset": 20143
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3018,12 +3037,12 @@
             },
             {
                 "to": {
-                    "startLine": 258,
+                    "startLine": 259,
                     "startColumn": 4,
-                    "startOffset": 20056,
-                    "endLine": 261,
+                    "startOffset": 20148,
+                    "endLine": 262,
                     "endColumn": 12,
-                    "endOffset": 20313
+                    "endOffset": 20405
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3039,12 +3058,12 @@
             },
             {
                 "to": {
-                    "startLine": 262,
+                    "startLine": 263,
                     "startColumn": 4,
-                    "startOffset": 20318,
-                    "endLine": 265,
+                    "startOffset": 20410,
+                    "endLine": 266,
                     "endColumn": 12,
-                    "endOffset": 20591
+                    "endOffset": 20683
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3060,12 +3079,12 @@
             },
             {
                 "to": {
-                    "startLine": 266,
+                    "startLine": 267,
                     "startColumn": 4,
-                    "startOffset": 20596,
-                    "endLine": 269,
+                    "startOffset": 20688,
+                    "endLine": 270,
                     "endColumn": 12,
-                    "endOffset": 20805
+                    "endOffset": 20897
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3081,12 +3100,12 @@
             },
             {
                 "to": {
-                    "startLine": 270,
+                    "startLine": 271,
                     "startColumn": 4,
-                    "startOffset": 20810,
-                    "endLine": 272,
+                    "startOffset": 20902,
+                    "endLine": 273,
                     "endColumn": 12,
-                    "endOffset": 20942
+                    "endOffset": 21034
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3102,11 +3121,11 @@
             },
             {
                 "to": {
-                    "startLine": 273,
+                    "startLine": 274,
                     "startColumn": 4,
-                    "startOffset": 20947,
+                    "startOffset": 21039,
                     "endColumn": 140,
-                    "endOffset": 21083
+                    "endOffset": 21175
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3121,11 +3140,11 @@
             },
             {
                 "to": {
-                    "startLine": 274,
+                    "startLine": 275,
                     "startColumn": 4,
-                    "startOffset": 21088,
+                    "startOffset": 21180,
                     "endColumn": 140,
-                    "endOffset": 21224
+                    "endOffset": 21316
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3140,11 +3159,11 @@
             },
             {
                 "to": {
-                    "startLine": 275,
+                    "startLine": 276,
                     "startColumn": 4,
-                    "startOffset": 21229,
+                    "startOffset": 21321,
                     "endColumn": 139,
-                    "endOffset": 21364
+                    "endOffset": 21456
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3159,11 +3178,11 @@
             },
             {
                 "to": {
-                    "startLine": 276,
+                    "startLine": 277,
                     "startColumn": 4,
-                    "startOffset": 21369,
+                    "startOffset": 21461,
                     "endColumn": 133,
-                    "endOffset": 21498
+                    "endOffset": 21590
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3178,11 +3197,11 @@
             },
             {
                 "to": {
-                    "startLine": 277,
+                    "startLine": 278,
                     "startColumn": 4,
-                    "startOffset": 21503,
+                    "startOffset": 21595,
                     "endColumn": 141,
-                    "endOffset": 21640
+                    "endOffset": 21732
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3197,11 +3216,11 @@
             },
             {
                 "to": {
-                    "startLine": 278,
+                    "startLine": 279,
                     "startColumn": 4,
-                    "startOffset": 21645,
+                    "startOffset": 21737,
                     "endColumn": 141,
-                    "endOffset": 21782
+                    "endOffset": 21874
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3216,11 +3235,11 @@
             },
             {
                 "to": {
-                    "startLine": 279,
+                    "startLine": 280,
                     "startColumn": 4,
-                    "startOffset": 21787,
+                    "startOffset": 21879,
                     "endColumn": 127,
-                    "endOffset": 21910
+                    "endOffset": 22002
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3235,11 +3254,11 @@
             },
             {
                 "to": {
-                    "startLine": 280,
+                    "startLine": 281,
                     "startColumn": 4,
-                    "startOffset": 21915,
+                    "startOffset": 22007,
                     "endColumn": 121,
-                    "endOffset": 22032
+                    "endOffset": 22124
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3254,11 +3273,11 @@
             },
             {
                 "to": {
-                    "startLine": 281,
+                    "startLine": 282,
                     "startColumn": 4,
-                    "startOffset": 22037,
+                    "startOffset": 22129,
                     "endColumn": 127,
-                    "endOffset": 22160
+                    "endOffset": 22252
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3273,11 +3292,11 @@
             },
             {
                 "to": {
-                    "startLine": 282,
+                    "startLine": 283,
                     "startColumn": 4,
-                    "startOffset": 22165,
+                    "startOffset": 22257,
                     "endColumn": 135,
-                    "endOffset": 22296
+                    "endOffset": 22388
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3292,11 +3311,11 @@
             },
             {
                 "to": {
-                    "startLine": 283,
+                    "startLine": 284,
                     "startColumn": 4,
-                    "startOffset": 22301,
+                    "startOffset": 22393,
                     "endColumn": 151,
-                    "endOffset": 22448
+                    "endOffset": 22540
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3311,11 +3330,11 @@
             },
             {
                 "to": {
-                    "startLine": 284,
+                    "startLine": 285,
                     "startColumn": 4,
-                    "startOffset": 22453,
+                    "startOffset": 22545,
                     "endColumn": 129,
-                    "endOffset": 22578
+                    "endOffset": 22670
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3330,11 +3349,11 @@
             },
             {
                 "to": {
-                    "startLine": 285,
+                    "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 22583,
+                    "startOffset": 22675,
                     "endColumn": 145,
-                    "endOffset": 22724
+                    "endOffset": 22816
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3349,11 +3368,11 @@
             },
             {
                 "to": {
-                    "startLine": 286,
+                    "startLine": 287,
                     "startColumn": 4,
-                    "startOffset": 22729,
+                    "startOffset": 22821,
                     "endColumn": 137,
-                    "endOffset": 22862
+                    "endOffset": 22954
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3368,11 +3387,11 @@
             },
             {
                 "to": {
-                    "startLine": 287,
+                    "startLine": 288,
                     "startColumn": 4,
-                    "startOffset": 22867,
+                    "startOffset": 22959,
                     "endColumn": 153,
-                    "endOffset": 23016
+                    "endOffset": 23108
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3387,11 +3406,11 @@
             },
             {
                 "to": {
-                    "startLine": 288,
+                    "startLine": 289,
                     "startColumn": 4,
-                    "startOffset": 23021,
+                    "startOffset": 23113,
                     "endColumn": 131,
-                    "endOffset": 23148
+                    "endOffset": 23240
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3406,11 +3425,11 @@
             },
             {
                 "to": {
-                    "startLine": 289,
+                    "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 23153,
+                    "startOffset": 23245,
                     "endColumn": 147,
-                    "endOffset": 23296
+                    "endOffset": 23388
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3425,12 +3444,12 @@
             },
             {
                 "to": {
-                    "startLine": 290,
+                    "startLine": 291,
                     "startColumn": 4,
-                    "startOffset": 23301,
-                    "endLine": 294,
+                    "startOffset": 23393,
+                    "endLine": 295,
                     "endColumn": 12,
-                    "endOffset": 23591
+                    "endOffset": 23683
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3446,12 +3465,12 @@
             },
             {
                 "to": {
-                    "startLine": 295,
+                    "startLine": 296,
                     "startColumn": 4,
-                    "startOffset": 23596,
-                    "endLine": 297,
+                    "startOffset": 23688,
+                    "endLine": 298,
                     "endColumn": 12,
-                    "endOffset": 23803
+                    "endOffset": 23895
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3467,12 +3486,12 @@
             },
             {
                 "to": {
-                    "startLine": 298,
+                    "startLine": 299,
                     "startColumn": 4,
-                    "startOffset": 23808,
-                    "endLine": 300,
+                    "startOffset": 23900,
+                    "endLine": 301,
                     "endColumn": 12,
-                    "endOffset": 24031
+                    "endOffset": 24123
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3488,12 +3507,12 @@
             },
             {
                 "to": {
-                    "startLine": 301,
+                    "startLine": 302,
                     "startColumn": 4,
-                    "startOffset": 24036,
-                    "endLine": 303,
+                    "startOffset": 24128,
+                    "endLine": 304,
                     "endColumn": 12,
-                    "endOffset": 24238
+                    "endOffset": 24330
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3509,12 +3528,12 @@
             },
             {
                 "to": {
-                    "startLine": 304,
+                    "startLine": 305,
                     "startColumn": 4,
-                    "startOffset": 24243,
-                    "endLine": 306,
+                    "startOffset": 24335,
+                    "endLine": 307,
                     "endColumn": 12,
-                    "endOffset": 24461
+                    "endOffset": 24553
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3530,12 +3549,12 @@
             },
             {
                 "to": {
-                    "startLine": 307,
+                    "startLine": 308,
                     "startColumn": 4,
-                    "startOffset": 24466,
-                    "endLine": 309,
+                    "startOffset": 24558,
+                    "endLine": 310,
                     "endColumn": 12,
-                    "endOffset": 24667
+                    "endOffset": 24759
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3551,12 +3570,12 @@
             },
             {
                 "to": {
-                    "startLine": 310,
+                    "startLine": 311,
                     "startColumn": 4,
-                    "startOffset": 24672,
-                    "endLine": 312,
+                    "startOffset": 24764,
+                    "endLine": 313,
                     "endColumn": 12,
-                    "endOffset": 24896
+                    "endOffset": 24988
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3572,11 +3591,11 @@
             },
             {
                 "to": {
-                    "startLine": 313,
+                    "startLine": 314,
                     "startColumn": 4,
-                    "startOffset": 24901,
+                    "startOffset": 24993,
                     "endColumn": 112,
-                    "endOffset": 25009
+                    "endOffset": 25101
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3591,11 +3610,11 @@
             },
             {
                 "to": {
-                    "startLine": 314,
+                    "startLine": 315,
                     "startColumn": 4,
-                    "startOffset": 25014,
+                    "startOffset": 25106,
                     "endColumn": 128,
-                    "endOffset": 25138
+                    "endOffset": 25230
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3610,12 +3629,12 @@
             },
             {
                 "to": {
-                    "startLine": 315,
+                    "startLine": 316,
                     "startColumn": 4,
-                    "startOffset": 25143,
-                    "endLine": 317,
+                    "startOffset": 25235,
+                    "endLine": 318,
                     "endColumn": 12,
-                    "endOffset": 25346
+                    "endOffset": 25438
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3631,11 +3650,11 @@
             },
             {
                 "to": {
-                    "startLine": 318,
+                    "startLine": 319,
                     "startColumn": 4,
-                    "startOffset": 25351,
+                    "startOffset": 25443,
                     "endColumn": 123,
-                    "endOffset": 25470
+                    "endOffset": 25562
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3650,11 +3669,11 @@
             },
             {
                 "to": {
-                    "startLine": 319,
+                    "startLine": 320,
                     "startColumn": 4,
-                    "startOffset": 25475,
+                    "startOffset": 25567,
                     "endColumn": 129,
-                    "endOffset": 25600
+                    "endOffset": 25692
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3669,11 +3688,11 @@
             },
             {
                 "to": {
-                    "startLine": 320,
+                    "startLine": 321,
                     "startColumn": 4,
-                    "startOffset": 25605,
+                    "startOffset": 25697,
                     "endColumn": 129,
-                    "endOffset": 25730
+                    "endOffset": 25822
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3688,12 +3707,12 @@
             },
             {
                 "to": {
-                    "startLine": 321,
+                    "startLine": 322,
                     "startColumn": 4,
-                    "startOffset": 25735,
-                    "endLine": 323,
+                    "startOffset": 25827,
+                    "endLine": 324,
                     "endColumn": 12,
-                    "endOffset": 25944
+                    "endOffset": 26036
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3709,11 +3728,11 @@
             },
             {
                 "to": {
-                    "startLine": 324,
+                    "startLine": 325,
                     "startColumn": 4,
-                    "startOffset": 25949,
+                    "startOffset": 26041,
                     "endColumn": 133,
-                    "endOffset": 26078
+                    "endOffset": 26170
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3728,12 +3747,12 @@
             },
             {
                 "to": {
-                    "startLine": 325,
+                    "startLine": 326,
                     "startColumn": 4,
-                    "startOffset": 26083,
-                    "endLine": 358,
+                    "startOffset": 26175,
+                    "endLine": 359,
                     "endColumn": 12,
-                    "endOffset": 28567
+                    "endOffset": 28659
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3749,12 +3768,12 @@
             },
             {
                 "to": {
-                    "startLine": 359,
+                    "startLine": 360,
                     "startColumn": 4,
-                    "startOffset": 28572,
-                    "endLine": 362,
+                    "startOffset": 28664,
+                    "endLine": 363,
                     "endColumn": 12,
-                    "endOffset": 28854
+                    "endOffset": 28946
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3770,12 +3789,12 @@
             },
             {
                 "to": {
-                    "startLine": 363,
+                    "startLine": 364,
                     "startColumn": 4,
-                    "startOffset": 28859,
-                    "endLine": 366,
+                    "startOffset": 28951,
+                    "endLine": 367,
                     "endColumn": 12,
-                    "endOffset": 29145
+                    "endOffset": 29237
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3791,11 +3810,11 @@
             },
             {
                 "to": {
-                    "startLine": 367,
+                    "startLine": 368,
                     "startColumn": 4,
-                    "startOffset": 29150,
+                    "startOffset": 29242,
                     "endColumn": 89,
-                    "endOffset": 29235
+                    "endOffset": 29327
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3810,11 +3829,11 @@
             },
             {
                 "to": {
-                    "startLine": 368,
+                    "startLine": 369,
                     "startColumn": 4,
-                    "startOffset": 29240,
+                    "startOffset": 29332,
                     "endColumn": 103,
-                    "endOffset": 29339
+                    "endOffset": 29431
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3829,11 +3848,11 @@
             },
             {
                 "to": {
-                    "startLine": 369,
+                    "startLine": 370,
                     "startColumn": 4,
-                    "startOffset": 29344,
+                    "startOffset": 29436,
                     "endColumn": 97,
-                    "endOffset": 29437
+                    "endOffset": 29529
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3848,12 +3867,12 @@
             },
             {
                 "to": {
-                    "startLine": 370,
+                    "startLine": 371,
                     "startColumn": 4,
-                    "startOffset": 29442,
-                    "endLine": 403,
+                    "startOffset": 29534,
+                    "endLine": 404,
                     "endColumn": 12,
-                    "endOffset": 32065
+                    "endOffset": 32157
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3869,12 +3888,12 @@
             },
             {
                 "to": {
-                    "startLine": 404,
+                    "startLine": 405,
                     "startColumn": 4,
-                    "startOffset": 32070,
-                    "endLine": 437,
+                    "startOffset": 32162,
+                    "endLine": 438,
                     "endColumn": 12,
-                    "endOffset": 34617
+                    "endOffset": 34709
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3890,11 +3909,11 @@
             },
             {
                 "to": {
-                    "startLine": 438,
+                    "startLine": 439,
                     "startColumn": 4,
-                    "startOffset": 34622,
+                    "startOffset": 34714,
                     "endColumn": 109,
-                    "endOffset": 34727
+                    "endOffset": 34819
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3909,11 +3928,11 @@
             },
             {
                 "to": {
-                    "startLine": 439,
+                    "startLine": 440,
                     "startColumn": 4,
-                    "startOffset": 34732,
+                    "startOffset": 34824,
                     "endColumn": 53,
-                    "endOffset": 34781
+                    "endOffset": 34873
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3928,12 +3947,12 @@
             },
             {
                 "to": {
-                    "startLine": 440,
+                    "startLine": 441,
                     "startColumn": 4,
-                    "startOffset": 34786,
-                    "endLine": 486,
+                    "startOffset": 34878,
+                    "endLine": 487,
                     "endColumn": 12,
-                    "endOffset": 38155
+                    "endOffset": 38247
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3949,12 +3968,12 @@
             },
             {
                 "to": {
-                    "startLine": 487,
+                    "startLine": 488,
                     "startColumn": 4,
-                    "startOffset": 38160,
-                    "endLine": 520,
+                    "startOffset": 38252,
+                    "endLine": 521,
                     "endColumn": 12,
-                    "endOffset": 40570
+                    "endOffset": 40662
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3970,11 +3989,11 @@
             },
             {
                 "to": {
-                    "startLine": 521,
+                    "startLine": 522,
                     "startColumn": 4,
-                    "startOffset": 40575,
+                    "startOffset": 40667,
                     "endColumn": 110,
-                    "endOffset": 40681
+                    "endOffset": 40773
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -3989,11 +4008,11 @@
             },
             {
                 "to": {
-                    "startLine": 522,
+                    "startLine": 523,
                     "startColumn": 4,
-                    "startOffset": 40686,
+                    "startOffset": 40778,
                     "endColumn": 86,
-                    "endOffset": 40768
+                    "endOffset": 40860
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4008,12 +4027,12 @@
             },
             {
                 "to": {
-                    "startLine": 523,
+                    "startLine": 524,
                     "startColumn": 4,
-                    "startOffset": 40773,
-                    "endLine": 571,
+                    "startOffset": 40865,
+                    "endLine": 572,
                     "endColumn": 12,
-                    "endOffset": 44271
+                    "endOffset": 44363
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4029,12 +4048,12 @@
             },
             {
                 "to": {
-                    "startLine": 572,
+                    "startLine": 573,
                     "startColumn": 4,
-                    "startOffset": 44276,
-                    "endLine": 597,
+                    "startOffset": 44368,
+                    "endLine": 598,
                     "endColumn": 12,
-                    "endOffset": 46189
+                    "endOffset": 46281
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4050,11 +4069,11 @@
             },
             {
                 "to": {
-                    "startLine": 598,
+                    "startLine": 599,
                     "startColumn": 4,
-                    "startOffset": 46194,
+                    "startOffset": 46286,
                     "endColumn": 98,
-                    "endOffset": 46288
+                    "endOffset": 46380
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4069,11 +4088,11 @@
             },
             {
                 "to": {
-                    "startLine": 599,
+                    "startLine": 600,
                     "startColumn": 4,
-                    "startOffset": 46293,
+                    "startOffset": 46385,
                     "endColumn": 65,
-                    "endOffset": 46354
+                    "endOffset": 46446
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4088,11 +4107,11 @@
             },
             {
                 "to": {
-                    "startLine": 600,
+                    "startLine": 601,
                     "startColumn": 4,
-                    "startOffset": 46359,
+                    "startOffset": 46451,
                     "endColumn": 87,
-                    "endOffset": 46442
+                    "endOffset": 46534
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4107,11 +4126,11 @@
             },
             {
                 "to": {
-                    "startLine": 601,
+                    "startLine": 602,
                     "startColumn": 4,
-                    "startOffset": 46447,
+                    "startOffset": 46539,
                     "endColumn": 99,
-                    "endOffset": 46542
+                    "endOffset": 46634
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4126,11 +4145,11 @@
             },
             {
                 "to": {
-                    "startLine": 602,
+                    "startLine": 603,
                     "startColumn": 4,
-                    "startOffset": 46547,
+                    "startOffset": 46639,
                     "endColumn": 101,
-                    "endOffset": 46644
+                    "endOffset": 46736
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4145,11 +4164,11 @@
             },
             {
                 "to": {
-                    "startLine": 603,
+                    "startLine": 604,
                     "startColumn": 4,
-                    "startOffset": 46649,
+                    "startOffset": 46741,
                     "endColumn": 103,
-                    "endOffset": 46748
+                    "endOffset": 46840
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4164,11 +4183,11 @@
             },
             {
                 "to": {
-                    "startLine": 604,
+                    "startLine": 605,
                     "startColumn": 4,
-                    "startOffset": 46753,
+                    "startOffset": 46845,
                     "endColumn": 103,
-                    "endOffset": 46852
+                    "endOffset": 46944
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4183,11 +4202,11 @@
             },
             {
                 "to": {
-                    "startLine": 605,
+                    "startLine": 606,
                     "startColumn": 4,
-                    "startOffset": 46857,
+                    "startOffset": 46949,
                     "endColumn": 93,
-                    "endOffset": 46946
+                    "endOffset": 47038
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4202,11 +4221,11 @@
             },
             {
                 "to": {
-                    "startLine": 606,
+                    "startLine": 607,
                     "startColumn": 4,
-                    "startOffset": 46951,
+                    "startOffset": 47043,
                     "endColumn": 113,
-                    "endOffset": 47060
+                    "endOffset": 47152
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4221,11 +4240,11 @@
             },
             {
                 "to": {
-                    "startLine": 607,
+                    "startLine": 608,
                     "startColumn": 4,
-                    "startOffset": 47065,
+                    "startOffset": 47157,
                     "endColumn": 111,
-                    "endOffset": 47172
+                    "endOffset": 47264
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4240,11 +4259,11 @@
             },
             {
                 "to": {
-                    "startLine": 608,
+                    "startLine": 609,
                     "startColumn": 4,
-                    "startOffset": 47177,
+                    "startOffset": 47269,
                     "endColumn": 89,
-                    "endOffset": 47262
+                    "endOffset": 47354
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4259,11 +4278,11 @@
             },
             {
                 "to": {
-                    "startLine": 609,
+                    "startLine": 610,
                     "startColumn": 4,
-                    "startOffset": 47267,
+                    "startOffset": 47359,
                     "endColumn": 107,
-                    "endOffset": 47370
+                    "endOffset": 47462
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4278,11 +4297,11 @@
             },
             {
                 "to": {
-                    "startLine": 610,
+                    "startLine": 611,
                     "startColumn": 4,
-                    "startOffset": 47375,
+                    "startOffset": 47467,
                     "endColumn": 109,
-                    "endOffset": 47480
+                    "endOffset": 47572
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4297,12 +4316,12 @@
             },
             {
                 "to": {
-                    "startLine": 611,
+                    "startLine": 612,
                     "startColumn": 4,
-                    "startOffset": 47485,
-                    "endLine": 625,
+                    "startOffset": 47577,
+                    "endLine": 626,
                     "endColumn": 12,
-                    "endOffset": 48633
+                    "endOffset": 48725
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4318,12 +4337,12 @@
             },
             {
                 "to": {
-                    "startLine": 626,
+                    "startLine": 627,
                     "startColumn": 4,
-                    "startOffset": 48638,
-                    "endLine": 630,
+                    "startOffset": 48730,
+                    "endLine": 631,
                     "endColumn": 12,
-                    "endOffset": 48987
+                    "endOffset": 49079
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4339,12 +4358,12 @@
             },
             {
                 "to": {
-                    "startLine": 631,
+                    "startLine": 632,
                     "startColumn": 4,
-                    "startOffset": 48992,
-                    "endLine": 635,
+                    "startOffset": 49084,
+                    "endLine": 636,
                     "endColumn": 12,
-                    "endOffset": 49224
+                    "endOffset": 49316
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4360,12 +4379,12 @@
             },
             {
                 "to": {
-                    "startLine": 636,
+                    "startLine": 637,
                     "startColumn": 4,
-                    "startOffset": 49229,
-                    "endLine": 644,
+                    "startOffset": 49321,
+                    "endLine": 645,
                     "endColumn": 12,
-                    "endOffset": 49698
+                    "endOffset": 49790
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4381,12 +4400,12 @@
             },
             {
                 "to": {
-                    "startLine": 645,
+                    "startLine": 646,
                     "startColumn": 4,
-                    "startOffset": 49703,
-                    "endLine": 651,
+                    "startOffset": 49795,
+                    "endLine": 652,
                     "endColumn": 12,
-                    "endOffset": 50085
+                    "endOffset": 50177
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4402,12 +4421,12 @@
             },
             {
                 "to": {
-                    "startLine": 652,
+                    "startLine": 653,
                     "startColumn": 4,
-                    "startOffset": 50090,
-                    "endLine": 661,
+                    "startOffset": 50182,
+                    "endLine": 662,
                     "endColumn": 12,
-                    "endOffset": 50671
+                    "endOffset": 50763
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4423,11 +4442,11 @@
             },
             {
                 "to": {
-                    "startLine": 662,
+                    "startLine": 663,
                     "startColumn": 4,
-                    "startOffset": 50676,
+                    "startOffset": 50768,
                     "endColumn": 108,
-                    "endOffset": 50780
+                    "endOffset": 50872
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4442,12 +4461,12 @@
             },
             {
                 "to": {
-                    "startLine": 663,
+                    "startLine": 664,
                     "startColumn": 4,
-                    "startOffset": 50785,
-                    "endLine": 665,
+                    "startOffset": 50877,
+                    "endLine": 666,
                     "endColumn": 12,
-                    "endOffset": 50992
+                    "endOffset": 51084
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4463,12 +4482,12 @@
             },
             {
                 "to": {
-                    "startLine": 666,
+                    "startLine": 667,
                     "startColumn": 4,
-                    "startOffset": 50997,
-                    "endLine": 672,
+                    "startOffset": 51089,
+                    "endLine": 673,
                     "endColumn": 12,
-                    "endOffset": 51468
+                    "endOffset": 51560
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4484,12 +4503,12 @@
             },
             {
                 "to": {
-                    "startLine": 673,
+                    "startLine": 674,
                     "startColumn": 4,
-                    "startOffset": 51473,
-                    "endLine": 679,
+                    "startOffset": 51565,
+                    "endLine": 680,
                     "endColumn": 12,
-                    "endOffset": 51842
+                    "endOffset": 51934
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4505,12 +4524,12 @@
             },
             {
                 "to": {
-                    "startLine": 680,
+                    "startLine": 681,
                     "startColumn": 4,
-                    "startOffset": 51847,
-                    "endLine": 684,
+                    "startOffset": 51939,
+                    "endLine": 685,
                     "endColumn": 12,
-                    "endOffset": 52221
+                    "endOffset": 52313
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4526,12 +4545,12 @@
             },
             {
                 "to": {
-                    "startLine": 685,
+                    "startLine": 686,
                     "startColumn": 4,
-                    "startOffset": 52226,
-                    "endLine": 690,
+                    "startOffset": 52318,
+                    "endLine": 691,
                     "endColumn": 12,
-                    "endOffset": 52574
+                    "endOffset": 52666
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4547,12 +4566,12 @@
             },
             {
                 "to": {
-                    "startLine": 691,
+                    "startLine": 692,
                     "startColumn": 4,
-                    "startOffset": 52579,
-                    "endLine": 697,
+                    "startOffset": 52671,
+                    "endLine": 698,
                     "endColumn": 12,
-                    "endOffset": 53034
+                    "endOffset": 53126
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4568,12 +4587,12 @@
             },
             {
                 "to": {
-                    "startLine": 698,
+                    "startLine": 699,
                     "startColumn": 4,
-                    "startOffset": 53039,
-                    "endLine": 700,
+                    "startOffset": 53131,
+                    "endLine": 701,
                     "endColumn": 12,
-                    "endOffset": 53226
+                    "endOffset": 53318
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4589,12 +4608,12 @@
             },
             {
                 "to": {
-                    "startLine": 701,
+                    "startLine": 702,
                     "startColumn": 4,
-                    "startOffset": 53231,
-                    "endLine": 704,
+                    "startOffset": 53323,
+                    "endLine": 705,
                     "endColumn": 12,
-                    "endOffset": 53485
+                    "endOffset": 53577
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4610,11 +4629,11 @@
             },
             {
                 "to": {
-                    "startLine": 705,
+                    "startLine": 706,
                     "startColumn": 4,
-                    "startOffset": 53490,
+                    "startOffset": 53582,
                     "endColumn": 105,
-                    "endOffset": 53591
+                    "endOffset": 53683
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4629,12 +4648,12 @@
             },
             {
                 "to": {
-                    "startLine": 706,
+                    "startLine": 707,
                     "startColumn": 4,
-                    "startOffset": 53596,
-                    "endLine": 711,
+                    "startOffset": 53688,
+                    "endLine": 712,
                     "endColumn": 12,
-                    "endOffset": 54035
+                    "endOffset": 54127
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4650,11 +4669,11 @@
             },
             {
                 "to": {
-                    "startLine": 712,
+                    "startLine": 713,
                     "startColumn": 4,
-                    "startOffset": 54040,
+                    "startOffset": 54132,
                     "endColumn": 111,
-                    "endOffset": 54147
+                    "endOffset": 54239
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4669,12 +4688,12 @@
             },
             {
                 "to": {
-                    "startLine": 713,
+                    "startLine": 714,
                     "startColumn": 4,
-                    "startOffset": 54152,
-                    "endLine": 723,
+                    "startOffset": 54244,
+                    "endLine": 724,
                     "endColumn": 12,
-                    "endOffset": 54846
+                    "endOffset": 54938
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4690,11 +4709,11 @@
             },
             {
                 "to": {
-                    "startLine": 724,
+                    "startLine": 725,
                     "startColumn": 4,
-                    "startOffset": 54851,
+                    "startOffset": 54943,
                     "endColumn": 109,
-                    "endOffset": 54956
+                    "endOffset": 55048
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4709,11 +4728,11 @@
             },
             {
                 "to": {
-                    "startLine": 725,
+                    "startLine": 726,
                     "startColumn": 4,
-                    "startOffset": 54961,
+                    "startOffset": 55053,
                     "endColumn": 99,
-                    "endOffset": 55056
+                    "endOffset": 55148
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4728,11 +4747,11 @@
             },
             {
                 "to": {
-                    "startLine": 726,
+                    "startLine": 727,
                     "startColumn": 4,
-                    "startOffset": 55061,
+                    "startOffset": 55153,
                     "endColumn": 111,
-                    "endOffset": 55168
+                    "endOffset": 55260
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4747,11 +4766,11 @@
             },
             {
                 "to": {
-                    "startLine": 727,
+                    "startLine": 728,
                     "startColumn": 4,
-                    "startOffset": 55173,
+                    "startOffset": 55265,
                     "endColumn": 127,
-                    "endOffset": 55296
+                    "endOffset": 55388
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4766,11 +4785,11 @@
             },
             {
                 "to": {
-                    "startLine": 728,
+                    "startLine": 729,
                     "startColumn": 4,
-                    "startOffset": 55301,
+                    "startOffset": 55393,
                     "endColumn": 113,
-                    "endOffset": 55410
+                    "endOffset": 55502
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4785,11 +4804,11 @@
             },
             {
                 "to": {
-                    "startLine": 729,
+                    "startLine": 730,
                     "startColumn": 4,
-                    "startOffset": 55415,
+                    "startOffset": 55507,
                     "endColumn": 129,
-                    "endOffset": 55540
+                    "endOffset": 55632
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4804,11 +4823,11 @@
             },
             {
                 "to": {
-                    "startLine": 730,
+                    "startLine": 731,
                     "startColumn": 4,
-                    "startOffset": 55545,
+                    "startOffset": 55637,
                     "endColumn": 115,
-                    "endOffset": 55656
+                    "endOffset": 55748
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4823,11 +4842,11 @@
             },
             {
                 "to": {
-                    "startLine": 731,
+                    "startLine": 732,
                     "startColumn": 4,
-                    "startOffset": 55661,
+                    "startOffset": 55753,
                     "endColumn": 131,
-                    "endOffset": 55788
+                    "endOffset": 55880
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4842,11 +4861,11 @@
             },
             {
                 "to": {
-                    "startLine": 732,
+                    "startLine": 733,
                     "startColumn": 4,
-                    "startOffset": 55793,
+                    "startOffset": 55885,
                     "endColumn": 115,
-                    "endOffset": 55904
+                    "endOffset": 55996
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4861,11 +4880,11 @@
             },
             {
                 "to": {
-                    "startLine": 733,
+                    "startLine": 734,
                     "startColumn": 4,
-                    "startOffset": 55909,
+                    "startOffset": 56001,
                     "endColumn": 131,
-                    "endOffset": 56036
+                    "endOffset": 56128
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4880,11 +4899,11 @@
             },
             {
                 "to": {
-                    "startLine": 734,
+                    "startLine": 735,
                     "startColumn": 4,
-                    "startOffset": 56041,
+                    "startOffset": 56133,
                     "endColumn": 105,
-                    "endOffset": 56142
+                    "endOffset": 56234
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4899,11 +4918,11 @@
             },
             {
                 "to": {
-                    "startLine": 735,
+                    "startLine": 736,
                     "startColumn": 4,
-                    "startOffset": 56147,
+                    "startOffset": 56239,
                     "endColumn": 125,
-                    "endOffset": 56268
+                    "endOffset": 56360
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4918,11 +4937,11 @@
             },
             {
                 "to": {
-                    "startLine": 736,
+                    "startLine": 737,
                     "startColumn": 4,
-                    "startOffset": 56273,
+                    "startOffset": 56365,
                     "endColumn": 123,
-                    "endOffset": 56392
+                    "endOffset": 56484
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4937,11 +4956,11 @@
             },
             {
                 "to": {
-                    "startLine": 737,
+                    "startLine": 738,
                     "startColumn": 4,
-                    "startOffset": 56397,
+                    "startOffset": 56489,
                     "endColumn": 117,
-                    "endOffset": 56510
+                    "endOffset": 56602
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4956,11 +4975,11 @@
             },
             {
                 "to": {
-                    "startLine": 738,
+                    "startLine": 739,
                     "startColumn": 4,
-                    "startOffset": 56515,
+                    "startOffset": 56607,
                     "endColumn": 119,
-                    "endOffset": 56630
+                    "endOffset": 56722
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4975,11 +4994,11 @@
             },
             {
                 "to": {
-                    "startLine": 739,
+                    "startLine": 740,
                     "startColumn": 4,
-                    "startOffset": 56635,
+                    "startOffset": 56727,
                     "endColumn": 121,
-                    "endOffset": 56752
+                    "endOffset": 56844
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -4994,12 +5013,12 @@
             },
             {
                 "to": {
-                    "startLine": 740,
+                    "startLine": 741,
                     "startColumn": 4,
-                    "startOffset": 56757,
-                    "endLine": 748,
+                    "startOffset": 56849,
+                    "endLine": 749,
                     "endColumn": 12,
-                    "endOffset": 57505
+                    "endOffset": 57597
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5015,12 +5034,12 @@
             },
             {
                 "to": {
-                    "startLine": 749,
+                    "startLine": 750,
                     "startColumn": 4,
-                    "startOffset": 57510,
-                    "endLine": 753,
+                    "startOffset": 57602,
+                    "endLine": 754,
                     "endColumn": 12,
-                    "endOffset": 57874
+                    "endOffset": 57966
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5036,12 +5055,12 @@
             },
             {
                 "to": {
-                    "startLine": 754,
+                    "startLine": 755,
                     "startColumn": 4,
-                    "startOffset": 57879,
-                    "endLine": 759,
+                    "startOffset": 57971,
+                    "endLine": 760,
                     "endColumn": 12,
-                    "endOffset": 58430
+                    "endOffset": 58522
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5057,11 +5076,11 @@
             },
             {
                 "to": {
-                    "startLine": 760,
+                    "startLine": 761,
                     "startColumn": 4,
-                    "startOffset": 58435,
+                    "startOffset": 58527,
                     "endColumn": 112,
-                    "endOffset": 58543
+                    "endOffset": 58635
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5076,11 +5095,11 @@
             },
             {
                 "to": {
-                    "startLine": 761,
+                    "startLine": 762,
                     "startColumn": 4,
-                    "startOffset": 58548,
+                    "startOffset": 58640,
                     "endColumn": 126,
-                    "endOffset": 58670
+                    "endOffset": 58762
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5095,11 +5114,11 @@
             },
             {
                 "to": {
-                    "startLine": 762,
+                    "startLine": 763,
                     "startColumn": 4,
-                    "startOffset": 58675,
+                    "startOffset": 58767,
                     "endColumn": 114,
-                    "endOffset": 58785
+                    "endOffset": 58877
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5114,12 +5133,12 @@
             },
             {
                 "to": {
-                    "startLine": 763,
+                    "startLine": 764,
                     "startColumn": 4,
-                    "startOffset": 58790,
-                    "endLine": 765,
+                    "startOffset": 58882,
+                    "endLine": 766,
                     "endColumn": 12,
-                    "endOffset": 59021
+                    "endOffset": 59113
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5135,11 +5154,11 @@
             },
             {
                 "to": {
-                    "startLine": 766,
+                    "startLine": 767,
                     "startColumn": 4,
-                    "startOffset": 59026,
+                    "startOffset": 59118,
                     "endColumn": 114,
-                    "endOffset": 59136
+                    "endOffset": 59228
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5154,11 +5173,11 @@
             },
             {
                 "to": {
-                    "startLine": 767,
+                    "startLine": 768,
                     "startColumn": 4,
-                    "startOffset": 59141,
+                    "startOffset": 59233,
                     "endColumn": 128,
-                    "endOffset": 59265
+                    "endOffset": 59357
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5173,11 +5192,11 @@
             },
             {
                 "to": {
-                    "startLine": 768,
+                    "startLine": 769,
                     "startColumn": 4,
-                    "startOffset": 59270,
+                    "startOffset": 59362,
                     "endColumn": 104,
-                    "endOffset": 59370
+                    "endOffset": 59462
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5192,11 +5211,11 @@
             },
             {
                 "to": {
-                    "startLine": 769,
+                    "startLine": 770,
                     "startColumn": 4,
-                    "startOffset": 59375,
+                    "startOffset": 59467,
                     "endColumn": 120,
-                    "endOffset": 59491
+                    "endOffset": 59583
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5211,12 +5230,12 @@
             },
             {
                 "to": {
-                    "startLine": 770,
+                    "startLine": 771,
                     "startColumn": 4,
-                    "startOffset": 59496,
-                    "endLine": 772,
+                    "startOffset": 59588,
+                    "endLine": 773,
                     "endColumn": 12,
-                    "endOffset": 59716
+                    "endOffset": 59808
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5232,12 +5251,12 @@
             },
             {
                 "to": {
-                    "startLine": 773,
+                    "startLine": 774,
                     "startColumn": 4,
-                    "startOffset": 59721,
-                    "endLine": 776,
+                    "startOffset": 59813,
+                    "endLine": 777,
                     "endColumn": 12,
-                    "endOffset": 60081
+                    "endOffset": 60173
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5253,12 +5272,12 @@
             },
             {
                 "to": {
-                    "startLine": 777,
+                    "startLine": 778,
                     "startColumn": 4,
-                    "startOffset": 60086,
-                    "endLine": 779,
+                    "startOffset": 60178,
+                    "endLine": 780,
                     "endColumn": 12,
-                    "endOffset": 60298
+                    "endOffset": 60390
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5274,12 +5293,12 @@
             },
             {
                 "to": {
-                    "startLine": 780,
+                    "startLine": 781,
                     "startColumn": 4,
-                    "startOffset": 60303,
-                    "endLine": 784,
+                    "startOffset": 60395,
+                    "endLine": 785,
                     "endColumn": 12,
-                    "endOffset": 60685
+                    "endOffset": 60777
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5295,11 +5314,11 @@
             },
             {
                 "to": {
-                    "startLine": 785,
+                    "startLine": 786,
                     "startColumn": 4,
-                    "startOffset": 60690,
+                    "startOffset": 60782,
                     "endColumn": 120,
-                    "endOffset": 60806
+                    "endOffset": 60898
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5314,12 +5333,12 @@
             },
             {
                 "to": {
-                    "startLine": 786,
+                    "startLine": 787,
                     "startColumn": 4,
-                    "startOffset": 60811,
-                    "endLine": 792,
+                    "startOffset": 60903,
+                    "endLine": 793,
                     "endColumn": 12,
-                    "endOffset": 61274
+                    "endOffset": 61366
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5335,12 +5354,12 @@
             },
             {
                 "to": {
-                    "startLine": 793,
+                    "startLine": 794,
                     "startColumn": 4,
-                    "startOffset": 61279,
-                    "endLine": 795,
+                    "startOffset": 61371,
+                    "endLine": 796,
                     "endColumn": 12,
-                    "endOffset": 61473
+                    "endOffset": 61565
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5356,11 +5375,11 @@
             },
             {
                 "to": {
-                    "startLine": 796,
+                    "startLine": 797,
                     "startColumn": 4,
-                    "startOffset": 61478,
+                    "startOffset": 61570,
                     "endColumn": 117,
-                    "endOffset": 61591
+                    "endOffset": 61683
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5375,12 +5394,12 @@
             },
             {
                 "to": {
-                    "startLine": 797,
+                    "startLine": 798,
                     "startColumn": 4,
-                    "startOffset": 61596,
-                    "endLine": 801,
+                    "startOffset": 61688,
+                    "endLine": 802,
                     "endColumn": 12,
-                    "endOffset": 61970
+                    "endOffset": 62062
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5396,11 +5415,11 @@
             },
             {
                 "to": {
-                    "startLine": 802,
+                    "startLine": 803,
                     "startColumn": 4,
-                    "startOffset": 61975,
+                    "startOffset": 62067,
                     "endColumn": 121,
-                    "endOffset": 62092
+                    "endOffset": 62184
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5415,11 +5434,11 @@
             },
             {
                 "to": {
-                    "startLine": 803,
+                    "startLine": 804,
                     "startColumn": 4,
-                    "startOffset": 62097,
+                    "startOffset": 62189,
                     "endColumn": 111,
-                    "endOffset": 62204
+                    "endOffset": 62296
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5434,11 +5453,11 @@
             },
             {
                 "to": {
-                    "startLine": 804,
+                    "startLine": 805,
                     "startColumn": 4,
-                    "startOffset": 62209,
+                    "startOffset": 62301,
                     "endColumn": 115,
-                    "endOffset": 62320
+                    "endOffset": 62412
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5453,11 +5472,11 @@
             },
             {
                 "to": {
-                    "startLine": 805,
+                    "startLine": 806,
                     "startColumn": 4,
-                    "startOffset": 62325,
+                    "startOffset": 62417,
                     "endColumn": 99,
-                    "endOffset": 62420
+                    "endOffset": 62512
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5472,11 +5491,11 @@
             },
             {
                 "to": {
-                    "startLine": 806,
+                    "startLine": 807,
                     "startColumn": 4,
-                    "startOffset": 62425,
+                    "startOffset": 62517,
                     "endColumn": 114,
-                    "endOffset": 62535
+                    "endOffset": 62627
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5491,11 +5510,11 @@
             },
             {
                 "to": {
-                    "startLine": 807,
+                    "startLine": 808,
                     "startColumn": 4,
-                    "startOffset": 62540,
+                    "startOffset": 62632,
                     "endColumn": 99,
-                    "endOffset": 62635
+                    "endOffset": 62727
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5510,11 +5529,11 @@
             },
             {
                 "to": {
-                    "startLine": 808,
+                    "startLine": 809,
                     "startColumn": 4,
-                    "startOffset": 62640,
+                    "startOffset": 62732,
                     "endColumn": 103,
-                    "endOffset": 62739
+                    "endOffset": 62831
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5529,11 +5548,11 @@
             },
             {
                 "to": {
-                    "startLine": 809,
+                    "startLine": 810,
                     "startColumn": 4,
-                    "startOffset": 62744,
+                    "startOffset": 62836,
                     "endColumn": 95,
-                    "endOffset": 62835
+                    "endOffset": 62927
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5548,11 +5567,11 @@
             },
             {
                 "to": {
-                    "startLine": 810,
+                    "startLine": 811,
                     "startColumn": 4,
-                    "startOffset": 62840,
+                    "startOffset": 62932,
                     "endColumn": 87,
-                    "endOffset": 62923
+                    "endOffset": 63015
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5567,11 +5586,11 @@
             },
             {
                 "to": {
-                    "startLine": 811,
+                    "startLine": 812,
                     "startColumn": 4,
-                    "startOffset": 62928,
+                    "startOffset": 63020,
                     "endColumn": 91,
-                    "endOffset": 63015
+                    "endOffset": 63107
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5586,11 +5605,11 @@
             },
             {
                 "to": {
-                    "startLine": 812,
+                    "startLine": 813,
                     "startColumn": 4,
-                    "startOffset": 63020,
+                    "startOffset": 63112,
                     "endColumn": 113,
-                    "endOffset": 63129
+                    "endOffset": 63221
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",
@@ -5605,11 +5624,11 @@
             },
             {
                 "to": {
-                    "startLine": 813,
+                    "startLine": 814,
                     "startColumn": 4,
-                    "startOffset": 63134,
+                    "startOffset": 63226,
                     "endColumn": 102,
-                    "endOffset": 63232
+                    "endOffset": 63324
                 },
                 "from": {
                     "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values/values.xml",

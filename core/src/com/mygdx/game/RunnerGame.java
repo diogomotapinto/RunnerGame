@@ -12,7 +12,11 @@ import java.awt.Font;
 public class RunnerGame extends Game {
     private SpriteBatch batch;
     private AssetManager assetManager;
+    private GameServices gameServices;
 
+    public RunnerGame(GameServices gameServices){
+        this.gameServices = gameServices;
+    }
 
     @Override
     public void create() {
@@ -38,5 +42,9 @@ public class RunnerGame extends Game {
     @Override
     public void dispose() {
         batch.dispose();
+    }
+
+    public GameServices getGameServices(){
+        return gameServices;
     }
 }

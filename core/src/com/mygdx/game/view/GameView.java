@@ -21,6 +21,7 @@ import com.mygdx.game.model.entities.BulletModel;
 import com.mygdx.game.model.entities.GoldModel;
 import com.mygdx.game.model.entities.HeroModel;
 import com.mygdx.game.view.entities.EntityView;
+import com.mygdx.game.view.entities.HeroView;
 import com.mygdx.game.view.entities.ViewFactory;
 import java.util.ArrayList;
 
@@ -55,6 +56,7 @@ public class GameView implements Screen {
         GameController.getInstance().setCameraPosition(gamePort.getWorldWidth() / 2);
 
         gameCamera.position.set(GameController.getInstance().getHeroBody().getX(), gamePort.getWorldHeight() / 2, 0);
+
         gameHud = new GameHUD(game.getBatch());
         boxDebug = new Box2DDebugRenderer();
         loadAssets();
@@ -74,11 +76,13 @@ public class GameView implements Screen {
         }
 
 
-        if(Gdx.input.isKeyJustPressed(Input.Keys.UP) || Gdx.input.justTouched()){
+        if(Gdx.input.isKeyJustPressed(Input.Keys.UP) || ( Gdx.input.justTouched() &&  Gdx.input.getX()< Gdx.graphics.getWidth()/2 )){
+            System.out.println("Jump " +Gdx.input.getX());
             GameController.getInstance().jump(delta);
         }
 
-        if(Gdx.input.isKeyJustPressed(Input.Keys.S)){
+        if(Gdx.input.isKeyJustPressed(Input.Keys.S) || (Gdx.input.justTouched() && Gdx.input.getX()> Gdx.graphics.getWidth()/2)){
+            System.out.println("Shoot " +Gdx.input.getX());
             GameController.getInstance().shoot();
         }
 
@@ -108,18 +112,23 @@ public class GameView implements Screen {
         Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         renderer.render();
-
-        game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
-        gameHud.stage.draw();
+        game.getBatch().setProjectionMatrix(gameCamera.combined);
+        //game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
         game.getBatch().begin();
         drawEntities();
         game.getBatch().end();
+
+
+        game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
+
+        gameHud.stage.draw();
+
         boxDebug.render( GameController.getInstance().getWorld(), gameCamera.combined);
 
 
-        //if(GameController.getInstance().getHeroBody().getBody().getPosition().y < 0){
-         //   game.setScreen(new MainMenuView(this.game));
-        //}
+        if(GameController.getInstance().getHeroBody().getBody().getPosition().y < 0){
+            game.setScreen(new GameOverScreen(this.game));
+        }
     }
 
     private void loadAssets(){
@@ -150,11 +159,9 @@ public class GameView implements Screen {
 
 
         HeroModel heroModel = GameModel.getInstance().getHero();
-
         EntityView view = ViewFactory.makeView(game, heroModel);
 
         view.update(heroModel);
-
         view.draw(game.getBatch());
 
     }

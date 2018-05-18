@@ -81,9 +81,9 @@ public class GameModel {
         tiles = new ArrayList<TileModel>();
         bullets = new ArrayList<BulletModel>();
         for(int i = 0; i < 100 ; i++){
-           //golds.add(new GoldModel(Utilities.generateRandomNumber(200, 3000), Utilities.generateRandomNumber(40,100)));
+           golds.add(new GoldModel(Utilities.generateRandomNumber(200, 3000), Utilities.generateRandomNumber(40,100)));
         }
-        golds.add(new GoldModel(200,50));
+        //golds.add(new GoldModel(200,50));
 
     }
 

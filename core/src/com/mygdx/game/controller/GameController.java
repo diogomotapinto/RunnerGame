@@ -98,11 +98,6 @@ public class GameController implements ContactListener {
                     (EntityModel) body.getUserData() instanceof  BulletModel
                     ||(EntityModel) body.getUserData() instanceof HeroModel) {
                 ((EntityModel) body.getUserData()).setPosition(body.getPosition().x, body.getPosition().y );
-                if((EntityModel) body.getUserData() instanceof HeroModel){
-                    System.out.println("Controller");
-                    System.out.println("x= "+body.getPosition().x);
-                    System.out.println("y= "+body.getPosition().y);
-                }
             }
         }
 

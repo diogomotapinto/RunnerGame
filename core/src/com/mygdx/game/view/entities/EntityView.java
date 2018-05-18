@@ -4,6 +4,7 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.mygdx.game.RunnerGame;
 import com.mygdx.game.model.entities.EntityModel;
+import com.mygdx.game.model.entities.HeroModel;
 
 import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 
@@ -42,7 +43,7 @@ public abstract class EntityView {
      * @param model
      */
     public void update(EntityModel model) {
-       // sprite.setCenter(model.getX() * PIXEL_TO_METER , model.getY() * PIXEL_TO_METER * 2);
+        sprite.setCenter(model.getX()  , model.getY() );
     }
 
 

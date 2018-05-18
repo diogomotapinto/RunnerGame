@@ -7,7 +7,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.mygdx.game.view.GameView;
 import com.mygdx.game.view.MainMenuView;
 
-import java.awt.Font;
+
 
 public class RunnerGame extends Game {
     private SpriteBatch batch;
@@ -47,4 +47,5 @@ public class RunnerGame extends Game {
     public GameServices getGameServices(){
         return gameServices;
     }
+
 }

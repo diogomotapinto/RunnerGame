@@ -42,7 +42,7 @@ public abstract class EntityView {
      * @param model
      */
     public void update(EntityModel model) {
-        sprite.setCenter(model.getX() * PIXEL_TO_METER , model.getY() * PIXEL_TO_METER * 2);
+       // sprite.setCenter(model.getX() * PIXEL_TO_METER , model.getY() * PIXEL_TO_METER * 2);
     }
 
 

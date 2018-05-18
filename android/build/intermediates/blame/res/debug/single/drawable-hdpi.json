@@ -20,12 +20,12 @@
         "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable-hdpi/abc_list_divider_holo_light.9.png"
     },
     {
-        "merged": "/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/res/merged/debug/drawable-hdpi/abc_textfield_search_default_holo_dark.9.png",
-        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable-hdpi/abc_textfield_search_default_holo_dark.9.png"
-    },
-    {
         "merged": "/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/res/merged/debug/drawable-hdpi/abc_ab_transparent_dark_holo.9.png",
         "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable-hdpi/abc_ab_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/res/merged/debug/drawable-hdpi/abc_textfield_search_default_holo_dark.9.png",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable-hdpi/abc_textfield_search_default_holo_dark.9.png"
     },
     {
         "merged": "/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png",

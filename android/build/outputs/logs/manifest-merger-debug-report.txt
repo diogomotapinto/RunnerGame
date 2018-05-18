@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:2:1-36:12
 	package
 		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:4:5-29
 		INJECTED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml
@@ -42,7 +42,7 @@ MERGED from [com.android.support:support-compat:25.2.0] /Users/diogomotapinto/.a
 		INJECTED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml
 		INJECTED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml
 application
-ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:9:5-24:19
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:9:5-31:19
 MERGED from [RunnerGame:BaseGameUtils:1.0] /Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/bundles/default/AndroidManifest.xml:28:5-32:19
 MERGED from [com.android.support:appcompat-v7:20.0.0] /Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/AndroidManifest.xml:17:5-19
 MERGED from [com.google.android.gms:play-services-games:11.0.4] /Users/diogomotapinto/.android/build-cache/858250511621479a95c8b527da94a96c538235b4/output/AndroidManifest.xml:18:5-19
@@ -65,26 +65,47 @@ MERGED from [com.android.support:support-compat:25.2.0] /Users/diogomotapinto/.a
 		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:11:9-45
 	android:theme
 		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:13:9-40
+meta-data#com.google.android.gms.games.APP_ID
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:15:9-16:46
+	android:value
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:16:13-43
+	android:name
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:15:20-70
+meta-data#com.google.android.gms.version
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:17:9-18:68
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/diogomotapinto/.android/build-cache/7cba11d909c7910812b859c482ede83774051eac/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:18:13-66
+	android:name
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:17:20-65
 activity#com.mygdx.game.AndroidLauncher
-ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:14:9-23:20
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:21:9-30:20
 	android:screenOrientation
-		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:17:13-50
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:24:13-50
 	android:label
-		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:16:13-45
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:23:13-45
 	android:configChanges
-		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:18:13-94
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:25:13-94
 	android:name
-		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:15:13-58
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:22:13-58
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:19:13-22:29
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:26:13-29:29
 action#android.intent.action.MAIN
-ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:20:17-69
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:20:25-66
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:21:17-77
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:21:27-74
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:28:27-74
+uses-permission#android.permission.INTERNET
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:33:5-67
+	android:name
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:33:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:34:5-79
+	android:name
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:34:22-76
 meta-data#unityplayer.ForwardNativeEventsToDalvik
 ADDED from [RunnerGame:BaseGameUtils:1.0] /Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/bundles/default/AndroidManifest.xml:29:9-31:36
 	android:value
@@ -99,9 +120,3 @@ ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/diogomotapi
 		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/AndroidManifest.xml:19:86-145
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/AndroidManifest.xml:19:19-85
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.0.4] /Users/diogomotapinto/.android/build-cache/7cba11d909c7910812b859c482ede83774051eac/output/AndroidManifest.xml:20:9-121
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /Users/diogomotapinto/.android/build-cache/7cba11d909c7910812b859c482ede83774051eac/output/AndroidManifest.xml:20:66-119
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /Users/diogomotapinto/.android/build-cache/7cba11d909c7910812b859c482ede83774051eac/output/AndroidManifest.xml:20:20-65

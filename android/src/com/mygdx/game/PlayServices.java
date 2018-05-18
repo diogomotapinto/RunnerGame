@@ -49,11 +49,11 @@ class PlayServices implements GameServices {
          */
         @Override
         public void signIn() {
-               /* try {
+                try {
                         activity.runOnUiThread(() -> gameHelper.beginUserInitiatedSignIn());
                 } catch (Exception e) {
                         Gdx.app.log("MainActivity", "Log in failed: " + e.getMessage() + ".");
-                }*/
+                }
         }
 
         /**
@@ -61,11 +61,11 @@ class PlayServices implements GameServices {
          */
         @Override
         public void signOut() {
-               /* try {
+               try {
                         activity.runOnUiThread(() -> gameHelper.signOut());
                 } catch (Exception e) {
                         Gdx.app.log("MainActivity", "Log out failed: " + e.getMessage() + ".");
-                }*/
+                }
         }
 
         /**

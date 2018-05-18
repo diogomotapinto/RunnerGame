@@ -12,6 +12,7 @@ import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.utils.Array;
 import com.mygdx.game.controller.entities.BulletBody;
 import com.mygdx.game.controller.entities.EnemyBody;
+import com.mygdx.game.controller.entities.EntityBody;
 import com.mygdx.game.controller.entities.GoldBody;
 import com.mygdx.game.controller.entities.HeroBody;
 import com.mygdx.game.controller.entities.MapBody;
@@ -91,12 +92,17 @@ public class GameController implements ContactListener {
 
 
 
+
         for (Body body : bodies){
             if((EntityModel) body.getUserData() instanceof  GoldModel ||
                     (EntityModel) body.getUserData() instanceof  BulletModel
                     ||(EntityModel) body.getUserData() instanceof HeroModel) {
                 ((EntityModel) body.getUserData()).setPosition(body.getPosition().x, body.getPosition().y );
-
+                if((EntityModel) body.getUserData() instanceof HeroModel){
+                    System.out.println("Controller");
+                    System.out.println("x= "+body.getPosition().x);
+                    System.out.println("y= "+body.getPosition().y);
+                }
             }
         }
 

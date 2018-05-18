@@ -15,6 +15,7 @@ import com.badlogic.gdx.utils.viewport.StretchViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
+import com.mygdx.game.controller.entities.BulletBody;
 import com.mygdx.game.model.GameModel;
 import com.mygdx.game.model.entities.BulletModel;
 import com.mygdx.game.model.entities.GoldModel;
@@ -86,6 +87,7 @@ public class GameView implements Screen {
     public void update(float delta) {
         handleInput(delta);
         GameController.getInstance().update(delta);
+
         //gameCamera.position.x =  GameController.getInstance().getHeroBody().getX();
         gameCamera.position.set( GameController.getInstance().getHeroBody().getX() , gamePort.getWorldHeight() / 2, 0);
         seconds +=Gdx.graphics.getRawDeltaTime();
@@ -140,16 +142,19 @@ public class GameView implements Screen {
         for (BulletModel bullet : bulletList){
 
             EntityView view = ViewFactory.makeView(game,bullet);
-            bullet.setPosition(bullet.getX()*1,bullet.getY()*1);
             view.update(bullet);
             view.draw(game.getBatch());
         }
+
+
+
 
         HeroModel heroModel = GameModel.getInstance().getHero();
 
         EntityView view = ViewFactory.makeView(game, heroModel);
 
         view.update(heroModel);
+
         view.draw(game.getBatch());
 
     }

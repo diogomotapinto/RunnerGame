@@ -123,7 +123,7 @@ public class GameView implements Screen {
 
         gameHud.stage.draw();
 
-        boxDebug.render( GameController.getInstance().getWorld(), gameCamera.combined);
+        //boxDebug.render( GameController.getInstance().getWorld(), gameCamera.combined);
 
 
         if(GameController.getInstance().getHeroBody().getBody().getPosition().y < 0){
@@ -135,6 +135,7 @@ public class GameView implements Screen {
         this.game.getAssetManager().load("sonic.png", Texture.class);
         this.game.getAssetManager().load("newcoin.png", Texture.class);
         this.game.getAssetManager().load("gold.png", Texture.class);
+        this.game.getAssetManager().load("hello.png", Texture.class);
         this.game.getAssetManager().finishLoading();
     }
 

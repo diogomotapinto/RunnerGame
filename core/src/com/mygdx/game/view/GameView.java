@@ -18,6 +18,7 @@ import com.mygdx.game.controller.GameController;
 import com.mygdx.game.controller.entities.BulletBody;
 import com.mygdx.game.model.GameModel;
 import com.mygdx.game.model.entities.BulletModel;
+import com.mygdx.game.model.entities.EntityModel;
 import com.mygdx.game.model.entities.GoldModel;
 import com.mygdx.game.model.entities.HeroModel;
 import com.mygdx.game.view.entities.EntityView;
@@ -98,6 +99,7 @@ public class GameView implements Screen {
         gameHud.update(delta,  GameController.getInstance().getHeroBody().getX(), seconds);
         gameCamera.update();
         renderer.setView(gameCamera);
+
     }
 
     @Override
@@ -123,11 +125,11 @@ public class GameView implements Screen {
 
         gameHud.stage.draw();
 
-        //boxDebug.render( GameController.getInstance().getWorld(), gameCamera.combined);
+        boxDebug.render( GameController.getInstance().getWorld(), gameCamera.combined);
 
 
         if(GameController.getInstance().getHeroBody().getBody().getPosition().y < 0){
-            game.setScreen(new GameOverScreen(this.game));
+            game.setScreen(new GameOverScreen(this.game, this.gamePort));
         }
     }
 
@@ -136,6 +138,8 @@ public class GameView implements Screen {
         this.game.getAssetManager().load("newcoin.png", Texture.class);
         this.game.getAssetManager().load("gold.png", Texture.class);
         this.game.getAssetManager().load("hello.png", Texture.class);
+        this.game.getAssetManager().load("enemy.png", Texture.class);
+        this.game.getAssetManager().load("bullet.png", Texture.class);
         this.game.getAssetManager().finishLoading();
     }
 
@@ -164,6 +168,13 @@ public class GameView implements Screen {
 
         view.update(heroModel);
         view.draw(game.getBatch());
+
+
+        EntityModel enemyModel = GameModel.getInstance().getEnemy();
+        EntityView enemyView = ViewFactory.makeView(game, enemyModel);
+
+        enemyView.update(enemyModel);
+        enemyView.draw(game.getBatch());
 
     }
 

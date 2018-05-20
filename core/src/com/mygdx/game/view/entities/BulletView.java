@@ -14,7 +14,7 @@ public class BulletView extends EntityView{
 
     @Override
     public Sprite createSprite(RunnerGame game) {
-        Texture texture = game.getAssetManager().get("newcoin.png");
+        Texture texture = game.getAssetManager().get("bullet.png");
         sprite = new Sprite(texture,  texture.getWidth(), texture.getHeight());
         sprite.setBounds(0,0, texture.getWidth()/PIXEL_TO_METER, texture.getWidth()/PIXEL_TO_METER);
         return sprite;

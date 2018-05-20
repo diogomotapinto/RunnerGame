@@ -19,10 +19,12 @@ import com.mygdx.game.controller.entities.MapBody;
 import com.mygdx.game.controller.entities.TileBody;
 import com.mygdx.game.model.GameModel;
 import com.mygdx.game.model.entities.BulletModel;
+import com.mygdx.game.model.entities.EnemyModel;
 import com.mygdx.game.model.entities.EntityModel;
 import com.mygdx.game.model.entities.GoldModel;
 import com.mygdx.game.model.entities.HeroModel;
 import com.mygdx.game.model.entities.MapModel;
+import com.mygdx.game.view.StateMachine;
 
 import java.util.ArrayList;
 
@@ -41,6 +43,8 @@ public class GameController implements ContactListener {
     public static final int V_WIDTH = 400;
     public static final int V_HEIGHT = 208;
     private boolean isContacted ;
+    private StateMachine stateMachine;
+
 
 
 
@@ -96,9 +100,18 @@ public class GameController implements ContactListener {
         for (Body body : bodies){
             if((EntityModel) body.getUserData() instanceof  GoldModel ||
                     (EntityModel) body.getUserData() instanceof  BulletModel
-                    ||(EntityModel) body.getUserData() instanceof HeroModel) {
+                    ||(EntityModel) body.getUserData() instanceof HeroModel
+                    ||(EntityModel) body.getUserData() instanceof EnemyModel) {
                 ((EntityModel) body.getUserData()).setPosition(body.getPosition().x, body.getPosition().y );
             }
+        }
+
+        checkGameState();
+    }
+
+    private void checkGameState() {
+        if(this.heroBody.getY()<0){
+
         }
 
     }

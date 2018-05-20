@@ -41,7 +41,7 @@ public class HeroView extends EntityView {
         TextureRegion [] frames = new TextureRegion[9];
         System.arraycopy(runRegion[0], 0, frames,0,9);
 
-        return new Animation<TextureRegion>(0.05f,frames);
+        return new Animation<TextureRegion>(0.08f,frames);
     }
 
     @Override
@@ -49,14 +49,14 @@ public class HeroView extends EntityView {
         stateTime += Gdx.graphics.getDeltaTime();
 
         sprite.setRegion(runningAnimation.getKeyFrame(stateTime,true));
-        sprite.setBounds(0,0, texture.getWidth()/(PIXEL_TO_METER*10), texture.getWidth()/(PIXEL_TO_METER*20));
-        sprite.setPosition(model.getX()-16/PIXEL_TO_METER,model.getY()-8/PIXEL_TO_METER);
+        sprite.setBounds(model.getX()-12/PIXEL_TO_METER,model.getY()-8/PIXEL_TO_METER, texture.getWidth()/(PIXEL_TO_METER*15), texture.getWidth()/(PIXEL_TO_METER*20));
+        //sprite.setPosition(model.getX()-16/PIXEL_TO_METER,model.getY()-8/PIXEL_TO_METER);
         sprite.draw(batch);
     }
 
     @Override
     public void update(EntityModel model) {
-        super.update(model);
+        //super.update(model);
         this.model = model;
     }
 }

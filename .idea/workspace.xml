@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb60d76f-fce1-441b-8f01-e3ddb3008f99" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/android/assets/hello.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/android/assets/heroRunning.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/view/OptionsMenu.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/BaseGameUtils/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/BaseGameUtils/build.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/BaseGameUtils/src/main/AndroidManifest.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/BaseGameUtils/src/main/java/com/google/example/games/basegameutils/BaseGameActivity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/BaseGameUtils/src/main/java/com/google/example/games/basegameutils/BaseGameUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/BaseGameUtils/src/main/java/com/google/example/games/basegameutils/GameHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/BaseGameUtils/src/main/java/com/google/example/games/basegameutils/GameHelperUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/BaseGameUtils/src/main/java/com/google/example/games/basegameutils/SnapshotCoordinator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/BaseGameUtils/src/main/res/values/gamehelper_strings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/BaseGameUtils/src/main/res/values/strings.xml" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/android/android.iml" afterPath="$PROJECT_DIR$/android/android.iml" />
-      <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/HeroBody.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/HeroBody.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameView.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameView.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/view/entities/HeroView.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/view/entities/HeroView.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -95,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeroView.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HeroView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/entities/HeroView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
@@ -105,6 +107,16 @@
                 <element signature="e#736#737#0" expanded="true" />
                 <element signature="e#763#764#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BaseGameUtils/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -165,104 +177,6 @@
         <entry file="file://$PROJECT_DIR$/android/assets/hello.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadPoolExecutor.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/ThreadPoolExecutor.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
-              <folding>
-                <marker date="1521706200000" expanded="false" signature="3:117" ph="/.../" />
-                <marker date="1521706200000" expanded="true" signature="1597:1620" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="1666:1689" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="1735:1758" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="1819:1842" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="1902:1925" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="1971:1994" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="2054:2077" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="2137:2160" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="2202:2225" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="2267:2290" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="2322:2345" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="2386:2409" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="2447:2470" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="2521:2544" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="2586:2609" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="2662:2685" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="2709:2732" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="2783:2806" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="2868:2891" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="2963:2986" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="3076:3099" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="3202:3225" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="3268:3291" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="3373:3396" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="3561:3584" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="3799:3822" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="4059:4082" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="4369:4392" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="4447:4470" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="4499:4522" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="4584:4607" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="4641:4664" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="4701:4724" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="4760:4783" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="4907:4930" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="4962:4985" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="5070:5093" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="5160:5183" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="5301:5324" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="5413:5436" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="5477:5500" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="5535:5558" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="5600:5623" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="5651:5674" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="5716:5739" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="5786:5809" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="5861:5884" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="5928:5951" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="5989:6012" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="6095:6118" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="6193:6216" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="6295:6318" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="6375:6398" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="6424:6447" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="6478:6501" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="6535:6558" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="6596:6619" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="6652:6675" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="6717:6740" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="6781:6804" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="6893:6916" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="7010:7033" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="7067:7090" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="7193:7413" ph="{...}" />
-                <marker date="1521706200000" expanded="true" signature="7232:7255" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="7384:7407" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="7510:7724" ph="{...}" />
-                <marker date="1521706200000" expanded="true" signature="7543:7566" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="7695:7718" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="7819:8031" ph="{...}" />
-                <marker date="1521706200000" expanded="true" signature="7850:7873" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="8002:8025" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="8131:8348" ph="{...}" />
-                <marker date="1521706200000" expanded="true" signature="8167:8190" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="8319:8342" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="8473:9281" ph="{...}" />
-                <marker date="1521706200000" expanded="true" signature="8710:8733" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="8761:8784" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="8832:8855" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="8901:8924" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="8970:8993" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="9022:9045" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="9080:9103" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="9134:9157" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="9193:9216" ph="{}" />
-                <marker date="1521706200000" expanded="true" signature="9252:9275" ph="{}" />
-              </folding>
-            </state>
           </provider>
         </entry>
       </file>
@@ -5304,8 +5218,7 @@
             <path>
               <item name="RunnerGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="RunnerGame" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="BaseGameUtils" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="RunnerGame" type="b2602c69:ProjectViewProjectNode" />
@@ -5431,7 +5344,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="device.picker.selection" value="Nexus_5X_API_27" />
+    <property name="device.picker.selection" value="ef5c6a1c" />
     <property name="android.project.structure.last.selected" value="android" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -5461,7 +5374,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DesktopLauncher">
+  <component name="RunManager" selected="Android App.AndroidLauncher">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -5736,8 +5649,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.DesktopLauncher" />
-        <item index="1" class="java.lang.String" itemvalue="Android App.AndroidLauncher" />
+        <item index="0" class="java.lang.String" itemvalue="Android App.AndroidLauncher" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DesktopLauncher" />
         <item index="2" class="java.lang.String" itemvalue="Gradle.RunnerGame:android [assemble]" />
         <item index="3" class="java.lang.String" itemvalue="Application.IOSLauncher" />
       </list>
@@ -5986,7 +5899,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526684977677</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Animation added">
+      <created>1526827137096</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1526827137096</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView">
@@ -6000,7 +5920,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="820" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -6022,7 +5941,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763532" sideWeight="0.49713877" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13733906" sideWeight="0.49426934" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13733906" sideWeight="0.49426934" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15240642" sideWeight="0.5057307" order="7" side_tool="true" content_ui="tabs" />
@@ -6084,7 +6003,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Massive Refractor to MVC" />
     <MESSAGE value="Added the possibility to set the position with a vector2 in the entitymodel" />
     <MESSAGE value="Small fix" />
     <MESSAGE value="Now shows the lines of the blocks" />
@@ -6109,7 +6027,8 @@
     <MESSAGE value="Play services almost done" />
     <MESSAGE value="Play Services working" />
     <MESSAGE value="Images fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Images fixed" />
+    <MESSAGE value="Animation added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Animation added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -6118,14 +6037,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/MyGdxGame.gwt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/graphics/g2d/Gdx2DPixmap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -6594,6 +6505,14 @@
             <element signature="e#736#737#0" expanded="true" />
             <element signature="e#763#764#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseGameUtils/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

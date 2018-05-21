@@ -24,6 +24,9 @@ import com.mygdx.game.model.entities.HeroModel;
 import com.mygdx.game.view.entities.EntityView;
 import com.mygdx.game.view.entities.HeroView;
 import com.mygdx.game.view.entities.ViewFactory;
+
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
+
 import java.util.ArrayList;
 
 
@@ -41,6 +44,7 @@ public class GameView implements Screen {
     private float seconds = 0f;
     private GameModel gameModel;
     private GameController gameController;
+    private boolean pause;
 
     /**
      * How much meters does a pixel represent.
@@ -61,7 +65,9 @@ public class GameView implements Screen {
 
         gameCamera.position.set(GameController.getInstance().getHeroBody().getX(), gamePort.getWorldHeight() / 2, 0);
 
-        gameHud = new GameHUD(game.getBatch());
+
+        gameHud = new GameHUD(game,game.getBatch());
+        pause = gameHud.isPause();
         boxDebug = new Box2DDebugRenderer();
         loadAssets();
 
@@ -104,6 +110,13 @@ public class GameView implements Screen {
         gameCamera.update();
         renderer.setView(gameCamera);
 
+        if(GameController.getInstance().getHeroBody().getBody().getPosition().y < 0){
+            game.setScreen(new GameOverScreen(this.game, this.gamePort));
+            dispose();
+
+        }
+
+
     }
 
     @Override
@@ -114,15 +127,24 @@ public class GameView implements Screen {
     @Override
     public void render(float delta) {
         GameController.getInstance().removeBody();
-        update(delta);
         Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         renderer.render();
+
         game.getBatch().setProjectionMatrix(gameCamera.combined);
-        //game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
         game.getBatch().begin();
         drawEntities();
         game.getBatch().end();
+
+
+        if(!(pause = this.gameHud.isPause())){
+            resume();
+            update(delta);
+        }else{
+            pause();
+        }
+
+        //game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
 
 
         game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
@@ -132,11 +154,9 @@ public class GameView implements Screen {
         boxDebug.render( GameController.getInstance().getWorld(), gameCamera.combined);
 
 
-        if(GameController.getInstance().getHeroBody().getBody().getPosition().y < 0){
-            game.setScreen(new GameOverScreen(this.game, this.gamePort));
-            dispose();
 
-        }
+
+
     }
 
     private void loadAssets(){
@@ -146,6 +166,7 @@ public class GameView implements Screen {
         this.game.getAssetManager().load("hello.png", Texture.class);
         this.game.getAssetManager().load("enemy.png", Texture.class);
         this.game.getAssetManager().load("bullet.png", Texture.class);
+        this.game.getAssetManager().load("pauseButton.png", Texture.class);
         this.game.getAssetManager().finishLoading();
     }
 
@@ -184,13 +205,23 @@ public class GameView implements Screen {
 
     }
 
+    public boolean isPause() {
+        return pause;
+    }
+
+    public void setPause(boolean pause) {
+        this.pause = pause;
+    }
+
     @Override
+
     public void resize(int width, int height) {
         gamePort.update(width, height);
     }
 
     @Override
     public void pause() {
+        game.setScreen(new GamePausedScreen(this.game, this.gamePort));
     }
 
     @Override

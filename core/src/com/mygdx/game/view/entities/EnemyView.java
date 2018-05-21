@@ -15,7 +15,7 @@ import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 public class EnemyView extends EntityView{
     public Texture texture;
     private float stateTime = 0;
-    private Animation<TextureRegion> runningAnimation;
+    private Animation<TextureRegion> rollingAnimation;
     private EntityModel model;
 
 
@@ -26,13 +26,13 @@ public class EnemyView extends EntityView{
     @Override
     public Sprite createSprite(RunnerGame game) {
         texture = game.getAssetManager().get("enemy.png");
-        runningAnimation = createRunningAnimation(game);
+        rollingAnimation = createRollingAnimation(game);
         sprite = new Sprite(texture,  texture.getWidth(), texture.getHeight());
         //sprite.setBounds(0,0, texture.getWidth(), texture.getWidth()/PIXEL_TO_METER);
         return sprite;
     }
 
-    private Animation<TextureRegion> createRunningAnimation(RunnerGame game){
+    private Animation<TextureRegion> createRollingAnimation(RunnerGame game){
         Texture runTexture = game.getAssetManager().get("enemy.png");
         TextureRegion [][] runRegion = TextureRegion.split(runTexture, runTexture.getWidth() / 8, runTexture.getHeight());
 
@@ -46,7 +46,7 @@ public class EnemyView extends EntityView{
     public void draw(SpriteBatch batch) {
         stateTime += Gdx.graphics.getDeltaTime();
 
-        sprite.setRegion(runningAnimation.getKeyFrame(stateTime,true));
+        sprite.setRegion(rollingAnimation.getKeyFrame(stateTime,true));
         sprite.setBounds(model.getX()-8/PIXEL_TO_METER,model.getY()-8/PIXEL_TO_METER, texture.getWidth()/(PIXEL_TO_METER*25), texture.getWidth()/(PIXEL_TO_METER*25));
 
         sprite.draw(batch);
@@ -54,7 +54,7 @@ public class EnemyView extends EntityView{
 
     @Override
     public void update(EntityModel model) {
-        super.update(model);
+        //super.update(model);
         this.model = model;
     }
 }

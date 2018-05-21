@@ -138,7 +138,8 @@ public class GameOverScreen extends Stage implements Screen {
                 GameController.getInstance().getHeroBody().setTransform(200,25,0);
                 //GameModel.getInstance().getGolds().clear();
                 //GameModel.getInstance().generateGolds();
-                GameView view = new GameView(game);
+                //GameView view = new GameView(game);
+                MainMenuView view = new MainMenuView(game);
                 game.setScreen(view);
                 dispose();
             }

@@ -51,8 +51,6 @@ public class MainMenuView implements Screen {
             dispose();
         }
 
-       // if(Gdx.input.getX() > )
-
     }
 
     public void loadMenuAssets(){

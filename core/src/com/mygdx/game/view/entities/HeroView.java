@@ -50,7 +50,6 @@ public class HeroView extends EntityView {
 
         sprite.setRegion(runningAnimation.getKeyFrame(stateTime,true));
         sprite.setBounds(model.getX()-12/PIXEL_TO_METER,model.getY()-8/PIXEL_TO_METER, texture.getWidth()/(PIXEL_TO_METER*15), texture.getWidth()/(PIXEL_TO_METER*20));
-        //sprite.setPosition(model.getX()-16/PIXEL_TO_METER,model.getY()-8/PIXEL_TO_METER);
         sprite.draw(batch);
     }
 

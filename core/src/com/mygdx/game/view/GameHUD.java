@@ -62,5 +62,7 @@ public class GameHUD {
         timerLabel.setText(String.format("%04d",(int) time));
     }
 
-
+    public Stage getStage() {
+        return stage;
+    }
 }

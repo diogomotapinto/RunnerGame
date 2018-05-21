@@ -39,7 +39,8 @@ public class GameView implements Screen {
     private OrthogonalTiledMapRenderer renderer;
     private GameHUD gameHud;
     private float seconds = 0f;
-
+    private GameModel gameModel;
+    private GameController gameController;
 
     /**
      * How much meters does a pixel represent.
@@ -53,8 +54,10 @@ public class GameView implements Screen {
         mapLoader = new TmxMapLoader();
         map = mapLoader.load("mapa.tmx");
         renderer = new OrthogonalTiledMapRenderer(map, 1 / PIXEL_TO_METER);
-
-        GameController.getInstance().setCameraPosition(gamePort.getWorldWidth() / 2);
+        gameModel = new GameModel();
+        gameController = new GameController();
+        //GameController.getInstance().setCameraPosition(gamePort.getWorldWidth() / 2);
+        gameController.setCameraPosition(gamePort.getWorldWidth() / 2);
 
         gameCamera.position.set(GameController.getInstance().getHeroBody().getX(), gamePort.getWorldHeight() / 2, 0);
 
@@ -68,7 +71,8 @@ public class GameView implements Screen {
 
         if ((Gdx.input.getAccelerometerY() > 1)) {
             GameController.getInstance().run(delta);
-            gameHud.update(delta,  GameController.getInstance().getCameraPosition(), seconds);
+            //gameHud.update(delta,  GameController.getInstance().getCameraPosition(), seconds);
+            gameHud.update(delta, gameController.getCameraPosition(), seconds);
         }
 
         if (Gdx.input.isKeyPressed(Input.Keys.SPACE)) {
@@ -130,6 +134,8 @@ public class GameView implements Screen {
 
         if(GameController.getInstance().getHeroBody().getBody().getPosition().y < 0){
             game.setScreen(new GameOverScreen(this.game, this.gamePort));
+            dispose();
+
         }
     }
 
@@ -143,7 +149,7 @@ public class GameView implements Screen {
         this.game.getAssetManager().finishLoading();
     }
 
-    private void drawEntities(){
+    public void drawEntities(){
         ArrayList<GoldModel> goldList = GameModel.getInstance().getGolds();
         for (GoldModel gold : goldList){
 
@@ -198,5 +204,6 @@ public class GameView implements Screen {
 
     @Override
     public void dispose() {
+        gameHud.getStage().dispose();
     }
 }

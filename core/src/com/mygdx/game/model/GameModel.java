@@ -80,13 +80,17 @@ public class GameModel {
         golds = new ArrayList<GoldModel>();
         tiles = new ArrayList<TileModel>();
         bullets = new ArrayList<BulletModel>();
-        for(int i = 0; i < 100 ; i++){
-           golds.add(new GoldModel(Utilities.generateRandomNumber(200, 3000), Utilities.generateRandomNumber(40,100)));
-        }
+        generateGolds();
         //golds.add(new GoldModel(200,50));
 
     }
 
+
+    public void generateGolds(){
+        for(int i = 0; i < 100 ; i++){
+            golds.add(new GoldModel(Utilities.generateRandomNumber(200, 3000), Utilities.generateRandomNumber(40,100)));
+        }
+    }
 
     /**
      * Returns main character of the game

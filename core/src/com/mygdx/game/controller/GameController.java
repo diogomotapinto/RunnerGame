@@ -50,7 +50,7 @@ public class GameController implements ContactListener {
 
 
 
-    private GameController() {
+    public GameController() {
 
         TmxMapLoader mapLoader = new TmxMapLoader();
         TiledMap map = mapLoader.load("mapa.tmx");

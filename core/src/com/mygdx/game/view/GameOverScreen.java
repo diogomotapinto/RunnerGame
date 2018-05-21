@@ -24,6 +24,7 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.GameServices;
 import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
+import com.mygdx.game.model.GameModel;
 
 import javax.swing.text.View;
 
@@ -49,7 +50,7 @@ public class GameOverScreen extends Stage implements Screen {
 
 
 
-        addRestartBtn(); 
+        addRestartBtn();
         overCamera = new OrthographicCamera();
         overCamera.setToOrtho(false, GameController.V_WIDTH, GameController.V_HEIGHT);
         //gameServices = GameServices();
@@ -121,19 +122,25 @@ public class GameOverScreen extends Stage implements Screen {
 
     }
 
-    /**
-     * Function that adds a Restart Button to the Stage.
-     */
+
+
+
     protected void addRestartBtn() {
 
         myTexture = new Texture(Gdx.files.internal("gameOver.jpg"));
         myTextureRegion = new TextureRegion(myTexture);
         myTexRegionDrawable = new TextureRegionDrawable(myTextureRegion);
         button = new ImageButton(myTexRegionDrawable); //Set the button up
+
         button.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                System.out.println("click");
+                GameController.getInstance().getHeroBody().setTransform(200,25,0);
+                //GameModel.getInstance().getGolds().clear();
+                //GameModel.getInstance().generateGolds();
+                GameView view = new GameView(game);
+                game.setScreen(view);
+                dispose();
             }
         });
 

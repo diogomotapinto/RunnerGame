@@ -85,6 +85,13 @@ public class GameModel {
 
     }
 
+    public GameModel newGameModel(){
+        return new GameModel();
+    }
+
+    public void newInstance(GameModel newInstance){
+        instance = newInstance;
+    }
 
     public void generateGolds(){
         for(int i = 0; i < 100 ; i++){

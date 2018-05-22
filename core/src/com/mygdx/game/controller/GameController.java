@@ -81,6 +81,11 @@ public class GameController implements ContactListener {
 
     }
 
+
+    public GameController newGameContoller(){
+        return new GameController();
+    }
+
     public HeroBody getHeroBody() {
         return heroBody;
     }
@@ -124,6 +129,10 @@ public class GameController implements ContactListener {
         if (instance == null)
             instance = new GameController();
         return instance;
+    }
+
+    public void newInstance(GameController newInstance){
+        instance = newInstance;
     }
 
 

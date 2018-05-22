@@ -106,7 +106,7 @@ public class GameView implements Screen {
         //gameCamera.position.x =  GameController.getInstance().getHeroBody().getX();
         gameCamera.position.set( GameController.getInstance().getHeroBody().getX() , gamePort.getWorldHeight() / 2, 0);
         seconds +=Gdx.graphics.getRawDeltaTime();
-        gameHud.update(delta,  GameController.getInstance().getHeroBody().getX(), seconds);
+        gameHud.update(delta,  GameController.getInstance().getHeroBody().getX()-2, seconds);
         gameCamera.update();
         renderer.setView(gameCamera);
 

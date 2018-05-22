@@ -46,7 +46,7 @@ public class GameOverScreen extends Stage implements Screen {
     public GameOverScreen(RunnerGame game, Viewport viewport) {
         this.game = game;
         this.table = new Table();
-        this.stage = new Stage(viewport, this.game.getBatch());
+        //this.stage = new Stage(viewport, this.game.getBatch());
 
 
 
@@ -92,8 +92,6 @@ public class GameOverScreen extends Stage implements Screen {
     public void drawButtons(){
         //Texture startButton = game.getAssetManager().get("gameOver.jpg", Texture.class);
         //game.getBatch().draw(startButton, GameController.V_WIDTH/2-startButton.getWidth()/2,GameController.V_HEIGHT/4);
-
-
     }
 
 
@@ -135,10 +133,11 @@ public class GameOverScreen extends Stage implements Screen {
         button.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                GameController.getInstance().getHeroBody().setTransform(200,25,0);
-                //GameModel.getInstance().getGolds().clear();
-                //GameModel.getInstance().generateGolds();
-                //GameView view = new GameView(game);
+                //GameController.getInstance().getHeroBody().setTransform(200,25,0);
+                GameModel model = GameModel.getInstance().newGameModel();
+                GameModel.getInstance().newInstance(model);
+                GameController controller = GameController.getInstance().newGameContoller();
+                GameController.getInstance().newInstance(controller);
                 MainMenuView view = new MainMenuView(game);
                 game.setScreen(view);
                 dispose();

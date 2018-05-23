@@ -7,20 +7,20 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ViewFactory {
-    private static Map<EntityModel.ModelType, EntityView> cache = new HashMap<EntityModel.ModelType, EntityView>();
+    private static final Map<EntityModel.ModelType, EntityView> cache = new HashMap<EntityModel.ModelType, EntityView>();
 
-    public static EntityView makeView(RunnerGame game, EntityModel model){
-        if(!cache.containsKey(model.getType())){
-            if(model.getType() == EntityModel.ModelType.HERO){
+    public static EntityView makeView(RunnerGame game, EntityModel model) {
+        if (!cache.containsKey(model.getType())) {
+            if (model.getType() == EntityModel.ModelType.HERO) {
                 cache.put(model.getType(), new HeroView(game));
             }
-            if(model.getType() == EntityModel.ModelType.ENEMY){
+            if (model.getType() == EntityModel.ModelType.ENEMY) {
                 cache.put(model.getType(), new EnemyView(game));
             }
-            if(model.getType() == EntityModel.ModelType.BULLET){
+            if (model.getType() == EntityModel.ModelType.BULLET) {
                 cache.put(model.getType(), new BulletView(game));
             }
-            if(model.getType() == EntityModel.ModelType.GOLD){
+            if (model.getType() == EntityModel.ModelType.GOLD) {
                 cache.put(model.getType(), new GoldView(game));
             }
         }

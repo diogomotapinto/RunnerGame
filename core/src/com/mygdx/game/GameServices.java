@@ -23,10 +23,9 @@ public interface GameServices {
     /**
      * Submit the scores of the given Level to the Game Services.
      *
-     * @param level The level that will have his scores updated.
      * @param score The score to update with.
      */
-    void submitScore(int level, int score);
+    void submitScore(int score);
 
     /**
      * Increments the Achievements with the given ID.

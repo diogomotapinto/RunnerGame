@@ -1025,10 +1025,12 @@ containing a value of this type.
         public static final int abc_searchview_description_voice=0x7f05000a;
         public static final int abc_shareactionprovider_share_with=0x7f05000b;
         public static final int abc_shareactionprovider_share_with_application=0x7f05000c;
-        public static final int achievement_youre_a_winner=0x7f05001e;
-        public static final int app_id=0x7f05001f;
-        public static final int app_misconfigured=0x7f050020;
-        public static final int app_name=0x7f050021;
+        public static final int achievement_fireee=0x7f05001e;
+        public static final int achievement_noob=0x7f05001f;
+        public static final int achievement_wasspoppin=0x7f050020;
+        public static final int app_id=0x7f050021;
+        public static final int app_misconfigured=0x7f050022;
+        public static final int app_name=0x7f050023;
         public static final int common_google_play_services_enable_button=0x7f05000d;
         public static final int common_google_play_services_enable_text=0x7f05000e;
         public static final int common_google_play_services_enable_title=0x7f05000f;
@@ -1046,16 +1048,16 @@ containing a value of this type.
         public static final int common_open_on_phone=0x7f05001b;
         public static final int common_signin_button_text=0x7f05001c;
         public static final int common_signin_button_text_long=0x7f05001d;
-        public static final int gamehelper_app_misconfigured=0x7f050022;
-        public static final int gamehelper_license_failed=0x7f050023;
-        public static final int gamehelper_sign_in_failed=0x7f050024;
-        public static final int gamehelper_unknown_error=0x7f050025;
-        public static final int leaderboard_leaderboard=0x7f050026;
-        public static final int license_failed=0x7f050027;
-        public static final int package_name=0x7f050028;
-        public static final int sign_in_failed=0x7f050029;
-        public static final int sign_in_other_error=0x7f05002a;
-        public static final int unknown_error=0x7f05002b;
+        public static final int gamehelper_app_misconfigured=0x7f050024;
+        public static final int gamehelper_license_failed=0x7f050025;
+        public static final int gamehelper_sign_in_failed=0x7f050026;
+        public static final int gamehelper_unknown_error=0x7f050027;
+        public static final int leaderboard_leaderboard=0x7f050028;
+        public static final int license_failed=0x7f050029;
+        public static final int package_name=0x7f05002a;
+        public static final int sign_in_failed=0x7f05002b;
+        public static final int sign_in_other_error=0x7f05002c;
+        public static final int unknown_error=0x7f05002d;
     }
     public static final class style {
         public static final int GdxTheme=0x7f080041;

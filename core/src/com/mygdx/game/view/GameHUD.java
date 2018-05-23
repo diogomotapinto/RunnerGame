@@ -21,48 +21,42 @@ import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
 
 
-public class GameHUD {
+class GameHUD {
     public Stage stage;
-    private Viewport viewport;
-    private float runnerTimer;
-    private int gameScore;
-    private int acel;
+    // private float runnerTimer;
+    //private int gameScore;
+    //private int acel;
     private boolean pause;
-    private RunnerGame game;
-    private Texture myTexture;
-    private TextureRegion myTextureRegion;
-    private TextureRegionDrawable myTexRegionDrawable;
+    //   private RunnerGame game;
+    //   private Texture myTexture;
+    //  private TextureRegion myTextureRegion;
+    //private TextureRegionDrawable myTexRegionDrawable;
     private ImageButton button;
 
-    Label timerLabel;
-    Label timerStrLabel;
-    Label scoreStrLabel;
-    Label scoreLabel;
-    Label acelerometerLabel;
-    Label pauseLabel;
+    private final Label timerLabel;
+   // private Label timerStrLabel;
+  //  private Label scoreStrLabel;
+    private final Label scoreLabel;
+    private final Label acelerometerLabel;
+  //  private Label pauseLabel;
 
 
+    public GameHUD(SpriteBatch sb) {
 
-    public GameHUD(RunnerGame game, SpriteBatch sb) {
-        runnerTimer = 0;
-        this.gameScore = 0;
-        this.acel = 0;
-        this.game =game;
         this.pause = false;
-        viewport = new FitViewport(GameController.V_WIDTH, GameController.V_WIDTH, new OrthographicCamera());
+        Viewport viewport = new FitViewport(GameController.V_WIDTH, GameController.V_WIDTH, new OrthographicCamera());
         stage = new Stage(viewport, sb);
         Table table = new Table();
         table.top();
         table.setFillParent(true);
 
 
-        scoreStrLabel = new Label("Score", new Label.LabelStyle(new BitmapFont(), Color.WHITE));
-        timerStrLabel = new Label("Time", new Label.LabelStyle(new BitmapFont(), Color.WHITE));
+        Label scoreStrLabel = new Label("Score", new Label.LabelStyle(new BitmapFont(), Color.WHITE));
+        Label timerStrLabel = new Label("Time", new Label.LabelStyle(new BitmapFont(), Color.WHITE));
 
-        timerLabel = new Label(String.format("%04d", (int) runnerTimer), new Label.LabelStyle(new BitmapFont(), Color.WHITE));
-        acelerometerLabel = new Label(String.format("%04d", (int) acel), new Label.LabelStyle(new BitmapFont(), Color.WHITE));
-        scoreLabel = new Label(String.format("%04d", gameScore), new Label.LabelStyle(new BitmapFont(), Color.WHITE));
-        pauseLabel = new Label(String.format("Pause"), new Label.LabelStyle(new BitmapFont(), Color.WHITE));
+        timerLabel = new Label(Integer.toString(0), new Label.LabelStyle(new BitmapFont(), Color.WHITE));
+        acelerometerLabel = new Label(Integer.toString(0), new Label.LabelStyle(new BitmapFont(), Color.WHITE));
+        scoreLabel = new Label(Integer.toString(0), new Label.LabelStyle(new BitmapFont(), Color.WHITE));
 
         addPauseBtn();
 
@@ -76,21 +70,21 @@ public class GameHUD {
         stage.addActor(table);
     }
 
-    public void update(float delta, float acel, float time) {
-        acelerometerLabel.setText(String.format("%f", acel));
-        this.scoreLabel.setText(String.format("%04d",(int) acel));
-        timerLabel.setText(String.format("%04d",(int) time));
+    public void update(float acel, float time) {
+        acelerometerLabel.setText(Float.toString(acel));
+        this.scoreLabel.setText(Integer.toString((int) acel));
+        timerLabel.setText(Integer.toString((int) time));
     }
 
     public Stage getStage() {
         return stage;
     }
 
-    protected void addPauseBtn() {
+    private void addPauseBtn() {
 
-        myTexture = new Texture(Gdx.files.internal("pauseButton.png"));
-        myTextureRegion = new TextureRegion(myTexture);
-        myTexRegionDrawable = new TextureRegionDrawable(myTextureRegion);
+        Texture myTexture = new Texture(Gdx.files.internal("pauseButton.png"));
+        TextureRegion myTextureRegion = new TextureRegion(myTexture);
+        TextureRegionDrawable myTexRegionDrawable = new TextureRegionDrawable(myTextureRegion);
         button = new ImageButton(myTexRegionDrawable); //Set the button up
 
         button.addListener(new ClickListener() {

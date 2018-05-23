@@ -1,16 +1,9 @@
 package com.mygdx.game.view;
 
-import com.badlogic.gdx.utils.viewport.Viewport;
-import com.mygdx.game.GameServices;
-import com.mygdx.game.view.GamePausedScreen;
-import com.mygdx.game.view.GameWonScreen;
-import com.mygdx.game.RunnerGame;
-import com.mygdx.game.view.GameOverScreen;
-
 public class StateMachine {
 
-    private State gameState;
     private static StateMachine instance;
+    private State gameState;
 
     private StateMachine() {
         this.gameState = State.MAIN_MENU;
@@ -21,16 +14,6 @@ public class StateMachine {
             return new StateMachine();
 
         return instance;
-    }
-
-    enum State {MAIN_MENU, LEADER_BOARD_MENU, NETWORK_MENU, OPTIONS_MENU, SKIN_MENU, GAME, GAME_PAUSE, GAME_LOST, GAME_WON, EXIT}
-
-    ;
-
-    public enum Event {
-        OPEN_OPTIONS_MENU, OPEN_GAME, OPEN_NETWORKING_MENU, OPEN_EXIT,
-        OPEN_MAIN_MENU, OPEN_SKIN_MENU, OPEN_LEADERBOARD_MENU, OPEN_PAUSE_MENU,
-        OPEN_LOST_MENU, OPEN_WON_MENU, OPEN_NEW_GAME
     }
 
     public void advanceState(Event evt) {
@@ -110,5 +93,13 @@ public class StateMachine {
         }
 
 
+    }
+
+    enum State {MAIN_MENU, LEADER_BOARD_MENU, NETWORK_MENU, OPTIONS_MENU, SKIN_MENU, GAME, GAME_PAUSE, GAME_LOST, GAME_WON, EXIT}
+
+    public enum Event {
+        OPEN_OPTIONS_MENU, OPEN_GAME, OPEN_NETWORKING_MENU, OPEN_EXIT,
+        OPEN_MAIN_MENU, OPEN_SKIN_MENU, OPEN_LEADERBOARD_MENU, OPEN_PAUSE_MENU,
+        OPEN_LOST_MENU, OPEN_WON_MENU, OPEN_NEW_GAME
     }
 }

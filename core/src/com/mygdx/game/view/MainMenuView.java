@@ -6,14 +6,13 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
 
 
 public class MainMenuView implements Screen {
-    private RunnerGame game;
-    private OrthographicCamera menuCamera;
+    private final RunnerGame game;
+    private final OrthographicCamera menuCamera;
 
 
     public MainMenuView(RunnerGame game) {
@@ -53,7 +52,7 @@ public class MainMenuView implements Screen {
 
     }
 
-    public void loadMenuAssets(){
+    private void loadMenuAssets() {
 
         this.game.getAssetManager().load("playButton.jpg", Texture.class);
 
@@ -61,10 +60,10 @@ public class MainMenuView implements Screen {
 
     }
 
-    public void drawButtons(){
+    private void drawButtons() {
         Texture startButton = game.getAssetManager().get("playButton.jpg", Texture.class);
 
-        game.getBatch().draw(startButton, GameController.V_WIDTH/2-startButton.getWidth()/2,GameController.V_HEIGHT/2);
+        game.getBatch().draw(startButton, GameController.V_WIDTH / 2 - startButton.getWidth() / 2, GameController.V_HEIGHT / 2);
 
 
     }

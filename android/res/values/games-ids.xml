@@ -8,8 +8,12 @@ Save this file as res/values/games-ids.xml in your project.
     <string name="app_id" translatable="false">1014229091557</string>
     <!-- package_name -->
     <string name="package_name" translatable="false">com.mygdx.game</string>
-    <!-- achievement You're a Winner -->
-    <string name="achievement_youre_a_winner" translatable="false">CgkI5YmPpsIdEAIQAQ</string>
+    <!-- achievement Noob -->
+    <string name="achievement_noob" translatable="false">CgkI5YmPpsIdEAIQAw</string>
+    <!-- achievement Wasspoppin' -->
+    <string name="achievement_wasspoppin" translatable="false">CgkI5YmPpsIdEAIQBQ</string>
+    <!-- achievement Fireee -->
+    <string name="achievement_fireee" translatable="false">CgkI5YmPpsIdEAIQBA</string>
     <!-- leaderboard Leaderboard -->
     <string name="leaderboard_leaderboard" translatable="false">CgkI5YmPpsIdEAIQAg</string>
 </resources>

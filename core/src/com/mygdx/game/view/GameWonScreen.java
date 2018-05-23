@@ -5,11 +5,12 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.RunnerGame;
 
-public class GameWonScreen extends Stage implements Screen {
-    private RunnerGame game;
+class GameWonScreen extends Stage implements Screen {
+    //private RunnerGame game;
 
     public GameWonScreen(RunnerGame game, Viewport viewport) {
-        this.game = game;
+
+        //this.game = game;
     }
 
     @Override

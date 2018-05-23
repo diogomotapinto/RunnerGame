@@ -9,182 +9,188 @@ import com.badlogic.gdx.Gdx;
 import com.google.android.gms.games.Games;
 import com.google.example.games.basegameutils.GameHelper;
 
-import de.golfgl.gdxgamesvcs.IGameServiceClient;
-
-
 
 /**
-        * Play Services class that handles the communication with the Google Play Services.
-        */
+ * Play Services class that handles the communication with the Google Play Services.
+ */
 class PlayServices implements GameServices {
 
-        /**
-         * Code for unused Requests.
-         */
-        private final static int UNUSED_REQUEST_CODE = 1;
+    /**
+     * Code for unused Requests.
+     */
+    private final static int UNUSED_REQUEST_CODE = 1;
 
-        /**
-         * The Play Services' activity class.
-         */
-        private Activity activity;
+    /**
+     * The Play Services' activity class.
+     */
+    private final Activity activity;
 
-        /**
-         * Game Helper used to help with the communication with Google Play Services.
-         */
-        private GameHelper gameHelper;
+    /**
+     * Game Helper used to help with the communication with Google Play Services.
+     */
+    private final GameHelper gameHelper;
 
-        /**
-         * Play Services constructor.
-         *
-         * @param activity   The Activity used in the Play Services.
-         * @param gameHelper The GameHelper used in the Play services.
-         */
-        PlayServices(Activity activity, GameHelper gameHelper) {
-                this.activity = activity;
-                this.gameHelper = gameHelper;
+    /**
+     * Play Services constructor.
+     *
+     * @param activity   The Activity used in the Play Services.
+     * @param gameHelper The GameHelper used in the Play services.
+     */
+    PlayServices(Activity activity, GameHelper gameHelper) {
+        this.activity = activity;
+        this.gameHelper = gameHelper;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void signIn() {
+        try {
+            activity.runOnUiThread(() -> gameHelper.beginUserInitiatedSignIn());
+        } catch (Exception e) {
+            Gdx.app.log("MainActivity", "Log in failed: " + e.getMessage() + ".");
         }
+    }
 
-        /**
-         * {@inheritDoc}
-         */
-        @Override
-        public void signIn() {
-                try {
-                        activity.runOnUiThread(() -> gameHelper.beginUserInitiatedSignIn());
-                } catch (Exception e) {
-                        Gdx.app.log("MainActivity", "Log in failed: " + e.getMessage() + ".");
-                }
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void signOut() {
+        try {
+            activity.runOnUiThread(() -> gameHelper.signOut());
+        } catch (Exception e) {
+            Gdx.app.log("MainActivity", "Log out failed: " + e.getMessage() + ".");
         }
+    }
 
-        /**
-         * {@inheritDoc}
-         */
-        @Override
-        public void signOut() {
-               try {
-                        activity.runOnUiThread(() -> gameHelper.signOut());
-                } catch (Exception e) {
-                        Gdx.app.log("MainActivity", "Log out failed: " + e.getMessage() + ".");
-                }
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void unlockAchievement(String achievementID) {
+        if (isSignedIn())
+            Games.Achievements.unlock(gameHelper.getApiClient(), achievementID);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void incrementAchievement(String achievementID) {
+        if (isSignedIn())
+            Games.Achievements.increment(gameHelper.getApiClient(), achievementID, 1);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void showScores(int level) {
+        showScores(getLeaderboardID(level));
+    }
+
+    /**
+     * Show the scores of a given leaderboard.
+     *
+     * @param leaderboardID The leaderboard ID to show the score from.
+     */
+    private void showScores(String leaderboardID) {
+        if (isSignedIn()) {
+            activity.startActivityForResult(Games.Leaderboards.getLeaderboardIntent(gameHelper.getApiClient(),
+                    leaderboardID), UNUSED_REQUEST_CODE);
+        } else if (!gameHelper.isConnecting()) {
+            signIn();
         }
+    }
 
-        /**
-         * {@inheritDoc}
-         */
-        @Override
-        public void unlockAchievement(String achievementID) {
-                if (isSignedIn())
-                        Games.Achievements.unlock(gameHelper.getApiClient(), achievementID);
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void showAchievements() {
+        if (isSignedIn()) {
+            activity.startActivityForResult(Games.Achievements.getAchievementsIntent(
+                    gameHelper.getApiClient()), UNUSED_REQUEST_CODE);
         }
+    }
 
-        /**
-         * {@inheritDoc}
-         */
-        @Override
-        public void incrementAchievement(String achievementID) {
-                if (isSignedIn())
-                        Games.Achievements.increment(gameHelper.getApiClient(), achievementID, 1);
-        }
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void rateGame() {
+        String str = "https://play.google.com/store/apps/details?id=com.lpoo.game";
+        activity.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(str)));
+    }
 
-        /**
-         * {@inheritDoc}
-         */
-        @Override
-        public void showScores(int level) {
-                showScores(getLeaderboardID(level));
-        }
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void submitScore(int score) {
+        String leaderboardID = getLeaderboardID(score);
+        String achievementID = getAchievementID(score);
 
-        /**
-         * Show the scores of a given leaderboard.
-         *
-         * @param leaderboardID The leaderboard ID to show the score from.
-         */
-        private void showScores(String leaderboardID) {
-                if (isSignedIn()) {
-                        activity.startActivityForResult(Games.Leaderboards.getLeaderboardIntent(gameHelper.getApiClient(),
-                                leaderboardID), UNUSED_REQUEST_CODE);
-                } else if (!gameHelper.isConnecting()) {
-                        signIn();
-                }
-        }
+        if (leaderboardID != null)
+            submitScore(leaderboardID, score);
 
-        /**
-         * {@inheritDoc}
-         */
-        @Override
-        public void showAchievements() {
-                if (isSignedIn()) {
-                        activity.startActivityForResult(Games.Achievements.getAchievementsIntent(
-                                gameHelper.getApiClient()), UNUSED_REQUEST_CODE);
-                }
-        }
-
-        /**
-         * {@inheritDoc}
-         */
-        @Override
-        public void rateGame() {
-                String str = "https://play.google.com/store/apps/details?id=com.lpoo.game";
-                activity.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(str)));
-        }
-
-        /**
-         * {@inheritDoc}
-         */
-        @Override
-        public void submitScore(int level, int score) {
-                String leaderboardID = getLeaderboardID(level);
-                String achievementID = getAchievementID(level);
-
-                if (leaderboardID != null)
-                        submitScore(leaderboardID, score);
-
-                if (achievementID != null)
-                        unlockAchievement(achievementID);
+        if (achievementID != null)
+            unlockAchievement(achievementID);
 
                /* if (score < 5000)
                         unlockAchievement(activity.getString(R.string.achievement_impressive_timing_));*/
-        }
+    }
 
-        /**
-         * Getter for an achievement's ID.
-         *
-         * @param level The level the achievement is associated with.
-         * @return The achievement ID.
-         */
-        private String getAchievementID(int level) {
-               /* switch (level) {
+    /**
+     * Getter for an achievement's ID.
+     *
+     * @return The achievement ID.
+     */
+    private String getAchievementID(int score) {
+               /*  {
                         case 0:
                                 return activity.getString(R.string.achievement_so_it_begins);
                         case 16:
                                 return activity.getString(R.string.achievement_reach_for_the_clouds);
                         default:
-                                System.err.println("No achievement assigned to level " + level);
-                }
-                */
-                return null;
-        }
+                                System.err.println("No Achievement");
+                }*/
 
-        /**
-         * Submit the given score to the given leaderboard.
-         *
-         * @param leaderboardID LeaderboardID resembling a leaderboard.
-         * @param score         Score to update the Leaderboard with, in milliseconds.
-         */
-        private void submitScore(String leaderboardID, int score) {
-                if (isSignedIn()) {
-                        Games.Leaderboards.submitScore(gameHelper.getApiClient(),
-                                leaderboardID, score);
-                }
-        }
+               System.out.println("score= "+score);
 
-        /**
-         * Getter for each level leaderboard.
-         *
-         * @param level The current level to know the leaderboard from.
-         * @return the leaderboard ID.
-         */
-        private String getLeaderboardID(int level) {
+        if (score == 10) {
+            return activity.getString(R.string.achievement_noob);
+
+        } else if (score == 100) {
+            return activity.getString(R.string.achievement_wasspoppin);
+        } else if (score == 200) {
+            return activity.getString(R.string.achievement_fireee);
+        }
+        return null;
+    }
+
+    /**
+     * Submit the given score to the given leaderboard.
+     *
+     * @param leaderboardID LeaderboardID resembling a leaderboard.
+     * @param score         Score to update the Leaderboard with, in milliseconds.
+     */
+    private void submitScore(String leaderboardID, int score) {
+        if (isSignedIn()) {
+            Games.Leaderboards.submitScore(gameHelper.getApiClient(),
+                    leaderboardID, score);
+        }
+    }
+
+    /**
+     * Getter for each level leaderboard.
+     *
+     * @param score The current level to know the leaderboard from.
+     * @return the leaderboard ID.
+     */
+    private String getLeaderboardID(int score) {
                 /*
                 switch (level) {
                         case 0:
@@ -223,18 +229,17 @@ class PlayServices implements GameServices {
                                 return activity.getString(R.string.leaderboard_level_seventeen);
                         default:
                                 System.err.println("Invalid level ID. Was " + level);
-                }
-                        */
-                return null;
-        }
+                } */
+        return null;
+    }
 
-        /**
-         * {@inheritDoc}
-         */
-        @Override
-        public boolean isSignedIn() {
-                return gameHelper.isSignedIn();
-        }
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public boolean isSignedIn() {
+        return gameHelper.isSignedIn();
+    }
 
 
 }

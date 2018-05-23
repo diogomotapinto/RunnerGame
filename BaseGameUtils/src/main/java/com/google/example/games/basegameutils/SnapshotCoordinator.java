@@ -68,6 +68,13 @@ public class SnapshotCoordinator implements Snapshots {
     private static final SnapshotCoordinator theInstance = new SnapshotCoordinator();
 
     private static final String TAG = "SnapshotCoordinator";
+    // Sets to keep track of the files that are opened or in the process of closing.
+    private final Map<String, CountDownLatch> opened;
+    private final Set<String> closing;
+    private SnapshotCoordinator() {
+        opened = new HashMap<>();
+        closing = new HashSet<>();
+    }
 
     /**
      * Singleton for coordinating the Snapshots API.  This is important since
@@ -78,15 +85,6 @@ public class SnapshotCoordinator implements Snapshots {
      */
     public static SnapshotCoordinator getInstance() {
         return theInstance;
-    }
-
-    // Sets to keep track of the files that are opened or in the process of closing.
-    private final Map<String, CountDownLatch> opened;
-    private final Set<String> closing;
-
-    private SnapshotCoordinator() {
-        opened = new HashMap<>();
-        closing = new HashSet<>();
     }
 
     /**
@@ -455,7 +453,9 @@ public class SnapshotCoordinator implements Snapshots {
      * @param <T>
      */
     private class CoordinatedPendingResult<T extends Result> extends PendingResult<T> {
-        PendingResult<T> innerResult;
+        final PendingResult<T> innerResult;
+        @SuppressWarnings("CanBeFinal")
+        final
         ResultListener listener;
 
         public CoordinatedPendingResult(PendingResult<T> result, ResultListener listener) {
@@ -534,10 +534,9 @@ public class SnapshotCoordinator implements Snapshots {
 
     private class CountDownPendingResult extends PendingResult<Result> {
         private final CountDownLatch latch;
-        private boolean canceled;
-
         private final Status Success = new Status(CommonStatusCodes.SUCCESS);
         private final Status Canceled = new Status(CommonStatusCodes.CANCELED);
+        private boolean canceled;
 
         public CountDownPendingResult(CountDownLatch latch) {
             this.latch = latch;

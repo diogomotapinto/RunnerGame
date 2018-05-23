@@ -1,4 +1,4 @@
-package com.mygdx.game.model.entities;
+/*package com.mygdx.game.model.entities;
 
 public class TileModel extends EntityModel{
     public TileModel(float x, float y) {
@@ -10,3 +10,4 @@ public class TileModel extends EntityModel{
         return null;
     }
 }
+*/

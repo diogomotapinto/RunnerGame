@@ -2,26 +2,19 @@ package com.mygdx.game.model.entities;
 
 import com.badlogic.gdx.math.Vector2;
 
-import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
-
 public abstract class EntityModel {
-    public enum ModelType {ENEMY,GOLD,HERO, BULLET};
-
     /**
      * The x-coordinate of the model in meters
      */
     private float x;
-
     /**
      * The y-coordinate of the model in meters
      */
     private float y;
-
     /**
      * Positions
      */
     private Vector2 position;
-
     /**
      * as the model been flagged for removal
      */
@@ -31,10 +24,9 @@ public abstract class EntityModel {
         this.position = new Vector2(x, y);
     }
 
-    EntityModel(){
+    EntityModel() {
 
     }
-
 
     /**
      * Gets position in the x-axis
@@ -46,19 +38,19 @@ public abstract class EntityModel {
     }
 
     /**
+     * Sets position in the x-axis
+     */
+    public void setX(float x) {
+        this.position.x = x;
+    }
+
+    /**
      * Gets position in the y-axis
      *
      * @return position in the y-axis
      */
     public float getY() {
         return position.y;
-    }
-
-    /**
-     * Sets position in the x-axis
-     */
-    public void setX(float x) {
-        this.position.x = x;
     }
 
     /**
@@ -78,6 +70,9 @@ public abstract class EntityModel {
         this.position.set(x, y);
     }
 
+    public Vector2 getPosition() {
+        return position;
+    }
 
     /**
      * Sets the position of the character in the map
@@ -86,10 +81,6 @@ public abstract class EntityModel {
      */
     public void setPosition(Vector2 position) {
         this.position.set(position);
-    }
-
-    public Vector2 getPosition() {
-        return position;
     }
 
     /**
@@ -109,6 +100,8 @@ public abstract class EntityModel {
     }
 
     public abstract ModelType getType();
+
+    public enum ModelType {ENEMY, GOLD, HERO, BULLET}
 
 
 }

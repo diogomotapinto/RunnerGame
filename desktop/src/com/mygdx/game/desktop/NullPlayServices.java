@@ -19,7 +19,7 @@ public class NullPlayServices implements GameServices {
     }
 
     @Override
-    public void submitScore(int level, int score) {
+    public void submitScore(int score) {
 
     }
 

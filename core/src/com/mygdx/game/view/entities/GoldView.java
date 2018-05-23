@@ -18,8 +18,8 @@ public class GoldView extends EntityView {
     public Sprite createSprite(RunnerGame game) {
 
         Texture texture = game.getAssetManager().get("gold.png");
-        sprite = new Sprite(texture,  texture.getWidth(), texture.getHeight());
-        sprite.setBounds(0,0, texture.getWidth()/PIXEL_TO_METER, texture.getWidth()/PIXEL_TO_METER);
+        sprite = new Sprite(texture, texture.getWidth(), texture.getHeight());
+        sprite.setBounds(0, 0, texture.getWidth() / PIXEL_TO_METER, texture.getWidth() / PIXEL_TO_METER);
         return sprite;
     }
 }

@@ -2,19 +2,17 @@ package com.mygdx.game;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.assets.AssetManager;
-import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.mygdx.game.view.GameView;
 import com.mygdx.game.view.MainMenuView;
-
 
 
 public class RunnerGame extends Game {
     private SpriteBatch batch;
     private AssetManager assetManager;
-    private GameServices gameServices;
+    private final GameServices gameServices;
 
-    public RunnerGame(GameServices gameServices){
+
+    public RunnerGame(GameServices gameServices) {
         this.gameServices = gameServices;
     }
 
@@ -44,7 +42,7 @@ public class RunnerGame extends Game {
         batch.dispose();
     }
 
-    public GameServices getGameServices(){
+    public GameServices getGameServices() {
         return gameServices;
     }
 

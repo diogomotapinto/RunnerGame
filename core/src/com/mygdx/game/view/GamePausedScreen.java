@@ -17,32 +17,18 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
 
-import javax.swing.text.View;
-
-public class GamePausedScreen extends Stage implements Screen {
-    private OrthographicCamera pauseCamera;
-    private RunnerGame game;
-    private Viewport viewport;
-    private Table table;
+class GamePausedScreen extends Stage implements Screen {
+    private final OrthographicCamera pauseCamera;
+    private final RunnerGame game;
     private Stage stage;
-    private Texture myTextureResume;
-    private TextureRegion myTextureRegionResume;
-    private TextureRegionDrawable myTexRegionDrawableResume;
-    private Texture myTextureMenu;
-    private TextureRegion myTextureRegionMenu;
-    private TextureRegionDrawable myTexRegionDrawableMenu;
-    private ImageButton buttonPlay;
-    private ImageButton buttonMenu;
-
 
     public GamePausedScreen(RunnerGame game, Viewport viewport) {
         this.game = game;
-        this.viewport = viewport;
-        this.table = new Table();
+        Table table = new Table();
         this.stage = new Stage(viewport, this.game.getBatch());
 
         pauseCamera = new OrthographicCamera();
-        pauseCamera.setToOrtho(false, GameController.V_WIDTH,GameController.V_HEIGHT);
+        pauseCamera.setToOrtho(false, GameController.V_WIDTH, GameController.V_HEIGHT);
 
         stage = new Stage(new ScreenViewport());
         addResumeBtn();
@@ -51,7 +37,7 @@ public class GamePausedScreen extends Stage implements Screen {
 
     }
 
-    public void loadMenuAssets(){
+    public void loadMenuAssets() {
         this.game.getAssetManager().load("playButton.png", Texture.class);
         this.game.getAssetManager().load("gameOver.jpg", Texture.class);
         this.game.getAssetManager().finishLoading();
@@ -76,13 +62,13 @@ public class GamePausedScreen extends Stage implements Screen {
 
     }
 
-    protected void addResumeBtn() {
+    private void addResumeBtn() {
 
-        myTextureResume = new Texture(Gdx.files.internal("playButton.png"));
-        myTextureRegionResume = new TextureRegion(myTextureResume);
-        myTexRegionDrawableResume = new TextureRegionDrawable(myTextureRegionResume);
-        buttonPlay = new ImageButton(myTexRegionDrawableResume); //Set the button up
-        buttonPlay.setPosition(204,200);
+        Texture myTextureResume = new Texture(Gdx.files.internal("playButton.png"));
+        TextureRegion myTextureRegionResume = new TextureRegion(myTextureResume);
+        TextureRegionDrawable myTexRegionDrawableResume = new TextureRegionDrawable(myTextureRegionResume);
+        ImageButton buttonPlay = new ImageButton(myTexRegionDrawableResume); //Set the button up
+        buttonPlay.setPosition(204, 200);
         buttonPlay.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
@@ -93,20 +79,20 @@ public class GamePausedScreen extends Stage implements Screen {
             }
         });
 
-       // stage = new Stage(new ScreenViewport()); //Set up a stage for the ui
+        // stage = new Stage(new ScreenViewport()); //Set up a stage for the ui
         stage.addActor(buttonPlay); //Add the button to the stage to perform rendering and take input.
         Gdx.input.setInputProcessor(stage); //Start taking input from the ui
 
     }
 
 
-    protected void addMainMenuBtn() {
+    private void addMainMenuBtn() {
 
-        myTextureMenu = new Texture(Gdx.files.internal("gameOver.jpg"));
-        myTextureRegionMenu = new TextureRegion(myTextureMenu);
-        myTexRegionDrawableMenu = new TextureRegionDrawable(myTextureRegionMenu);
-        buttonMenu = new ImageButton(myTexRegionDrawableMenu); //Set the button up
-        buttonMenu.setPosition(408,100);
+        Texture myTextureMenu = new Texture(Gdx.files.internal("gameOver.jpg"));
+        TextureRegion myTextureRegionMenu = new TextureRegion(myTextureMenu);
+        TextureRegionDrawable myTexRegionDrawableMenu = new TextureRegionDrawable(myTextureRegionMenu);
+        ImageButton buttonMenu = new ImageButton(myTexRegionDrawableMenu); //Set the button up
+        buttonMenu.setPosition(408, 100);
         buttonMenu.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {

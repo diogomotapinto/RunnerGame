@@ -2,19 +2,15 @@ package com.mygdx.game.model;
 
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.Pool;
-import com.mygdx.game.controller.GameController;
-import com.mygdx.game.controller.entities.EntityBody;
 import com.mygdx.game.model.entities.BulletModel;
 import com.mygdx.game.model.entities.EnemyModel;
 import com.mygdx.game.model.entities.EntityModel;
 import com.mygdx.game.model.entities.GoldModel;
 import com.mygdx.game.model.entities.HeroModel;
 import com.mygdx.game.model.entities.MapModel;
-import com.mygdx.game.model.entities.TileModel;
 import com.mygdx.game.utils.Utilities;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 
@@ -27,35 +23,32 @@ public class GameModel {
     /**
      * The main character of the game
      */
-    private HeroModel hero;
+    private final HeroModel hero;
 
-    private MapModel map;
+    private final MapModel map;
 
-    private EntityModel enemy;
-
-    public MapModel getMap() {
-        return map;
-    }
-
-    public ArrayList<GoldModel> golds;
-
-    public ArrayList<TileModel> tiles;
-
-    public ArrayList<BulletModel> bullets;
-
-    Pool<BulletModel> bulletPool = new Pool<BulletModel>() {
+    private final EntityModel enemy;
+    private final ArrayList<GoldModel> golds;
+    private final ArrayList<BulletModel> bullets;
+    private final Pool<BulletModel> bulletPool = new Pool<BulletModel>() {
         @Override
         protected BulletModel newObject() {
-            return new BulletModel(0,0);
+            return new BulletModel(0, 0);
         }
     };
 
-    public ArrayList<GoldModel> getGolds() {
-        return golds;
-    }
+    /**
+     * Class constructor
+     */
+    private GameModel() {
+        hero = new HeroModel(200, 25);
+        enemy = new EnemyModel(300, 25);
+        map = new MapModel();
+        golds = new ArrayList<GoldModel>();
+        bullets = new ArrayList<BulletModel>();
+        generateGolds();
+        //golds.add(new GoldModel(200,50));
 
-    public ArrayList<TileModel> getTiles() {
-        return tiles;
     }
 
     /**
@@ -70,37 +63,31 @@ public class GameModel {
         return instance;
     }
 
-    /**
-     * Class constructor
-     */
-    public GameModel(){
-        hero = new HeroModel(200,25);
-        enemy = new EnemyModel(300, 25);
-        map = new MapModel();
-        golds = new ArrayList<GoldModel>();
-        tiles = new ArrayList<TileModel>();
-        bullets = new ArrayList<BulletModel>();
-        generateGolds();
-        //golds.add(new GoldModel(200,50));
-
+    public MapModel getMap() {
+        return map;
     }
 
-    public GameModel newGameModel(){
+    public ArrayList<GoldModel> getGolds() {
+        return golds;
+    }
+
+    public GameModel newGameModel() {
         return new GameModel();
     }
 
-    public void newInstance(GameModel newInstance){
+    public void newInstance(GameModel newInstance) {
         instance = newInstance;
     }
 
-    public void generateGolds(){
-        for(int i = 0; i < 100 ; i++){
-            golds.add(new GoldModel(Utilities.generateRandomNumber(200, 3000), Utilities.generateRandomNumber(40,100)));
+    private void generateGolds() {
+        for (int i = 0; i < 100; i++) {
+            golds.add(new GoldModel(Utilities.generateRandomNumber(200, 3000), Utilities.generateRandomNumber(40, 100)));
         }
     }
 
     /**
      * Returns main character of the game
+     *
      * @return main character of the game
      */
     public HeroModel getHero() {
@@ -115,22 +102,22 @@ public class GameModel {
         return bullets;
     }
 
-    public BulletModel createBullet(Vector2 vec, int x, int y){
+    public BulletModel createBullet(Vector2 vec, int x) {
         BulletModel bullet = bulletPool.obtain();
 
         bullet.setFlaggedForRemoval(false);
-        bullet.setPosition(PIXEL_TO_METER*vec.x+x,PIXEL_TO_METER*vec.y);
+        bullet.setPosition(PIXEL_TO_METER * vec.x + x, PIXEL_TO_METER * vec.y);
         bullets.add(bullet);
         return bullet;
     }
 
-    public void remove(EntityModel model){
+    public void remove(EntityModel model) {
         if (model instanceof BulletModel) {
             bullets.remove(model);
             bulletPool.free((BulletModel) model);
         }
 
-        if(model instanceof GoldModel){
+        if (model instanceof GoldModel) {
             golds.remove(model);
         }
     }

@@ -3,9 +3,11 @@ languages:
 - java
 
 exclude:
+- /android/*
 - /BaseGameUtils/*
 - /build/*
 - /desktop/*
-- /gradle/wrapper/*
+- /gradle/*
 - /html/*
 - /ios/*
+- /core/build/*

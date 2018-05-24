@@ -22,7 +22,6 @@ import com.mygdx.game.model.entities.EntityModel;
 import com.mygdx.game.model.entities.GoldModel;
 import com.mygdx.game.model.entities.HeroModel;
 import com.mygdx.game.model.entities.MapModel;
-import com.mygdx.game.view.StateMachine;
 
 import java.util.ArrayList;
 

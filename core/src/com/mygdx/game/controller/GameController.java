@@ -35,6 +35,7 @@ public class GameController implements ContactListener {
     public static final int V_WIDTH = 400;
     public static final int V_HEIGHT = 208;
     private static GameController instance;
+    private final GameModel gameModel;
     private final World world;
     private float xPosition;
     private final HeroBody heroBody;
@@ -44,7 +45,7 @@ public class GameController implements ContactListener {
 
 
     private GameController() {
-
+        this.gameModel = GameModel.getInstance();
         TmxMapLoader mapLoader = new TmxMapLoader();
         TiledMap map = mapLoader.load("mapa.tmx");
         ArrayList<GoldBody> goldBodyArray = new ArrayList<GoldBody>();
@@ -54,14 +55,14 @@ public class GameController implements ContactListener {
 
         xPosition = 0;
 
-        for (int i = 0; i < GameModel.getInstance().getGolds().size(); i++) {
-            goldBodyArray.add(new GoldBody(world, GameModel.getInstance().getGolds().get(i), false));
+        for (int i = 0; i < gameModel.getGolds().size(); i++) {
+            goldBodyArray.add(new GoldBody(world, gameModel.getGolds().get(i), false));
         }
 
 
-        enemyBody = new EnemyBody(world, GameModel.getInstance().getEnemy(), true);
-        heroBody = new HeroBody(world, GameModel.getInstance().getHero(), true);
-        MapBody mapBody = new MapBody(world, GameModel.getInstance().getMap(), false);
+        enemyBody = new EnemyBody(world, gameModel.getEnemy(), true);
+        heroBody = new HeroBody(world, gameModel.getHero(), true);
+        MapBody mapBody = new MapBody(world, gameModel.getMap(), false);
 
 
         mapBody.createBody(map);
@@ -134,8 +135,8 @@ public class GameController implements ContactListener {
     }
 
     public void shoot() {
-        GameModel.getInstance().getHero().setPosition(heroBody.getX(), heroBody.getY());
-        BulletModel bullet = GameModel.getInstance().createBullet(GameModel.getInstance().getHero().getPosition(), 10);
+        gameModel.getHero().setPosition(heroBody.getX(), heroBody.getY());
+        BulletModel bullet = gameModel.createBullet(gameModel.getHero().getPosition(), 10);
         BulletBody body = new BulletBody(world, bullet, true);
         //body.getBody().applyLinearImpulse(new Vector2(10f / PIXEL_TO_METER, 0), heroBody.getBody().getWorldCenter(), true);
         body.getBody().setLinearVelocity(1000f / PIXEL_TO_METER, 0f);
@@ -159,7 +160,7 @@ public class GameController implements ContactListener {
         for (Body body : bodies) {
             if (body.getUserData() instanceof GoldModel || body.getUserData() instanceof BulletModel) {
                 if (((EntityModel) body.getUserData()).isFlaggedForRemoval()) {
-                    GameModel.getInstance().remove((EntityModel) body.getUserData());
+                    gameModel.remove((EntityModel) body.getUserData());
                     world.destroyBody(body);
                 }
             }

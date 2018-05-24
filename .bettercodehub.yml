@@ -1,0 +1,11 @@
+component_depth: 1
+languages:
+- java
+
+exclude:
+- /BaseGameUtils/*
+- /build/*
+- /desktop/*
+- /gradle/wrapper/*
+- /html/*
+- /ios/*

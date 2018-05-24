@@ -3,11 +3,13 @@ languages:
 - java
 
 exclude:
-- /android/.*
-- /BaseGameUtils/src/.*
-- /BaseGameUtils/build/.*
+- /android/assets/.*
+- /android/build/.*
+- /android/libs/.*
+- /android/res/.*
+- /BaseGameUtils/.*
 - /build/*
-- /desktop/*
+- /desktop/build/.*
 - /gradle/*
 - /html/*
 - /ios/*

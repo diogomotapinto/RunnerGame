@@ -111,8 +111,8 @@
       <file leaf-file-name=".bettercodehub.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.bettercodehub.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="165">
+              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -5610,13 +5610,6 @@
       <option name="presentableId" value="Default" />
       <updated>1523968546480</updated>
     </task>
-    <task id="LOCAL-00002" summary="first version of HUD implemented">
-      <created>1524067048213</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1524067048213</updated>
-    </task>
     <task id="LOCAL-00003" summary="Changes on the handlerInput">
       <created>1524128323107</created>
       <option name="number" value="00003" />
@@ -5953,7 +5946,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527180381510</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Changes in bettercodehub">
+      <created>1527180596996</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1527180596996</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TodoView">
@@ -6436,8 +6436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.bettercodehub.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="165">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding />
         </state>
       </provider>

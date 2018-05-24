@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb60d76f-fce1-441b-8f01-e3ddb3008f99" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.bettercodehub.yml" afterPath="$PROJECT_DIR$/.bettercodehub.yml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -5610,13 +5609,6 @@
       <option name="presentableId" value="Default" />
       <updated>1523968546480</updated>
     </task>
-    <task id="LOCAL-00003" summary="Changes on the handlerInput">
-      <created>1524128323107</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1524128323107</updated>
-    </task>
     <task id="LOCAL-00004" summary="Small changes">
       <created>1524151021472</created>
       <option name="number" value="00004" />
@@ -5953,7 +5945,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527180596996</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Changes in bettercodehub">
+      <created>1527180796701</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1527180796701</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView">

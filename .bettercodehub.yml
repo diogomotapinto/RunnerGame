@@ -3,9 +3,9 @@ languages:
 - java
 
 exclude:
-- /android/*
-- /BaseGameUtils/src/*
-- /BaseGameUtils/build/*
+- /android/.*
+- /BaseGameUtils/src/.*
+- /BaseGameUtils/build/.*
 - /build/*
 - /desktop/*
 - /gradle/*

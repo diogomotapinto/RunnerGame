@@ -1,3 +1,6 @@
+<img src='https://bettercodehub.com/edge/badge/diogomotapinto/RunnerGame?branch=master&token=9663dbc582b445b7bcf545095b01846171153ad5'>
+
+
 # RunnerGame
 
 ## Introduction

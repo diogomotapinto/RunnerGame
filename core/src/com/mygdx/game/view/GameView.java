@@ -33,6 +33,9 @@ public class GameView implements Screen {
     public final static float PIXEL_TO_METER = 100f;
     //private Box2DDebugRenderer boxDebug;
     private final RunnerGame game;
+    private final GameController gameController;
+    private final GameModel gameModel;
+
     private final OrthographicCamera gameCamera;
     private final Viewport gamePort;
     private final TiledMap map;
@@ -45,18 +48,22 @@ public class GameView implements Screen {
 
     public GameView(RunnerGame game) {
         this.game = game;
+        gameController= GameController.getInstance();
+        gameModel = GameModel.getInstance();
         gameCamera = new OrthographicCamera();
         gamePort = new StretchViewport(GameController.V_WIDTH / PIXEL_TO_METER, GameController.V_HEIGHT / PIXEL_TO_METER, gameCamera);
 
         TmxMapLoader mapLoader = new TmxMapLoader();
         map = mapLoader.load("mapa.tmx");
 
+
+
         renderer = new OrthogonalTiledMapRenderer(map, 1 / PIXEL_TO_METER);
 
-        GameController.getInstance().setCameraPosition(gamePort.getWorldWidth() / 2);
+        gameController.setCameraPosition(gamePort.getWorldWidth() / 2);
 
 
-        gameCamera.position.set(GameController.getInstance().getHeroBody().getX(), gamePort.getWorldHeight() / 2, 0);
+        gameCamera.position.set(gameController.getHeroBody().getX(), gamePort.getWorldHeight() / 2, 0);
 
 
         gameHud = new GameHUD(game.getBatch());
@@ -82,46 +89,46 @@ public class GameView implements Screen {
     private void handleInput(float delta) {
 
         if ((Gdx.input.getAccelerometerY() > 1)) {
-            GameController.getInstance().run();
-            gameHud.update( GameController.getInstance().getCameraPosition(), seconds);
+            gameController.run();
+            gameHud.update(gameController.getCameraPosition(), seconds);
         }
 
         if (Gdx.input.isKeyPressed(Input.Keys.SPACE)) {
-            GameController.getInstance().run();
+            gameController.run();
         }
 
 
-        if ((Gdx.input.isKeyJustPressed(Input.Keys.UP) || (Gdx.input.justTouched() && Gdx.input.getX() < Gdx.graphics.getWidth() / 2) && this.mapPixelHeight > GameController.getInstance().getHeroBody().getX())) {
-            GameController.getInstance().jump();
+        if ((Gdx.input.isKeyJustPressed(Input.Keys.UP) || (Gdx.input.justTouched() && Gdx.input.getX() < Gdx.graphics.getWidth() / 2) && this.mapPixelHeight > gameController.getHeroBody().getX())) {
+            gameController.jump();
         }
 
         if (Gdx.input.isKeyJustPressed(Input.Keys.S) || (Gdx.input.justTouched() && Gdx.input.getX() > Gdx.graphics.getWidth() / 2)) {
-            GameController.getInstance().shoot();
+            gameController.shoot();
         }
 
     }
 
     private void update(float delta) {
         handleInput(delta);
-        GameController.getInstance().update();
+        gameController.update();
 
-        if (GameController.getInstance().getHeroBody().getX() * PIXEL_TO_METER >= 200 && GameController.getInstance().getHeroBody().getX() * PIXEL_TO_METER < 3640) {
-            gameCamera.position.set(GameController.getInstance().getHeroBody().getX(), gamePort.getWorldHeight() / 2, 0);
+        if (gameController.getHeroBody().getX() * PIXEL_TO_METER >= 200 && gameController.getHeroBody().getX() * PIXEL_TO_METER < 3640) {
+            gameCamera.position.set(gameController.getHeroBody().getX(), gamePort.getWorldHeight() / 2, 0);
         }
 
         seconds += Gdx.graphics.getRawDeltaTime();
-        gameHud.update(GameController.getInstance().getScore(), seconds);
+        gameHud.update(gameController.getScore(), seconds);
         gameCamera.update();
         renderer.setView(gameCamera);
-        game.getGameServices().submitScore(GameController.getInstance().getScore());
+        game.getGameServices().submitScore(gameController.getScore());
 
 
-        if (GameController.getInstance().getHeroBody().getBody().getPosition().y < 0) {
+        if (gameController.getHeroBody().getBody().getPosition().y < 0) {
             game.setScreen(new GameOverScreen(this.game, this.gamePort));
             dispose();
         }
 
-        if (GameController.getInstance().getHeroBody().getBody().getPosition().x * PIXEL_TO_METER > mapPixelWidth) {
+        if (gameController.getHeroBody().getBody().getPosition().x * PIXEL_TO_METER > mapPixelWidth) {
             System.out.println("Game won");
         }
 
@@ -135,7 +142,7 @@ public class GameView implements Screen {
 
     @Override
     public void render(float delta) {
-        GameController.getInstance().removeBody();
+        gameController.removeBody();
         Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         renderer.render();
@@ -177,7 +184,7 @@ public class GameView implements Screen {
     }
 
     private void drawEntities() {
-        ArrayList<GoldModel> goldList = GameModel.getInstance().getGolds();
+        ArrayList<GoldModel> goldList = gameModel.getGolds();
         for (GoldModel gold : goldList) {
 
             EntityView view = ViewFactory.makeView(game, gold);
@@ -185,7 +192,7 @@ public class GameView implements Screen {
             view.draw(game.getBatch());
         }
 
-        ArrayList<BulletModel> bulletList = GameModel.getInstance().getBullets();
+        ArrayList<BulletModel> bulletList = gameModel.getBullets();
         for (BulletModel bullet : bulletList) {
 
             EntityView view = ViewFactory.makeView(game, bullet);
@@ -194,14 +201,14 @@ public class GameView implements Screen {
         }
 
 
-        HeroModel heroModel = GameModel.getInstance().getHero();
+        HeroModel heroModel = gameModel.getHero();
         EntityView view = ViewFactory.makeView(game, heroModel);
 
         view.update(heroModel);
         view.draw(game.getBatch());
 
 
-        EntityModel enemyModel = GameModel.getInstance().getEnemy();
+        EntityModel enemyModel = gameModel.getEnemy();
         EntityView enemyView = ViewFactory.makeView(game, enemyModel);
 
         enemyView.update(enemyModel);

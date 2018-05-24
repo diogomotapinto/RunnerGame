@@ -3,11 +3,4 @@ languages:
 -java
 
 exclude:
-- /.idea
-- /BaseGameUtils
-- /android
-- /build
-- /desktop
-- /gradle/wrapper
-- /html
-- /ios
+- /BaseGameUtils/src/main/java/com/google/example/games/basegameutils/.*

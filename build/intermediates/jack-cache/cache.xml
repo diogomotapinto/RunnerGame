@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/diogomotapinto/.android/build-cache/7c57fa92da1a9df8cb6cb1ce5413fe16249ce3b9/output/jars/classes.jar"
+        revision="27.0.3"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-0d409ea38bfda591003f5157ef331102416b0514.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/bundles/default/classes.jar"
+        revision="27.0.3"
+        sha1="ba9927169aca29f4659ee87afb0fa541add43a0c">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-0c2adc62c103733d9740a8391b2013b1d6faabf2.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        revision="27.0.3"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/support-annotations-25.2.0-496d5916ec594b253f44b3741bfba0053f9cd41f.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/.android/build-cache/94c3f373e5f1d99a1640ea72cc5635bf013c41f2/output/jars/classes.jar"
+        revision="27.0.3"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-9182a9a3cab57d5e5cf27d049d847c693268e643.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/jars/classes.jar"
+        revision="27.0.3"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-b9ccf2549c7a1525295770d162cc72e052712b0b.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/.android/build-cache/858250511621479a95c8b527da94a96c538235b4/output/jars/classes.jar"
+        revision="27.0.3"
+        sha1="377c5f26ebf67f3fa6ef2f663a58cac7ce647dde">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-bcf57550c9da1ff1e4c235fc4a191113ccedf11e.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/git/RunnerGame/core/build/libs/core-1.0.jar"
+        revision="27.0.3"
+        sha1="a117d51b5ea795f483ab2f83299c92be40233d2d">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/core-1.0-e2a2da6810c24acb24279c5fd9ffeea238830278.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/jars/classes.jar"
+        revision="27.0.3"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-bd4ea939a124d11002b1fb4e69c17dc522a4ecaf.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/.android/build-cache/756b9fe1dde00cf2c564d1b240ab93cce517b4fe/output/jars/classes.jar"
+        revision="27.0.3"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-74e7b6831fb800e8b2a3f0fed9c5614eef0b11ef.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/.android/build-cache/ac6d1a00b7ab6bd4a6930735510755f1dd9125c6/output/jars/classes.jar"
+        revision="27.0.3"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-b2ec9be232e0d201fac8562b660c4de3de157f7d.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.9.8/84024cd60ad6f26370891fbcd17de9f0167e662/gdx-backend-android-1.9.8.jar"
+        revision="27.0.3"
+        sha1="084024cd60ad6f26370891fbcd17de9f0167e662">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gdx-backend-android-1.9.8-a75ce96e0707425174a9c227514854c00466c53b.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/.android/build-cache/be224aad6b585180bde6828843ed8b390d48bf45/output/jars/classes.jar"
+        revision="27.0.3"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-9e4d24e1f55b8d042a020c4993dc3ea766c51089.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/.gradle/caches/modules-2/files-2.1/de.golfgl.gdxgamesvcs/gdx-gamesvcs-core/0.2.3/f9cfab312753c0fd5197ea335795d556ef5a23ce/gdx-gamesvcs-core-0.2.3.jar"
+        revision="27.0.3"
+        sha1="f9cfab312753c0fd5197ea335795d556ef5a23ce">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gdx-gamesvcs-core-0.2.3-6f8af1b0366540aafcc7bac1eaf616d1ab3dacdb.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-box2d/1.9.8/6f0497b7958216464101adfb7bdc3a0f7b88d6d3/gdx-box2d-1.9.8.jar"
+        revision="27.0.3"
+        sha1="6f0497b7958216464101adfb7bdc3a0f7b88d6d3">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gdx-box2d-1.9.8-b04e9336bc5a7a586539a59a9a670855a84f21e3.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/.android/build-cache/d9c9f323ac7c3e5dd0c86b21399ee4926ea82f3a/output/jars/classes.jar"
+        revision="27.0.3"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-718639264be6b70aaa33e2c93fd022a364495e6d.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/.android/build-cache/7cba11d909c7910812b859c482ede83774051eac/output/jars/classes.jar"
+        revision="27.0.3"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f64908359a2c92169df85149d285301d2715cc80.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/.android/build-cache/d285ba5e060d933416bf2cedd1ac5d20eafef7ee/output/jars/classes.jar"
+        revision="27.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f06a02b1144b73e331d05f2d56fea7de929dee4a.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/.android/build-cache/0cb2d73c11d7ad17fc65addab0b6ec5e20946f32/output/jars/classes.jar"
+        revision="27.0.3"
+        sha1="02b91f8efa91dcdf5c555ee24b7f006f02cd0f8b">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-9169ea2e6f6b045484a8ccb075bfd2d8579416c6.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/a35a0076fbce873f9c2d5a1a1c8066244231bb3c/gdx-1.9.8.jar"
+        revision="27.0.3"
+        sha1="a35a0076fbce873f9c2d5a1a1c8066244231bb3c">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gdx-1.9.8-d0a45d24238f5d225063d3b4ef134dc7fc450e10.jar" />
+    </item>
+    <item
+        jar="/Users/diogomotapinto/.android/build-cache/cbfc914557bad89a02570f27e63e443e9764a373/output/jars/classes.jar"
+        revision="27.0.3"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-d3575ba7dce69f276baf23d6a720b1a0f7740d86.jar" />
+    </item>
+
+</items>

@@ -43,8 +43,4 @@ public class NullPlayServices implements GameServices {
 
     }
 
-    @Override
-    public void rateGame() {
-
-    }
 }

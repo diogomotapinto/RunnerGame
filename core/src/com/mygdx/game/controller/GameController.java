@@ -51,6 +51,7 @@ public class GameController implements ContactListener {
         ArrayList<GoldBody> goldBodyArray = new ArrayList<GoldBody>();
 
         world = new World(new Vector2(0, -10), true);
+        world.setContactListener(this);
 
         xPosition = 0;
 
@@ -66,7 +67,7 @@ public class GameController implements ContactListener {
 
         mapBody.createBody(map);
         isContacted = true;
-        world.setContactListener(this);
+        this.score = 0;
 
     }
 

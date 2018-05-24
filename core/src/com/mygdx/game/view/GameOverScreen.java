@@ -26,20 +26,10 @@ class GameOverScreen extends Stage implements Screen {
     GameServices gameServices;
     private final OrthographicCamera overCamera;
     private final RunnerGame game;
-    //  private Table table;
     private Skin skin;
     private TextureAtlas buttonAtlas;
     private TextButton.TextButtonStyle textButtonStyle;
-    //    private  TextButton button;
     private final Stage stage;
-    // private Texture myTextureRestart;
-  /*  private TextureRegion myTextureRegionRestart;
-    private TextureRegionDrawable myTexRegionDrawableRestart;
-    private ImageButton buttonRestart;
-    private Texture myTextureAch;
-    private TextureRegion myTextureRegionAch;
-    private TextureRegionDrawable myTexRegionDrawableAch;
-    private ImageButton buttonAch;*/
 
     public GameOverScreen(RunnerGame game, Viewport viewport) {
         this.game = game;
@@ -50,11 +40,9 @@ class GameOverScreen extends Stage implements Screen {
         stage = new Stage(new ScreenViewport());
         addRestartBtn();
         addAchievmentBtn();
+        addLeaderBtn();
         overCamera = new OrthographicCamera();
         overCamera.setToOrtho(false, GameController.V_WIDTH, GameController.V_HEIGHT);
-        //gameServices = GameServices();
-        //addRestartBtn();
-        //loadMenuAssets();
 
     }
 
@@ -81,8 +69,6 @@ class GameOverScreen extends Stage implements Screen {
 
         stage.act(Gdx.graphics.getDeltaTime()); //Perform ui logic
         stage.draw();
-
-
     }
 
 
@@ -114,10 +100,7 @@ class GameOverScreen extends Stage implements Screen {
 
     private void addRestartBtn() {
 
-        Texture myTextureRestart = new Texture(Gdx.files.internal("gameOver.jpg"));
-        TextureRegion myTextureRegionRestart = new TextureRegion(myTextureRestart);
-        TextureRegionDrawable myTexRegionDrawableRestart = new TextureRegionDrawable(myTextureRegionRestart);
-        ImageButton buttonRestart = new ImageButton(myTexRegionDrawableRestart); //Set the button up
+        ImageButton buttonRestart = createButton("gameOver.jpg", 0, 100);
 
         buttonRestart.addListener(new ClickListener() {
             @Override
@@ -141,12 +124,7 @@ class GameOverScreen extends Stage implements Screen {
 
 
     private void addAchievmentBtn() {
-
-        Texture myTextureAch = new Texture(Gdx.files.internal("gameOver.jpg"));
-        TextureRegion myTextureRegionAch = new TextureRegion(myTextureAch);
-        TextureRegionDrawable myTexRegionDrawableAch = new TextureRegionDrawable(myTextureRegionAch);
-        ImageButton buttonAch = new ImageButton(myTexRegionDrawableAch); //Set the button up
-
+        ImageButton buttonAch = createButton("gameOver.jpg", 150, 100);
         buttonAch.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
@@ -156,9 +134,34 @@ class GameOverScreen extends Stage implements Screen {
             }
         });
 
-        buttonAch.setPosition(200, 100);
         stage.addActor(buttonAch); //Add the button to the stage to perform rendering and take input.
         Gdx.input.setInputProcessor(stage); //Start taking input from the ui
+
+    }
+
+    private void addLeaderBtn() {
+        ImageButton buttonAch = createButton("gameOver.jpg",300,100);
+        buttonAch.addListener(new ClickListener() {
+            @Override
+            public void clicked(InputEvent event, float x, float y) {
+                game.getGameServices().submitScore(GameController.getInstance().getScore());
+                game.getGameServices().showScores(GameController.getInstance().getScore());
+
+            }
+        });
+
+        stage.addActor(buttonAch); //Add the button to the stage to perform rendering and take input.
+        Gdx.input.setInputProcessor(stage); //Start taking input from the ui
+
+    }
+
+    private ImageButton createButton(String path, int xPosition, int yPosition) {
+        Texture myTextureAch = new Texture(Gdx.files.internal(path));
+        TextureRegion myTextureRegionAch = new TextureRegion(myTextureAch);
+        TextureRegionDrawable myTexRegionDrawableAch = new TextureRegionDrawable(myTextureRegionAch);
+        ImageButton imageButton=  new ImageButton(myTexRegionDrawableAch); //Set the button up
+        imageButton.setPosition(xPosition, yPosition);
+        return imageButton;
 
     }
 

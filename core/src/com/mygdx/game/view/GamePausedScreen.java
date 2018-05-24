@@ -38,7 +38,7 @@ class GamePausedScreen extends Stage implements Screen {
     }
 
     public void loadMenuAssets() {
-        this.game.getAssetManager().load("playButton.png", Texture.class);
+        this.game.getAssetManager().load("playButton.jpg", Texture.class);
         this.game.getAssetManager().load("gameOver.jpg", Texture.class);
         this.game.getAssetManager().finishLoading();
     }
@@ -64,7 +64,7 @@ class GamePausedScreen extends Stage implements Screen {
 
     private void addResumeBtn() {
 
-        Texture myTextureResume = new Texture(Gdx.files.internal("playButton.png"));
+        Texture myTextureResume = new Texture(Gdx.files.internal("playButton.jpg"));
         TextureRegion myTextureRegionResume = new TextureRegion(myTextureResume);
         TextureRegionDrawable myTexRegionDrawableResume = new TextureRegionDrawable(myTextureRegionResume);
         ImageButton buttonPlay = new ImageButton(myTexRegionDrawableResume); //Set the button up

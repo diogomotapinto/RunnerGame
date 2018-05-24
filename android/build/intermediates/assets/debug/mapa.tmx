@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.4" orientation="orthogonal" renderorder="right-down" width="240" height="13" tilewidth="16" tileheight="16" infinite="0" nextobjectid="48">
+ <tileset firstgid="1" source="NES - Super Mario Bros 3 - Background Elements.tsx"/>
+ <tileset firstgid="1703" source="NES - Super Mario Bros - Tileset.tsx"/>
+ <layer name="background" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt1jlSwzAUxnExwWGpAQMdlGwnYetzCgJcAW7AdgU4CMPOFXIB9hr+RTLMeBzbUmRJsV7xazIj6VnKp6eOUqojtCVoYwrTmAmgJiFENWtYxwY2sWUwh9wBQoyvKndAyBl3UVvI398UNvZYd45YztVGnx/mhE08TcKszeUasbOxx7pzmK4ZS+6ruGYzbkbIbwjkPOMi9/m/F/78rw7zW0fW5Dz97r+IR5Oz1uvzXUes++/DHRfiPR7wiCc843ZSfy65W93r5fBdk9Bnmp03Br7jA5/4wjd+DN60cre6lZddye940s3OoO/OEfp5LCDFIpaw3Dbvw6J+w7Jrkt/tllI72MUe9lv+v08Uy/bdtJ9fG324SULsa0XZNanzgLx2cYgjHEt+g5ftu2lBH3ZZl+034SjzhPg2LctuXo1l9Z+R13Nc4BJXmfzOThSrUlMsdM9K9/zqqtV0TdfjXJxf9rcV3jCrif5cg3Gm4234VeX5/QNC9cKF
+  </data>
+ </layer>
+ <layer name="graphics" width="240" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzt2M0NwiAYgOFPpRdXcAcPruLJAUwcxJ9d1F3UjYRUI0kPJSjgB++TkHhSUvq2gggAzY6dyKkrPQsAMS623Sv9AirdbbsP+gUAoDra9ti556vt+uBjPulHzbTtsXPPV9v1Qa+Fdh1te+yc813M9F0fDOVqeW9EDib977Ria4YjlGt3bECPHA1v7P11pt+fie2Xbuvz7jek4dh1d/3e6LeYkHcu/aa3TPCe9Psdazh27em3rNB+czfc2jNjrahf//taOC8raTXtR2q713nXN+ta+/lp7LPw3/4L+Wvkf34C/AAjiQ==
+  </data>
+ </layer>
+ <objectgroup name="ground">
+  <object id="12" x="0" y="192" width="1072" height="16"/>
+  <object id="13" x="1120" y="192" width="224" height="16"/>
+  <object id="14" x="1408" y="192" width="352" height="16"/>
+  <object id="17" x="1808" y="192" width="16" height="16"/>
+  <object id="18" x="1840" y="192" width="16" height="16"/>
+  <object id="19" x="1872" y="208" width="160"/>
+  <object id="20" x="2048" y="192" width="32" height="16"/>
+  <object id="21" x="2096" y="192" width="160" height="16"/>
+  <object id="24" x="2112" y="176" width="80" height="16"/>
+  <object id="25" x="1872" y="192" width="160" height="16"/>
+  <object id="28" x="2320" y="192" width="544" height="16"/>
+  <object id="30" x="2416" y="176" width="64" height="16"/>
+  <object id="31" x="2656" y="176" width="80" height="16"/>
+  <object id="32" x="2672" y="160" width="48" height="16"/>
+  <object id="33" x="2880" y="192" width="64" height="16"/>
+  <object id="34" x="2992" y="208" width="176"/>
+  <object id="36" x="3232" y="192" width="480" height="16"/>
+  <object id="37" x="3248" y="176" width="256" height="16"/>
+  <object id="38" x="3264" y="160" width="192" height="16"/>
+  <object id="39" x="3280" y="144" width="160" height="16"/>
+  <object id="40" x="3296" y="128" width="128" height="16"/>
+  <object id="41" x="3312" y="112" width="96" height="16"/>
+  <object id="43" x="3328" y="96" width="64" height="16"/>
+  <object id="44" x="3344" y="80" width="32" height="16"/>
+  <object id="45" x="3712" y="176" width="128" height="16"/>
+  <object id="46" x="3712" y="192" width="128" height="16"/>
+  <object id="47" x="2992" y="192" width="176" height="16"/>
+ </objectgroup>
+</map>

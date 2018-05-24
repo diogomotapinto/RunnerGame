@@ -2,8 +2,6 @@ package com.mygdx.game;
 
 
 import android.app.Activity;
-import android.content.Intent;
-import android.net.Uri;
 
 import com.badlogic.gdx.Gdx;
 import com.google.android.gms.games.Games;
@@ -88,7 +86,7 @@ class PlayServices implements GameServices {
      */
     @Override
     public void showScores(int level) {
-        showScores(getLeaderboardID(level));
+        showScores(getLeaderboardID());
     }
 
     /**
@@ -116,21 +114,13 @@ class PlayServices implements GameServices {
         }
     }
 
-    /**
-     * {@inheritDoc}
-     */
-    @Override
-    public void rateGame() {
-        String str = "https://play.google.com/store/apps/details?id=com.lpoo.game";
-        activity.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(str)));
-    }
 
     /**
      * {@inheritDoc}
      */
     @Override
     public void submitScore(int score) {
-        String leaderboardID = getLeaderboardID(score);
+        String leaderboardID = getLeaderboardID();
         String achievementID = getAchievementID(score);
 
         if (leaderboardID != null)
@@ -138,9 +128,6 @@ class PlayServices implements GameServices {
 
         if (achievementID != null)
             unlockAchievement(achievementID);
-
-               /* if (score < 5000)
-                        unlockAchievement(activity.getString(R.string.achievement_impressive_timing_));*/
     }
 
     /**
@@ -149,16 +136,6 @@ class PlayServices implements GameServices {
      * @return The achievement ID.
      */
     private String getAchievementID(int score) {
-               /*  {
-                        case 0:
-                                return activity.getString(R.string.achievement_so_it_begins);
-                        case 16:
-                                return activity.getString(R.string.achievement_reach_for_the_clouds);
-                        default:
-                                System.err.println("No Achievement");
-                }*/
-
-               System.out.println("score= "+score);
 
         if (score == 10) {
             return activity.getString(R.string.achievement_noob);
@@ -186,51 +163,17 @@ class PlayServices implements GameServices {
 
     /**
      * Getter for each level leaderboard.
+     * <p>
+     * <p>
+     * .
      *
-     * @param score The current level to know the leaderboard from.
      * @return the leaderboard ID.
      */
-    private String getLeaderboardID(int score) {
-                /*
-                switch (level) {
-                        case 0:
-                                return activity.getString(R.string.leaderboard_level_one);
-                        case 1:
-                                return activity.getString(R.string.leaderboard_level_two);
-                        case 2:
-                                return activity.getString(R.string.leaderboard_level_three);
-                        case 3:
-                                return activity.getString(R.string.leaderboard_level_four);
-                        case 4:
-                                return activity.getString(R.string.leaderboard_level_five);
-                        case 5:
-                                return activity.getString(R.string.leaderboard_level_six);
-                        case 6:
-                                return activity.getString(R.string.leaderboard_level_seven);
-                        case 7:
-                                return activity.getString(R.string.leaderboard_level_eight);
-                        case 8:
-                                return activity.getString(R.string.leaderboard_level_nine);
-                        case 9:
-                                return activity.getString(R.string.leaderboard_level_ten);
-                        case 10:
-                                return activity.getString(R.string.leaderboard_level_eleven);
-                        case 11:
-                                return activity.getString(R.string.leaderboard_level_twelve);
-                        case 12:
-                                return activity.getString(R.string.leaderboard_level_thirteen);
-                        case 13:
-                                return activity.getString(R.string.leaderboard_level_fourteen);
-                        case 14:
-                                return activity.getString(R.string.leaderboard_level_fifteen);
-                        case 15:
-                                return activity.getString(R.string.leaderboard_level_sixteen);
-                        case 16:
-                                return activity.getString(R.string.leaderboard_level_seventeen);
-                        default:
-                                System.err.println("Invalid level ID. Was " + level);
-                } */
-        return null;
+    public String getLeaderboardID() {
+
+
+        return activity.getString(R.string.leaderboard_leaderboard);
+
     }
 
     /**

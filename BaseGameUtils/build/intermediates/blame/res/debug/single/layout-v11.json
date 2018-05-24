@@ -1,10 +1,10 @@
 [
-  {
-    "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/layout-v11/abc_simple_decor.xml",
-    "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/layout-v11/abc_simple_decor.xml"
-  },
-  {
-    "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/layout-v11/abc_action_bar_decor.xml",
-    "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/layout-v11/abc_action_bar_decor.xml"
-  }
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/layout-v11/abc_simple_decor.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/layout-v11/abc_simple_decor.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/layout-v11/abc_action_bar_decor.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/layout-v11/abc_action_bar_decor.xml"
+    }
 ]

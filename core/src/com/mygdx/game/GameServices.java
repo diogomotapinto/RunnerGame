@@ -53,10 +53,7 @@ public interface GameServices {
      */
     void showAchievements();
 
-    /**
-     * Displays native android intent to rate this game.
-     */
-    void rateGame();
+
 
 
 }

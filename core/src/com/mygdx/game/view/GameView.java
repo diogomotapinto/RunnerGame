@@ -105,8 +105,6 @@ public class GameView implements Screen {
         handleInput(delta);
         GameController.getInstance().update();
 
-        //gameCamera.position.x =  GameController.getInstance().getHeroBody().getX();
-
         if (GameController.getInstance().getHeroBody().getX() * PIXEL_TO_METER >= 200 && GameController.getInstance().getHeroBody().getX() * PIXEL_TO_METER < 3640) {
             gameCamera.position.set(GameController.getInstance().getHeroBody().getX(), gamePort.getWorldHeight() / 2, 0);
         }
@@ -121,7 +119,6 @@ public class GameView implements Screen {
         if (GameController.getInstance().getHeroBody().getBody().getPosition().y < 0) {
             game.setScreen(new GameOverScreen(this.game, this.gamePort));
             dispose();
-
         }
 
         if (GameController.getInstance().getHeroBody().getBody().getPosition().x * PIXEL_TO_METER > mapPixelWidth) {

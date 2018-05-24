@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/anim/abc_slide_out_bottom.xml"
+    }
+]

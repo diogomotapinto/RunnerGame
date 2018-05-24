@@ -2,5 +2,3 @@ component_depth: 1
 languages:
 -java
 
-exclude:
-- /BaseGameUtils/src/main/java/com/google/example/games/basegameutils/.*

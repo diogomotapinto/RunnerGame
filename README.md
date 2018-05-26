@@ -1,5 +1,8 @@
 # RunnerGame
 
+<img src='https://bettercodehub.com/edge/badge/diogomotapinto/RunnerGame?branch=master&token=9663dbc582b445b7bcf545095b01846171153ad5'>
+
+
 ## Introduction
 
 In this project we are going to make a game like a endless runner where the more time you spent alive the more rewards you get.

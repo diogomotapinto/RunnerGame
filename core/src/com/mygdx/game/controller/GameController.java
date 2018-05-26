@@ -16,12 +16,12 @@ import com.mygdx.game.controller.entities.GoldBody;
 import com.mygdx.game.controller.entities.HeroBody;
 import com.mygdx.game.controller.entities.MapBody;
 import com.mygdx.game.model.GameModel;
+import com.mygdx.game.model.HeroState;
 import com.mygdx.game.model.entities.BulletModel;
 import com.mygdx.game.model.entities.EnemyModel;
 import com.mygdx.game.model.entities.EntityModel;
 import com.mygdx.game.model.entities.GoldModel;
 import com.mygdx.game.model.entities.HeroModel;
-import com.mygdx.game.model.entities.MapModel;
 
 import java.util.ArrayList;
 
@@ -44,7 +44,7 @@ public class GameController implements ContactListener {
     private int score;
 
 
-    private GameController() {
+    GameController() {
         this.gameModel = GameModel.getInstance();
         TmxMapLoader mapLoader = new TmxMapLoader();
         TiledMap map = mapLoader.load("mapa.tmx");
@@ -102,15 +102,9 @@ public class GameController implements ContactListener {
             }
         }
 
-        checkGameState();
+        setState();
     }
 
-    private void checkGameState() {
-        if (this.heroBody.getY() < 0) {
-
-        }
-
-    }
 
     public void newInstance(GameController newInstance) {
         instance = newInstance;
@@ -165,8 +159,18 @@ public class GameController implements ContactListener {
                 }
             }
         }
+    }
 
-
+    private void setState() {
+        if (heroBody.getBody().getLinearVelocity().x == 0) {
+            gameModel.setHeroState(HeroState.State.PAUSED);
+        } else if (heroBody.getBody().getLinearVelocity().x > 0) {
+            gameModel.setHeroState(HeroState.State.RUNNING);
+        } else if (heroBody.getBody().getLinearVelocity().y > 0) {
+            gameModel.setHeroState(HeroState.State.JUMPING);
+        } else if (heroBody.getBody().getPosition().y < 0) {
+            gameModel.setHeroState(HeroState.State.DEAD);
+        }
     }
 
 

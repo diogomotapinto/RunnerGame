@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_launcher.png",
-        "source": "/Users/diogomotapinto/git/RunnerGame/android/res/drawable-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\android\\res\\drawable-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\res\\drawable-xxxhdpi\\ic_launcher.png"
     }
 ]

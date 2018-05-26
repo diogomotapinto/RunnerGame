@@ -19,6 +19,7 @@ public class GameModel {
      * Singleton instance of game model
      */
     private static GameModel instance;
+    private HeroState heroState;
 
     /**
      * The main character of the game
@@ -46,8 +47,10 @@ public class GameModel {
         map = new MapModel();
         golds = new ArrayList<GoldModel>();
         bullets = new ArrayList<BulletModel>();
+        this.heroState = new HeroState();
         generateGolds();
         //golds.add(new GoldModel(200,50));
+
 
     }
 
@@ -122,4 +125,11 @@ public class GameModel {
         }
     }
 
+    public HeroState getHeroState() {
+        return heroState;
+    }
+
+    public void setHeroState(HeroState.State heroState) {
+        this.heroState.setState(heroState);
+    }
 }

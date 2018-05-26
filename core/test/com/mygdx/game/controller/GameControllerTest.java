@@ -9,7 +9,7 @@ public class GameControllerTest extends GameTest {
 
     @Test
     public void getScore() {
-       
+
     }
 
     @Test

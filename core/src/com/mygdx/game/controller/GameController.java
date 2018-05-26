@@ -180,8 +180,12 @@ public class GameController implements ContactListener {
         // this.isContacted = true;
 
 
-        if (bodyA.getUserData() instanceof MapModel && bodyB.getUserData() instanceof HeroModel) {
-            System.out.print("contacto hero com floor");
+
+
+        if (bodyA.getUserData() instanceof EnemyModel && bodyB.getUserData() instanceof HeroModel) {
+           if(score >= 5){
+               this.score -=5;
+           }
         }
 
         if (bodyA.getUserData() instanceof GoldModel && (bodyB.getUserData() instanceof HeroModel || bodyB.getUserData() instanceof BulletModel)) {

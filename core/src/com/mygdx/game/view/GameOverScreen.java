@@ -30,11 +30,15 @@ class GameOverScreen extends Stage implements Screen {
     private TextureAtlas buttonAtlas;
     private TextButton.TextButtonStyle textButtonStyle;
     private final Stage stage;
+    private int screenWidth;
+    private int screenHeight;
 
     public GameOverScreen(RunnerGame game, Viewport viewport) {
         this.game = game;
         Table table = new Table();
         //this.stage = new Stage(viewport, this.game.getBatch());
+        screenWidth= Gdx.graphics.getWidth();
+        screenHeight =Gdx.graphics.getHeight();
 
 
         stage = new Stage(new ScreenViewport());
@@ -49,6 +53,11 @@ class GameOverScreen extends Stage implements Screen {
     public void loadMenuAssets() {
 
         this.game.getAssetManager().load("gameOver.jpg", Texture.class);
+        this.game.getAssetManager().load("restartButton.png", Texture.class);
+        this.game.getAssetManager().load("achievement.png", Texture.class);
+        this.game.getAssetManager().load("leaderboard.png", Texture.class);
+
+
 
         this.game.getAssetManager().finishLoading();
 
@@ -100,8 +109,8 @@ class GameOverScreen extends Stage implements Screen {
 
     private void addRestartBtn() {
 
-        ImageButton buttonRestart = createButton("gameOver.jpg", 0, 100);
-
+        ImageButton buttonRestart = createButton("restartButton.png", 0, screenHeight/2);
+        System.out.println(screenWidth/5);
         buttonRestart.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
@@ -124,7 +133,7 @@ class GameOverScreen extends Stage implements Screen {
 
 
     private void addAchievmentBtn() {
-        ImageButton buttonAch = createButton("gameOver.jpg", 150, 100);
+        ImageButton buttonAch = createButton("achievement.png", screenWidth/2-50, screenHeight/2);
         buttonAch.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
@@ -140,7 +149,7 @@ class GameOverScreen extends Stage implements Screen {
     }
 
     private void addLeaderBtn() {
-        ImageButton buttonAch = createButton("gameOver.jpg",300,100);
+        ImageButton buttonAch = createButton("leaderboard.png",screenWidth-100,screenHeight/2);
         buttonAch.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {

@@ -120,7 +120,7 @@ public class GameView implements Screen {
         gameHud.update(gameController.getScore(), seconds);
         gameCamera.update();
         renderer.setView(gameCamera);
-        game.getGameServices().submitScore(gameController.getScore());
+        //game.getGameServices().submitScore(gameController.getScore());
 
 
         if (gameController.getHeroBody().getBody().getPosition().y < 0) {

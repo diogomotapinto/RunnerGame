@@ -4388,7 +4388,7 @@ SHA-D9973DA287EC247F28ED8763F4FA46819E8E92A5:prebuilt/com/mygdx/game/R$style.dex
 SHA-D16BC758FE1B2ED127F68D79EDF93D39EDC80279:prebuilt/com/mygdx/game/R$styleable.dex
 SHA-A0CF728A30F757DD8860A7AC60CF2C2A631587C4:prebuilt/com/mygdx/game/R.dex
 SHA-58E871C2CD5E39E8E8B9F1813209D56D9BBEE023:prebuilt/com/mygdx/game/RunnerGame.dex
-SHA-6EDC34EA97A28854B54D3DB0B0D85D9614285DFF:prebuilt/com/mygdx/game/controller/GameController.dex
+SHA-7733947DD1B3A9CB4D301663FB936EADB7DB1FD6:prebuilt/com/mygdx/game/controller/GameController.dex
 SHA-77BE54DC3D41F66F7DF8F542B3F1FA1620D8126F:prebuilt/com/mygdx/game/controller/entities/BulletBody.dex
 SHA-684B82D8B35BFC868EBEF6C00AD40471CDD2C792:prebuilt/com/mygdx/game/controller/entities/EnemyBody.dex
 SHA-3365D5ACBE3E49B23D656D73F0B6B67F373CC20C:prebuilt/com/mygdx/game/controller/entities/EntityBody.dex
@@ -4407,14 +4407,14 @@ SHA-17DD12A308A6F3B086F06C3C989B050BB91CA7B6:prebuilt/com/mygdx/game/model/entit
 SHA-F8E7C573B00A6A055EE333F9EA2A86F2051FFC4F:prebuilt/com/mygdx/game/utils/Utilities.dex
 SHA-8070839A5F5A830323A2493086D70D6E686689EC:prebuilt/com/mygdx/game/view/GameHUD$1.dex
 SHA-B7843C7AF2EDAB212E26DE9FDC250B614A806AC8:prebuilt/com/mygdx/game/view/GameHUD.dex
-SHA-59F8FC4754373B6AD8CC721068D521EC1FAD6F95:prebuilt/com/mygdx/game/view/GameOverScreen$1.dex
-SHA-8C8C9B5A44B9C4347ADDC3F23968AC5565157876:prebuilt/com/mygdx/game/view/GameOverScreen$2.dex
-SHA-37B4AB646F1768CFD22BC28681EA5CCE77FA8B0B:prebuilt/com/mygdx/game/view/GameOverScreen$3.dex
-SHA-2BD6184F720E8012BD197C658C6A94DB7C260CA5:prebuilt/com/mygdx/game/view/GameOverScreen.dex
+SHA-83874985131CDFC9FEC2F075E27344D4DDB581CC:prebuilt/com/mygdx/game/view/GameOverScreen$1.dex
+SHA-05E4278A3AA7E7B047BD39664C03065A429F14A0:prebuilt/com/mygdx/game/view/GameOverScreen$2.dex
+SHA-98568C477C0ED66C4ED651D72E86144D6AF46C7D:prebuilt/com/mygdx/game/view/GameOverScreen$3.dex
+SHA-E4B4ADA45602C98ECBFF38500D1795514829428E:prebuilt/com/mygdx/game/view/GameOverScreen.dex
 SHA-C1401B4832BAF0F7DFFB90DC7BE12617FFDE3F3A:prebuilt/com/mygdx/game/view/GamePausedScreen$1.dex
 SHA-8B8A3D77E50B26C09615A334A89C272935FD1E08:prebuilt/com/mygdx/game/view/GamePausedScreen$2.dex
 SHA-0A64ECDF601DB135EB6497DB763EDF417802DA3E:prebuilt/com/mygdx/game/view/GamePausedScreen.dex
-SHA-13A3F9BD9E12A32E42D1A8CBFB7438D519F23E2A:prebuilt/com/mygdx/game/view/GameView.dex
+SHA-E7328FC950459C4BDE62E2483DFF9E30E63ADEB1:prebuilt/com/mygdx/game/view/GameView.dex
 SHA-5F81CD8EC28A21E05AEEC7A3113617092AECDB31:prebuilt/com/mygdx/game/view/GameWonScreen.dex
 SHA-353E721004F9720F3D7F820611CCE467224A40E4:prebuilt/com/mygdx/game/view/MainMenuView.dex
 SHA-78E65BA8DB7FB4E4DADFF9CAC0EC9920DE91C2EE:prebuilt/com/mygdx/game/view/StateMachine$1.dex
@@ -4461,4 +4461,4 @@ SHA-5ED0ABBA538362808AB80F1B49B0070637711EE7:prebuilt/de/golfgl/gdxgamesvcs/game
 SHA-DB12220A95EDF894592EC0B8BB02402AFE62176D:prebuilt/de/golfgl/gdxgamesvcs/gamestate/ISaveGameStateResponseListener.dex
 SHA-170619D02B364A9871C4267D134465896251A602:prebuilt/de/golfgl/gdxgamesvcs/leaderboard/IFetchLeaderBoardEntriesResponseListener.dex
 SHA-75679DBCA4BF9F0318BBA0EF6ABFE7E981195B77:prebuilt/de/golfgl/gdxgamesvcs/leaderboard/ILeaderBoardEntry.dex
-SHA-55774F9FFFFF1161D65DFBC9FD154056A4F2F888:digest
+SHA-EAC68DC6CD9A0AA95DAB37CA298D1F46DB7D317B:digest

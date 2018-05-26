@@ -9,10 +9,80 @@
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/android/assets/gameOver.jpg" afterPath="$PROJECT_DIR$/android/assets/gameOver.jpg" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/gameOver.jpg" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/gameOver.jpg" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/02/8E1B6A166684C297D8BB9DA84E00D1AEAB415F" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/02/8E1B6A166684C297D8BB9DA84E00D1AEAB415F" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/08/BE0CAD58C54697B4021F2D70C3D78DD078285E" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/08/BE0CAD58C54697B4021F2D70C3D78DD078285E" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/0D/83AB5B26CF54C3AF0A5AB6002EBC073F300F0F" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/0D/83AB5B26CF54C3AF0A5AB6002EBC073F300F0F" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/14/41A65A07277829D2EA011D24EE494FE36CF633" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/14/41A65A07277829D2EA011D24EE494FE36CF633" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/19/1C93D61C065E3C0057CDD534AD388F7A6644B2" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/19/1C93D61C065E3C0057CDD534AD388F7A6644B2" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/1B/03802DB341A33BF0F39F21718882262B726672" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/1B/03802DB341A33BF0F39F21718882262B726672" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/1D/0FDA49A60588164603524063D617CDA830B165" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/1D/0FDA49A60588164603524063D617CDA830B165" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/25/E69625C397BCCD4724415C4561CC13E10E19A0" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/25/E69625C397BCCD4724415C4561CC13E10E19A0" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/31/6356057C36CEC8C942566213B72D0B7769E5C1" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/31/6356057C36CEC8C942566213B72D0B7769E5C1" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/33/E4896A4FB6504C9B3706E4CC06B2F19D7EE08F" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/33/E4896A4FB6504C9B3706E4CC06B2F19D7EE08F" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/53/0C422E43774DFABEC77A52F6E851D22F90C6C6" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/53/0C422E43774DFABEC77A52F6E851D22F90C6C6" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/57/5F80671C77193E28A092094E310450ECAAE53E" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/57/5F80671C77193E28A092094E310450ECAAE53E" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/61/46BDD6421997FF731392FBD5BF1D617B5DD8C9" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/61/46BDD6421997FF731392FBD5BF1D617B5DD8C9" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/64/47C9576BCF49779816471C116DD4F4F0041A1C" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/64/47C9576BCF49779816471C116DD4F4F0041A1C" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/7F/BD70374EAE3E9688FB3F1580D8AF64247B49E0" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/7F/BD70374EAE3E9688FB3F1580D8AF64247B49E0" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/82/3DD34CC9995DFF1DE1253C1B3BFE05BCA2AE7A" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/82/3DD34CC9995DFF1DE1253C1B3BFE05BCA2AE7A" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/8A/D330E23697E66DF7BF417AC2A662910760F130" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/8A/D330E23697E66DF7BF417AC2A662910760F130" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/8B/09BAFED5AD52D0D709E37BAC9E0BD263A220FE" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/8B/09BAFED5AD52D0D709E37BAC9E0BD263A220FE" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/8E/DBBFA0926B58F9186AF3EAC890E39FA68D227A" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/8E/DBBFA0926B58F9186AF3EAC890E39FA68D227A" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/91/FDB10BDD8C889B6A7797A636AF423463B34072" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/91/FDB10BDD8C889B6A7797A636AF423463B34072" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/9A/D5CB5EF6C907C4469ED32B6AAB70AAAE41AE42" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/9A/D5CB5EF6C907C4469ED32B6AAB70AAAE41AE42" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/A5/023E668723928EBA1531F7F8CC667C4F2AAABD" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/A5/023E668723928EBA1531F7F8CC667C4F2AAABD" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/AF/7063CEFD9DCE49F5F207BE4F1E8C9D6DF904E4" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/AF/7063CEFD9DCE49F5F207BE4F1E8C9D6DF904E4" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/B3/AA7BF8A93C0F99A25C7DF71EBAC0DD9CF8AC44" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/B3/AA7BF8A93C0F99A25C7DF71EBAC0DD9CF8AC44" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/B5/11B98E2561CD7D0AA962B308DB0C81489B0ECA" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/B5/11B98E2561CD7D0AA962B308DB0C81489B0ECA" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/BF/0E1B567411EE13BB01F23F70CA792C400A4D67" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/BF/0E1B567411EE13BB01F23F70CA792C400A4D67" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/C5/D392DAA46CE2A0F1C7A60A7EEC22CAD5C0D37E" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/C5/D392DAA46CE2A0F1C7A60A7EEC22CAD5C0D37E" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/EB/EC4042A9E3401CA883BACAFC4B7ACDB8A53CB8" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/EB/EC4042A9E3401CA883BACAFC4B7ACDB8A53CB8" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/F2/61D4EBDEBF5F0885EF50D47750706F80485949" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/F2/61D4EBDEBF5F0885EF50D47750706F80485949" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/FB/F71E017F6278317E6A2801257FBD0255462F2C" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/FB/F71E017F6278317E6A2801257FBD0255462F2C" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/FF/C9785A8364216305576E3175AB53CE25969732" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/transformJackWithJackForDebug/FF/C9785A8364216305576E3175AB53CE25969732" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/packaged/debug/classes.zip" afterPath="$PROJECT_DIR$/android/build/intermediates/packaged/debug/classes.zip" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/jack/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/jack/debug/folders/1000/1f/main/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-0c2adc62c103733d9740a8391b2013b1d6faabf2.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-0c2adc62c103733d9740a8391b2013b1d6faabf2.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-0d409ea38bfda591003f5157ef331102416b0514.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-0d409ea38bfda591003f5157ef331102416b0514.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-718639264be6b70aaa33e2c93fd022a364495e6d.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-718639264be6b70aaa33e2c93fd022a364495e6d.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-74e7b6831fb800e8b2a3f0fed9c5614eef0b11ef.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-74e7b6831fb800e8b2a3f0fed9c5614eef0b11ef.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-9169ea2e6f6b045484a8ccb075bfd2d8579416c6.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-9169ea2e6f6b045484a8ccb075bfd2d8579416c6.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-9182a9a3cab57d5e5cf27d049d847c693268e643.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-9182a9a3cab57d5e5cf27d049d847c693268e643.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-9e4d24e1f55b8d042a020c4993dc3ea766c51089.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-9e4d24e1f55b8d042a020c4993dc3ea766c51089.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-b2ec9be232e0d201fac8562b660c4de3de157f7d.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-b2ec9be232e0d201fac8562b660c4de3de157f7d.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-b9ccf2549c7a1525295770d162cc72e052712b0b.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-b9ccf2549c7a1525295770d162cc72e052712b0b.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-bcf57550c9da1ff1e4c235fc4a191113ccedf11e.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-bcf57550c9da1ff1e4c235fc4a191113ccedf11e.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-bd4ea939a124d11002b1fb4e69c17dc522a4ecaf.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-bd4ea939a124d11002b1fb4e69c17dc522a4ecaf.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-d3575ba7dce69f276baf23d6a720b1a0f7740d86.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-d3575ba7dce69f276baf23d6a720b1a0f7740d86.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f06a02b1144b73e331d05f2d56fea7de929dee4a.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f06a02b1144b73e331d05f2d56fea7de929dee4a.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f64908359a2c92169df85149d285301d2715cc80.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f64908359a2c92169df85149d285301d2715cc80.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/core-1.0-e2a2da6810c24acb24279c5fd9ffeea238830278.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/core-1.0-e2a2da6810c24acb24279c5fd9ffeea238830278.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gdx-1.9.8-d0a45d24238f5d225063d3b4ef134dc7fc450e10.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gdx-1.9.8-d0a45d24238f5d225063d3b4ef134dc7fc450e10.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gdx-backend-android-1.9.8-a75ce96e0707425174a9c227514854c00466c53b.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gdx-backend-android-1.9.8-a75ce96e0707425174a9c227514854c00466c53b.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gdx-box2d-1.9.8-b04e9336bc5a7a586539a59a9a670855a84f21e3.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gdx-box2d-1.9.8-b04e9336bc5a7a586539a59a9a670855a84f21e3.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gdx-gamesvcs-core-0.2.3-6f8af1b0366540aafcc7bac1eaf616d1ab3dacdb.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gdx-gamesvcs-core-0.2.3-6f8af1b0366540aafcc7bac1eaf616d1ab3dacdb.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/support-annotations-25.2.0-496d5916ec594b253f44b3741bfba0053f9cd41f.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/support-annotations-25.2.0-496d5916ec594b253f44b3741bfba0053f9cd41f.jar" />
+      <change beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" afterPath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/jack-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/jack-cache/cache.xml" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/controller/GameController.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/controller/GameController.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameOverScreen$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameOverScreen$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameOverScreen$2.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameOverScreen$2.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameOverScreen$3.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameOverScreen$3.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameOverScreen.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameOverScreen.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameView.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameView.class" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
+      <change beforePath="$PROJECT_DIR$/core/core.iml" afterPath="$PROJECT_DIR$/core/core.iml" />
       <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameView.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameView.java" />
+      <change beforePath="$PROJECT_DIR$/html/html.iml" afterPath="$PROJECT_DIR$/html/html.iml" />
+      <change beforePath="$PROJECT_DIR$/ios/ios.iml" afterPath="$PROJECT_DIR$/ios/ios.iml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,28 +131,78 @@
       <file leaf-file-name="GameView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+            <state relative-caret-position="1485">
+              <caret line="122" column="10" lean-forward="false" selection-start-line="122" selection-start-column="10" selection-end-line="122" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="47" column="39" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="39" />
+            <state relative-caret-position="-1887">
+              <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameModel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyGdxGame.gwt.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/MyGdxGame.gwt.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1545">
+              <caret line="103" column="90" lean-forward="false" selection-start-line="103" selection-start-column="90" selection-end-line="103" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/model/GameModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
+            <state relative-caret-position="660">
               <caret line="58" column="33" lean-forward="false" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameWonScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameWonScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameOverScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1965">
+              <caret line="151" column="62" lean-forward="false" selection-start-line="151" selection-start-column="62" selection-end-line="151" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -4647,12 +4767,12 @@
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/GameServices.java" />
         <option value="$PROJECT_DIR$/desktop/src/com/mygdx/game/desktop/NullPlayServices.java" />
         <option value="$PROJECT_DIR$/android/src/com/mygdx/game/PlayServices.java" />
-        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java" />
         <option value="$PROJECT_DIR$/.bettercodehub.yml" />
         <option value="$PROJECT_DIR$/ios/src/com/mygdx/game/NullPlayServices.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameView.java" />
+        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -4677,7 +4797,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -4688,6 +4807,11 @@
             <path>
               <item name="RunnerGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="RunnerGame" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="RunnerGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RunnerGame" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -4701,6 +4825,14 @@
               <item name="RunnerGame" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mygdx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RunnerGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RunnerGame" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mygdx" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -4708,24 +4840,9 @@
               <item name="RunnerGame" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mygdx" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RunnerGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RunnerGame" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RunnerGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RunnerGame" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RunnerGame" type="b2602c69:ProjectViewProjectNode" />
@@ -4741,6 +4858,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -4763,7 +4882,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -4775,23 +4893,31 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="device.picker.selection" value="9885e641355a43584e" />
+    <property name="device.picker.selection" value="Nexus_5X_API_27" />
     <property name="android.project.structure.last.selected" value="android" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="SearchEverywhereHistoryKey" value="statema&#9;PSI&#9;JAVA://com.mygdx.game.view.StateMachine&#10;                        submitScore&#9;PSI&#9;JAVA://com.mygdx.game.PlayServices#submitScore&#10;console&#9;ACTION&#9;JShell.Console&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;createSpri&#9;PSI&#9;JAVA://com.mygdx.game.view.entities.EntityView#createSprite&#10;id.&#9;FILE&#9;file:///Users/diogomotapinto/git/RunnerGame/android/res/values/games-ids.xml&#10;manifest.xml&#9;FILE&#9;file:///Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml&#10;ma&#9;FILE&#9;file:///Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/bundles/debug/AndroidManifest.xml&#10;manifes&#9;FILE&#9;file:///Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/android/src/com/mygdx/game" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/core/src/com/mygdx" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="android.profiler.active" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mygdx.test" />
+      <recent name="com.mygdx.game.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mygdx.game" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/android/assets" />
       <recent name="$PROJECT_DIR$/android" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.mygdx.game" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mygdx.game" />
@@ -5148,13 +5274,6 @@
       <option name="presentableId" value="Default" />
       <updated>1523968546480</updated>
     </task>
-    <task id="LOCAL-00008" summary="Added the possibility to set the position with a vector2 in the entitymodel">
-      <created>1524209546000</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1524209546000</updated>
-    </task>
     <task id="LOCAL-00009" summary="Small fix">
       <created>1524965202807</created>
       <option name="number" value="00009" />
@@ -5491,7 +5610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527181946374</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Changing instance on model">
+      <created>1527182190789</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1527182190789</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TodoView">
@@ -5509,12 +5635,12 @@
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22031474" sideWeight="0.52193993" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36039886" sideWeight="0.50572246" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36039886" sideWeight="0.50572246" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Flutter Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5854701" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35612535" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Metric" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.49570817" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.49232736" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -5524,14 +5650,13 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36039886" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763532" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763532" sideWeight="0.49713877" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.4948849" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22031474" sideWeight="0.47806004" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.076537915" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5076726" order="8" side_tool="true" content_ui="tabs" />
@@ -5548,13 +5673,13 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Main Menu implemented" />
     <MESSAGE value="Trying to make the map endless" />
     <MESSAGE value="Bullets added" />
     <MESSAGE value="Bullets fixed" />
@@ -5579,7 +5704,8 @@
     <MESSAGE value="Changes in bettercodehub" />
     <MESSAGE value="Deleted files from ios and html" />
     <MESSAGE value="Changing instance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing instance" />
+    <MESSAGE value="Changing instance on model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing instance on model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -5609,14 +5735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5772,14 +5890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/MyGdxGame.gwt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/assets/playButton.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -5871,26 +5981,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="94" column="13" lean-forward="false" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ios/src/com/mygdx/game/NullPlayServices.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameWonScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/html.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5898,38 +5993,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/model/GameModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="58" column="33" lean-forward="false" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameWonScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-668">
-          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        <state relative-caret-position="60">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+        <state relative-caret-position="1485">
+          <caret line="122" column="10" lean-forward="false" selection-start-line="122" selection-start-column="10" selection-end-line="122" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1965">
+          <caret line="151" column="62" lean-forward="false" selection-start-line="151" selection-start-column="62" selection-end-line="151" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1545">
+          <caret line="103" column="90" lean-forward="false" selection-start-line="103" selection-start-column="90" selection-end-line="103" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/MyGdxGame.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="47" column="39" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/model/GameModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="58" column="33" lean-forward="false" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="33" />
+        <state relative-caret-position="-1887">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="27" />
           <folding />
         </state>
       </provider>

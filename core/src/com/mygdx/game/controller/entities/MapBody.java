@@ -13,7 +13,6 @@ import com.mygdx.game.model.entities.MapModel;
 
 import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 
-
 public class MapBody extends EntityBody {
     private final World world;
     //private MapModel mapModel;

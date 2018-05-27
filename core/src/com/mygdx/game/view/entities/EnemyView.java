@@ -11,18 +11,49 @@ import com.mygdx.game.model.entities.EntityModel;
 
 import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 
-
+/**
+ * A view representing the enemy
+ */
 public class EnemyView extends EntityView {
+
+    /**
+     * texture of the enemy
+     */
     private Texture texture;
+
+    /**
+     * state of the time
+     */
     private float stateTime = 0;
+
+    /**
+     * The animation used when the ship is accelerating
+     */
     private Animation<TextureRegion> rollingAnimation;
+
+    /**
+     * model of the enemy
+     */
     private EntityModel model;
 
 
+    /**
+     * Creates a view belonging to a game.
+     *
+     * @param game the game this view belongs to. Needed to access the
+     *             asset manager to get textures.
+     */
     public EnemyView(RunnerGame game) {
         super(game);
     }
 
+    /**
+     * Creates a sprite representing this enemy.
+     *
+     * @param game the game this view belongs to. Needed to access the
+     *             asset manager to get textures.
+     * @return the sprite representing this enemy
+     */
     @Override
     public Sprite createSprite(RunnerGame game) {
         texture = game.getAssetManager().get("enemy.png");
@@ -32,6 +63,13 @@ public class EnemyView extends EntityView {
         return sprite;
     }
 
+    /**
+     * Creates the animation used when the enemy is accelerating
+     *
+     * @param game the game this view belongs to. Needed to access the
+     *             asset manager to get textures.
+     * @return the animation used when the enemy is moving
+     */
     private Animation<TextureRegion> createRollingAnimation(RunnerGame game) {
         Texture runTexture = game.getAssetManager().get("enemy.png");
         TextureRegion[][] runRegion = TextureRegion.split(runTexture, runTexture.getWidth() / 8, runTexture.getHeight());
@@ -42,6 +80,13 @@ public class EnemyView extends EntityView {
         return new Animation<TextureRegion>(0.08f, frames);
     }
 
+    /**
+     * Draws the sprite from this view using a sprite batch.
+     * Chooses the correct texture or animation to be used
+     * depending on the stateTime
+     *
+     * @param batch The sprite batch to be used for drawing.
+     */
     @Override
     public void draw(SpriteBatch batch) {
         stateTime += Gdx.graphics.getDeltaTime();
@@ -52,6 +97,11 @@ public class EnemyView extends EntityView {
         sprite.draw(batch);
     }
 
+    /**
+     * Updates this enemy model.
+     *
+     * @param model the model used to update this view
+     */
     @Override
     public void update(EntityModel model) {
         //super.update(model);

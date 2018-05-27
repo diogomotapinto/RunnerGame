@@ -11,18 +11,49 @@ import com.mygdx.game.model.entities.EntityModel;
 
 import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 
-
+/**
+ * A view representing the hero
+ */
 public class HeroView extends EntityView {
+
+    /**
+     * texture of the enemy
+     */
     private Texture texture;
+
+    /**
+     * state of the time
+     */
     private float stateTime = 0;
+
+    /**
+     * The animation used when the ship is accelerating
+     */
     private Animation<TextureRegion> runningAnimation;
+
+    /**
+     * model of the enemy
+     */
     private EntityModel model;
 
 
+    /**
+     * Constructs a hero view.
+     *
+     * @param game the game this view belongs to. Needed to access the
+     *             asset manager to get textures.
+     */
     public HeroView(RunnerGame game) {
         super(game);
     }
 
+    /**
+     * Creates a sprite representing this hero.
+     *
+     * @param game the game this view belongs to. Needed to access the
+     *             asset manager to get textures.
+     * @return the sprite representing this hero
+     */
     @Override
     public Sprite createSprite(RunnerGame game) {
         texture = game.getAssetManager().get("hello.png");
@@ -32,6 +63,13 @@ public class HeroView extends EntityView {
         return sprite;
     }
 
+    /**
+     * Creates the animation used when the hero is accelerating
+     *
+     * @param game the game this view belongs to. Needed to access the
+     *             asset manager to get textures.
+     * @return the animation used when the hero is moving
+     */
     private Animation<TextureRegion> createRunningAnimation(RunnerGame game) {
         Texture runTexture = game.getAssetManager().get("hello.png");
         TextureRegion[][] runRegion = TextureRegion.split(runTexture, runTexture.getWidth() / 9, runTexture.getHeight());
@@ -42,6 +80,13 @@ public class HeroView extends EntityView {
         return new Animation<TextureRegion>(0.08f, frames);
     }
 
+    /**
+     * Draws the sprite from this view using a sprite batch.
+     * Chooses the correct texture or animation to be used
+     * depending on the stateTime
+     *
+     * @param batch The sprite batch to be used for drawing.
+     */
     @Override
     public void draw(SpriteBatch batch) {
         stateTime += Gdx.graphics.getDeltaTime();
@@ -51,6 +96,11 @@ public class HeroView extends EntityView {
         sprite.draw(batch);
     }
 
+    /**
+     * Updates this hero model.
+     *
+     * @param model the model used to update this view
+     */
     @Override
     public void update(EntityModel model) {
         //super.update(model);

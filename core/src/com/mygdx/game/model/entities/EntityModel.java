@@ -3,27 +3,40 @@ package com.mygdx.game.model.entities;
 import com.badlogic.gdx.math.Vector2;
 
 public abstract class EntityModel {
+
     /**
      * The x-coordinate of the model in meters
      */
     private float x;
+
     /**
      * The y-coordinate of the model in meters
      */
     private float y;
+
     /**
      * Positions
      */
     private Vector2 position;
+
     /**
      * as the model been flagged for removal
      */
     private boolean flaggedForRemoval = false;
 
+    /**
+     * Constructs a model with a position and a rotation.
+     *
+     * @param x The x-coordinate of this entity in meters.
+     * @param y The y-coordinate of this entity in meters.
+     */
     EntityModel(float x, float y) {
         this.position = new Vector2(x, y);
     }
 
+    /**
+     * Class Empty Constructor
+     */
     EntityModel() {
 
     }
@@ -70,6 +83,11 @@ public abstract class EntityModel {
         this.position.set(x, y);
     }
 
+    /**
+     * Gets current position
+     *
+     * @return
+     */
     public Vector2 getPosition() {
         return position;
     }

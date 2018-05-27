@@ -5,7 +5,11 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.mygdx.game.RunnerGame;
 import com.mygdx.game.model.entities.EntityModel;
 
-
+/**
+ * A abstract view capable of holding a sprite with a certain position
+ * <p>
+ * This view is able to update its data based on a entity model.
+ */
 public abstract class EntityView {
 
     /**
@@ -31,6 +35,12 @@ public abstract class EntityView {
         sprite.draw(batch);
     }
 
+    /**
+     * Creates a view belonging to a game.
+     *
+     * @param game the game this view belongs to. Needed to access the
+     *             asset manager to get textures.
+     */
     protected abstract Sprite createSprite(RunnerGame game);
 
 

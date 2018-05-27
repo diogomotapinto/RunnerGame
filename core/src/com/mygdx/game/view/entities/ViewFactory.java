@@ -6,7 +6,11 @@ import com.mygdx.game.model.entities.EntityModel;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * A factory for EntityView objects with cache
+ */
 public class ViewFactory {
+
     private static final Map<EntityModel.ModelType, EntityView> cache = new HashMap<EntityModel.ModelType, EntityView>();
 
     public static EntityView makeView(RunnerGame game, EntityModel model) {

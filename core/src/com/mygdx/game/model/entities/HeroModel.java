@@ -1,13 +1,15 @@
 package com.mygdx.game.model.entities;
 
-
+/**
+ * A model representing the hero
+ */
 public class HeroModel extends EntityModel {
 
     /**
-     * Class constructor
+     * Constructs a hero model belonging to a game model.
      *
-     * @param x
-     * @param y
+     * @param x The x-coordinate of this hero
+     * @param y The y-coordinate of this hero
      */
     public HeroModel(float x, float y) {
         super(x, y);

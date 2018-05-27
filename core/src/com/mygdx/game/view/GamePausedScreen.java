@@ -21,25 +21,27 @@ class GamePausedScreen extends Stage implements Screen {
     private final OrthographicCamera pauseCamera;
     private final RunnerGame game;
     private Stage stage;
+    private int screenWidth;
+    private int screenHeight;
 
     public GamePausedScreen(RunnerGame game, Viewport viewport) {
         this.game = game;
         Table table = new Table();
         this.stage = new Stage(viewport, this.game.getBatch());
+        screenWidth= Gdx.graphics.getWidth();
+        screenHeight =Gdx.graphics.getHeight();
+
+
 
         pauseCamera = new OrthographicCamera();
         pauseCamera.setToOrtho(false, GameController.V_WIDTH, GameController.V_HEIGHT);
 
         stage = new Stage(new ScreenViewport());
         addResumeBtn();
-
-        addMainMenuBtn();
-
     }
 
     public void loadMenuAssets() {
-        this.game.getAssetManager().load("playButton.jpg", Texture.class);
-        this.game.getAssetManager().load("gameOver.jpg", Texture.class);
+        this.game.getAssetManager().load("restartButton.png", Texture.class);
         this.game.getAssetManager().finishLoading();
     }
 
@@ -64,11 +66,11 @@ class GamePausedScreen extends Stage implements Screen {
 
     private void addResumeBtn() {
 
-        Texture myTextureResume = new Texture(Gdx.files.internal("playButton.jpg"));
+        Texture myTextureResume = new Texture(Gdx.files.internal("restartButton.png"));
         TextureRegion myTextureRegionResume = new TextureRegion(myTextureResume);
         TextureRegionDrawable myTexRegionDrawableResume = new TextureRegionDrawable(myTextureRegionResume);
         ImageButton buttonPlay = new ImageButton(myTexRegionDrawableResume); //Set the button up
-        buttonPlay.setPosition(204, 200);
+        buttonPlay.setPosition(screenWidth/2-40, screenHeight/2-40);
         buttonPlay.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
@@ -81,29 +83,6 @@ class GamePausedScreen extends Stage implements Screen {
 
         // stage = new Stage(new ScreenViewport()); //Set up a stage for the ui
         stage.addActor(buttonPlay); //Add the button to the stage to perform rendering and take input.
-        Gdx.input.setInputProcessor(stage); //Start taking input from the ui
-
-    }
-
-
-    private void addMainMenuBtn() {
-
-        Texture myTextureMenu = new Texture(Gdx.files.internal("gameOver.jpg"));
-        TextureRegion myTextureRegionMenu = new TextureRegion(myTextureMenu);
-        TextureRegionDrawable myTexRegionDrawableMenu = new TextureRegionDrawable(myTextureRegionMenu);
-        ImageButton buttonMenu = new ImageButton(myTexRegionDrawableMenu); //Set the button up
-        buttonMenu.setPosition(408, 100);
-        buttonMenu.addListener(new ClickListener() {
-            @Override
-            public void clicked(InputEvent event, float x, float y) {
-                MainMenuView view = new MainMenuView(game);
-                game.setScreen(view);
-                dispose();
-            }
-        });
-
-        //stage = new Stage(new ScreenViewport()); //Set up a stage for the ui
-        stage.addActor(buttonMenu); //Add the button to the stage to perform rendering and take input.
         Gdx.input.setInputProcessor(stage); //Start taking input from the ui
 
     }

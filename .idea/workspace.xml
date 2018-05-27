@@ -5,251 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb60d76f-fce1-441b-8f01-e3ddb3008f99" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/model/HeroState.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/test/com/mygdx/game/controller/NES - Super Mario Bros - Tileset.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/test/com/mygdx/game/controller/NES - Super Mario Bros - Tileset.tsx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/test/com/mygdx/game/controller/NES - Super Mario Bros 3 - Background Elements.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/test/com/mygdx/game/controller/NES - Super Mario Bros 3 - Background Elements.tsx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/test/com/mygdx/game/controller/mapa.tmx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/core/test/com/mygdx/game/controller/media-pause.png" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/BaseGameUtils/BaseGameUtils.iml" afterPath="$PROJECT_DIR$/BaseGameUtils/BaseGameUtils.iml" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-af.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-af.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-am.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-am.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ar.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ar.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-az-rAZ.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-az-rAZ.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-bg.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-bg.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-bn-rBD.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-bn-rBD.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ca.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ca.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-cs.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-cs.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-da.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-da.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-de.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-de.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-el.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-el.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-en-rAU.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-en-rAU.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-en-rGB.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-en-rGB.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-en-rIN.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-en-rIN.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-es-rUS.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-es-rUS.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-es.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-et-rEE.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-et-rEE.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-eu-rES.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-eu-rES.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-fa.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-fa.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-fi.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-fi.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-fr.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-gl-rES.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-gl-rES.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-gu-rIN.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-gu-rIN.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-hi.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-hi.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-hr.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-hr.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-hu.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-hu.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-hy-rAM.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-hy-rAM.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-in.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-in.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-is-rIS.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-is-rIS.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-it.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-it.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-iw.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-iw.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ja.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ja.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ka-rGE.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ka-rGE.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-kk-rKZ.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-kk-rKZ.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-km-rKH.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-km-rKH.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-kn-rIN.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-kn-rIN.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ko.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ko.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ky-rKG.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ky-rKG.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-land.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-large-v14.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-large-v14.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-large-v4.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-large-v4.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-lo-rLA.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-lo-rLA.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-lt.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-lt.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-lv.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-lv.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-mk-rMK.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-mk-rMK.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ml-rIN.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ml-rIN.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-mn-rMN.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-mn-rMN.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-mr-rIN.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-mr-rIN.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ms-rMY.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ms-rMY.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-my-rMM.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-my-rMM.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-nb.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-nb.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ne-rNP.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ne-rNP.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-nl.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-nl.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-pa-rIN.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-pa-rIN.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-pl.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-pl.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-pt.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-pt.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ro.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ro.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ru.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-si-rLK.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-si-rLK.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sk.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sk.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sl.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sl.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sq-rAL.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sq-rAL.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sr.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sr.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sv.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sv.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sw.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sw.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ta-rIN.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ta-rIN.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-te-rIN.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-te-rIN.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-th.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-th.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-tl.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-tl.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-tr.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-uk.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-uk.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ur-rPK.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ur-rPK.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-uz-rUZ.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-uz-rUZ.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-v11.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-v14.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-vi.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-vi.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-w360dp-v13.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-w360dp-v13.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-w480dp-v13.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-w480dp-v13.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-w500dp-v13.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-w500dp-v13.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-w600dp-v13.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-w600dp-v13.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-w720dp-v13.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-w720dp-v13.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-zu.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-zu.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/anim.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/color.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable-tvdpi-v4.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable-tvdpi-v4.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/layout-v11.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/layout-v11.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/layout-v14.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/layout-v14.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/layout.json" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/mergeReleaseAssets/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/mergeReleaseShaders/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/packageReleaseResources/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/BaseGameUtils/build/outputs/aar/BaseGameUtils-release.aar" afterPath="$PROJECT_DIR$/BaseGameUtils/build/outputs/aar/BaseGameUtils-release.aar" />
       <change beforePath="$PROJECT_DIR$/android/android.iml" afterPath="$PROJECT_DIR$/android/android.iml" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-af.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-af.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-am.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-am.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ar.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ar.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-az.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-az.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-be.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-be.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-bg.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-bg.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-bn.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-bn.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-bs.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-bs.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ca.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ca.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-cs.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-cs.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-da.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-da.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-de.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-de.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-el.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-el.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-en-rGB.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-en-rGB.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-en-rIN.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-en-rIN.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-es-rUS.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-es-rUS.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-es.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-et-rEE.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-et-rEE.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-et.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-et.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-eu.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-eu.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fa.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fa.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fi.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fi.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fr.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-gl.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-gl.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-gu.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-gu.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hi.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hi.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hr.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hr.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hu.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hu.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hy-rAM.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hy-rAM.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hy.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hy.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-in.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-in.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-is.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-is.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-it.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-it.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-iw.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-iw.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ja.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ja.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ka-rGE.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ka-rGE.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ka.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ka.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-kk.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-kk.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-km-rKH.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-km-rKH.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-km.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-km.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-kn.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-kn.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ko.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ko.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ky.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ky.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-land.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-large-v14.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-large-v14.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-large-v4.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-large-v4.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lo-rLA.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lo-rLA.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lo.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lo.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lt.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lt.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lv.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lv.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mk.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mk.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ml.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ml.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mn-rMN.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mn-rMN.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mn.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mn.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mr.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mr.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ms-rMY.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ms-rMY.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ms.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ms.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-my.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-my.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-nb.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-nb.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ne.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ne.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-nl.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-nl.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pa.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pa.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pl.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pl.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pt.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pt.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ro.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ro.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ru.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-si.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-si.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sk.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sk.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sl.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sl.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sq.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sq.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sr.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sr.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sv.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sv.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sw.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sw.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ta.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ta.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-te.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-te.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-th.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-th.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-tl.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-tl.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-tr.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-uk.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-uk.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ur.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ur.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-uz.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-uz.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-v11.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-v14.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-vi.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-vi.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-w360dp-v13.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-w360dp-v13.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-w480dp-v13.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-w480dp-v13.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-w500dp-v13.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-w500dp-v13.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-w600dp-v13.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-w600dp-v13.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-w720dp-v13.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-w720dp-v13.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zu.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zu.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/anim.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/color.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-mdpi.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-tvdpi.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-tvdpi.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/layout-v11.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/layout-v11.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/layout-v14.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/layout-v14.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/layout.json" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/controller/GameController.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/controller/GameController.class" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/model/GameModel$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/model/GameModel$1.class" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/model/GameModel.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/model/GameModel.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GamePausedScreen$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GamePausedScreen$1.class" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GamePausedScreen$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GamePausedScreen.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GamePausedScreen.class" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/model/GameModel.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/model/GameModel.java" />
-      <change beforePath="$PROJECT_DIR$/core/test/com/mygdx/game/controller/GameControllerTest.java" afterPath="$PROJECT_DIR$/core/test/com/mygdx/game/controller/GameControllerTest.java" />
-      <change beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/view/GamePausedScreen.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/view/GamePausedScreen.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -295,50 +69,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/test/com/mygdx/game/controller/GameTest.java">
+      <file leaf-file-name="GamePausedScreen.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GamePausedScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="855">
+              <caret line="72" column="47" lean-forward="false" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameControllerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/test/com/mygdx/game/controller/GameControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/model/GameModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1636">
-              <caret line="133" column="5" lean-forward="false" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
-              <folding>
-                <element signature="e#3216#3217#0" expanded="true" />
-                <element signature="e#3248#3249#0" expanded="true" />
-                <element signature="e#3306#3307#0" expanded="true" />
-                <element signature="e#3356#3357#0" expanded="true" />
+                <element signature="e#2598#2900#0" expanded="true" />
+                <element signature="e#2899#2900#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -347,25 +85,18 @@
       <file leaf-file-name="HeroState.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/model/HeroState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="24" />
-              <folding>
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameTester.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/test/GameTester.java">
+      <file leaf-file-name="GameOverScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+            <state relative-caret-position="161">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -381,13 +112,14 @@
         <option value="Kotlin Class" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>min</find>
       <find>heroBody</find>
+      <find>update</find>
       <find>GameO</find>
       <find>gamePort</find>
       <find>addRestartBtn</find>
@@ -415,8 +147,6 @@
       <find>getI</find>
       <find>getIn</find>
       <find>natives</find>
-      <find>contact</find>
-      <find>update</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -4887,6 +4617,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/view/entities/GoldView.java" />
+        <option value="$PROJECT_DIR$/BaseGameUtils/.gitignore" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/view/OptionsMenu.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/GameWonScreen.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/StateMachine.java" />
@@ -4915,9 +4647,9 @@
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/BulletBody.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/HeroBody.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/MapBody.java" />
+        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/model/GameModel.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/EntityBody.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameHUD.java" />
-        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/view/GamePausedScreen.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/GameServices.java" />
         <option value="$PROJECT_DIR$/desktop/src/com/mygdx/game/desktop/NullPlayServices.java" />
         <option value="$PROJECT_DIR$/android/src/com/mygdx/game/PlayServices.java" />
@@ -4925,6 +4657,7 @@
         <option value="$PROJECT_DIR$/ios/src/com/mygdx/game/NullPlayServices.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameView.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java" />
+        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/test/GameControllerTest.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/GameControllerTest.java" />
         <option value="$PROJECT_DIR$/core/test/GameContollerTest.java" />
@@ -4933,11 +4666,8 @@
         <option value="$PROJECT_DIR$/core/test/GameControllerTest.java" />
         <option value="$PROJECT_DIR$/core/test/GameTest.java" />
         <option value="$PROJECT_DIR$/core/test/com/mygdx/game/controller/GameTest.java" />
-        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/model/HeroStates.java" />
-        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/model/HeroState.java" />
-        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/model/GameModel.java" />
-        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java" />
         <option value="$PROJECT_DIR$/core/test/com/mygdx/game/controller/GameControllerTest.java" />
+        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/view/GamePausedScreen.java" />
       </list>
     </option>
   </component>
@@ -4962,6 +4692,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -4984,18 +4717,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="RunnerGame" type="b2602c69:ProjectViewProjectNode" />
               <item name="RunnerGame" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="RunnerGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RunnerGame" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="RunnerGame" type="b2602c69:ProjectViewProjectNode" />
@@ -5066,8 +4793,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -5112,6 +4837,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mygdx.game" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/test/com/mygdx/game/controller" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.mygdx.game" />
     </key>
@@ -5130,8 +4858,250 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/caches/build_file_checksums.ser</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/BaseGameUtils.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-af.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-am.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ar.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-az-rAZ.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-bg.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-bn-rBD.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ca.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-cs.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-da.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-de.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-el.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-en-rAU.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-en-rGB.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-en-rIN.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-es-rUS.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-es.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-et-rEE.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-eu-rES.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-fa.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-fi.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-fr-rCA.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-fr.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-gl-rES.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-gu-rIN.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-hi.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-hr.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-hu.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-hy-rAM.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-in.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-is-rIS.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-it.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-iw.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ja.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ka-rGE.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-kk-rKZ.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-km-rKH.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-kn-rIN.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ko.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ky-rKG.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-land.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-large-v14.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-large-v4.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-lo-rLA.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-lt.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-lv.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-mk-rMK.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ml-rIN.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-mn-rMN.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-mr-rIN.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ms-rMY.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-my-rMM.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-nb.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ne-rNP.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-nl.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-pa-rIN.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-pl.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-pt-rBR.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-pt-rPT.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-pt.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ro.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ru.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-si-rLK.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sk.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sl.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sq-rAL.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sr.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sv.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sw.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ta-rIN.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-te-rIN.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-th.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-tl.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-tr.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-uk.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-ur-rPK.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-uz-rUZ.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-v11.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-v14.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-vi.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-w360dp-v13.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-w480dp-v13.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-w500dp-v13.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-w600dp-v13.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-w720dp-v13.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-zh-rCN.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-zh-rHK.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-zh-rTW.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values-zu.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/multi/values.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/anim.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/color.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable-tvdpi-v4.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/drawable.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/layout-v11.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/layout-v14.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/blame/res/debug/single/layout.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/mergeDebugResources/merger.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/mergeReleaseAssets/merger.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/mergeReleaseShaders/merger.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/intermediates/incremental/packageReleaseResources/merger.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/BaseGameUtils/build/outputs/aar/BaseGameUtils-release.aar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/android.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-af.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-am.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ar.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-az.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-be.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-bg.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-bn.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-bs.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ca.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-cs.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-da.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-de.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-el.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-en-rGB.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-en-rIN.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-es-rUS.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-es.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-et-rEE.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-et.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-eu.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fa.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fi.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fr-rCA.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-fr.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-gl.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-gu.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hi.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hr.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hu.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hy-rAM.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-hy.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-in.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-is.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-it.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-iw.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ja.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ka-rGE.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ka.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-kk.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-km-rKH.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-km.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-kn.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ko.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ky.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-land.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-large-v14.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-large-v4.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lo-rLA.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lo.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lt.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-lv.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mk.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ml.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mn-rMN.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mn.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-mr.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ms-rMY.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ms.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-my.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-nb.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ne.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-nl.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pa.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pl.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pt-rBR.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pt-rPT.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-pt.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ro.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ru.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-si.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sk.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sl.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sq.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sr.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sv.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sw.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ta.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-te.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-th.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-tl.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-tr.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-uk.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-ur.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-uz.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-v11.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-v14.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-vi.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-w360dp-v13.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-w480dp-v13.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-w500dp-v13.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-w600dp-v13.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-w720dp-v13.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zh-rCN.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zh-rHK.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zh-rTW.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values-zu.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/anim.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/color.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-hdpi.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-mdpi.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-tvdpi.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xhdpi.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/layout-v11.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/layout-v14.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/layout.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/controller/GameController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/model/GameModel$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/model/GameModel.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/build/libs/core-1.0.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/src/com/mygdx/game/model/GameModel.java</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/core/test/com/mygdx/game/controller/GameControllerTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/local.properties</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -5139,9 +5109,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/assets/achievement.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/assets/leaderboard.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/android/assets/restartButton.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/src/com/mygdx/game/model/HeroState.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -5242,7 +5210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.All in core">
+  <component name="RunManager" selected="Application.DesktopLauncher">
     <configuration name="All in core (2)" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="core" />
@@ -5452,6 +5420,53 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="RunnerGame" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="RunnerGame" />
+      <envs />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -5513,53 +5528,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="RunnerGame" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="RunnerGame" />
-      <envs />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <envs />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -5577,10 +5545,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Android JUnit.All in core" />
-        <item index="1" class="java.lang.String" itemvalue="Android JUnit.All in core (4)" />
-        <item index="2" class="java.lang.String" itemvalue="Android JUnit.All in core (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DesktopLauncher" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DesktopLauncher" />
+        <item index="1" class="java.lang.String" itemvalue="Android JUnit.All in core" />
+        <item index="2" class="java.lang.String" itemvalue="Android JUnit.All in core (4)" />
+        <item index="3" class="java.lang.String" itemvalue="Android JUnit.All in core (3)" />
         <item index="4" class="java.lang.String" itemvalue="Android JUnit.All in core (2)" />
       </list>
     </recent_temporary>
@@ -5603,13 +5571,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523968546480</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Adding physics">
-      <created>1524995683018</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1524995683018</updated>
     </task>
     <task id="LOCAL-00012" summary="Player now jumps and walks">
       <created>1524998134509</created>
@@ -5947,29 +5908,33 @@
       <option name="project" value="LOCAL" />
       <updated>1527350941063</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Images added">
+      <created>1527351454243</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1527351454243</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_core - 2018.05.26 at 18h 07m 10s.xml">
+    <history-entry file="All_in_core - 2018.05.26 at 18h 13m 26s.xml">
       <configuration name="All in core" configurationId="AndroidJUnit" />
     </history-entry>
     <history-entry file="All_in_core_(2) - 2018.05.26 at 16h 26m 30s.xml">
       <configuration name="All in core (2)" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="All_in_core_(3) - 2018.05.26 at 18h 04m 23s.xml">
+    <history-entry file="All_in_core_(3) - 2018.05.26 at 18h 10m 05s.xml">
       <configuration name="All in core (3)" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="All_in_core_(4) - 2018.05.26 at 18h 05m 49s.xml">
+    <history-entry file="All_in_core_(4) - 2018.05.26 at 18h 10m 59s.xml">
       <configuration name="All in core (4)" configurationId="AndroidJUnit" />
     </history-entry>
     <history-entry file="com_mygdx_test_in_core - 2018.05.26 at 16h 02m 15s.xml">
       <configuration name="com.mygdx.test in core" configurationId="AndroidJUnit" />
     </history-entry>
     <history-entry file="com_mygdx_test_in_core - 2018.05.26 at 16h 04m 14s.xml">
-      <configuration name="com.mygdx.test in core" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="com_mygdx_test_in_core - 2018.05.26 at 18h 04m 10s.xml">
       <configuration name="com.mygdx.test in core" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
@@ -5983,72 +5948,77 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="820" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22031474" sideWeight="0.52193993" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36039886" sideWeight="0.50572246" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51540285" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763532" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763532" sideWeight="0.49713877" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.4948849" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25297296" sideWeight="0.47806004" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36729857" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.076537915" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.49232736" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39942938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5076726" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22031474" sideWeight="0.52193993" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36039886" sideWeight="0.50572246" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Flutter Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Assistant" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35612535" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41304347" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Metric" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.49570817" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.49232736" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39942938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9327611" sideWeight="0.4948849" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23931624" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32763532" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32051283" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763532" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763532" sideWeight="0.49713877" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.4948849" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22031474" sideWeight="0.47806004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22031474" sideWeight="0.47806004" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.076537915" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5076726" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Flutter Inspector" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06723891" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Assistant" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41304347" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -6067,7 +6037,6 @@
     <MESSAGE value="Animation added" />
     <MESSAGE value="BaseGameUtils Added" />
     <MESSAGE value="BaseGameUtil files updated" />
-    <MESSAGE value="Images added" />
     <MESSAGE value="Changing structure" />
     <MESSAGE value="Screens added" />
     <MESSAGE value="Now the game gets back to the inicial state" />
@@ -6079,7 +6048,8 @@
     <MESSAGE value="Changing instance on model" />
     <MESSAGE value="Commit before tests" />
     <MESSAGE value="Starting tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting tests" />
+    <MESSAGE value="Images added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Images added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -6088,13 +6058,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/entities/EntityView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/entities/HeroView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -6137,16 +6100,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet" />
-    <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/GoldBody.java">
@@ -6274,13 +6243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GamePausedScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="71" column="19" lean-forward="false" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ios/src/com/mygdx/game/NullPlayServices.java" />
     <entry file="file://$PROJECT_DIR$/html/html.iml">
       <provider selected="true" editor-type-id="text-editor">
@@ -6349,10 +6311,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1965">
-          <caret line="151" column="62" lean-forward="false" selection-start-line="151" selection-start-column="62" selection-end-line="151" selection-end-column="62" />
+        <state relative-caret-position="142">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/test/com/mygdx/game/controller/mapa.tmx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/test/com/mygdx/game/controller/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/test/com/mygdx/game/controller/GameControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/test/GameTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/model/GameModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="114" column="5" lean-forward="false" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -6365,67 +6369,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/test/com/mygdx/game/controller/GameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/test/GameTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/model/HeroState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/model/GameModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1636">
-          <caret line="133" column="5" lean-forward="false" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
-          <folding>
-            <element signature="e#3216#3217#0" expanded="true" />
-            <element signature="e#3248#3249#0" expanded="true" />
-            <element signature="e#3306#3307#0" expanded="true" />
-            <element signature="e#3356#3357#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/test/com/mygdx/game/controller/GameControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="39" selection-start-column="7" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GamePausedScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="72" column="47" lean-forward="false" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
+          <folding>
+            <element signature="e#2598#2900#0" expanded="true" />
+            <element signature="e#2899#2900#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

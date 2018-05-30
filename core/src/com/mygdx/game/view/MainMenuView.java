@@ -15,6 +15,10 @@ public class MainMenuView implements Screen {
     private final OrthographicCamera menuCamera;
 
 
+    /**
+     * Class constructor
+     * @param game the game the screen belongs to
+     */
     public MainMenuView(RunnerGame game) {
         this.game = game;
         menuCamera = new OrthographicCamera();
@@ -52,6 +56,10 @@ public class MainMenuView implements Screen {
 
     }
 
+
+    /**
+     * Loads the images to be used in the screen
+     */
     private void loadMenuAssets() {
 
         this.game.getAssetManager().load("playButton.jpg", Texture.class);
@@ -60,6 +68,10 @@ public class MainMenuView implements Screen {
 
     }
 
+
+    /**
+     * Draws the image
+     */
     private void drawButtons() {
         Texture startButton = game.getAssetManager().get("playButton.jpg", Texture.class);
 

@@ -19,6 +19,12 @@ public class MapBody extends EntityBody {
     //private Boolean isDynamic;
 
 
+    /**
+     * Class constructor
+     * @param world the physical world this bullet belongs to
+     * @param map the model representing map
+     * @param isDynamic boolean to know if the body is dynamic or static
+     */
     public MapBody(World world, MapModel map, Boolean isDynamic) {
         super(world, map, isDynamic, true);
         this.world = world;
@@ -26,6 +32,10 @@ public class MapBody extends EntityBody {
         //this.isDynamic = isDynamic;
     }
 
+    /**
+     * Creates the body of the map
+     * @param map tilemap to be parsed into a body
+     */
     public void createBody(TiledMap map) {
 
         BodyDef bodyDef = new BodyDef();

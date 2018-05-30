@@ -24,6 +24,11 @@ class GamePausedScreen extends Stage implements Screen {
     private int screenWidth;
     private int screenHeight;
 
+    /**
+     * Class constructor
+     * @param game The game passed as parameter
+     * @param viewport the viewport previous screen
+     */
     public GamePausedScreen(RunnerGame game, Viewport viewport) {
         this.game = game;
         Table table = new Table();
@@ -40,6 +45,9 @@ class GamePausedScreen extends Stage implements Screen {
         addResumeBtn();
     }
 
+    /**
+     * Loads the images to be used by the screen
+     */
     public void loadMenuAssets() {
         this.game.getAssetManager().load("restartButton.png", Texture.class);
         this.game.getAssetManager().finishLoading();
@@ -64,6 +72,10 @@ class GamePausedScreen extends Stage implements Screen {
 
     }
 
+
+    /**
+     * Adds a button to resume the game and change it's state
+     */
     private void addResumeBtn() {
 
         Texture myTextureResume = new Texture(Gdx.files.internal("restartButton.png"));
@@ -81,9 +93,9 @@ class GamePausedScreen extends Stage implements Screen {
             }
         });
 
-        // stage = new Stage(new ScreenViewport()); //Set up a stage for the ui
-        stage.addActor(buttonPlay); //Add the button to the stage to perform rendering and take input.
-        Gdx.input.setInputProcessor(stage); //Start taking input from the ui
+
+        stage.addActor(buttonPlay);
+        Gdx.input.setInputProcessor(stage);
 
     }
 

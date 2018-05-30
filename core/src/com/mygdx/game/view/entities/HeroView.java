@@ -92,7 +92,7 @@ public class HeroView extends EntityView {
         stateTime += Gdx.graphics.getDeltaTime();
 
         sprite.setRegion(runningAnimation.getKeyFrame(stateTime, true));
-        sprite.setBounds(model.getX() - 12 / PIXEL_TO_METER, model.getY() - 8 / PIXEL_TO_METER, texture.getWidth() / (PIXEL_TO_METER * 15), texture.getWidth() / (PIXEL_TO_METER * 20));
+        sprite.setBounds(model.getPosition().x - 12 / PIXEL_TO_METER, model.getPosition().y - 8 / PIXEL_TO_METER, texture.getWidth() / (PIXEL_TO_METER * 15), texture.getWidth() / (PIXEL_TO_METER * 20));
         sprite.draw(batch);
     }
 

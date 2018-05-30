@@ -66,22 +66,40 @@ public class GameModel {
         return instance;
     }
 
+
+    /**
+     * @return the mapModel
+     */
     public MapModel getMap() {
         return map;
     }
 
+    /**
+     * @return the goldModel array
+     */
     public ArrayList<GoldModel> getGolds() {
         return golds;
     }
 
+
+    /**
+     * @return a new instance of the Game Model
+     */
     public GameModel newGameModel() {
         return new GameModel();
     }
 
+    /**
+     * @return a new instance of the Game Model
+     */
     public void newInstance(GameModel newInstance) {
         instance = newInstance;
     }
 
+
+    /**
+     * Generates the golds with random positions
+     */
     private void generateGolds() {
         for (int i = 0; i < 100; i++) {
             golds.add(new GoldModel(Utilities.generateRandomNumber(200, 3000), Utilities.generateRandomNumber(40, 100)));
@@ -97,10 +115,16 @@ public class GameModel {
         return hero;
     }
 
+    /**
+     * @return enemy character of the game
+     */
     public EntityModel getEnemy() {
         return enemy;
     }
 
+    /**
+     * @return the bulletModel array
+     */
     public ArrayList<BulletModel> getBullets() {
         return bullets;
     }
@@ -114,6 +138,10 @@ public class GameModel {
         return bullet;
     }
 
+
+    /**
+     * @param model
+     */
     public void remove(EntityModel model) {
         if (model instanceof BulletModel) {
             bullets.remove(model);
@@ -125,10 +153,19 @@ public class GameModel {
         }
     }
 
+
+    /**
+     * @return the hero state
+     */
     public HeroState getHeroState() {
         return heroState;
     }
 
+
+    /**
+     * Sets the hero state
+     * @param heroState
+     */
     public void setHeroState(HeroState.State heroState) {
         this.heroState.setState(heroState);
     }

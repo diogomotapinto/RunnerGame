@@ -46,6 +46,11 @@ public class GameView implements Screen {
     private int mapPixelWidth;
     private int mapPixelHeight;
 
+
+    /**
+     * Class constructor
+     * @param game The game this screen belongs to
+     */
     public GameView(RunnerGame game) {
         this.game = game;
         gameController= GameController.getInstance();
@@ -55,8 +60,6 @@ public class GameView implements Screen {
 
         TmxMapLoader mapLoader = new TmxMapLoader();
         map = mapLoader.load("mapa.tmx");
-
-
 
         renderer = new OrthogonalTiledMapRenderer(map, 1 / PIXEL_TO_METER);
 
@@ -75,6 +78,9 @@ public class GameView implements Screen {
     }
 
 
+    /**
+     * Loads the map properties
+     */
     private void mapProperties() {
         MapProperties properties = map.getProperties();
         int mapWidth = properties.get("width", Integer.class);
@@ -86,6 +92,11 @@ public class GameView implements Screen {
         mapPixelHeight = mapHeight * tilePixelHeight;
     }
 
+
+    /**
+     * Handles the inputs from the devices
+     * @param delta
+     */
     private void handleInput(float delta) {
 
         if ((Gdx.input.getAccelerometerY() > 1)) {
@@ -108,6 +119,11 @@ public class GameView implements Screen {
 
     }
 
+
+    /**
+     * Updates what is in the screen
+     * @param delta the delta time in seconds between screens
+     */
     private void update(float delta) {
         handleInput(delta);
         gameController.update();
@@ -172,6 +188,9 @@ public class GameView implements Screen {
 
     }
 
+    /**
+     * loads the images to be used in this screen
+     */
     private void loadAssets() {
         this.game.getAssetManager().load("sonic.png", Texture.class);
         this.game.getAssetManager().load("newcoin.png", Texture.class);
@@ -183,6 +202,10 @@ public class GameView implements Screen {
         this.game.getAssetManager().finishLoading();
     }
 
+
+    /**
+     * Draws the entities
+     */
     private void drawEntities() {
         ArrayList<GoldModel> goldList = gameModel.getGolds();
         for (GoldModel gold : goldList) {
@@ -216,10 +239,19 @@ public class GameView implements Screen {
 
     }
 
+
+    /**
+     * @return the state of the game
+     */
     public boolean isPause() {
         return pause;
     }
 
+
+    /**
+     * Sets the state of the game
+     * @param pause the state of the game if he is paused or not
+     */
     public void setPause(boolean pause) {
         this.pause = pause;
     }

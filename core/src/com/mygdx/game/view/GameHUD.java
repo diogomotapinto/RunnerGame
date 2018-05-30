@@ -23,24 +23,17 @@ import com.mygdx.game.controller.GameController;
 
 class GameHUD {
     public Stage stage;
-    // private float runnerTimer;
-    //private int gameScore;
-    //private int acel;
     private boolean pause;
-    //   private RunnerGame game;
-    //   private Texture myTexture;
-    //  private TextureRegion myTextureRegion;
-    //private TextureRegionDrawable myTexRegionDrawable;
     private ImageButton button;
-
     private final Label timerLabel;
-   // private Label timerStrLabel;
-  //  private Label scoreStrLabel;
     private final Label scoreLabel;
     private final Label acelerometerLabel;
-  //  private Label pauseLabel;
 
 
+    /**
+     * Class constructor
+     * @param sb
+     */
     public GameHUD(SpriteBatch sb) {
 
         this.pause = false;
@@ -70,37 +63,52 @@ class GameHUD {
         stage.addActor(table);
     }
 
+    /*
+    * Updates the game HUD
+    *
+    */
     public void update(float acel, float time) {
         acelerometerLabel.setText(Float.toString(acel));
         this.scoreLabel.setText(Integer.toString((int) acel));
         timerLabel.setText(Integer.toString((int) time));
     }
 
+
+    /**
+     * @return the stage
+     */
     public Stage getStage() {
         return stage;
     }
 
+    /*
+    * Adds a pause button to pause the game and change the screen
+    *
+    */
     private void addPauseBtn() {
 
         Texture myTexture = new Texture(Gdx.files.internal("pauseButton.png"));
         TextureRegion myTextureRegion = new TextureRegion(myTexture);
         TextureRegionDrawable myTexRegionDrawable = new TextureRegionDrawable(myTextureRegion);
-        button = new ImageButton(myTexRegionDrawable); //Set the button up
+        button = new ImageButton(myTexRegionDrawable);
 
         button.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                System.out.println("click");
                 pause = !pause;
             }
         });
 
-        stage = new Stage(new ScreenViewport()); //Set up a stage for the ui
-        stage.addActor(button); //Add the button to the stage to perform rendering and take input.
-        Gdx.input.setInputProcessor(stage); //Start taking input from the ui
+        stage = new Stage(new ScreenViewport());
+        stage.addActor(button);
+        Gdx.input.setInputProcessor(stage);
 
     }
 
+
+    /**
+     * @return the state of the game
+     */
     public boolean isPause() {
         return pause;
     }

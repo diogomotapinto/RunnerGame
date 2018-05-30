@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+        "outputFile": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 204
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 304
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 412
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 500
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 600
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 715
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 818
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 922
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 1021
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1126
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1229
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1333
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1452
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1559
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -277,7 +277,7 @@
                     "endOffset": 1743
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -296,7 +296,7 @@
                     "endOffset": 1870
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -315,7 +315,7 @@
                     "endOffset": 1979
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -334,7 +334,7 @@
                     "endOffset": 2189
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -353,7 +353,7 @@
                     "endOffset": 2314
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -372,7 +372,7 @@
                     "endOffset": 2446
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -391,7 +391,7 @@
                     "endOffset": 2643
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\7cba11d909c7910812b859c482ede83774051eac\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\4527d575e35ae5cc711dbb69e9ea488152ea79c6\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -410,7 +410,7 @@
                     "endOffset": 2861
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -429,7 +429,7 @@
                     "endOffset": 2968
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
@@ -448,7 +448,7 @@
                     "endOffset": 3151
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
@@ -467,7 +467,7 @@
                     "endOffset": 3278
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
@@ -486,7 +486,7 @@
                     "endOffset": 3483
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
@@ -505,7 +505,7 @@
                     "endOffset": 3661
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
@@ -524,7 +524,7 @@
                     "endOffset": 3754
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
@@ -543,7 +543,7 @@
                     "endOffset": 3846
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
@@ -562,7 +562,7 @@
                     "endOffset": 3954
                 },
                 "from": {
-                    "file": "C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
@@ -575,7 +575,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+        "outputFile": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
         "map": [
             {
                 "to": {
@@ -586,7 +586,7 @@
                     "endOffset": 204
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -605,7 +605,7 @@
                     "endOffset": 304
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -624,7 +624,7 @@
                     "endOffset": 412
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -643,7 +643,7 @@
                     "endOffset": 500
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -662,7 +662,7 @@
                     "endOffset": 600
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -681,7 +681,7 @@
                     "endOffset": 715
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -700,7 +700,7 @@
                     "endOffset": 818
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -719,7 +719,7 @@
                     "endOffset": 922
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -738,7 +738,7 @@
                     "endOffset": 1021
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -757,7 +757,7 @@
                     "endOffset": 1126
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -776,7 +776,7 @@
                     "endOffset": 1229
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -795,7 +795,7 @@
                     "endOffset": 1333
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -814,7 +814,7 @@
                     "endOffset": 1452
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -833,7 +833,7 @@
                     "endOffset": 1559
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -852,7 +852,7 @@
                     "endOffset": 1743
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -871,7 +871,7 @@
                     "endOffset": 1870
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -890,7 +890,7 @@
                     "endOffset": 1979
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -909,7 +909,7 @@
                     "endOffset": 2189
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -928,7 +928,7 @@
                     "endOffset": 2314
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -947,7 +947,7 @@
                     "endOffset": 2446
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -966,7 +966,7 @@
                     "endOffset": 2643
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\4527d575e35ae5cc711dbb69e9ea488152ea79c6\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\7cba11d909c7910812b859c482ede83774051eac\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -985,7 +985,7 @@
                     "endOffset": 2861
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -1004,7 +1004,7 @@
                     "endOffset": 2968
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
@@ -1023,7 +1023,7 @@
                     "endOffset": 3151
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
@@ -1042,7 +1042,7 @@
                     "endOffset": 3278
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
@@ -1061,7 +1061,7 @@
                     "endOffset": 3483
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
@@ -1080,7 +1080,7 @@
                     "endOffset": 3661
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
@@ -1099,7 +1099,7 @@
                     "endOffset": 3754
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
@@ -1118,7 +1118,7 @@
                     "endOffset": 3846
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
@@ -1137,7 +1137,582 @@
                     "endOffset": 3954
                 },
                 "from": {
-                    "file": "C:\\Users\\jotaa\\.android\\build-cache\\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\\output\\res\\values-en-rGB\\values.xml",
+                    "file": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\8d629d116bdfed3c97d5a177364f86a74594c7c4\\output\\res\\values-en-rGB\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 2444,
+                        "endColumn": 103,
+                        "endOffset": 2547
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 103,
+                    "endOffset": 204
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 103,
+                        "endOffset": 155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 209,
+                    "endColumn": 99,
+                    "endOffset": 304
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 160,
+                        "endColumn": 99,
+                        "endOffset": 255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 309,
+                    "endColumn": 107,
+                    "endOffset": 412
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 260,
+                        "endColumn": 107,
+                        "endOffset": 363
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 417,
+                    "endColumn": 87,
+                    "endOffset": 500
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 368,
+                        "endColumn": 87,
+                        "endOffset": 451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 505,
+                    "endColumn": 99,
+                    "endOffset": 600
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 456,
+                        "endColumn": 99,
+                        "endOffset": 551
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 605,
+                    "endColumn": 114,
+                    "endOffset": 715
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 556,
+                        "endColumn": 114,
+                        "endOffset": 666
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 720,
+                    "endColumn": 102,
+                    "endOffset": 818
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 671,
+                        "endColumn": 102,
+                        "endOffset": 769
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 823,
+                    "endColumn": 103,
+                    "endOffset": 922
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 774,
+                        "endColumn": 103,
+                        "endOffset": 873
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 927,
+                    "endColumn": 98,
+                    "endOffset": 1021
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 878,
+                        "endColumn": 98,
+                        "endOffset": 972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1026,
+                    "endColumn": 104,
+                    "endOffset": 1126
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 977,
+                        "endColumn": 104,
+                        "endOffset": 1077
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1131,
+                    "endColumn": 102,
+                    "endOffset": 1229
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1082,
+                        "endColumn": 102,
+                        "endOffset": 1180
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1234,
+                    "endColumn": 103,
+                    "endOffset": 1333
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1185,
+                        "endColumn": 103,
+                        "endOffset": 1284
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1338,
+                    "endColumn": 118,
+                    "endOffset": 1452
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1289,
+                        "endColumn": 118,
+                        "endOffset": 1403
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1457,
+                    "endColumn": 106,
+                    "endOffset": 1559
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 287,
+                        "endColumn": 102,
+                        "endOffset": 389
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1564,
+                    "endColumn": 183,
+                    "endOffset": 1743
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 390,
+                        "endColumn": 183,
+                        "endOffset": 573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1748,
+                    "endColumn": 126,
+                    "endOffset": 1870
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 574,
+                        "endColumn": 122,
+                        "endOffset": 696
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1875,
+                    "endColumn": 108,
+                    "endOffset": 1979
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 697,
+                        "endColumn": 104,
+                        "endOffset": 801
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1984,
+                    "endColumn": 209,
+                    "endOffset": 2189
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 802,
+                        "endColumn": 209,
+                        "endOffset": 1011
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2194,
+                    "endColumn": 124,
+                    "endOffset": 2314
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 1012,
+                        "endColumn": 120,
+                        "endOffset": 1132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2319,
+                    "endColumn": 131,
+                    "endOffset": 2446
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 1133,
+                        "endColumn": 127,
+                        "endOffset": 1260
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2451,
+                    "endColumn": 196,
+                    "endOffset": 2643
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/7cba11d909c7910812b859c482ede83774051eac/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 289,
+                        "endColumn": 196,
+                        "endOffset": 485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2648,
+                    "endColumn": 217,
+                    "endOffset": 2861
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1261,
+                        "endColumn": 217,
+                        "endOffset": 1478
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2866,
+                    "endColumn": 106,
+                    "endOffset": 2968
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1479,
+                        "endColumn": 102,
+                        "endOffset": 1581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2973,
+                    "endColumn": 182,
+                    "endOffset": 3151
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1582,
+                        "endColumn": 182,
+                        "endOffset": 1764
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 3156,
+                    "endColumn": 126,
+                    "endOffset": 3278
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1765,
+                        "endColumn": 122,
+                        "endOffset": 1887
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 3283,
+                    "endColumn": 204,
+                    "endOffset": 3483
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1888,
+                        "endColumn": 204,
+                        "endOffset": 2092
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 3488,
+                    "endColumn": 177,
+                    "endOffset": 3661
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 2093,
+                        "endColumn": 173,
+                        "endOffset": 2266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 3666,
+                    "endColumn": 92,
+                    "endOffset": 3754
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 2267,
+                        "endColumn": 88,
+                        "endOffset": 2355
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 3759,
+                    "endColumn": 91,
+                    "endOffset": 3846
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/res/values-en-rGB/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 2356,
+                        "endColumn": 87,
+                        "endOffset": 2443
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3851,
+                    "endColumn": 107,
+                    "endOffset": 3954
+                },
+                "from": {
+                    "file": "/Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/res/values-en-rGB/values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,

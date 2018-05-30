@@ -1,120 +1,120 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:2:1-39:12
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:2:1-39:12
 	package
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:3:5-29
-		INJECTED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml
-		INJECTED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:3:5-29
+		INJECTED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml
+		INJECTED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml
-		INJECTED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml
+		INJECTED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml
+		INJECTED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:2:11-69
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml
-		INJECTED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml
+		INJECTED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml
+		INJECTED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml
 uses-sdk
-ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:5:5-7:41
-MERGED from [RunnerGame:BaseGameUtils:1.0] C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\BaseGameUtils\build\intermediates\bundles\default\AndroidManifest.xml:23:5-26:74
-MERGED from [com.android.support:appcompat-v7:20.0.0] C:\Users\jotaa\.android\build-cache\eec38a297855c270dfde5bcee85db0b56e938c35\output\AndroidManifest.xml:16:5-42
-MERGED from [com.google.android.gms:play-services-games:11.0.4] C:\Users\jotaa\.android\build-cache\9365235d690ab69827d086c0356bbcf857fdcaf9\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-drive:11.0.4] C:\Users\jotaa\.android\build-cache\8ab468d60a8ecd584e2a7b5918154bcaff66b348\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\jotaa\.android\build-cache\30ab32ca0141ac91267622f4631866071b07f90b\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\jotaa\.android\build-cache\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\jotaa\.android\build-cache\a61e0a55ca41e9a9d1f197efcb3e3d5b01b407b8\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\jotaa\.android\build-cache\4527d575e35ae5cc711dbb69e9ea488152ea79c6\output\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\jotaa\.android\build-cache\e5e72763aeac309aa27d0cf2d772b7e0f412b3d4\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\jotaa\.android\build-cache\5163165f80eccdbb82c282e1dd14c5a22cf00ec6\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\jotaa\.android\build-cache\78485d2943e56714d49fdfc94b82f59d31348f2e\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\jotaa\.android\build-cache\c9c98d1780bd04b3c320fdfc0ee13a4fcb7a1f87\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\jotaa\.android\build-cache\82b172d5f41c50a9f6fa258fd9a52cba7e92137f\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\jotaa\.android\build-cache\feb12518725c7c573fce68a3c29713af4ce097ee\output\AndroidManifest.xml:21:5-23:58
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:5:5-7:41
+MERGED from [RunnerGame:BaseGameUtils:1.0] /Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/bundles/default/AndroidManifest.xml:23:5-26:74
+MERGED from [com.android.support:appcompat-v7:20.0.0] /Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/AndroidManifest.xml:16:5-42
+MERGED from [com.google.android.gms:play-services-games:11.0.4] /Users/diogomotapinto/.android/build-cache/858250511621479a95c8b527da94a96c538235b4/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.0.4] /Users/diogomotapinto/.android/build-cache/0cb2d73c11d7ad17fc65addab0b6ec5e20946f32/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] /Users/diogomotapinto/.android/build-cache/94c3f373e5f1d99a1640ea72cc5635bf013c41f2/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/diogomotapinto/.android/build-cache/756b9fe1dde00cf2c564d1b240ab93cce517b4fe/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/diogomotapinto/.android/build-cache/7cba11d909c7910812b859c482ede83774051eac/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] /Users/diogomotapinto/.android/build-cache/d285ba5e060d933416bf2cedd1ac5d20eafef7ee/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/diogomotapinto/.android/build-cache/cbfc914557bad89a02570f27e63e443e9764a373/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/diogomotapinto/.android/build-cache/7c57fa92da1a9df8cb6cb1ce5413fe16249ce3b9/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/diogomotapinto/.android/build-cache/ac6d1a00b7ab6bd4a6930735510755f1dd9125c6/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/diogomotapinto/.android/build-cache/be224aad6b585180bde6828843ed8b390d48bf45/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] /Users/diogomotapinto/.android/build-cache/d9c9f323ac7c3e5dd0c86b21399ee4926ea82f3a/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [RunnerGame:BaseGameUtils:1.0] C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\BaseGameUtils\build\intermediates\bundles\default\AndroidManifest.xml:26:9-71
+		ADDED from [RunnerGame:BaseGameUtils:1.0] /Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/bundles/default/AndroidManifest.xml:26:9-71
 	android:targetSdkVersion
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:7:9-38
-		INJECTED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml
-		INJECTED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:7:9-38
+		INJECTED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml
+		INJECTED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:6:9-35
-		INJECTED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml
-		INJECTED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:6:9-35
+		INJECTED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml
+		INJECTED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml
 application
-ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:10:5-34:19
-MERGED from [RunnerGame:BaseGameUtils:1.0] C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\BaseGameUtils\build\intermediates\bundles\default\AndroidManifest.xml:28:5-32:19
-MERGED from [com.android.support:appcompat-v7:20.0.0] C:\Users\jotaa\.android\build-cache\eec38a297855c270dfde5bcee85db0b56e938c35\output\AndroidManifest.xml:17:5-19
-MERGED from [com.google.android.gms:play-services-games:11.0.4] C:\Users\jotaa\.android\build-cache\9365235d690ab69827d086c0356bbcf857fdcaf9\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-drive:11.0.4] C:\Users\jotaa\.android\build-cache\8ab468d60a8ecd584e2a7b5918154bcaff66b348\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\jotaa\.android\build-cache\30ab32ca0141ac91267622f4631866071b07f90b\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\jotaa\.android\build-cache\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\output\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\jotaa\.android\build-cache\a61e0a55ca41e9a9d1f197efcb3e3d5b01b407b8\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\jotaa\.android\build-cache\4527d575e35ae5cc711dbb69e9ea488152ea79c6\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\jotaa\.android\build-cache\e5e72763aeac309aa27d0cf2d772b7e0f412b3d4\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\jotaa\.android\build-cache\5163165f80eccdbb82c282e1dd14c5a22cf00ec6\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\jotaa\.android\build-cache\78485d2943e56714d49fdfc94b82f59d31348f2e\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\jotaa\.android\build-cache\c9c98d1780bd04b3c320fdfc0ee13a4fcb7a1f87\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\jotaa\.android\build-cache\82b172d5f41c50a9f6fa258fd9a52cba7e92137f\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\jotaa\.android\build-cache\feb12518725c7c573fce68a3c29713af4ce097ee\output\AndroidManifest.xml:25:5-20
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:10:5-34:19
+MERGED from [RunnerGame:BaseGameUtils:1.0] /Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/bundles/default/AndroidManifest.xml:28:5-32:19
+MERGED from [com.android.support:appcompat-v7:20.0.0] /Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/AndroidManifest.xml:17:5-19
+MERGED from [com.google.android.gms:play-services-games:11.0.4] /Users/diogomotapinto/.android/build-cache/858250511621479a95c8b527da94a96c538235b4/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.0.4] /Users/diogomotapinto/.android/build-cache/0cb2d73c11d7ad17fc65addab0b6ec5e20946f32/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] /Users/diogomotapinto/.android/build-cache/94c3f373e5f1d99a1640ea72cc5635bf013c41f2/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/diogomotapinto/.android/build-cache/756b9fe1dde00cf2c564d1b240ab93cce517b4fe/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/diogomotapinto/.android/build-cache/7cba11d909c7910812b859c482ede83774051eac/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] /Users/diogomotapinto/.android/build-cache/d285ba5e060d933416bf2cedd1ac5d20eafef7ee/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/diogomotapinto/.android/build-cache/cbfc914557bad89a02570f27e63e443e9764a373/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/diogomotapinto/.android/build-cache/7c57fa92da1a9df8cb6cb1ce5413fe16249ce3b9/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/diogomotapinto/.android/build-cache/ac6d1a00b7ab6bd4a6930735510755f1dd9125c6/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/diogomotapinto/.android/build-cache/be224aad6b585180bde6828843ed8b390d48bf45/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/diogomotapinto/.android/build-cache/d9c9f323ac7c3e5dd0c86b21399ee4926ea82f3a/output/AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:13:9-41
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:13:9-41
 	android:allowBackup
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:11:9-35
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:11:9-35
 	android:icon
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:12:9-45
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:12:9-45
 	android:theme
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:14:9-40
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:14:9-40
 meta-data#com.google.android.gms.games.APP_ID
-ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:16:9-18:46
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:16:9-18:46
 	android:value
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:18:13-43
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:18:13-43
 	android:name
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:17:13-63
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:17:13-63
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:19:9-21:69
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\jotaa\.android\build-cache\4527d575e35ae5cc711dbb69e9ea488152ea79c6\output\AndroidManifest.xml:20:9-121
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:19:9-21:69
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/diogomotapinto/.android/build-cache/7cba11d909c7910812b859c482ede83774051eac/output/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:21:13-66
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:21:13-66
 	android:name
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:20:13-58
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:20:13-58
 activity#com.mygdx.game.AndroidLauncher
-ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:24:9-33:20
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:24:9-33:20
 	android:screenOrientation
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:28:13-50
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:28:13-50
 	android:label
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:27:13-45
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:27:13-45
 	android:configChanges
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:26:13-94
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:26:13-94
 	android:name
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:25:13-58
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:25:13-58
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:29:13-32:29
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:29:13-32:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:30:17-69
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:30:25-66
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:31:17-77
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:31:27-74
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:31:27-74
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:36:5-67
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:36:5-67
 	android:name
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:36:22-64
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:36:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:37:5-79
+ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:37:5-79
 	android:name
-		ADDED from C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\android\AndroidManifest.xml:37:22-76
+		ADDED from /Users/diogomotapinto/git/RunnerGame/android/AndroidManifest.xml:37:22-76
 meta-data#unityplayer.ForwardNativeEventsToDalvik
-ADDED from [RunnerGame:BaseGameUtils:1.0] C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\BaseGameUtils\build\intermediates\bundles\default\AndroidManifest.xml:29:9-31:36
+ADDED from [RunnerGame:BaseGameUtils:1.0] /Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/bundles/default/AndroidManifest.xml:29:9-31:36
 	android:value
-		ADDED from [RunnerGame:BaseGameUtils:1.0] C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\BaseGameUtils\build\intermediates\bundles\default\AndroidManifest.xml:31:13-33
+		ADDED from [RunnerGame:BaseGameUtils:1.0] /Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/bundles/default/AndroidManifest.xml:31:13-33
 	android:name
-		ADDED from [RunnerGame:BaseGameUtils:1.0] C:\Users\jotaa\eclipse-workspace\LPOO\RunnerGame\BaseGameUtils\build\intermediates\bundles\default\AndroidManifest.xml:30:13-67
+		ADDED from [RunnerGame:BaseGameUtils:1.0] /Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/bundles/default/AndroidManifest.xml:30:13-67
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\jotaa\.android\build-cache\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\output\AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\jotaa\.android\build-cache\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\output\AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\jotaa\.android\build-cache\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\output\AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\jotaa\.android\build-cache\0d12b1aa9f1c401c2616a8a6f7860da21d105f02\output\AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/diogomotapinto/.android/build-cache/8d629d116bdfed3c97d5a177364f86a74594c7c4/output/AndroidManifest.xml:19:19-85

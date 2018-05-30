@@ -1,202 +1,302 @@
 [
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_ic_clear.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_textfield_searchview_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\1f0868474e5162aa89fa7f59bca57aae4b9f8f33\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\1f0868474e5162aa89fa7f59bca57aae4b9f8f33\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_dark.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_search_dropdown_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_dark.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_search_dropdown_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_search_dropdown_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_light.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_search_dropdown_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_light.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_spinner_ab_holo_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_search_dropdown_light.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_textfield_searchview_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_spinner_ab_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_ic_clear.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_ab_holo.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_tab_indicator_ab_holo.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/abc_ic_clear.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable/abc_ic_clear.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_ab_holo.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable/abc_tab_indicator_ab_holo.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/abc_search_dropdown_dark.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable/abc_search_dropdown_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_light.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_textfield_searchview_holo_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/abc_search_dropdown_light.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable/abc_search_dropdown_light.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/abc_spinner_ab_holo_light.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable/abc_spinner_ab_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_ab_holo.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_tab_indicator_ab_holo.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_ab_holo.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_tab_indicator_ab_holo.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_textfield_searchview_right_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/abc_ic_clear_holo_light.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable/abc_ic_clear_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_dark.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_textfield_searchview_right_holo_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_right_holo_light.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable/abc_textfield_searchview_right_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_holo_light.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_ic_clear_holo_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_ic_clear.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_light.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_textfield_searchview_right_holo_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable/common_plus_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_light.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_search_dropdown_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_light.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_spinner_ab_holo_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_textfield_searchview_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_search_dropdown_dark.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_dark.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_textfield_searchview_holo_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\1f0868474e5162aa89fa7f59bca57aae4b9f8f33\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_spinner_ab_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\1f0868474e5162aa89fa7f59bca57aae4b9f8f33\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_textfield_searchview_right_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_light.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_textfield_searchview_right_holo_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_ic_clear.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_holo_light.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_ic_clear_holo_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable/common_plus_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_search_dropdown_light.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\1f0868474e5162aa89fa7f59bca57aae4b9f8f33\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_ab_holo.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_tab_indicator_ab_holo.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_dark.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_spinner_ab_holo_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_dark.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_spinner_ab_holo_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\1f0868474e5162aa89fa7f59bca57aae4b9f8f33\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\1f0868474e5162aa89fa7f59bca57aae4b9f8f33\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/abc_spinner_ab_holo_dark.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable/abc_spinner_ab_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_dark.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_textfield_searchview_holo_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_light.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_textfield_searchview_holo_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\1f0868474e5162aa89fa7f59bca57aae4b9f8f33\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_dark.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_textfield_searchview_right_holo_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_textfield_searchview_right_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_holo_dark.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable/abc_textfield_searchview_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\1f0868474e5162aa89fa7f59bca57aae4b9f8f33\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\1f0868474e5162aa89fa7f59bca57aae4b9f8f33\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\jotaa\\.android\\build-cache\\1f0868474e5162aa89fa7f59bca57aae4b9f8f33\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_holo_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_ic_clear_holo_light.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\1f0868474e5162aa89fa7f59bca57aae4b9f8f33\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_spinner_ab_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_right_holo_dark.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable/abc_textfield_searchview_right_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\1f0868474e5162aa89fa7f59bca57aae4b9f8f33\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_textfield_searchview_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_holo_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_ic_clear_holo_light.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\1f0868474e5162aa89fa7f59bca57aae4b9f8f33\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_textfield_searchview_right_holo_light.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\eec38a297855c270dfde5bcee85db0b56e938c35\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\1f0868474e5162aa89fa7f59bca57aae4b9f8f33\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_ab_holo_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\75a89d88cac149ddf7cb613ab0ec991c406cb548\\output\\res\\drawable\\abc_spinner_ab_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\git\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\diogomotapinto\\.android\\build-cache\\1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_holo_light.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable/abc_textfield_searchview_holo_light.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\eclipse-workspace\\LPOO\\RunnerGame\\BaseGameUtils\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/diogomotapinto/git/RunnerGame/C:\\Users\\jotaa\\.android\\build-cache\\1f0868474e5162aa89fa7f59bca57aae4b9f8f33\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
     }
 ]

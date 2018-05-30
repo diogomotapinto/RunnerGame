@@ -33,10 +33,15 @@ class GameOverScreen extends Stage implements Screen {
     private int screenWidth;
     private int screenHeight;
 
+
+    /**
+     * Class constructor
+     * @param game The game passed as parameter
+     * @param viewport the viewport previous screen
+     */
     public GameOverScreen(RunnerGame game, Viewport viewport) {
         this.game = game;
         Table table = new Table();
-        //this.stage = new Stage(viewport, this.game.getBatch());
         screenWidth= Gdx.graphics.getWidth();
         screenHeight =Gdx.graphics.getHeight();
 
@@ -50,6 +55,10 @@ class GameOverScreen extends Stage implements Screen {
 
     }
 
+
+    /**
+     * Loads the images to be used by the screen
+     */
     public void loadMenuAssets() {
 
         this.game.getAssetManager().load("gameOver.jpg", Texture.class);
@@ -107,10 +116,12 @@ class GameOverScreen extends Stage implements Screen {
     }
 
 
+    /**
+     * Adds a button to restart the game when he is clicked
+     */
     private void addRestartBtn() {
 
         ImageButton buttonRestart = createButton("restartButton.png", 0, screenHeight/2);
-        System.out.println(screenWidth/5);
         buttonRestart.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
@@ -131,7 +142,9 @@ class GameOverScreen extends Stage implements Screen {
 
     }
 
-
+    /**
+     * Adds a button to check the achievements
+     */
     private void addAchievmentBtn() {
         ImageButton buttonAch = createButton("achievement.png", screenWidth/2-50, screenHeight/2);
         buttonAch.addListener(new ClickListener() {
@@ -143,11 +156,14 @@ class GameOverScreen extends Stage implements Screen {
             }
         });
 
-        stage.addActor(buttonAch); //Add the button to the stage to perform rendering and take input.
-        Gdx.input.setInputProcessor(stage); //Start taking input from the ui
+        stage.addActor(buttonAch);
+        Gdx.input.setInputProcessor(stage);
 
     }
 
+    /**
+     * Adds a button to check the leaderboard
+     */
     private void addLeaderBtn() {
         ImageButton buttonAch = createButton("leaderboard.png",screenWidth-100,screenHeight/2);
         buttonAch.addListener(new ClickListener() {
@@ -159,22 +175,32 @@ class GameOverScreen extends Stage implements Screen {
             }
         });
 
-        stage.addActor(buttonAch); //Add the button to the stage to perform rendering and take input.
-        Gdx.input.setInputProcessor(stage); //Start taking input from the ui
-
+        stage.addActor(buttonAch);
+        Gdx.input.setInputProcessor(stage);
     }
 
+
+    /**
+     * Creates an image button
+     * @param path of the image
+     * @param xPosition x position on the screen
+     * @param yPosition y position on the screen
+     * @return ImageButton
+     */
     private ImageButton createButton(String path, int xPosition, int yPosition) {
         Texture myTextureAch = new Texture(Gdx.files.internal(path));
         TextureRegion myTextureRegionAch = new TextureRegion(myTextureAch);
         TextureRegionDrawable myTexRegionDrawableAch = new TextureRegionDrawable(myTextureRegionAch);
-        ImageButton imageButton=  new ImageButton(myTexRegionDrawableAch); //Set the button up
+        ImageButton imageButton=  new ImageButton(myTexRegionDrawableAch);
         imageButton.setPosition(xPosition, yPosition);
         return imageButton;
 
     }
 
 
+    /**
+     * @return the skin
+     */
     public Skin getSkin() {
         return skin;
     }

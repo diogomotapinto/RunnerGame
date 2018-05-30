@@ -41,14 +41,7 @@ public abstract class EntityModel {
 
     }
 
-    /**
-     * Gets position in the x-axis
-     *
-     * @return position in the x-axis
-     */
-    public float getX() {
-        return position.x;
-    }
+
 
     /**
      * Sets position in the x-axis
@@ -57,14 +50,7 @@ public abstract class EntityModel {
         this.position.x = x;
     }
 
-    /**
-     * Gets position in the y-axis
-     *
-     * @return position in the y-axis
-     */
-    public float getY() {
-        return position.y;
-    }
+
 
     /**
      * Sets position in the y-axis

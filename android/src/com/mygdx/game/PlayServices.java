@@ -163,14 +163,10 @@ class PlayServices implements GameServices {
 
     /**
      * Getter for each level leaderboard.
-     * <p>
-     * <p>
-     * .
      *
      * @return the leaderboard ID.
      */
     public String getLeaderboardID() {
-
 
         return activity.getString(R.string.leaderboard_leaderboard);
 

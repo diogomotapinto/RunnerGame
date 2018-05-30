@@ -44,6 +44,10 @@ public class GameController implements ContactListener {
     private int score;
 
 
+    /**
+     * Class constructor
+     * Initializes the world and the bodies in it
+     */
     GameController() {
         this.gameModel = GameModel.getInstance();
         TmxMapLoader mapLoader = new TmxMapLoader();
@@ -71,20 +75,34 @@ public class GameController implements ContactListener {
 
     }
 
+    /**
+     * @return an instance of this class
+     */
     public static GameController getInstance() {
         if (instance == null)
             instance = new GameController();
         return instance;
     }
 
+    /**
+     * @return a new instance of type GameController
+     */
     public GameController newGameContoller() {
         return new GameController();
     }
 
+
+    /**
+     * @return the hero body
+     */
     public HeroBody getHeroBody() {
         return heroBody;
     }
 
+
+    /**
+     * Calculates the next physics steps
+     */
     public void update() {
 
         Array<Body> bodies = new Array<Body>();
@@ -105,21 +123,35 @@ public class GameController implements ContactListener {
         setState();
     }
 
-
+    /**
+     * @return a new instance of type GameController
+     */
     public void newInstance(GameController newInstance) {
         instance = newInstance;
     }
 
+
+    /**
+     * @return the score of the game
+     */
     public int getScore() {
         return score;
     }
 
+
+    /**
+     * Makes the hero jump
+     */
     public void jump() {
         if (this.isContacted) {
             heroBody.getBody().applyLinearImpulse(new Vector2(0, 3f / PIXEL_TO_METER), heroBody.getBody().getWorldCenter(), true);
         }
     }
 
+
+    /**
+     * Makes the hero run
+     */
     public void run() {
 
         if (heroBody.getBody().getLinearVelocity().x <= 2) {
@@ -128,6 +160,10 @@ public class GameController implements ContactListener {
 
     }
 
+
+    /**
+     * Makes the hero shoot
+     */
     public void shoot() {
         gameModel.getHero().setPosition(heroBody.getX(), heroBody.getY());
         BulletModel bullet = gameModel.createBullet(gameModel.getHero().getPosition(), 10);
@@ -137,16 +173,27 @@ public class GameController implements ContactListener {
     }
 
 
+    /**
+     * @return the position of the game camera
+     */
     public float getCameraPosition() {
         return xPosition;
 
     }
 
+
+    /**
+     * @param xPosition new position of the game camera
+     */
     public void setCameraPosition(float xPosition) {
         this.xPosition = xPosition;
 
     }
 
+
+    /**
+     *Removes body that has been flagged for removal
+     */
     public void removeBody() {
         Array<Body> bodies = new Array<Body>();
         world.getBodies(bodies);
@@ -161,6 +208,10 @@ public class GameController implements ContactListener {
         }
     }
 
+
+    /**
+     * Sets state of the hero according to his physics
+     */
     private void setState() {
         if (heroBody.getBody().getLinearVelocity().x == 0) {
             gameModel.setHeroState(HeroState.State.PAUSED);
@@ -221,10 +272,18 @@ public class GameController implements ContactListener {
     }
 
 
+    /**
+     * Sets the gold flagged for removal
+     * @param goldBody body of the gold
+     */
     private void goldCollides(Body goldBody) {
         ((GoldModel) goldBody.getUserData()).setFlaggedForRemoval(true);
     }
 
+    /**
+     * Sets the bullet flagged for removal
+     * @param bulletBody body of the gold
+     */
     private void bulletCollides(Body bulletBody) {
         ((BulletModel) bulletBody.getUserData()).setFlaggedForRemoval(true);
     }

@@ -29,7 +29,7 @@ public abstract class EntityBody {
         this.world = world;
 
         if (!isFloor) {
-            bodyDef.position.set(model.getX() / PIXEL_TO_METER, model.getY() / PIXEL_TO_METER);
+            bodyDef.position.set(model.getPosition().x / PIXEL_TO_METER, model.getPosition().y / PIXEL_TO_METER);
         }
 
         body = world.createBody(bodyDef);
@@ -37,12 +37,19 @@ public abstract class EntityBody {
 
     }
 
+
+    /**
+     * Creates fixtures of the bodies
+     * @param body the body to get a fixture applied to it
+     * @param density of the body
+     * @param size of the body
+     */
     void createFixtures(Body body, float density, float size) {
         CircleShape circle = new CircleShape();
 
         circle.setRadius(size / PIXEL_TO_METER);
 
-        // Create a fixture definition to apply our shape to
+
         FixtureDef fixtureDef = new FixtureDef();
         fixtureDef.shape = circle;
 
@@ -50,30 +57,49 @@ public abstract class EntityBody {
         fixtureDef.friction = 0f;
         fixtureDef.restitution = 0f;
 
-        // Create our fixture and attach it to the body
+
         body.createFixture(fixtureDef);
         circle.dispose();
 
     }
 
 
+    /**
+     * @return x position of the body
+     */
     public float getX() {
         return body.getPosition().x;
     }
 
+    /**
+     * @return y position of the body
+     */
     public float getY() {
         return body.getPosition().y;
     }
 
+
+    /**
+     * Used to move the body
+     * @param x position in the x-axis
+     * @param y position in the y-axis
+     * @param angle of the body to be changed
+     */
     public void setTransform(float x, float y, float angle) {
         body.setTransform(x / PIXEL_TO_METER, y / PIXEL_TO_METER, angle);
 
     }
 
+    /**
+     * @return user data of the model
+     */
     public Object getUserData() {
         return body.getUserData();
     }
 
+    /**
+     * @return body
+     */
     public Body getBody() {
         return body;
     }

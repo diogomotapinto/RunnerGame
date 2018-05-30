@@ -50,7 +50,7 @@ public abstract class EntityView {
      * @param model
      */
     public void update(EntityModel model) {
-        sprite.setCenter(model.getX(), model.getY());
+        sprite.setCenter(model.getPosition().x, model.getPosition().y);
     }
 
 

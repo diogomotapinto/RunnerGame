@@ -33,6 +33,7 @@ class GameOverScreen extends Stage implements Screen {
     private int screenWidth;
     private int screenHeight;
 
+    
 
     /**
      * Class constructor
@@ -126,10 +127,8 @@ class GameOverScreen extends Stage implements Screen {
             @Override
             public void clicked(InputEvent event, float x, float y) {
                 game.getGameServices().submitScore(GameController.getInstance().getScore());
-                GameModel model = GameModel.getInstance().newGameModel();
-                GameModel.getInstance().newInstance(model);
-                GameController controller = GameController.getInstance().newGameContoller();
-                GameController.getInstance().newInstance(controller);
+                GameModel.getInstance().newGameModel();
+                GameController.getInstance().newGameContoller();
                 MainMenuView view = new MainMenuView(game);
                 game.setScreen(view);
                 dispose();

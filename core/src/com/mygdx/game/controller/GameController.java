@@ -87,8 +87,8 @@ public class GameController implements ContactListener {
     /**
      * @return a new instance of type GameController
      */
-    public GameController newGameContoller() {
-        return new GameController();
+    public static void newGameContoller() {
+        GameController.instance = new GameController();
     }
 
 

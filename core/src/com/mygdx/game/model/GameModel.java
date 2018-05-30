@@ -85,15 +85,8 @@ public class GameModel {
     /**
      * @return a new instance of the Game Model
      */
-    public GameModel newGameModel() {
-        return new GameModel();
-    }
-
-    /**
-     * @return a new instance of the Game Model
-     */
-    public void newInstance(GameModel newInstance) {
-        instance = newInstance;
+    public static void newGameModel() {
+        GameModel.instance = new GameModel();
     }
 
 

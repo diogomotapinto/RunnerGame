@@ -15,8 +15,7 @@ public class GameControllerTest {
 
     @Test
     public void getScore() {
-        this.gameModel = GameModel.getInstance().newGameModel();
-        this.gameController = GameController.getInstance().newGameContoller();
+         GameModel.getInstance().newGameModel();GameController.getInstance().newGameContoller();
         assertEquals(gameController.getScore(), 0);
 
         this.gameController.run();

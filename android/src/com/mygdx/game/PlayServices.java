@@ -7,6 +7,8 @@ import com.badlogic.gdx.Gdx;
 import com.google.android.gms.games.Games;
 import com.google.example.games.basegameutils.GameHelper;
 
+import java.util.TreeMap;
+
 
 /**
  * Class that interacts with the Google Play Services.
@@ -29,6 +31,11 @@ class PlayServices implements GameServices {
     private final GameHelper gameHelper;
 
     /**
+     * container for the scores
+     */
+    private final TreeMap<Integer, String> gameScores;
+
+    /**
      * Play Services class constructor.
      *
      * @param activity   The Activity used in the Play Services.
@@ -37,6 +44,15 @@ class PlayServices implements GameServices {
     PlayServices(Activity activity, GameHelper gameHelper) {
         this.activity = activity;
         this.gameHelper = gameHelper;
+        gameScores = new TreeMap<Integer, String>();
+        loadScores();
+    }
+
+    private void loadScores() {
+        gameScores.put(10, activity.getString(R.string.achievement_noob));
+        gameScores.put(100, activity.getString(R.string.achievement_wasspoppin));
+        gameScores.put(200, activity.getString(R.string.achievement_fireee));
+
     }
 
 
@@ -122,13 +138,14 @@ class PlayServices implements GameServices {
      */
     private String getAchievementID(int score) {
 
-        if (score == 10) {
-            return activity.getString(R.string.achievement_noob);
+        String finalScore = this.gameScores.get(score);
+        if (finalScore != null) {
+            return finalScore;
+        }
 
-        } else if (score == 100) {
-            return activity.getString(R.string.achievement_wasspoppin);
-        } else if (score == 200) {
-            return activity.getString(R.string.achievement_fireee);
+        int highestKeyScore = gameScores.lastKey();
+        if (score > highestKeyScore) {
+            return Integer.toString(highestKeyScore);
         }
         return null;
     }

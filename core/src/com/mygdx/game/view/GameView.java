@@ -190,10 +190,12 @@ public class GameView implements Screen {
         gameHud.update(gameController.getScore(), seconds);
         gameCamera.update();
         renderer.setView(gameCamera);
+       
 
         if ((gameModel.getHeroState().getState() == HeroState.State.DEAD)
                 || gameController.getHeroBody().getBody().getPosition().x * PIXEL_TO_METER > mapPixelWidth
                 ) {
+
             game.setScreen(new GameOverScreen(this.game, this.gamePort, gameModel, gameController));
             game.getGameServices().submitScore(gameController.getScore());
             dispose();

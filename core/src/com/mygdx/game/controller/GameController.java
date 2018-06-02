@@ -9,6 +9,7 @@ import com.badlogic.gdx.physics.box2d.ContactListener;
 import com.badlogic.gdx.physics.box2d.Manifold;
 import com.badlogic.gdx.physics.box2d.World;
 import com.badlogic.gdx.utils.Array;
+import com.mygdx.game.GameServices;
 import com.mygdx.game.controller.entities.BulletBody;
 import com.mygdx.game.controller.entities.EnemyBody;
 import com.mygdx.game.controller.entities.GoldBody;
@@ -128,13 +129,18 @@ public class GameController implements ContactListener {
      */
     private int score;
 
+
+    private final GameServices gameServices;
+
+
     /**
      * Class constructor
      * Initializes the world and the bodies in it
      */
-    public GameController(TiledMap map, GameModel gameModel) {
+    public GameController(TiledMap map, GameModel gameModel, GameServices gameServices) {
         this.gameModel = gameModel;
         this.map = map;
+        this.gameServices = gameServices;
         ArrayList<GoldBody> goldBodyArray = new ArrayList<GoldBody>();
 
         world = new World(new Vector2(0, GRAVITY), true);
@@ -287,11 +293,13 @@ public class GameController implements ContactListener {
             if (score >= SCORE) {
                 this.score -= SCORE;
             }
+
         }
 
         if (bodyA.getUserData() instanceof GoldModel && (bodyB.getUserData() instanceof HeroModel || bodyB.getUserData() instanceof BulletModel)) {
             goldCollides(bodyA);
             this.score += SCORE;
+            gameServices.submitScore(getScore());
         }
 
         if (bodyA.getUserData() instanceof BulletModel && bodyB.getUserData() instanceof GoldModel) {

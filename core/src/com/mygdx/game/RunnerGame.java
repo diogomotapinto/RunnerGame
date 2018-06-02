@@ -28,7 +28,7 @@ public class RunnerGame extends Game {
         TmxMapLoader mapLoader = new TmxMapLoader();
         TiledMap map = mapLoader.load("mapa.tmx");
         GameModel gameModel = new GameModel();
-        setScreen(new MainMenuView(this, new GameController(map, gameModel), gameModel));
+        setScreen(new MainMenuView(this, new GameController(map, gameModel, this.gameServices), gameModel));
         //setScreen(new GameView(this));
     }
 

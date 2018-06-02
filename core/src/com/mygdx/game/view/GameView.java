@@ -118,7 +118,7 @@ public class GameView implements Screen {
         TmxMapLoader mapLoader = new TmxMapLoader();
         map = mapLoader.load("mapa.tmx");
 
-        this.gameController = new GameController(map, gameModel);
+        this.gameController = new GameController(map, gameModel, game.getGameServices());
         this.gameModel = gameModel;
 
         renderer = new OrthogonalTiledMapRenderer(map, 1 / PIXEL_TO_METER);
@@ -190,7 +190,7 @@ public class GameView implements Screen {
         gameHud.update(gameController.getScore(), seconds);
         gameCamera.update();
         renderer.setView(gameCamera);
-       
+
 
         if ((gameModel.getHeroState().getState() == HeroState.State.DEAD)
                 || gameController.getHeroBody().getBody().getPosition().x * PIXEL_TO_METER > mapPixelWidth

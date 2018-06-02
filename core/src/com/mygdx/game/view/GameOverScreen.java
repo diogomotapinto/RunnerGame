@@ -150,7 +150,7 @@ class GameOverScreen extends Stage implements Screen {
                 TmxMapLoader mapLoader = new TmxMapLoader();
                 TiledMap map = mapLoader.load("mapa.tmx");
                 GameModel gameModel = new GameModel();
-                MainMenuView view = new MainMenuView(game, new GameController(map, gameModel), gameModel);
+                MainMenuView view = new MainMenuView(game, new GameController(map, gameModel, game.getGameServices()), gameModel);
                 game.setScreen(view);
                 dispose();
             }

@@ -12,14 +12,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/android/src/com/mygdx/game/PlayServices.java" afterPath="$PROJECT_DIR$/android/src/com/mygdx/game/PlayServices.java" />
       <change beforePath="$PROJECT_DIR$/build/intermediates/jack-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/jack-cache/cache.xml" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/RunnerGame.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/RunnerGame.class" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/controller/GameController.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/controller/GameController.class" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/controller/entities/EntityBody.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/controller/entities/EntityBody.class" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameOverScreen$1.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameOverScreen$1.class" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameOverScreen$2.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameOverScreen$2.class" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameOverScreen$3.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameOverScreen$3.class" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameOverScreen.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameOverScreen.class" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameView.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/view/GameView.class" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/RunnerGame.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/RunnerGame.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java" />
       <change beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameView.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameView.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,11 +84,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameOverScreen.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameOverScreen.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+            <state relative-caret-position="69">
+              <caret line="152" column="116" lean-forward="false" selection-start-line="152" selection-start-column="116" selection-end-line="152" selection-end-column="116" />
               <folding />
             </state>
           </provider>
@@ -108,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameHUD.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="8">
-              <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+              <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -117,14 +117,16 @@
       <file leaf-file-name="PlayServices.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/src/com/mygdx/game/PlayServices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="139" column="48" lean-forward="false" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
               <folding>
-                <element signature="e#1258#1303#0" expanded="true" />
-                <element signature="e#1334#1385#0" expanded="true" />
-                <element signature="e#1416#1463#0" expanded="true" />
-                <element signature="e#4674#4675#0" expanded="true" />
-                <element signature="e#4720#4721#0" expanded="true" />
+                <element signature="e#1234#1279#0" expanded="true" />
+                <element signature="e#1310#1361#0" expanded="true" />
+                <element signature="e#1392#1439#0" expanded="true" />
+                <element signature="e#3718#3719#0" expanded="true" />
+                <element signature="e#4282#4334#0" expanded="true" />
+                <element signature="e#4390#4391#0" expanded="true" />
+                <element signature="e#4436#4437#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,11 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameView.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="192" column="7" lean-forward="false" selection-start-line="192" selection-start-column="7" selection-end-line="192" selection-end-column="7" />
+            <state relative-caret-position="69">
+              <caret line="120" column="86" lean-forward="false" selection-start-line="120" selection-start-column="86" selection-end-line="120" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -156,12 +158,36 @@
       <file leaf-file-name="GameController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="194" column="15" lean-forward="false" selection-start-line="194" selection-start-column="15" selection-end-line="194" selection-end-column="15" />
+            <state relative-caret-position="257">
+              <caret line="305" column="24" lean-forward="false" selection-start-line="305" selection-start-column="24" selection-end-line="305" selection-end-column="24" />
               <folding>
-                <element signature="e#4767#4768#0" expanded="true" />
-                <element signature="e#4795#4796#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#4957#4958#0" expanded="true" />
+                <element signature="e#4985#4986#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunnerGame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/RunnerGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="30" column="93" lean-forward="false" selection-start-line="30" selection-start-column="93" selection-end-line="30" selection-end-column="93" />
+              <folding>
+                <element signature="e#1392#1393#0" expanded="true" />
+                <element signature="e#1427#1428#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameServices.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/GameServices.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -4721,7 +4747,6 @@
         <option value="$PROJECT_DIR$/core/test/GameTest.java" />
         <option value="$PROJECT_DIR$/core/test/com/mygdx/game/controller/GameTest.java" />
         <option value="$PROJECT_DIR$/local.properties" />
-        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/RunnerGame.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/view/GamePausedScreen.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/BulletBody.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/GoldBody.java" />
@@ -4734,11 +4759,9 @@
         <option value="$PROJECT_DIR$/core/test/com/mygdx/game/controller/GameControllerTest.java" />
         <option value="$PROJECT_DIR$/android/src/com/mygdx/game/AndroidLauncher.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/MapBody.java" />
-        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/model/GameModel.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/model/entities/EntityModel.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameHUD.java" />
-        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/view/entities/EntityView.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/HeroBody.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/EntityBody.java" />
@@ -4746,7 +4769,10 @@
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/GameServices.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/model/HeroState.java" />
         <option value="$PROJECT_DIR$/android/src/com/mygdx/game/PlayServices.java" />
+        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java" />
+        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/RunnerGame.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameView.java" />
+        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java" />
       </list>
     </option>
   </component>
@@ -5185,7 +5211,7 @@
         <option name="Gradle.BeforeRunTask" enabled="true" tasks="" externalProjectPath="$PROJECT_DIR$/android" vmOptions="" scriptParameters="" />
       </method>
     </configuration>
-    <configuration name="DesktopLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DesktopLauncher" type="Application" factoryName="Application" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.mygdx.game.desktop.*" />
@@ -5356,18 +5382,17 @@
       <item index="2" class="java.lang.String" itemvalue="Android JUnit.All in core" />
       <item index="3" class="java.lang.String" itemvalue="Android JUnit.Test" />
       <item index="4" class="java.lang.String" itemvalue="Application.DesktopLauncher" />
-      <item index="5" class="java.lang.String" itemvalue="Android JUnit.All in core (1)" />
-      <item index="6" class="java.lang.String" itemvalue="Gradle.RunnerGame:android [assemble]" />
-      <item index="7" class="java.lang.String" itemvalue="Android JUnit.All in core (2)" />
-      <item index="8" class="java.lang.String" itemvalue="Android JUnit.All in core (3)" />
+      <item index="5" class="java.lang.String" itemvalue="Android JUnit.All in core (2)" />
+      <item index="6" class="java.lang.String" itemvalue="Android JUnit.All in core (3)" />
+      <item index="7" class="java.lang.String" itemvalue="Android JUnit.All in core (1)" />
+      <item index="8" class="java.lang.String" itemvalue="Gradle.RunnerGame:android [assemble]" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DesktopLauncher" />
-        <item index="1" class="java.lang.String" itemvalue="Android JUnit.All in core (3)" />
-        <item index="2" class="java.lang.String" itemvalue="Android JUnit.All in core (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Android JUnit.All in core (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.RunnerGame:android [assemble]" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Android JUnit.All in core (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Android JUnit.All in core (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Android JUnit.All in core (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.RunnerGame:android [assemble]" />
       </list>
     </recent_temporary>
   </component>
@@ -5389,13 +5414,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523968546480</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Changing structure&#10;Singleton added in the model class">
-      <created>1525170041691</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1525170041691</updated>
     </task>
     <task id="LOCAL-00019" summary="Gold disappears after being touched">
       <created>1525174147623</created>
@@ -5733,7 +5751,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527957554420</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Changes in scores">
+      <created>1527959099167</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1527959099167</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -5779,7 +5804,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="820" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22031474" sideWeight="0.52193993" order="2" side_tool="true" content_ui="tabs" />
@@ -5792,7 +5816,7 @@
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6111111" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18091168" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Metric" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.49570817" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24892704" sideWeight="0.49232736" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.49232736" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24928775" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -5801,12 +5825,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35897437" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35897437" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763532" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763532" sideWeight="0.49713877" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24358974" sideWeight="0.49713877" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.4948849" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23462088" sideWeight="0.47806004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23462088" sideWeight="0.47806004" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -5825,43 +5849,44 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22031474" sideWeight="0.52193993" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36039886" sideWeight="0.50572246" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36039886" sideWeight="0.50572246" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Flutter Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5868946" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Assistant" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35612535" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41304347" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Metric" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.49570817" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.49232736" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6111111" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18091168" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Metric" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.49570817" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24892704" sideWeight="0.49232736" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24928775" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24928775" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9327611" sideWeight="0.4948849" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2934473" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763532" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763532" sideWeight="0.49713877" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35897437" sideWeight="0.49427754" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763532" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24358974" sideWeight="0.49713877" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.4948849" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23175965" sideWeight="0.47806004" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23462088" sideWeight="0.47806004" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5076726" order="8" side_tool="true" content_ui="tabs" />
@@ -5899,7 +5924,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Implementing Google Play services" />
     <MESSAGE value="Implementing Google Play services on Android class" />
     <MESSAGE value="Play services almost done" />
     <MESSAGE value="Play Services working" />
@@ -5924,7 +5948,8 @@
     <MESSAGE value="Comments added" />
     <MESSAGE value="Images deleted" />
     <MESSAGE value="Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
+    <MESSAGE value="Changes in scores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in scores" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -6197,14 +6222,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/RunnerGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/controller/entities/HeroBody.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
@@ -6217,25 +6234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="194" column="15" lean-forward="false" selection-start-line="194" selection-start-column="15" selection-end-line="194" selection-end-column="15" />
-          <folding>
-            <element signature="e#4767#4768#0" expanded="true" />
-            <element signature="e#4795#4796#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/GameServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -6267,14 +6265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/model/HeroState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -6286,29 +6276,70 @@
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameHUD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8">
-          <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/com/mygdx/game/PlayServices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="139" column="48" lean-forward="false" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
           <folding>
-            <element signature="e#1258#1303#0" expanded="true" />
-            <element signature="e#1334#1385#0" expanded="true" />
-            <element signature="e#1416#1463#0" expanded="true" />
-            <element signature="e#4674#4675#0" expanded="true" />
-            <element signature="e#4720#4721#0" expanded="true" />
+            <element signature="e#1234#1279#0" expanded="true" />
+            <element signature="e#1310#1361#0" expanded="true" />
+            <element signature="e#1392#1439#0" expanded="true" />
+            <element signature="e#3718#3719#0" expanded="true" />
+            <element signature="e#4282#4334#0" expanded="true" />
+            <element signature="e#4390#4391#0" expanded="true" />
+            <element signature="e#4436#4437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/GameServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/controller/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="305" column="24" lean-forward="false" selection-start-line="305" selection-start-column="24" selection-end-line="305" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4957#4958#0" expanded="true" />
+            <element signature="e#4985#4986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/RunnerGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="30" column="93" lean-forward="false" selection-start-line="30" selection-start-column="93" selection-end-line="30" selection-end-column="93" />
+          <folding>
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1427#1428#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="192" column="7" lean-forward="false" selection-start-line="192" selection-start-column="7" selection-end-line="192" selection-end-column="7" />
+        <state relative-caret-position="69">
+          <caret line="120" column="86" lean-forward="false" selection-start-line="120" selection-start-column="86" selection-end-line="120" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/view/GameOverScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="152" column="116" lean-forward="false" selection-start-line="152" selection-start-column="116" selection-end-line="152" selection-end-column="116" />
           <folding />
         </state>
       </provider>

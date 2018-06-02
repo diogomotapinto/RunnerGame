@@ -53,6 +53,7 @@ class PlayServices implements GameServices {
         gameScores.put(100, activity.getString(R.string.achievement_wasspoppin));
         gameScores.put(200, activity.getString(R.string.achievement_fireee));
 
+
     }
 
 
@@ -137,17 +138,7 @@ class PlayServices implements GameServices {
      * @return The achievement ID.
      */
     private String getAchievementID(int score) {
-
-        String finalScore = this.gameScores.get(score);
-        if (finalScore != null) {
-            return finalScore;
-        }
-
-        int highestKeyScore = gameScores.lastKey();
-        if (score > highestKeyScore) {
-            return Integer.toString(highestKeyScore);
-        }
-        return null;
+        return this.gameScores.get(score);
     }
 
     /**

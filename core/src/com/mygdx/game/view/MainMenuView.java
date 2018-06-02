@@ -1,6 +1,5 @@
 package com.mygdx.game.view;
 
-import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.Screen;
@@ -39,6 +38,7 @@ public class MainMenuView implements Screen {
 
     /**
      * Class constructor
+     *
      * @param game the game the screen belongs to
      */
     public MainMenuView(RunnerGame game, GameController gameController, GameModel gameModel) {
@@ -48,7 +48,7 @@ public class MainMenuView implements Screen {
 
         loadMenuAssets();
 
-        this.gameController=gameController;
+        this.gameController = gameController;
         this.gameModel = gameModel;
 
     }

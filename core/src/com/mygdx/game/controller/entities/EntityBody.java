@@ -17,10 +17,10 @@ public abstract class EntityBody {
     /**
      * Box2d body
      */
-   protected final Body body;
+    protected final Body body;
 
     /**
-     *Physics world used in the game
+     * Physics world used in the game
      */
     private final World world;
 
@@ -46,9 +46,10 @@ public abstract class EntityBody {
 
     /**
      * Creates fixtures of the bodies
-     * @param body the body to get a fixture applied to it
+     *
+     * @param body    the body to get a fixture applied to it
      * @param density of the body
-     * @param size of the body
+     * @param size    of the body
      */
     void createFixtures(Body body, float density, float size) {
         CircleShape circle = new CircleShape();
@@ -87,8 +88,9 @@ public abstract class EntityBody {
 
     /**
      * Used to move the body
-     * @param x position in the x-axis
-     * @param y position in the y-axis
+     *
+     * @param x     position in the x-axis
+     * @param y     position in the y-axis
      * @param angle of the body to be changed
      */
     public void setTransform(float x, float y, float angle) {

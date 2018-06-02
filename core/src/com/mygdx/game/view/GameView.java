@@ -10,7 +10,6 @@ import com.badlogic.gdx.maps.MapProperties;
 import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
-import com.badlogic.gdx.physics.box2d.Box2DDebugRenderer;
 import com.badlogic.gdx.utils.viewport.StretchViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.RunnerGame;
@@ -73,7 +72,6 @@ public class GameView implements Screen {
 
     /**
      * TiledMap used for the floor and the background of the game
-     *
      */
     private final TiledMap map;
 
@@ -110,6 +108,7 @@ public class GameView implements Screen {
 
     /**
      * Class constructor
+     *
      * @param game The game this screen belongs to
      */
     public GameView(RunnerGame game, GameController gameController, GameModel gameModel) {
@@ -122,7 +121,7 @@ public class GameView implements Screen {
         TmxMapLoader mapLoader = new TmxMapLoader();
         map = mapLoader.load("mapa.tmx");
 
-        this.gameController= new GameController(map, gameModel);
+        this.gameController = new GameController(map, gameModel);
         this.gameModel = gameModel;
 
         renderer = new OrthogonalTiledMapRenderer(map, 1 / PIXEL_TO_METER);
@@ -156,6 +155,7 @@ public class GameView implements Screen {
 
     /**
      * Handles the inputs from the devices
+     *
      * @param delta
      */
     private void handleInput(float delta) {
@@ -170,7 +170,7 @@ public class GameView implements Screen {
         }
 
 
-        if ((Gdx.input.isKeyJustPressed(Input.Keys.UP) || (Gdx.input.justTouched() && Gdx.input.getX() < Gdx.graphics.getWidth() / 2 ) && this.mapPixelHeight > gameController.getHeroBody().getX())) {
+        if ((Gdx.input.isKeyJustPressed(Input.Keys.UP) || (Gdx.input.justTouched() && Gdx.input.getX() < Gdx.graphics.getWidth() / 2) && this.mapPixelHeight > gameController.getHeroBody().getX())) {
             gameController.jump();
         }
 
@@ -183,6 +183,7 @@ public class GameView implements Screen {
 
     /**
      * Updates what is in the screen
+     *
      * @param delta the delta time in seconds between screens
      */
     private void update(float delta) {
@@ -199,11 +200,10 @@ public class GameView implements Screen {
         renderer.setView(gameCamera);
 
 
-
         if ((gameController.getHeroBody().getBody().getPosition().y < 0)
                 || gameController.getHeroBody().getBody().getPosition().x * PIXEL_TO_METER > mapPixelWidth
                 ) {
-            game.setScreen(new GameOverScreen(this.game, this.gamePort,gameModel,gameController));
+            game.setScreen(new GameOverScreen(this.game, this.gamePort, gameModel, gameController));
             game.getGameServices().submitScore(gameController.getScore());
             dispose();
         }
@@ -300,6 +300,7 @@ public class GameView implements Screen {
 
     /**
      * Sets the state of the game
+     *
      * @param pause the state of the game if he is paused or not
      */
     public void setPause(boolean pause) {

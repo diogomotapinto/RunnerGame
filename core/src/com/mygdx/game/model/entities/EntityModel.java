@@ -107,7 +107,9 @@ public abstract class EntityModel {
     /**
      * Types of existing models
      */
-    public enum ModelType {ENEMY, GOLD, HERO, BULLET}
+    public enum ModelType {
+        ENEMY, GOLD, HERO, BULLET
+    }
 
 
 }

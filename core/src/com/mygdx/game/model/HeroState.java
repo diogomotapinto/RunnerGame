@@ -19,6 +19,7 @@ public class HeroState {
 
     /**
      * Returns the current state of the hero
+     *
      * @return Current state of the hero
      */
     public State getState() {
@@ -27,6 +28,7 @@ public class HeroState {
 
     /**
      * Sets the value of variable currentState
+     *
      * @param currentState currentaState to be set
      */
     public void setState(State currentState) {
@@ -36,6 +38,8 @@ public class HeroState {
     /**
      * Possible states of the hero
      */
-    public enum State {RUNNING, PAUSED, JUMPING, DEAD}
+    public enum State {
+        RUNNING, PAUSED, JUMPING, DEAD
+    }
 
 }

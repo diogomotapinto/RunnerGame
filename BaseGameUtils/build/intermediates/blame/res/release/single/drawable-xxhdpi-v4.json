@@ -8,20 +8,20 @@
         "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable-xxhdpi/common_google_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/ic_plusone_small_off_client.png",
-        "source": "/Users/diogomotapinto/.android/build-cache/94c3f373e5f1d99a1640ea72cc5635bf013c41f2/output/res/drawable-xxhdpi/ic_plusone_small_off_client.png"
-    },
-    {
-        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_light_pressed.9.png"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_focused.9.png",
+        "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_focused.9.png"
     },
     {
         "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_go.png",
         "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable-xxhdpi/abc_ic_go.png"
     },
     {
-        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_focused.9.png",
-        "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_focused.9.png"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/Users/diogomotapinto/.android/build-cache/94c3f373e5f1d99a1640ea72cc5635bf013c41f2/output/res/drawable-xxhdpi/ic_plusone_small_off_client.png"
     },
     {
         "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png",
@@ -92,12 +92,12 @@
         "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable-xxhdpi/abc_ic_voice_search_api_holo_light.png"
     },
     {
-        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_textfield_search_right_selected_holo_light.9.png",
-        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable-xxhdpi/abc_textfield_search_right_selected_holo_light.9.png"
-    },
-    {
         "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png",
         "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable-xxhdpi/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_textfield_search_right_selected_holo_light.9.png",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable-xxhdpi/abc_textfield_search_right_selected_holo_light.9.png"
     },
     {
         "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_text_light_disabled.9.png",
@@ -124,36 +124,36 @@
         "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal.9.png",
-        "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_normal.9.png"
-    },
-    {
         "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_tab_selected_pressed_holo.9.png",
         "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable-xxhdpi/abc_tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal.9.png",
+        "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_disabled.9.png",
         "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable-xxhdpi/common_google_signin_btn_icon_dark_disabled.9.png"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_spinner_ab_disabled_holo_light.9.png",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable-xxhdpi/abc_spinner_ab_disabled_holo_light.9.png"
     },
     {
         "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_pressed.9.png",
         "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_spinner_ab_disabled_holo_light.9.png",
-        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable-xxhdpi/abc_spinner_ab_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_clear_search_api_disabled_holo_light.png",
-        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable-xxhdpi/abc_ic_clear_search_api_disabled_holo_light.png"
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable-xxhdpi/common_google_signin_btn_icon_dark_disabled.9.png"
     },
     {
         "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_disabled.9.png",
         "source": "/Users/diogomotapinto/.android/build-cache/1d9bf2a6f66cea2e2f15c3ff8773f2dd0cc14673/output/res/drawable-xxhdpi/common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/abc_ic_clear_search_api_disabled_holo_light.png",
+        "source": "/Users/diogomotapinto/.android/build-cache/75a89d88cac149ddf7cb613ab0ec991c406cb548/output/res/drawable-xxhdpi/abc_ic_clear_search_api_disabled_holo_light.png"
     },
     {
         "merged": "/Users/diogomotapinto/git/RunnerGame/BaseGameUtils/build/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_text_light_focused.9.png",

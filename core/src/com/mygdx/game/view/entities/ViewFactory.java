@@ -18,8 +18,7 @@ public class ViewFactory {
 
 
     /**
-     *
-     * @param game the game this entity belongs
+     * @param game  the game this entity belongs
      * @param model of the entities
      * @return the entity view corresponding to the model passed as parameter
      */

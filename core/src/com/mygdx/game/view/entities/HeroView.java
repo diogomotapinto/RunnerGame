@@ -41,13 +41,13 @@ public class HeroView extends EntityView {
     /**
      * Correction of the scale representation in the x-axis
      */
-    private static final int SCALE_XCORRECTION =  15;
+    private static final int SCALE_XCORRECTION = 15;
 
 
     /**
      * Correction of the scale representation in the y-axis
      */
-    private static final int SCALE_YCORRECTION =  20;
+    private static final int SCALE_YCORRECTION = 20;
 
     /**
      * texture of the enemy
@@ -124,7 +124,7 @@ public class HeroView extends EntityView {
         stateTime += Gdx.graphics.getDeltaTime();
 
         sprite.setRegion(runningAnimation.getKeyFrame(stateTime, true));
-        sprite.setBounds(model.getPosition().x - BOUNDS_XCORRECTION  / PIXEL_TO_METER, model.getPosition().y - BOUNDS_YCORRECTION / PIXEL_TO_METER, texture.getWidth() / (PIXEL_TO_METER * SCALE_XCORRECTION), texture.getWidth() / (PIXEL_TO_METER * SCALE_YCORRECTION));
+        sprite.setBounds(model.getPosition().x - BOUNDS_XCORRECTION / PIXEL_TO_METER, model.getPosition().y - BOUNDS_YCORRECTION / PIXEL_TO_METER, texture.getWidth() / (PIXEL_TO_METER * SCALE_XCORRECTION), texture.getWidth() / (PIXEL_TO_METER * SCALE_YCORRECTION));
         sprite.draw(batch);
     }
 

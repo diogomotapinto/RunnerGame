@@ -32,32 +32,29 @@ import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 public class GameController implements ContactListener {
 
     /**
+     * Width of the game
+     */
+    public static final int V_WIDTH = 400;
+    /**
+     * Height of the game
+     */
+    public static final int V_HEIGHT = 208;
+    /**
      * Score
      */
     private static final int SCORE = 5;
-
     /**
-     *Width of the game
-     */
-    public static final int V_WIDTH = 400;
-
-    /**
-     *Height of the game
-     */
-    public static final int V_HEIGHT = 208;
-
-    /**
-     *Gravity force
+     * Gravity force
      */
     private static final int GRAVITY = -10;
 
     /**
-     *Velocity Iterations of the game
+     * Velocity Iterations of the game
      */
     private static final int VELOCITY_ITERATIONS = 6;
 
     /**
-     *Position Iterations of the game
+     * Position Iterations of the game
      */
     private static final int POSITION_ITERATIONS = 2;
 
@@ -112,7 +109,7 @@ public class GameController implements ContactListener {
     private final boolean isContacted;
 
     /**
-     *Physics world used in the game
+     * Physics world used in the game
      */
     private final World world;
 
@@ -137,7 +134,7 @@ public class GameController implements ContactListener {
      */
     public GameController(TiledMap map, GameModel gameModel) {
         this.gameModel = gameModel;
-        this.map=map;
+        this.map = map;
         ArrayList<GoldBody> goldBodyArray = new ArrayList<GoldBody>();
 
         world = new World(new Vector2(0, GRAVITY), true);
@@ -158,7 +155,6 @@ public class GameController implements ContactListener {
         isContacted = true;
         this.score = 0;
     }
-
 
 
     /**
@@ -249,7 +245,7 @@ public class GameController implements ContactListener {
 
 
     /**
-     *Removes body that has been flagged for removal
+     * Removes body that has been flagged for removal
      */
     public void removeBody() {
         Array<Body> bodies = new Array<Body>();
@@ -288,9 +284,9 @@ public class GameController implements ContactListener {
         Body bodyB = contact.getFixtureB().getBody();
 
         if (bodyA.getUserData() instanceof EnemyModel && bodyB.getUserData() instanceof HeroModel) {
-           if(score >= SCORE){
-               this.score -=SCORE;
-           }
+            if (score >= SCORE) {
+                this.score -= SCORE;
+            }
         }
 
         if (bodyA.getUserData() instanceof GoldModel && (bodyB.getUserData() instanceof HeroModel || bodyB.getUserData() instanceof BulletModel)) {
@@ -319,6 +315,7 @@ public class GameController implements ContactListener {
 
     /**
      * Sets the gold flagged for removal
+     *
      * @param goldBody body of the gold
      */
     private void goldCollides(Body goldBody) {
@@ -327,6 +324,7 @@ public class GameController implements ContactListener {
 
     /**
      * Sets the bullet flagged for removal
+     *
      * @param bulletBody body of the gold
      */
     private void bulletCollides(Body bulletBody) {

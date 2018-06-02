@@ -101,9 +101,6 @@ public class GameModel {
     private HeroState heroState;
 
 
-
-
-
     /**
      * Class constructor
      */

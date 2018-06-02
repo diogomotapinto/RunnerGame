@@ -34,7 +34,7 @@ public class EnemyView extends EntityView {
     /**
      * Correction of the scale representation
      */
-    private static final int SCALE_CORRECTION =  25;
+    private static final int SCALE_CORRECTION = 25;
     /**
      * texture of the enemy
      */

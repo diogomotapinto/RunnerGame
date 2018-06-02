@@ -44,16 +44,14 @@ public interface GameServices {
     /**
      * Gets the scores of the given level and displays them through google's default widget.
      *
-     * @param level Level that will have its scores displayed.
+     * @param score achieved in the game.
      */
-    void showScores(int level);
+    void showScores(int score);
 
     /**
      * Gets the achievements and displays them through google's default widget.
      */
     void showAchievements();
-
-
 
 
 }

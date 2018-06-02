@@ -9,7 +9,7 @@ import com.google.example.games.basegameutils.GameHelper;
 
 
 /**
- * Play Services class that handles the communication with the Google Play Services.
+ * Class that interacts with the Google Play Services.
  */
 class PlayServices implements GameServices {
 
@@ -24,12 +24,12 @@ class PlayServices implements GameServices {
     private final Activity activity;
 
     /**
-     * Game Helper used to help with the communication with Google Play Services.
+     * Game Helper used to help with to communicate with Google Play Services.
      */
     private final GameHelper gameHelper;
 
     /**
-     * Play Services constructor.
+     * Play Services class constructor.
      *
      * @param activity   The Activity used in the Play Services.
      * @param gameHelper The GameHelper used in the Play services.
@@ -39,9 +39,7 @@ class PlayServices implements GameServices {
         this.gameHelper = gameHelper;
     }
 
-    /**
-     * {@inheritDoc}
-     */
+
     @Override
     public void signIn() {
         try {
@@ -51,9 +49,7 @@ class PlayServices implements GameServices {
         }
     }
 
-    /**
-     * {@inheritDoc}
-     */
+
     @Override
     public void signOut() {
         try {
@@ -63,27 +59,21 @@ class PlayServices implements GameServices {
         }
     }
 
-    /**
-     * {@inheritDoc}
-     */
+
     @Override
     public void unlockAchievement(String achievementID) {
         if (isSignedIn())
             Games.Achievements.unlock(gameHelper.getApiClient(), achievementID);
     }
 
-    /**
-     * {@inheritDoc}
-     */
+
     @Override
     public void incrementAchievement(String achievementID) {
         if (isSignedIn())
             Games.Achievements.increment(gameHelper.getApiClient(), achievementID, 1);
     }
 
-    /**
-     * {@inheritDoc}
-     */
+
     @Override
     public void showScores(int level) {
         showScores(getLeaderboardID());
@@ -103,9 +93,7 @@ class PlayServices implements GameServices {
         }
     }
 
-    /**
-     * {@inheritDoc}
-     */
+
     @Override
     public void showAchievements() {
         if (isSignedIn()) {
@@ -115,9 +103,6 @@ class PlayServices implements GameServices {
     }
 
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public void submitScore(int score) {
         String leaderboardID = getLeaderboardID();
@@ -151,8 +136,8 @@ class PlayServices implements GameServices {
     /**
      * Submit the given score to the given leaderboard.
      *
-     * @param leaderboardID LeaderboardID resembling a leaderboard.
-     * @param score         Score to update the Leaderboard with, in milliseconds.
+     * @param leaderboardID Leaderboard ID.
+     * @param score         Score to update the Leaderboard.
      */
     private void submitScore(String leaderboardID, int score) {
         if (isSignedIn()) {
@@ -172,9 +157,6 @@ class PlayServices implements GameServices {
 
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public boolean isSignedIn() {
         return gameHelper.isSignedIn();

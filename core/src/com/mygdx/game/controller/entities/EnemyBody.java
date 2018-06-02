@@ -9,6 +9,16 @@ import com.mygdx.game.model.entities.EntityModel;
 public class EnemyBody extends EntityBody {
 
     /**
+     * Density of the enemy body
+     */
+    private static final float ENEMY_DENSITY = 1.27f;
+
+    /**
+     * Size of the enemy body
+     */
+    private static final float ENEMY_SIZE = 6;
+
+    /**
      * Constructs an enemy acording to the enemy model.
      *
      * @param world     the physical world this enemy belongs to.
@@ -17,7 +27,7 @@ public class EnemyBody extends EntityBody {
      */
     public EnemyBody(World world, EntityModel model, boolean isDynamic) {
         super(world, model, isDynamic, false);
-        createFixtures(body, 1.27f, 6);
+        createFixtures(body, ENEMY_DENSITY, ENEMY_SIZE);
     }
 
 }

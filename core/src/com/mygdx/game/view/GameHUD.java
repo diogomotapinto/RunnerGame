@@ -17,7 +17,6 @@ import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
-import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
 
 /**
@@ -56,6 +55,7 @@ class GameHUD {
 
     /**
      * Class constructor
+     *
      * @param sb
      */
     public GameHUD(SpriteBatch sb) {
@@ -87,9 +87,9 @@ class GameHUD {
     }
 
     /*
-    * Updates the game HUD
-    *
-    */
+     * Updates the game HUD
+     *
+     */
     public void update(float acel, float time) {
         this.scoreLabel.setText(Integer.toString((int) acel));
         timerLabel.setText(Integer.toString((int) time));
@@ -104,9 +104,9 @@ class GameHUD {
     }
 
     /*
-    * Adds a pause button to pause the game and change the screen
-    *
-    */
+     * Adds a pause button to pause the game and change the screen
+     *
+     */
     private void addPauseBtn() {
 
         Texture myTexture = new Texture(Gdx.files.internal("pauseButton.png"));

@@ -7,6 +7,9 @@ import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 import com.google.example.games.basegameutils.GameHelper;
 
+/**
+ * Class Android Launcher
+ */
 public class AndroidLauncher extends AndroidApplication implements GameHelper.GameHelperListener {
     private GameHelper gameHelper;
 
@@ -15,7 +18,6 @@ public class AndroidLauncher extends AndroidApplication implements GameHelper.Ga
         super.onCreate(savedInstanceState);
         gameHelper = new GameHelper(this, GameHelper.CLIENT_GAMES);
         gameHelper.setup(this);
-        //incrementAchievement(getAchievementId());
         AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
         PlayServices playServices = new PlayServices(this, gameHelper);
         initialize(new RunnerGame(playServices), config);

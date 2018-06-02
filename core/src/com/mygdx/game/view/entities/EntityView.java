@@ -15,7 +15,7 @@ public abstract class EntityView {
     /**
      * The sprite of the entity
      */
-    Sprite sprite;
+    protected Sprite sprite;
 
     /**
      * Class constructor

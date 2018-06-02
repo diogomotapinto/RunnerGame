@@ -11,9 +11,9 @@ import com.mygdx.game.view.MainMenuView;
 
 
 public class RunnerGame extends Game {
+    private final GameServices gameServices;
     private SpriteBatch batch;
     private AssetManager assetManager;
-    private final GameServices gameServices;
 
 
     public RunnerGame(GameServices gameServices) {
@@ -28,7 +28,7 @@ public class RunnerGame extends Game {
         TmxMapLoader mapLoader = new TmxMapLoader();
         TiledMap map = mapLoader.load("mapa.tmx");
         GameModel gameModel = new GameModel();
-        setScreen(new MainMenuView(this, new GameController(map,gameModel), gameModel));
+        setScreen(new MainMenuView(this, new GameController(map, gameModel), gameModel));
         //setScreen(new GameView(this));
     }
 

@@ -118,19 +118,18 @@ public class GameController implements ContactListener {
      * TileMap used in the game
      */
     private final TiledMap map;
-
+    /**
+     * Instance of Game Services class
+     */
+    private final GameServices gameServices;
     /**
      * X-position in of the hero
      */
     private float xPosition;
-
     /**
      * Score of the game
      */
     private int score;
-
-
-    private final GameServices gameServices;
 
 
     /**

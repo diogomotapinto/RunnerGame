@@ -91,6 +91,8 @@ The left button is used to restart the game, the middle one is to check the achi
 the right button is to check you highest score achieved and compare to the other users.
 
  ![alt text](https://github.com/diogomotapinto/RunnerGame/blob/master/android/assets/gameOverScreen.jpeg)
+ <img src='https://github.com/diogomotapinto/RunnerGame/blob/master/android/assets/gameOverScreen.jpeg'>
+
 
 ### Leaderboard
 

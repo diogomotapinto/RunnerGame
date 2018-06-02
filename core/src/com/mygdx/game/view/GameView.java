@@ -242,8 +242,6 @@ public class GameView implements Screen {
      * loads the images to be used in this screen
      */
     private void loadAssets() {
-        this.game.getAssetManager().load("sonic.png", Texture.class);
-        this.game.getAssetManager().load("newcoin.png", Texture.class);
         this.game.getAssetManager().load("gold.png", Texture.class);
         this.game.getAssetManager().load("hello.png", Texture.class);
         this.game.getAssetManager().load("enemy.png", Texture.class);

@@ -62,7 +62,7 @@ does not use the Google Play Services.
 
 * Object Pool - Used to manage the bullets in the game.
 
-* Factory - 
+* Factory - Used to get the Entity to be drawn according to the type received.
 
 
 ## GUI

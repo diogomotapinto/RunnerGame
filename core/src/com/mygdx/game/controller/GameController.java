@@ -266,11 +266,11 @@ public class GameController implements ContactListener {
      * Sets state of the hero according to his physics
      */
     private void setState() {
-        if (heroBody.getBody().getLinearVelocity().x == 0) {
+        if (heroBody.getBody().getLinearVelocity().x == 0 && heroBody.getBody().getPosition().y > 0) {
             gameModel.setHeroState(HeroState.State.PAUSED);
-        } else if (heroBody.getBody().getLinearVelocity().x > 0) {
+        } else if (heroBody.getBody().getLinearVelocity().x > 0 && heroBody.getBody().getPosition().y > 0) {
             gameModel.setHeroState(HeroState.State.RUNNING);
-        } else if (heroBody.getBody().getLinearVelocity().y > 0) {
+        } else if (heroBody.getBody().getLinearVelocity().y > 0 && heroBody.getBody().getPosition().y > 0) {
             gameModel.setHeroState(HeroState.State.JUMPING);
         } else if (heroBody.getBody().getPosition().y < 0) {
             gameModel.setHeroState(HeroState.State.DEAD);

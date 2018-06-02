@@ -29,7 +29,7 @@ public class HeroState {
     /**
      * Sets the value of variable currentState
      *
-     * @param currentState currentaState to be set
+     * @param currentState currentState to be set
      */
     public void setState(State currentState) {
         this.currentState = currentState;

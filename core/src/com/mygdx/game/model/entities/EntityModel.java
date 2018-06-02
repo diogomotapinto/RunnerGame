@@ -8,16 +8,6 @@ import com.badlogic.gdx.math.Vector2;
 public abstract class EntityModel {
 
     /**
-     * The x-coordinate of the model in meters
-     */
-    private float x;
-
-    /**
-     * The y-coordinate of the model in meters
-     */
-    private float y;
-
-    /**
      * Positions
      */
     private Vector2 position;
@@ -45,20 +35,6 @@ public abstract class EntityModel {
     }
 
     /**
-     * Sets position in the x-axis
-     */
-    public void setX(float x) {
-        this.position.x = x;
-    }
-
-    /**
-     * Sets position in the y-axis
-     */
-    public void setY(float y) {
-        this.position.y = y;
-    }
-
-    /**
      * Sets the position of the character in the map
      *
      * @param x position in the x-axis
@@ -71,7 +47,7 @@ public abstract class EntityModel {
     /**
      * Gets current position
      *
-     * @return
+     * @return position of the entity
      */
     public Vector2 getPosition() {
         return position;
@@ -80,7 +56,7 @@ public abstract class EntityModel {
     /**
      * Sets the position of the character in the map
      *
-     * @param position
+     * @param position position of the entity
      */
     public void setPosition(Vector2 position) {
         this.position.set(position);

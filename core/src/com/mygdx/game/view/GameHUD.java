@@ -26,7 +26,7 @@ class GameHUD {
     /**
      * Pad top for some element in the HUD
      */
-    private static int PAD_TOP = 10;
+    private static final int PAD_TOP = 10;
 
     /**
      * Times label
@@ -56,12 +56,12 @@ class GameHUD {
     /**
      * Class constructor
      *
-     * @param sb
+     * @param sb Sprite Batch
      */
     public GameHUD(SpriteBatch sb) {
 
         this.pause = false;
-        Viewport viewport = new FitViewport(GameController.V_WIDTH, GameController.V_WIDTH, new OrthographicCamera());
+        Viewport viewport = new FitViewport(GameController.V_WIDTH, GameController.V_HEIGHT, new OrthographicCamera());
         stage = new Stage(viewport, sb);
         Table table = new Table();
         table.top();

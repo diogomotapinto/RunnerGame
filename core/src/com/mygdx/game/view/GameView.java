@@ -15,6 +15,7 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
 import com.mygdx.game.model.GameModel;
+import com.mygdx.game.model.HeroState;
 import com.mygdx.game.model.entities.BulletModel;
 import com.mygdx.game.model.entities.EntityModel;
 import com.mygdx.game.model.entities.GoldModel;
@@ -90,10 +91,6 @@ public class GameView implements Screen {
      */
     private float seconds = 0f;
 
-    /**
-     * State of the game
-     */
-    private boolean pause;
 
     /**
      * Map width in pixels
@@ -131,7 +128,6 @@ public class GameView implements Screen {
 
 
         gameHud = new GameHUD(game.getBatch());
-        pause = gameHud.isPause();
         loadAssets();
         mapProperties();
 
@@ -155,10 +151,8 @@ public class GameView implements Screen {
 
     /**
      * Handles the inputs from the devices
-     *
-     * @param delta
      */
-    private void handleInput(float delta) {
+    private void handleInput() {
 
         if ((Gdx.input.getAccelerometerY() > 1)) {
             gameController.run();
@@ -183,11 +177,9 @@ public class GameView implements Screen {
 
     /**
      * Updates what is in the screen
-     *
-     * @param delta the delta time in seconds between screens
      */
-    private void update(float delta) {
-        handleInput(delta);
+    private void update() {
+        handleInput();
         gameController.update();
 
         if (gameController.getHeroBody().getX() * PIXEL_TO_METER >= MIN_MAP && gameController.getHeroBody().getX() * PIXEL_TO_METER < MAX_MAP) {
@@ -199,8 +191,7 @@ public class GameView implements Screen {
         gameCamera.update();
         renderer.setView(gameCamera);
 
-
-        if ((gameController.getHeroBody().getBody().getPosition().y < 0)
+        if ((gameModel.getHeroState().getState() == HeroState.State.DEAD)
                 || gameController.getHeroBody().getBody().getPosition().x * PIXEL_TO_METER > mapPixelWidth
                 ) {
             game.setScreen(new GameOverScreen(this.game, this.gamePort, gameModel, gameController));
@@ -227,11 +218,11 @@ public class GameView implements Screen {
         game.getBatch().end();
 
 
-        if (!(pause = this.gameHud.isPause())) {
-            resume();
-            update(delta);
-        } else {
+        if (this.gameHud.isPause()) {
             pause();
+        } else {
+            resume();
+            update();
         }
 
         game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
@@ -287,26 +278,7 @@ public class GameView implements Screen {
 
     }
 
-
-    /**
-     * @return the state of the game
-     */
-    public boolean isPause() {
-        return pause;
-    }
-
-
-    /**
-     * Sets the state of the game
-     *
-     * @param pause the state of the game if he is paused or not
-     */
-    public void setPause(boolean pause) {
-        this.pause = pause;
-    }
-
     @Override
-
     public void resize(int width, int height) {
         gamePort.update(width, height);
     }

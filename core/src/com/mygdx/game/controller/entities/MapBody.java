@@ -39,6 +39,11 @@ public class MapBody extends EntityBody {
     private final World world;
 
     /**
+     * Map Model to be initialized
+     */
+    private final MapModel mapModel;
+
+    /**
      * Class constructor
      *
      * @param world     the physical world this bullet belongs to
@@ -48,7 +53,7 @@ public class MapBody extends EntityBody {
     public MapBody(World world, MapModel map, Boolean isDynamic) {
         super(world, map, isDynamic, true);
         this.world = world;
-        MapModel mapModel = map;
+        mapModel = map;
     }
 
     /**

@@ -10,7 +10,7 @@ import com.mygdx.game.model.entities.EntityModel;
 import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 
 /**
- * Wrapper class represebting an abstract physical body
+ * Wrapper class representing an abstract physical body
  */
 public abstract class EntityBody {
 

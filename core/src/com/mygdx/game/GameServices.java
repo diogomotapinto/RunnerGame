@@ -35,7 +35,7 @@ public interface GameServices {
     void incrementAchievement(String achievementID);
 
     /**
-     * Unnlocks the Achievement with the given ID.
+     * Unlocks the Achievement with the given ID.
      *
      * @param achievementID Achievement's ID.
      */

@@ -20,7 +20,7 @@ public abstract class EntityView {
     /**
      * Class constructor
      *
-     * @param game
+     * @param game game this entity belongs to
      */
     EntityView(RunnerGame game) {
         sprite = createSprite(game);
@@ -47,7 +47,7 @@ public abstract class EntityView {
     /**
      * Update na view based on a model
      *
-     * @param model
+     * @param model entity to be updated
      */
     public void update(EntityModel model) {
         sprite.setCenter(model.getPosition().x, model.getPosition().y);

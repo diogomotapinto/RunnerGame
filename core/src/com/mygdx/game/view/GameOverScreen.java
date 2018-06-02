@@ -53,22 +53,22 @@ class GameOverScreen extends Stage implements Screen {
     /**
      * Width of the window
      */
-    private int screenWidth;
+    private final int screenWidth;
 
     /**
      * Height of the window
      */
-    private int screenHeight;
+    private final int screenHeight;
 
     /**
      * Game Controller instance
      */
-    private GameController gameController;
+    private final GameController gameController;
 
     /**
      * Game Model instance
      */
-    private GameModel gameModel;
+    private final GameModel gameModel;
 
     /**
      * Class constructor
@@ -93,18 +93,6 @@ class GameOverScreen extends Stage implements Screen {
         overCamera.setToOrtho(false, GameController.V_WIDTH, GameController.V_HEIGHT);
     }
 
-
-    /**
-     * Loads the images to be used by the screen
-     */
-    public void loadMenuAssets() {
-
-        this.game.getAssetManager().load("gameOver.jpg", Texture.class);
-        this.game.getAssetManager().load("restartButton.png", Texture.class);
-        this.game.getAssetManager().load("achievement.png", Texture.class);
-        this.game.getAssetManager().load("leaderboard.png", Texture.class);
-        this.game.getAssetManager().finishLoading();
-    }
 
     @Override
     public void show() {

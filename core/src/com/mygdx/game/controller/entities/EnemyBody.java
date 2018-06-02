@@ -19,7 +19,7 @@ public class EnemyBody extends EntityBody {
     private static final float ENEMY_SIZE = 6;
 
     /**
-     * Constructs an enemy acording to the enemy model.
+     * Constructs an enemy according to the enemy model.
      *
      * @param world     the physical world this enemy belongs to.
      * @param model     the model representing this enemy

@@ -98,7 +98,7 @@ public class GameModel {
     /**
      * State instance for the hero model
      */
-    private HeroState heroState;
+    private final HeroState heroState;
 
 
     /**
@@ -170,7 +170,7 @@ public class GameModel {
     }
 
     /**
-     * @param model
+     * @param model model to be removed
      */
     public void remove(EntityModel model) {
         if (model instanceof BulletModel) {
@@ -193,7 +193,7 @@ public class GameModel {
     /**
      * Sets the hero state
      *
-     * @param heroState
+     * @param heroState state of the hero
      */
     public void setHeroState(HeroState.State heroState) {
         this.heroState.setState(heroState);

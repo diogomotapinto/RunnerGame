@@ -1,5 +1,6 @@
 package com.mygdx.game.view;
 
+import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.Screen;
@@ -8,24 +9,47 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
+import com.mygdx.game.model.GameModel;
 
-
+/**
+ * Initial Screen
+ */
 public class MainMenuView implements Screen {
+
+    /**
+     * The game this screen belongs to
+     */
     private final RunnerGame game;
+
+    /**
+     * Orthographic Camera of this screen
+     */
     private final OrthographicCamera menuCamera;
+
+    /**
+     * Game model instance
+     */
+    private final GameModel gameModel;
+
+    /**
+     * Game controller instance
+     */
+    private final GameController gameController;
 
 
     /**
      * Class constructor
      * @param game the game the screen belongs to
      */
-    public MainMenuView(RunnerGame game) {
+    public MainMenuView(RunnerGame game, GameController gameController, GameModel gameModel) {
         this.game = game;
         menuCamera = new OrthographicCamera();
         menuCamera.setToOrtho(false, GameController.V_WIDTH, GameController.V_HEIGHT);
 
         loadMenuAssets();
 
+        this.gameController=gameController;
+        this.gameModel = gameModel;
 
     }
 
@@ -50,7 +74,7 @@ public class MainMenuView implements Screen {
         game.getBatch().end();
 
         if (Gdx.input.isTouched() || Gdx.input.isKeyPressed(Input.Keys.ANY_KEY)) {
-            game.setScreen(new GameView(this.game));
+            game.setScreen(new GameView(this.game, gameController, gameModel));
             dispose();
         }
 

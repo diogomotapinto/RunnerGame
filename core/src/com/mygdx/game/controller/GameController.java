@@ -1,7 +1,6 @@
 package com.mygdx.game.controller;
 
 import com.badlogic.gdx.maps.tiled.TiledMap;
-import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.Body;
 import com.badlogic.gdx.physics.box2d.Contact;
@@ -27,34 +26,121 @@ import java.util.ArrayList;
 
 import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 
-
+/**
+ * Class that controls the physical aspects of the game
+ */
 public class GameController implements ContactListener {
-    // private MapBody mapBody;
-    //private EnemyBody enemyBody;
-    //private ArrayList<GoldBody> goldBodyArray;
-    public static final int V_WIDTH = 400;
-    public static final int V_HEIGHT = 208;
-    private static GameController instance;
-    private final GameModel gameModel;
-    private final World world;
-    private float xPosition;
-    private final HeroBody heroBody;
-    private final EnemyBody enemyBody;
-    private final boolean isContacted;
-    private int score;
 
+    /**
+     * Score
+     */
+    private static final int SCORE = 5;
+
+    /**
+     *Width of the game
+     */
+    public static final int V_WIDTH = 400;
+
+    /**
+     *Height of the game
+     */
+    public static final int V_HEIGHT = 208;
+
+    /**
+     *Gravity force
+     */
+    private static final int GRAVITY = -10;
+
+    /**
+     *Velocity Iterations of the game
+     */
+    private static final int VELOCITY_ITERATIONS = 6;
+
+    /**
+     *Position Iterations of the game
+     */
+    private static final int POSITION_ITERATIONS = 2;
+
+    /*
+     *Jump Impulse
+     */
+    private static final float JUMP_IMPULSE = 3f;
+
+    /*
+     *Running Impulse
+     */
+    private static final float BODY_IMPULSE = 0.4f;
+
+    /*
+     *Hero max linear velocity
+     */
+    private static final int MAX_SPEED = 2;
+
+    /*
+     *Bullets distance from the hero in the x-axis
+     */
+    private static final int BULLET_POSITION = 10;
+
+    /**
+     * Bullet Speed
+     */
+    private static final float BULLET_SPEED = 1000f;
+
+    /**
+     * Game time step
+     */
+    private static final float TIME_STEP = 1 / 60f;
+
+    /**
+     * Game model instance
+     */
+    private final GameModel gameModel;
+
+    /**
+     * Hero body instance
+     */
+    private final HeroBody heroBody;
+
+    /**
+     * Enemy body instance
+     */
+    private final EnemyBody enemyBody;
+
+    /**
+     * Boolean to control some aspects of the game
+     */
+    private final boolean isContacted;
+
+    /**
+     *Physics world used in the game
+     */
+    private final World world;
+
+    /**
+     * TileMap used in the game
+     */
+    private final TiledMap map;
+
+    /**
+     * X-position in of the hero
+     */
+    private float xPosition;
+
+    /**
+     * Score of the game
+     */
+    private int score;
 
     /**
      * Class constructor
      * Initializes the world and the bodies in it
      */
-    GameController() {
-        this.gameModel = GameModel.getInstance();
-        TmxMapLoader mapLoader = new TmxMapLoader();
-        TiledMap map = mapLoader.load("mapa.tmx");
+    public GameController(TiledMap map, GameModel gameModel) {
+        this.gameModel = gameModel;
+        this.map=map;
         ArrayList<GoldBody> goldBodyArray = new ArrayList<GoldBody>();
 
-        world = new World(new Vector2(0, -10), true);
+        world = new World(new Vector2(0, GRAVITY), true);
         world.setContactListener(this);
 
         xPosition = 0;
@@ -62,7 +148,6 @@ public class GameController implements ContactListener {
         for (int i = 0; i < gameModel.getGolds().size(); i++) {
             goldBodyArray.add(new GoldBody(world, gameModel.getGolds().get(i), false));
         }
-
 
         enemyBody = new EnemyBody(world, gameModel.getEnemy(), true);
         heroBody = new HeroBody(world, gameModel.getHero(), true);
@@ -72,24 +157,8 @@ public class GameController implements ContactListener {
         mapBody.createBody(map);
         isContacted = true;
         this.score = 0;
-
     }
 
-    /**
-     * @return an instance of this class
-     */
-    public static GameController getInstance() {
-        if (instance == null)
-            instance = new GameController();
-        return instance;
-    }
-
-    /**
-     * @return a new instance of type GameController
-     */
-    public static void newGameContoller() {
-        GameController.instance = new GameController();
-    }
 
 
     /**
@@ -101,7 +170,7 @@ public class GameController implements ContactListener {
 
 
     /**
-     * Calculates the next physics steps
+     * Calculates the next steps
      */
     public void update() {
 
@@ -109,7 +178,7 @@ public class GameController implements ContactListener {
         world.getBodies(bodies);
 
 
-        world.step(1 / 60f, 6, 2);
+        world.step(TIME_STEP, VELOCITY_ITERATIONS, POSITION_ITERATIONS);
 
         for (Body body : bodies) {
             if (body.getUserData() instanceof GoldModel ||
@@ -121,13 +190,6 @@ public class GameController implements ContactListener {
         }
 
         setState();
-    }
-
-    /**
-     * @return a new instance of type GameController
-     */
-    public void newInstance(GameController newInstance) {
-        instance = newInstance;
     }
 
 
@@ -144,7 +206,7 @@ public class GameController implements ContactListener {
      */
     public void jump() {
         if (this.isContacted) {
-            heroBody.getBody().applyLinearImpulse(new Vector2(0, 3f / PIXEL_TO_METER), heroBody.getBody().getWorldCenter(), true);
+            heroBody.getBody().applyLinearImpulse(new Vector2(0, JUMP_IMPULSE / PIXEL_TO_METER), heroBody.getBody().getWorldCenter(), true);
         }
     }
 
@@ -153,11 +215,9 @@ public class GameController implements ContactListener {
      * Makes the hero run
      */
     public void run() {
-
-        if (heroBody.getBody().getLinearVelocity().x <= 2) {
-            heroBody.getBody().applyLinearImpulse(new Vector2(0.4f / PIXEL_TO_METER, 0), heroBody.getBody().getWorldCenter(), true);
+        if (heroBody.getBody().getLinearVelocity().x <= MAX_SPEED) {
+            heroBody.getBody().applyLinearImpulse(new Vector2(BODY_IMPULSE / PIXEL_TO_METER, 0), heroBody.getBody().getWorldCenter(), true);
         }
-
     }
 
 
@@ -166,10 +226,9 @@ public class GameController implements ContactListener {
      */
     public void shoot() {
         gameModel.getHero().setPosition(heroBody.getX(), heroBody.getY());
-        BulletModel bullet = gameModel.createBullet(gameModel.getHero().getPosition(), 10);
+        BulletModel bullet = gameModel.createBullet(gameModel.getHero().getPosition(), BULLET_POSITION);
         BulletBody body = new BulletBody(world, bullet, true);
-        //body.getBody().applyLinearImpulse(new Vector2(10f / PIXEL_TO_METER, 0), heroBody.getBody().getWorldCenter(), true);
-        body.getBody().setLinearVelocity(1000f / PIXEL_TO_METER, 0f);
+        body.getBody().setLinearVelocity(BULLET_SPEED / PIXEL_TO_METER, 0f);
     }
 
 
@@ -178,7 +237,6 @@ public class GameController implements ContactListener {
      */
     public float getCameraPosition() {
         return xPosition;
-
     }
 
 
@@ -187,7 +245,6 @@ public class GameController implements ContactListener {
      */
     public void setCameraPosition(float xPosition) {
         this.xPosition = xPosition;
-
     }
 
 
@@ -227,48 +284,36 @@ public class GameController implements ContactListener {
 
     @Override
     public void beginContact(Contact contact) {
-        //System.out.println("Contact");
         Body bodyA = contact.getFixtureA().getBody();
         Body bodyB = contact.getFixtureB().getBody();
 
-
-        // this.isContacted = true;
-
-
-
-
         if (bodyA.getUserData() instanceof EnemyModel && bodyB.getUserData() instanceof HeroModel) {
-           if(score >= 5){
-               this.score -=5;
+           if(score >= SCORE){
+               this.score -=SCORE;
            }
         }
 
         if (bodyA.getUserData() instanceof GoldModel && (bodyB.getUserData() instanceof HeroModel || bodyB.getUserData() instanceof BulletModel)) {
             goldCollides(bodyA);
-            this.score += 5;
+            this.score += SCORE;
         }
 
         if (bodyA.getUserData() instanceof BulletModel && bodyB.getUserData() instanceof GoldModel) {
             bulletCollides(bodyA);
             goldCollides(bodyB);
         }
-
-
     }
 
     @Override
     public void endContact(Contact contact) {
-
     }
 
     @Override
     public void preSolve(Contact contact, Manifold oldManifold) {
-
     }
 
     @Override
     public void postSolve(Contact contact, ContactImpulse impulse) {
-
     }
 
 

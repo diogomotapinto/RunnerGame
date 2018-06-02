@@ -3,6 +3,10 @@ package com.mygdx.game;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.maps.tiled.TiledMap;
+import com.badlogic.gdx.maps.tiled.TmxMapLoader;
+import com.mygdx.game.controller.GameController;
+import com.mygdx.game.model.GameModel;
 import com.mygdx.game.view.MainMenuView;
 
 
@@ -20,7 +24,11 @@ public class RunnerGame extends Game {
     public void create() {
         batch = new SpriteBatch();
         assetManager = new AssetManager();
-        setScreen(new MainMenuView(this));
+
+        TmxMapLoader mapLoader = new TmxMapLoader();
+        TiledMap map = mapLoader.load("mapa.tmx");
+        GameModel gameModel = new GameModel();
+        setScreen(new MainMenuView(this, new GameController(map,gameModel), gameModel));
         //setScreen(new GameView(this));
     }
 

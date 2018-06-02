@@ -2,6 +2,9 @@ package com.mygdx.game.model.entities;
 
 import com.badlogic.gdx.math.Vector2;
 
+/**
+ * Abstract model representation of an entity model
+ */
 public abstract class EntityModel {
 
     /**
@@ -41,16 +44,12 @@ public abstract class EntityModel {
 
     }
 
-
-
     /**
      * Sets position in the x-axis
      */
     public void setX(float x) {
         this.position.x = x;
     }
-
-
 
     /**
      * Sets position in the y-axis
@@ -105,6 +104,9 @@ public abstract class EntityModel {
 
     public abstract ModelType getType();
 
+    /**
+     * Types of existing models
+     */
     public enum ModelType {ENEMY, GOLD, HERO, BULLET}
 
 

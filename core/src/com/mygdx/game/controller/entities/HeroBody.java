@@ -9,6 +9,16 @@ import com.mygdx.game.model.entities.HeroModel;
 public class HeroBody extends EntityBody {
 
     /**
+     * Density of the hero body
+     */
+    private static final float HERO_DENSITY = 1.27f;
+
+    /**
+     * Size of the hero body
+     */
+    private static final float HERO_SIZE = 6;
+
+    /**
      * Constructs an hero acording to the hero model.
      *
      * @param world     the physical world this enemy belongs to.
@@ -17,7 +27,7 @@ public class HeroBody extends EntityBody {
      */
     public HeroBody(World world, HeroModel model, boolean isDynamic) {
         super(world, model, isDynamic, false);
-        createFixtures(body, 1.27f, 6);
+        createFixtures(body, HERO_DENSITY, HERO_SIZE);
     }
 
 }

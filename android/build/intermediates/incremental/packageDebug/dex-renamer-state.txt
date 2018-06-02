@@ -1,4 +1,4 @@
-#Tue May 29 16:28:53 WEST 2018
+#Sat Jun 02 13:47:31 WEST 2018
 base.0=/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/jack/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Users/diogomotapinto/git/RunnerGame/android/build/intermediates/transforms/jack/debug/folders/1000/1f/main/classes.dex

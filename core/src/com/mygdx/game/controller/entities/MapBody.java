@@ -13,27 +13,47 @@ import com.mygdx.game.model.entities.MapModel;
 
 import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 
+/**
+ * A concrete representation of a MapBody representing the map
+ */
 public class MapBody extends EntityBody {
-    private final World world;
-    //private MapModel mapModel;
-    //private Boolean isDynamic;
 
+    /**
+     * Friction of the map
+     */
+    private static final float FRICTION = 0f;
+
+    /**
+     * Restitution of the map
+     */
+    private static final float RESTITUTION = 0.5f;
+
+    /**
+     * Layer with the floor
+     */
+    private static final int MAP_BODY_LAYER = 2;
+
+    /**
+     * Physics world for the map to be on
+     */
+    private final World world;
 
     /**
      * Class constructor
-     * @param world the physical world this bullet belongs to
-     * @param map the model representing map
+     *
+     * @param world     the physical world this bullet belongs to
+     * @param map       the model representing map
      * @param isDynamic boolean to know if the body is dynamic or static
      */
     public MapBody(World world, MapModel map, Boolean isDynamic) {
         super(world, map, isDynamic, true);
         this.world = world;
         MapModel mapModel = map;
-        //this.isDynamic = isDynamic;
     }
 
     /**
      * Creates the body of the map
+     *
      * @param map tilemap to be parsed into a body
      */
     public void createBody(TiledMap map) {
@@ -43,7 +63,7 @@ public class MapBody extends EntityBody {
         Body body;
         FixtureDef fixtureDef = new FixtureDef();
 
-        for (MapObject object : map.getLayers().get(2).getObjects().getByType(RectangleMapObject.class)) {
+        for (MapObject object : map.getLayers().get(MAP_BODY_LAYER).getObjects().getByType(RectangleMapObject.class)) {
             Rectangle rect = ((RectangleMapObject) object).getRectangle();
 
             bodyDef.type = BodyDef.BodyType.StaticBody;
@@ -53,14 +73,10 @@ public class MapBody extends EntityBody {
             body = world.createBody(bodyDef);
             shape.setAsBox((rect.getWidth() / 2) / PIXEL_TO_METER, (rect.getHeight() / 2) / PIXEL_TO_METER);
             fixtureDef.shape = shape;
-            //fixtureDef.density = .5f;      // how heavy is the ground
-            fixtureDef.friction = 0f;    // how slippery is the ground
-            fixtureDef.restitution = .5f; // how bouncy is the ground
+            fixtureDef.friction = FRICTION;
+            fixtureDef.restitution = RESTITUTION;
             body.createFixture(fixtureDef);
         }
-
-
     }
-
 
 }

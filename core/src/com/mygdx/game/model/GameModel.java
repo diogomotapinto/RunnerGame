@@ -14,23 +14,80 @@ import java.util.ArrayList;
 
 import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 
+/**
+ * Model representation of the game
+ */
 public class GameModel {
+
     /**
-     * Singleton instance of game model
+     * Initial X position of the hero
      */
-    private static GameModel instance;
-    private HeroState heroState;
+    private static final int HERO_XPOSITION = 200;
+
+    /**
+     * Initial Y position of the hero
+     */
+    private static final int HERO_YPOSITION = 25;
+
+    /**
+     * Initial X position of the enemy
+     */
+    private static final int ENEMY_XPOSITION = 300;
+
+    /**
+     * Initial Y position of the enemy
+     */
+    private static final int ENEMY_YPOSITION = 25;
+
+    /**
+     * Possible Minimum position in the x-axis for the gold to be generated
+     */
+    private static final int XLOWER_BOUND = 200;
+
+    /**
+     * Possible Maximum position in the x-axis for the gold to be generated
+     */
+    private static final int XUPPER_BOUND = 3000;
+
+    /**
+     * Possible Minimum position in the y-axis for the gold to be generated
+     */
+    private static final int YLOWER_BOUND = 40;
+
+    /**
+     * Possible Maximum position in the y-axis for the gold to be generated
+     */
+    private static final int YUPPER_BOUND = 100;
 
     /**
      * The main character of the game
      */
     private final HeroModel hero;
 
+    /**
+     * Model of the map
+     */
     private final MapModel map;
 
+
+    /**
+     * Model of the enemy
+     */
     private final EntityModel enemy;
+
+    /**
+     * Array Model of the golds
+     */
     private final ArrayList<GoldModel> golds;
+
+    /**
+     * Array Model of the bullets
+     */
     private final ArrayList<BulletModel> bullets;
+
+    /**
+     * Object Pool of bullets
+     */
     private final Pool<BulletModel> bulletPool = new Pool<BulletModel>() {
         @Override
         protected BulletModel newObject() {
@@ -39,33 +96,26 @@ public class GameModel {
     };
 
     /**
+     * State instance for the hero model
+     */
+    private HeroState heroState;
+
+
+
+
+
+    /**
      * Class constructor
      */
-    private GameModel() {
-        hero = new HeroModel(200, 25);
-        enemy = new EnemyModel(300, 25);
+    public GameModel() {
+        hero = new HeroModel(HERO_XPOSITION, HERO_YPOSITION);
+        enemy = new EnemyModel(ENEMY_XPOSITION, ENEMY_YPOSITION);
         map = new MapModel();
         golds = new ArrayList<GoldModel>();
         bullets = new ArrayList<BulletModel>();
         this.heroState = new HeroState();
         generateGolds();
-        //golds.add(new GoldModel(200,50));
-
-
     }
-
-    /**
-     * Returns a singleton instance of the game model;
-     *
-     * @return the singleton instance
-     */
-    public static GameModel getInstance() {
-        if (instance == null)
-            instance = new GameModel();
-
-        return instance;
-    }
-
 
     /**
      * @return the mapModel
@@ -83,19 +133,11 @@ public class GameModel {
 
 
     /**
-     * @return a new instance of the Game Model
-     */
-    public static void newGameModel() {
-        GameModel.instance = new GameModel();
-    }
-
-
-    /**
      * Generates the golds with random positions
      */
     private void generateGolds() {
         for (int i = 0; i < 100; i++) {
-            golds.add(new GoldModel(Utilities.generateRandomNumber(200, 3000), Utilities.generateRandomNumber(40, 100)));
+            golds.add(new GoldModel(Utilities.generateRandomNumber(XLOWER_BOUND, XUPPER_BOUND), Utilities.generateRandomNumber(YLOWER_BOUND, YUPPER_BOUND)));
         }
     }
 
@@ -124,13 +166,11 @@ public class GameModel {
 
     public BulletModel createBullet(Vector2 vec, int x) {
         BulletModel bullet = bulletPool.obtain();
-
         bullet.setFlaggedForRemoval(false);
         bullet.setPosition(PIXEL_TO_METER * vec.x + x, PIXEL_TO_METER * vec.y);
         bullets.add(bullet);
         return bullet;
     }
-
 
     /**
      * @param model
@@ -146,7 +186,6 @@ public class GameModel {
         }
     }
 
-
     /**
      * @return the hero state
      */
@@ -154,9 +193,9 @@ public class GameModel {
         return heroState;
     }
 
-
     /**
      * Sets the hero state
+     *
      * @param heroState
      */
     public void setHeroState(HeroState.State heroState) {

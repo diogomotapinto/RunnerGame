@@ -20,15 +20,39 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
 
-
+/**
+ * HUD of the main screen of the game
+ */
 class GameHUD {
-    public Stage stage;
-    private boolean pause;
-    private ImageButton button;
-    private final Label timerLabel;
-    private final Label scoreLabel;
-    private final Label acelerometerLabel;
+    /**
+     * Pad top for some element in the HUD
+     */
+    private static int PAD_TOP = 10;
 
+    /**
+     * Times label
+     */
+    private final Label timerLabel;
+
+    /**
+     * Score label
+     */
+    private final Label scoreLabel;
+
+    /**
+     * Stage of the game
+     */
+    public Stage stage;
+
+    /**
+     * State of the game
+     */
+    private boolean pause;
+
+    /**
+     * Image button to be used by the pause Button
+     */
+    private ImageButton button;
 
     /**
      * Class constructor
@@ -48,14 +72,13 @@ class GameHUD {
         Label timerStrLabel = new Label("Time", new Label.LabelStyle(new BitmapFont(), Color.WHITE));
 
         timerLabel = new Label(Integer.toString(0), new Label.LabelStyle(new BitmapFont(), Color.WHITE));
-        acelerometerLabel = new Label(Integer.toString(0), new Label.LabelStyle(new BitmapFont(), Color.WHITE));
         scoreLabel = new Label(Integer.toString(0), new Label.LabelStyle(new BitmapFont(), Color.WHITE));
 
         addPauseBtn();
 
-        table.add(timerStrLabel).expandX().padTop(10);
-        table.add(button).expandX().padTop(10);
-        table.add(scoreStrLabel).expandX().padTop(10);
+        table.add(timerStrLabel).expandX().padTop(PAD_TOP);
+        table.add(button).expandX().padTop(PAD_TOP);
+        table.add(scoreStrLabel).expandX().padTop(PAD_TOP);
         table.row();
         table.add(timerLabel).expandX();
         table.add();
@@ -68,7 +91,6 @@ class GameHUD {
     *
     */
     public void update(float acel, float time) {
-        acelerometerLabel.setText(Float.toString(acel));
         this.scoreLabel.setText(Integer.toString((int) acel));
         timerLabel.setText(Integer.toString((int) time));
     }

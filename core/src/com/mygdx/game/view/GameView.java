@@ -25,25 +25,86 @@ import com.mygdx.game.view.entities.ViewFactory;
 
 import java.util.ArrayList;
 
-
+/**
+ * Screen for the game to be played in
+ */
 public class GameView implements Screen {
+
     /**
      * How much meters does a pixel represent.
      */
     public final static float PIXEL_TO_METER = 100f;
-    //private Box2DDebugRenderer boxDebug;
+
+    /**
+     * Minimum position for the camera
+     */
+    private final static int MIN_MAP = 200;
+
+    /**
+     * Max position for the camera
+     */
+    private final static int MAX_MAP = 3640;
+
+    /**
+     * The game this screen belongs to
+     */
     private final RunnerGame game;
+
+    /*
+     * Game controller instance
+     */
     private final GameController gameController;
+
+    /**
+     * Game model instance
+     */
     private final GameModel gameModel;
 
+
+    /**
+     * Orthographic Camera of the game
+     */
     private final OrthographicCamera gameCamera;
+
+    /**
+     * Viewport used for the game
+     */
     private final Viewport gamePort;
+
+    /**
+     * TiledMap used for the floor and the background of the game
+     *
+     */
     private final TiledMap map;
+
+    /**
+     * TileMap renderer
+     */
     private final OrthogonalTiledMapRenderer renderer;
+
+    /**
+     * Instance of the game HUD that gives information like time passed and Score
+     */
     private final GameHUD gameHud;
+
+    /**
+     *
+     */
     private float seconds = 0f;
+
+    /**
+     * State of the game
+     */
     private boolean pause;
+
+    /**
+     * Map width in pixels
+     */
     private int mapPixelWidth;
+
+    /**
+     * Map height in pixels
+     */
     private int mapPixelHeight;
 
 
@@ -51,27 +112,27 @@ public class GameView implements Screen {
      * Class constructor
      * @param game The game this screen belongs to
      */
-    public GameView(RunnerGame game) {
+    public GameView(RunnerGame game, GameController gameController, GameModel gameModel) {
         this.game = game;
-        gameController= GameController.getInstance();
-        gameModel = GameModel.getInstance();
+
+
         gameCamera = new OrthographicCamera();
         gamePort = new StretchViewport(GameController.V_WIDTH / PIXEL_TO_METER, GameController.V_HEIGHT / PIXEL_TO_METER, gameCamera);
 
         TmxMapLoader mapLoader = new TmxMapLoader();
         map = mapLoader.load("mapa.tmx");
 
+        this.gameController= new GameController(map, gameModel);
+        this.gameModel = gameModel;
+
         renderer = new OrthogonalTiledMapRenderer(map, 1 / PIXEL_TO_METER);
 
         gameController.setCameraPosition(gamePort.getWorldWidth() / 2);
-
-
         gameCamera.position.set(gameController.getHeroBody().getX(), gamePort.getWorldHeight() / 2, 0);
 
 
         gameHud = new GameHUD(game.getBatch());
         pause = gameHud.isPause();
-   //     Box2DDebugRenderer boxDebug = new Box2DDebugRenderer();
         loadAssets();
         mapProperties();
 
@@ -109,7 +170,7 @@ public class GameView implements Screen {
         }
 
 
-        if ((Gdx.input.isKeyJustPressed(Input.Keys.UP) || (Gdx.input.justTouched() && Gdx.input.getX() < Gdx.graphics.getWidth() / 2) && this.mapPixelHeight > gameController.getHeroBody().getX())) {
+        if ((Gdx.input.isKeyJustPressed(Input.Keys.UP) || (Gdx.input.justTouched() && Gdx.input.getX() < Gdx.graphics.getWidth() / 2 ) && this.mapPixelHeight > gameController.getHeroBody().getX())) {
             gameController.jump();
         }
 
@@ -128,7 +189,7 @@ public class GameView implements Screen {
         handleInput(delta);
         gameController.update();
 
-        if (gameController.getHeroBody().getX() * PIXEL_TO_METER >= 200 && gameController.getHeroBody().getX() * PIXEL_TO_METER < 3640) {
+        if (gameController.getHeroBody().getX() * PIXEL_TO_METER >= MIN_MAP && gameController.getHeroBody().getX() * PIXEL_TO_METER < MAX_MAP) {
             gameCamera.position.set(gameController.getHeroBody().getX(), gamePort.getWorldHeight() / 2, 0);
         }
 
@@ -136,19 +197,16 @@ public class GameView implements Screen {
         gameHud.update(gameController.getScore(), seconds);
         gameCamera.update();
         renderer.setView(gameCamera);
-        //game.getGameServices().submitScore(gameController.getScore());
 
 
-        if (gameController.getHeroBody().getBody().getPosition().y < 0) {
-            game.setScreen(new GameOverScreen(this.game, this.gamePort));
+
+        if ((gameController.getHeroBody().getBody().getPosition().y < 0)
+                || gameController.getHeroBody().getBody().getPosition().x * PIXEL_TO_METER > mapPixelWidth
+                ) {
+            game.setScreen(new GameOverScreen(this.game, this.gamePort,gameModel,gameController));
+            game.getGameServices().submitScore(gameController.getScore());
             dispose();
         }
-
-        if (gameController.getHeroBody().getBody().getPosition().x * PIXEL_TO_METER > mapPixelWidth) {
-            System.out.println("Game won");
-        }
-
-
     }
 
     @Override
@@ -176,16 +234,8 @@ public class GameView implements Screen {
             pause();
         }
 
-        //game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
-
-
         game.getBatch().setProjectionMatrix(gameHud.stage.getCamera().combined);
-
         gameHud.stage.draw();
-
-        // boxDebug.render( GameController.getInstance().getWorld(), gameCamera.combined);
-
-
     }
 
     /**
@@ -264,7 +314,7 @@ public class GameView implements Screen {
 
     @Override
     public void pause() {
-        game.setScreen(new GamePausedScreen(this.game, this.gamePort));
+
     }
 
     @Override

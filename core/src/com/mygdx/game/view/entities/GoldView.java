@@ -11,7 +11,6 @@ import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
  */
 public class GoldView extends EntityView {
 
-
     /**
      * Constructs a gold view.
      *

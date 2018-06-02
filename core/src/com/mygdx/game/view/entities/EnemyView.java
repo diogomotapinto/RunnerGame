@@ -17,12 +17,31 @@ import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 public class EnemyView extends EntityView {
 
     /**
+     * Duration of the frame
+     */
+    private static final float FRAME_DURATION = 0.08f;
+
+    /**
+     * Number of images
+     */
+    private static final int IMAGES = 8;
+
+    /**
+     * Correction of the image representation
+     */
+    private static final int BOUNDS_CORRECTION = 8;
+
+    /**
+     * Correction of the scale representation
+     */
+    private static final int SCALE_CORRECTION =  25;
+    /**
      * texture of the enemy
      */
     private Texture texture;
 
     /**
-     * state of the time
+     * Time since the game started
      */
     private float stateTime = 0;
 
@@ -35,7 +54,6 @@ public class EnemyView extends EntityView {
      * model of the enemy
      */
     private EntityModel model;
-
 
     /**
      * Creates a view belonging to a game.
@@ -59,7 +77,6 @@ public class EnemyView extends EntityView {
         texture = game.getAssetManager().get("enemy.png");
         rollingAnimation = createRollingAnimation(game);
         sprite = new Sprite(texture, texture.getWidth(), texture.getHeight());
-        //sprite.setBounds(0,0, texture.getWidth(), texture.getWidth()/PIXEL_TO_METER);
         return sprite;
     }
 
@@ -72,12 +89,12 @@ public class EnemyView extends EntityView {
      */
     private Animation<TextureRegion> createRollingAnimation(RunnerGame game) {
         Texture runTexture = game.getAssetManager().get("enemy.png");
-        TextureRegion[][] runRegion = TextureRegion.split(runTexture, runTexture.getWidth() / 8, runTexture.getHeight());
+        TextureRegion[][] runRegion = TextureRegion.split(runTexture, runTexture.getWidth() / IMAGES, runTexture.getHeight());
 
-        TextureRegion[] frames = new TextureRegion[8];
-        System.arraycopy(runRegion[0], 0, frames, 0, 8);
+        TextureRegion[] frames = new TextureRegion[IMAGES];
+        System.arraycopy(runRegion[0], 0, frames, 0, IMAGES);
 
-        return new Animation<TextureRegion>(0.08f, frames);
+        return new Animation<TextureRegion>(FRAME_DURATION, frames);
     }
 
     /**
@@ -92,7 +109,7 @@ public class EnemyView extends EntityView {
         stateTime += Gdx.graphics.getDeltaTime();
 
         sprite.setRegion(rollingAnimation.getKeyFrame(stateTime, true));
-        sprite.setBounds(model.getPosition().x - 8 / PIXEL_TO_METER, model.getPosition().y - 8 / PIXEL_TO_METER, texture.getWidth() / (PIXEL_TO_METER * 25), texture.getWidth() / (PIXEL_TO_METER * 25));
+        sprite.setBounds(model.getPosition().x - BOUNDS_CORRECTION / PIXEL_TO_METER, model.getPosition().y - BOUNDS_CORRECTION / PIXEL_TO_METER, texture.getWidth() / (PIXEL_TO_METER * SCALE_CORRECTION), texture.getWidth() / (PIXEL_TO_METER * SCALE_CORRECTION));
 
         sprite.draw(batch);
     }
@@ -104,7 +121,6 @@ public class EnemyView extends EntityView {
      */
     @Override
     public void update(EntityModel model) {
-        //super.update(model);
         this.model = model;
     }
 }

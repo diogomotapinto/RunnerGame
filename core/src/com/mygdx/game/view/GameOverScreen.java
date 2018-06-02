@@ -5,47 +5,85 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.maps.tiled.TiledMap;
+import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.ImageButton;
-import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
-import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
-import com.mygdx.game.GameServices;
 import com.mygdx.game.RunnerGame;
 import com.mygdx.game.controller.GameController;
 import com.mygdx.game.model.GameModel;
 
+/**
+ * Screen to be presented when the game is over
+ */
 class GameOverScreen extends Stage implements Screen {
-    GameServices gameServices;
+
+    /**
+     * Correction for the position of the achievement image
+     */
+    private static final int ACHIEVEMENT_CORRECTION = 50;
+
+    /**
+     * Correction for the position of the leaderboard image
+     */
+    private static final int LEADERBOARD_CORRECTION = 100;
+
+    /**
+     * Orthographic Camera of the game over screen
+     */
     private final OrthographicCamera overCamera;
+
+    /**
+     * The game this screen belongs to
+     */
     private final RunnerGame game;
-    private Skin skin;
-    private TextureAtlas buttonAtlas;
-    private TextButton.TextButtonStyle textButtonStyle;
+
+    /**
+     * Stage of the Game over screen
+     */
     private final Stage stage;
+
+    /**
+     * Width of the window
+     */
     private int screenWidth;
+
+    /**
+     * Height of the window
+     */
     private int screenHeight;
 
-    
+    /**
+     * Game Controller instance
+     */
+    private GameController gameController;
+
+    /**
+     * Game Model instance
+     */
+    private GameModel gameModel;
 
     /**
      * Class constructor
-     * @param game The game passed as parameter
+     *
+     * @param game     The game passed as parameter
      * @param viewport the viewport previous screen
      */
-    public GameOverScreen(RunnerGame game, Viewport viewport) {
+    public GameOverScreen(RunnerGame game, Viewport viewport, GameModel gameModel, GameController gameController) {
         this.game = game;
         Table table = new Table();
-        screenWidth= Gdx.graphics.getWidth();
-        screenHeight =Gdx.graphics.getHeight();
+        screenWidth = Gdx.graphics.getWidth();
+        screenHeight = Gdx.graphics.getHeight();
 
+        this.gameController = gameController;
+        this.gameModel = gameModel;
 
         stage = new Stage(new ScreenViewport());
         addRestartBtn();
@@ -53,7 +91,6 @@ class GameOverScreen extends Stage implements Screen {
         addLeaderBtn();
         overCamera = new OrthographicCamera();
         overCamera.setToOrtho(false, GameController.V_WIDTH, GameController.V_HEIGHT);
-
     }
 
 
@@ -66,11 +103,7 @@ class GameOverScreen extends Stage implements Screen {
         this.game.getAssetManager().load("restartButton.png", Texture.class);
         this.game.getAssetManager().load("achievement.png", Texture.class);
         this.game.getAssetManager().load("leaderboard.png", Texture.class);
-
-
-
         this.game.getAssetManager().finishLoading();
-
     }
 
     @Override
@@ -122,14 +155,14 @@ class GameOverScreen extends Stage implements Screen {
      */
     private void addRestartBtn() {
 
-        ImageButton buttonRestart = createButton("restartButton.png", 0, screenHeight/2);
+        ImageButton buttonRestart = createButton("restartButton.png", 0, screenHeight / 2);
         buttonRestart.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                game.getGameServices().submitScore(GameController.getInstance().getScore());
-                GameModel.getInstance().newGameModel();
-                GameController.getInstance().newGameContoller();
-                MainMenuView view = new MainMenuView(game);
+                TmxMapLoader mapLoader = new TmxMapLoader();
+                TiledMap map = mapLoader.load("mapa.tmx");
+                GameModel gameModel = new GameModel();
+                MainMenuView view = new MainMenuView(game, new GameController(map, gameModel), gameModel);
                 game.setScreen(view);
                 dispose();
             }
@@ -145,11 +178,11 @@ class GameOverScreen extends Stage implements Screen {
      * Adds a button to check the achievements
      */
     private void addAchievmentBtn() {
-        ImageButton buttonAch = createButton("achievement.png", screenWidth/2-50, screenHeight/2);
+        ImageButton buttonAch = createButton("achievement.png", screenWidth / 2 - ACHIEVEMENT_CORRECTION, screenHeight / 2);
         buttonAch.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                game.getGameServices().submitScore(GameController.getInstance().getScore());
+                game.getGameServices().submitScore(gameController.getScore());
                 game.getGameServices().showAchievements();
 
             }
@@ -164,12 +197,12 @@ class GameOverScreen extends Stage implements Screen {
      * Adds a button to check the leaderboard
      */
     private void addLeaderBtn() {
-        ImageButton buttonAch = createButton("leaderboard.png",screenWidth-100,screenHeight/2);
+        ImageButton buttonAch = createButton("leaderboard.png", screenWidth - LEADERBOARD_CORRECTION, screenHeight / 2);
         buttonAch.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                game.getGameServices().submitScore(GameController.getInstance().getScore());
-                game.getGameServices().showScores(GameController.getInstance().getScore());
+                game.getGameServices().submitScore(gameController.getScore());
+                game.getGameServices().showScores(gameController.getScore());
 
             }
         });
@@ -181,7 +214,8 @@ class GameOverScreen extends Stage implements Screen {
 
     /**
      * Creates an image button
-     * @param path of the image
+     *
+     * @param path      of the image
      * @param xPosition x position on the screen
      * @param yPosition y position on the screen
      * @return ImageButton
@@ -190,17 +224,11 @@ class GameOverScreen extends Stage implements Screen {
         Texture myTextureAch = new Texture(Gdx.files.internal(path));
         TextureRegion myTextureRegionAch = new TextureRegion(myTextureAch);
         TextureRegionDrawable myTexRegionDrawableAch = new TextureRegionDrawable(myTextureRegionAch);
-        ImageButton imageButton=  new ImageButton(myTexRegionDrawableAch);
+        ImageButton imageButton = new ImageButton(myTexRegionDrawableAch);
         imageButton.setPosition(xPosition, yPosition);
         return imageButton;
 
     }
 
 
-    /**
-     * @return the skin
-     */
-    public Skin getSkin() {
-        return skin;
-    }
 }

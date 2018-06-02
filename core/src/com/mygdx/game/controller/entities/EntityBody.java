@@ -9,13 +9,19 @@ import com.mygdx.game.model.entities.EntityModel;
 
 import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 
-
+/**
+ * Wrapper class represebting an abstract physical body
+ */
 public abstract class EntityBody {
 
     /**
      * Box2d body
      */
-    final Body body;
+   protected final Body body;
+
+    /**
+     *Physics world used in the game
+     */
     private final World world;
 
     EntityBody(World world, EntityModel model, boolean isDynamic, boolean isFloor) {

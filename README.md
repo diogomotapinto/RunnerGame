@@ -5,7 +5,7 @@
 |Table of Contents|
 |:---------------:|
 |[Introduction](#introduction)|
-|[Setup/Installation ](#setup)|
+|[Setup/Installation ](#setup/installation)|
 |[Package and Class Diagram](#package-and-class-diagram)|
 |[Desing Decisions](#design-decisions)|
 |[Design Patterns](#design-patterns)|
@@ -44,7 +44,7 @@ You can also run it in Desktop Mode but you won't be able to use the Google Play
 ![alt text](https://github.com/diogomotapinto/RunnerGame/blob/master/android/assets/UML.png)
 
 
-### Desing Decisions
+### Design Decisions
 
 * Model View Controller is the architecture that we are going to use to make the game.
 
@@ -132,4 +132,4 @@ the right button is to check you highest score achieved and compare to the other
     [Setup Google Play Services in LibGDX](https://noprogramming.xyz/2017/setup-google-play-services-in-libgdx).
     
   * ### Notes
-  The BaseGameUtils package was not made by us, it is library we used to implement the Google Play Services.
+    The BaseGameUtils package was not made by us, it is library we used to implement the Google Play Services.

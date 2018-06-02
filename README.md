@@ -71,7 +71,7 @@ does not use the Google Play Services.
 
 In order to start the game just press anywhere on the screen.
 
-![alt text](https://github.com/diogomotapinto/RunnerGame/blob/master/android/assets/StartMenuScreen.jpeg)
+![alt text](https://github.com/diogomotapinto/RunnerGame/blob/finalRelease/android/assets/StartMenuScreen.jpeg)
 
 
 ### Game
@@ -82,7 +82,7 @@ The left side of the screen is used to jumping and the right side to shoot you a
 The controls on the Desktop app are space to run,  press 's' to shoot and and up key to jump.
 
 
-![alt text](https://github.com/diogomotapinto/RunnerGame/blob/master/android/assets/game.jepg)
+![alt text](https://github.com/diogomotapinto/RunnerGame/blob/finalRelease/android/assets/game.jpeg)
 
 
 ### Game Over
@@ -90,18 +90,18 @@ The controls on the Desktop app are space to run,  press 's' to shoot and and up
 The left button is used to restart the game, the middle one is to check the achievements you got and
 the right button is to check you highest score achieved and compare to the other users.
 
- ![alt text](https://github.com/diogomotapinto/RunnerGame/blob/master/android/assets/gameOverScreen.jpeg)
+ ![alt text](https://github.com/diogomotapinto/RunnerGame/blob/finalRelease/android/assets/gameOverScreen.jpeg)
  
- <img src='https://github.com/diogomotapinto/RunnerGame/blob/master/android/assets/gameOverScreen.jpeg'>
+ 
 
 
 ### Leaderboard
 
-![alt text](https://github.com/diogomotapinto/RunnerGame/blob/master/android/assets/LeaderBoardScreen.jpeg)
+![alt text](https://github.com/diogomotapinto/RunnerGame/blob/finalRelease/android/assets/LeaderBoardScreen.jpeg)
 
 ### Achievements
 
-![alt text](https://github.com/diogomotapinto/RunnerGame/blob/master/android/assets/AchievementsScreen.jpeg)
+![alt text](https://github.com/diogomotapinto/RunnerGame/blob/finalRelease/android/assets/AchievementsScreen.jpeg)
 
 
 

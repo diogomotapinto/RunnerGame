@@ -17,6 +17,39 @@ import static com.mygdx.game.view.GameView.PIXEL_TO_METER;
 public class HeroView extends EntityView {
 
     /**
+     * Duration of the frame
+     */
+    private static final float FRAME_DURATION = 0.08f;
+
+    /**
+     * Number of images
+     */
+    private static final int IMAGES = 9;
+
+    /**
+     * Correction of the image representation in the x-axis
+     */
+    private static final int BOUNDS_XCORRECTION = 12;
+
+
+    /**
+     * Correction of the image representation in the y-axis
+     */
+    private static final int BOUNDS_YCORRECTION = 8;
+
+
+    /**
+     * Correction of the scale representation in the x-axis
+     */
+    private static final int SCALE_XCORRECTION =  15;
+
+
+    /**
+     * Correction of the scale representation in the y-axis
+     */
+    private static final int SCALE_YCORRECTION =  20;
+
+    /**
      * texture of the enemy
      */
     private Texture texture;
@@ -59,7 +92,6 @@ public class HeroView extends EntityView {
         texture = game.getAssetManager().get("hello.png");
         runningAnimation = createRunningAnimation(game);
         sprite = new Sprite(texture, texture.getWidth(), texture.getHeight());
-        //sprite.setBounds(0,0, texture.getWidth()/(PIXEL_TO_METER*3), texture.getWidth()/(PIXEL_TO_METER*20));
         return sprite;
     }
 
@@ -72,12 +104,12 @@ public class HeroView extends EntityView {
      */
     private Animation<TextureRegion> createRunningAnimation(RunnerGame game) {
         Texture runTexture = game.getAssetManager().get("hello.png");
-        TextureRegion[][] runRegion = TextureRegion.split(runTexture, runTexture.getWidth() / 9, runTexture.getHeight());
+        TextureRegion[][] runRegion = TextureRegion.split(runTexture, runTexture.getWidth() / IMAGES, runTexture.getHeight());
 
-        TextureRegion[] frames = new TextureRegion[9];
-        System.arraycopy(runRegion[0], 0, frames, 0, 9);
+        TextureRegion[] frames = new TextureRegion[IMAGES];
+        System.arraycopy(runRegion[0], 0, frames, 0, IMAGES);
 
-        return new Animation<TextureRegion>(0.08f, frames);
+        return new Animation<TextureRegion>(FRAME_DURATION, frames);
     }
 
     /**
@@ -92,7 +124,7 @@ public class HeroView extends EntityView {
         stateTime += Gdx.graphics.getDeltaTime();
 
         sprite.setRegion(runningAnimation.getKeyFrame(stateTime, true));
-        sprite.setBounds(model.getPosition().x - 12 / PIXEL_TO_METER, model.getPosition().y - 8 / PIXEL_TO_METER, texture.getWidth() / (PIXEL_TO_METER * 15), texture.getWidth() / (PIXEL_TO_METER * 20));
+        sprite.setBounds(model.getPosition().x - BOUNDS_XCORRECTION  / PIXEL_TO_METER, model.getPosition().y - BOUNDS_YCORRECTION / PIXEL_TO_METER, texture.getWidth() / (PIXEL_TO_METER * SCALE_XCORRECTION), texture.getWidth() / (PIXEL_TO_METER * SCALE_YCORRECTION));
         sprite.draw(batch);
     }
 
@@ -103,7 +135,6 @@ public class HeroView extends EntityView {
      */
     @Override
     public void update(EntityModel model) {
-        //super.update(model);
         this.model = model;
     }
 }

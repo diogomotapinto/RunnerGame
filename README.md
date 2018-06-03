@@ -51,6 +51,7 @@ You can also run it in Desktop Mode but you won't be able to use the Google Play
 
 ![alt text](https://github.com/diogomotapinto/RunnerGame/blob/finalRelease/android/assets/view.png)
 
+![alt text](https://github.com/diogomotapinto/RunnerGame/blob/finalRelease/android/assets/test.png)
 
 
 

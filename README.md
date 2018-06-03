@@ -77,6 +77,10 @@ does not use the Google Play Services.
 
 * Factory - Used to get the Entity to be drawn according to the type received.
 
+* Double Buffer - Implemented by Libgdx in Graphics Management.
+
+* Observer Pattern - Implemented by Libgdx with controls listeners.
+
 
 ## GUI
 
@@ -134,6 +138,9 @@ the right button is to check you highest score achieved and compare to the other
     We also learned how to find a solution for our problems efficiently because we worked with a framework 
     that none of us knew and that required us to look for the best solution possible to fix our problems 
     and make our vision possible.
+    We also learned that Singleton sometimes is not the best option to control the variables life cicle and 
+    constrains the use of them, for that reason we had to change what we initially had implement in order to get better
+    results in the tests.
     
 * ### Overall time spent developing
     Around 100 hours evenly distributed by all the elements of the group.

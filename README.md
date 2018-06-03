@@ -5,7 +5,7 @@
 |Table of Contents|
 |:---------------:|
 |[Introduction](#introduction)|
-|[Setup/Installation ](#setup/installation)|
+|[Installation ](#installation)|
 |[Package and Class Diagram](#package-and-class-diagram)|
 |[Desing Decisions](#design-decisions)|
 |[Design Patterns](#design-patterns)|
@@ -18,7 +18,7 @@ In this project we are going to make a game like a endless runner where the more
 The project will be using LibGdx to help us make a better closs platform game and we will add some features later like a database with Firebase and Google Play Games API in order to manage games services and configure metadata for authorizing and authenticating in our game.
 
 
-## Setup/Installation 
+## Installation 
 
 * ### To install in your Android device
 1. Download the .apk [here] (https://drive.google.com/open?id=1BW6xXyQi1L-81G1K1c5cBdyu6COrSmh2) .

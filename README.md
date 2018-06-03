@@ -14,8 +14,8 @@
 
 ## Introduction
 
-In this project we are going to make a game like a endless runner where the more time you spent alive the more rewards you get.
-The project will be using LibGdx to help us make a better closs platform game and we will add some features later like a database with Firebase and Google Play Games API in order to manage games services and configure metadata for authorizing and authenticating in our game.
+In this project we are going to make a game like a runner where the goal is to get gold coins and that will raise your score.
+The project will be using LibGdx to help us make a better closs platform game and we add some features like a database with highscores using the Google Play Games API and configure metadata for authorizing and authenticating in our game.
 
 
 ## Installation 

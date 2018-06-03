@@ -153,3 +153,5 @@ the right button is to check you highest score achieved and compare to the other
     
   * ### Notes
     The BaseGameUtils package was not made by us, it is library we used to implement the Google Play Services.
+    
+  * ### Javadoc hosted at diogomotapinto.github.io

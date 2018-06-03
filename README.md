@@ -41,7 +41,19 @@ You can also run it in Desktop Mode but you won't be able to use the Google Play
 
 ## Package and Class Diagram
 
-![alt text](https://github.com/diogomotapinto/RunnerGame/blob/master/android/assets/UML.png)
+![alt text](https://github.com/diogomotapinto/RunnerGame/blob/finalRelease/android/assets/body.png)
+
+![alt text](https://github.com/diogomotapinto/RunnerGame/blob/finalRelease/android/assets/model.png)
+
+![alt text](https://github.com/diogomotapinto/RunnerGame/blob/finalRelease/android/assets/game.png)
+
+![alt text](https://github.com/diogomotapinto/RunnerGame/blob/finalRelease/android/assets/screens.png)
+
+![alt text](https://github.com/diogomotapinto/RunnerGame/blob/finalRelease/android/assets/view.png)
+
+
+
+
 
 
 ### Design Decisions
